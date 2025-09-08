@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "workbench.colorCustomizations": {
 <<<<<<< HEAD
         "activityBar.background": "#312F05",
@@ -11,3 +12,11 @@
 >>>>>>> b2e7de06f2f6b8e09885b7bbf47a11183ae07d94
     }
 }
+=======
+	"workbench.colorCustomizations": {
+		"activityBar.background": "#102B61",
+		"titleBar.activeBackground": "#163C87",
+		"titleBar.activeForeground": "#F9FAFE"
+	}
+}
+>>>>>>> 5eda174 (stats)

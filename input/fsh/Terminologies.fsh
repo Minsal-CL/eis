@@ -98,7 +98,7 @@ Description: "El estado civil es la situación de un individuo en la sociedad, q
 
 CodeSystem:  CSPueblosOriginarios
 Id: CSPueblosOriginarios
-Title: "Pueblo Indígena u Originarios"
+Title: "Pueblo Indígena u Originarioi"
 Description: "Los Pueblos Indígenas u Originarios en Chile, son los descendientes de las agrupaciones humanas que existen en el territorio nacional desde tiempos precolombinos"
 * ^caseSensitive = true
 * ^experimental = true //dependera del uso que le den al codesystem
@@ -1972,85 +1972,7 @@ Description: "ConsultaOdontoEspecialidad"
 * #1 "Primera consulta odontológica de especialidad o consulta nueva."
 * #2 "Consulta odontológica de especialidad de control o seguimiento "
 
-/********************************************************/
-
-CodeSystem:  CSIdentidadGenero
-Id: CSIdentidadGenero
-Title: "Códigos para Identidad de Género"
-Description: "Códigos para Identidad de Género DEIS"
-* ^caseSensitive = true
-* ^experimental = true //dependera del uso que le den al codesystem
-* ^version = "1.0.0"
-* ^status = #active
-* ^date = "2022-01-18T00:00:00-03:00"
-* ^contact.name = "HL7 Chile"
-* ^contact.telecom.system = #email
-* ^contact.telecom.value = "chair@hl7chile.cl"
-* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
-
-* #1 "Masculino" "La persona de sexo Hombre asignado al nacer, que se identifica a sí misma como de género masculino. También se le conoce como cisgénero masculino"
-* #2 "Femenina" "La persona de sexo “ujer asignado al nacer, que se identifica a sí misma como de género femenina. También se le conoce como cisgénero femenina"
-* #4 "Transgénero Masculino" "La persona de sexo Mujer asignado al nacer, que se identifica a sí misma como de género masculino."
-* #5 "Transgénero Femenina" "La persona de sexo Hombre asignado al nacer, que se identifica a sí misma como de género femenina." 
-* #6 "No binarie" "La persona que no se identifica con ninguno de los géneros convencionales (femenina o masculino)."
-* #7 "Otra" "Otra identidad de género no descrita previamente."
-* #8 "No Revelado" "La persona no desea revelar su identidad de género"
-
-
-ValueSet: VSIdentidadGenero
-Id: VSIdentidadGenero
-Title: "Identidad de Género"
-Description: "Códigos para Identidad de Género DEIS"
-* ^version = "1.0.0"
-* ^status = #active
-* ^experimental = true
-* ^date = "2022-01-18T00:00:00-03:00"
-* ^contact.name = "HL7 Chile"
-* ^contact.telecom.system = #email
-* ^contact.telecom.value = "chair@hl7chile.cl"
-* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
-
-* codes from system CSIdentidadGenero
-
-/********************************************************/
-
-CodeSystem:  CSSexoBiologico
-Id: CSSexoBiologico
-Title: "Códigos para Sexo de Nacimiento de Paciente"
-Description: "Codigos definidos para el sexo de nacimiento de un paciente en Chile"
-* ^caseSensitive = true
-* ^experimental = true //dependera del uso que le den al codesystem
-* ^version = "1.0.0"
-* ^status = #active
-* ^date = "2022-01-18T00:00:00-03:00"
-* ^contact.name = "HL7 Chile"
-* ^contact.telecom.system = #email
-* ^contact.telecom.value = "chair@hl7chile.cl"
-* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
-
-* #1 "Hombre" "Persona que al nacer se observa anatómicamente que tiene a nivel genital pene, escroto y/o testículos."
-* #2 "Mujer" "Persona que al nacerse se observa anatómicamente que tiene a nivel genital vulva u orificio vaginal."
-* #3 "Intersexual" "Persona que al nacer se observa variaciones anatómicas en los órganos genitales del cuerpo que no permite clasificar de forma dicotómica en hombre o mujer. No constituye un tercer sexo."
-* #93 "No informado" "Corresponde a los casos en que el Registro Civil realiza el cambio del Sexo Registral. En estos casos, es obligatorio capturar la variable de identidad de género."
-* #99 "Desconocido" "No es posible determinarlo al momento de la atención de salud." 
-
-ValueSet: VSSexoBiologico
-Id: VSSexoBiologico
-Title: "Códigos para sexo biológico en Chile"
-Description: "Códigos para sexo biológico en Chile según tabla 820."
-* ^version = "1.0.0"
-* ^status = #active
-* ^experimental = true
-* ^date = "2022-01-18T00:00:00-03:00"
-* ^contact.name = "HL7 Chile"
-* ^contact.telecom.system = #email
-* ^contact.telecom.value = "chair@hl7chile.cl"
-* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
-
-* codes from system CSSexoBiologico
-
-/********************************************************/
 
 
 
-/********************************************************/
+
