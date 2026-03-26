@@ -1,764 +1,227 @@
-Alias: SCT = http://snomed.info/sct
-
-ValueSet: topo
-Id: topo
-Title: "topo"
-Description: "topo"
-* ^status = #active
-
-* include codes from system http://snomed.info/sct where constraint = "661000325101"
-
-* include codes from system SCT where concept is-a #64940007 "Handedness finding (finding)"
-* include codes from system http://snomed.info/sct where concept is-a #387713003 "Surgical procedure (procedure)"
-* SCT#87683000  "Left handed (finding)"
-* SCT#46669005  "Right handed (finding)"
-* SCT#23088002  "Ambidextrous (finding)"
-* include codes from system SCT where concept is-a #64940007 "Handedness finding (finding)"
-* exclude SCT#709880000 "Unknown handedness (finding)"
 /********************************************************/
-
-ValueSet: VSPaises
-Id: VSPaises
-Title: "Paises"
-Description: "Paises"
-* ^experimental = false
-* ^version = "0.1"
-* ^status = #active
-* ^date = "2023-01-15"
-* ^contact.name = "MINSAL CHILE"
-* ^contact.telecom.system = #email
-* ^contact.telecom.value = "minsal@minsal.cl"
-* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
-
-* codes from system CSPaises
-
-/********************************************************/
-
-CodeSystem:  CSNivelInstruccion
-Id: CSNivelInstruccion
-Title: "Ultimo nivel aprobado"
-Description: "Código del último nivel aprobado"
-* ^caseSensitive = true
-* ^experimental = true //dependera del uso que le den al codesystem
-* ^version = "1.0.0"
-* ^status = #active
-* ^date = "2022-01-18T00:00:00-03:00"
-* ^contact.name = "HL7 Chile"
-* ^contact.telecom.system = #email
-* ^contact.telecom.value = "chair@hl7chile.cl"
-* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
-
-* #1 "Preescolar"
-* #2 "Especial o Diferencial "
-* #3 "Básica o Primaria"
-* #4 "Media o Secundaria"
-* #5 "Educación Superior"
-* #6 "Sin Instrucción "
-* #97 "No Recuerda"
-* #98 "No Responde"
-
-ValueSet:  VSNivelInstruccion
-Id: VSNivelInstruccion
-Title: "Ultimo nivel aprobado"
-Description: "Código del último nivel aprobado"
+ValueSet: TipodeIdentificadorVS
+Id: eis-TipodeIdentificador-VS
+Title: "Tipo de Identificador"
+Description: "Define el tipo de documento de identificación del usuario, paciente o prestador de salud individual"
 * ^version = "1.0.0"
 * ^status = #active
 * ^experimental = true
-* ^date = "2022-01-18T00:00:00-03:00"
-* ^contact.name = "HL7 Chile"
-* ^contact.telecom.system = #email
-* ^contact.telecom.value = "chair@hl7chile.cl"
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
 
-* codes from system CSNivelInstruccion
+* codes from system eis-TipodeIdentificador-CS
 
-/********************************************************/
+/**/
 
-CodeSystem:  CSUCursoAprobado
-Id: CSUCursoAprobado
-Title: "Ultimo Curso Aprobado"
-Description: "Categoría del último curso aprobado"
+CodeSystem: TipodeIdentificadorCS
+Id: eis-TipodeIdentificador-CS
+Title: "Tipo de Identificador"
+Description: "Define el tipo de documento de identificación del usuario, paciente o prestador de salud individual"
 * ^caseSensitive = true
-* ^experimental = true //dependera del uso que le den al codesystem
-* ^version = "1.0.0"
-* ^status = #active
-* ^date = "2022-01-18T00:00:00-03:00"
-* ^contact.name = "HL7 Chile"
-* ^contact.telecom.system = #email
-* ^contact.telecom.value = "chair@hl7chile.cl"
-* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
-
-* #0 "Sin Curso"
-* #1 "1o Básico"
-* #2 "2o Básico"
-* #3 "3ro Básico"
-* #4 "4o Básico"
-* #5 "5o Básico"
-* #6 "6o Básico"
-* #7 "7mo Básico"
-* #8 "8vo Básico"
-
-
-
-ValueSet: VSUCursoAprobado
-Id: VSUCursoAprobado
-Title: "Ultimo Curso Aprobado"
-Description: "Categoría del último curso aprobado"
 * ^version = "1.0.0"
 * ^status = #active
 * ^experimental = true
-* ^date = "2022-01-18T00:00:00-03:00"
-* ^contact.name = "HL7 Chile"
-* ^contact.telecom.system = #email
-* ^contact.telecom.value = "chair@hl7chile.cl"
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
 
-* codes from system CSUCursoAprobado
-
+* #1 "RUN Principal"
+* #2 "RUN Materno/ Progenitor (a)"
+* #4 "Número de Pasaporte"
+* #5 "Número de Documento Identificador de País de Origen"
+* #6 "Número de Identificador Provisorio FONASA (NIP)"
+* #7 "Número de Historia Clínica"
+* #8 "Dígito Verificador Principal"
+* #9 "Dígito Verificador Materno"
 /********************************************************/
 
-ValueSet: VSCondiciondelaActividad
-Id: VSCondiciondelaActividad
-Title: "Condicion de la Actividad"
-Description: "CondiciondelaActividad"
-* ^experimental = false
-* ^version = "0.1"
-* ^status = #active
-* ^date = "2023-01-15"
-* ^contact.name = "MINSAL CHILE"
-* ^contact.telecom.system = #email
-* ^contact.telecom.value = "minsal@minsal.cl"
-* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
-
-* codes from system CSCondiciondelaActividad
-
-CodeSystem: CSCondiciondelaActividad
-Id: CSCondiciondelaActividad
-Title: "CondiciondelaActividad"
-Description: "CondiciondelaActividad"
-* ^experimental = false
-* ^caseSensitive = true
-* ^version = "0.9"
-* ^status = #active
-* ^date = "2023-01-15"
-* ^contact.name = "MINSAL CHILE"
-* ^contact.telecom.system = #email
-* ^contact.telecom.value = "minsal@minsal.cl"
-* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
-
-* #1 "Inactivos"
-* #2 "Activos"
-* #3 "Cesante o Temporalmente sin Trabajo"
-* #99 "Ignorado"
-
 /********************************************************/
-
-ValueSet:  VSOcupaciones
-Id: VSOcupaciones
-Title: "Ultimo nivel aprobado"
-Description: "Código del último nivel aprobado"
+ValueSet: SexoBiologicoVS
+Id: SexoBiologicoVS
+Title: "Sexo Biológico"
+Description: "El sexo biológico corresponde a la determinación realizada mediante la aplicación de criterios biológicos y anatómicos, utilizados para clasificar a las personas como hombre o mujer al momento del nacimiento."
 * ^version = "1.0.0"
 * ^status = #active
 * ^experimental = true
-* ^date = "2022-01-18T00:00:00-03:00"
-* ^contact.name = "HL7 Chile"
-* ^contact.telecom.system = #email
-* ^contact.telecom.value = "chair@hl7chile.cl"
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
 
-* codes from system CSOcupaciones
+* codes from system eis-SexoBiologico-CS
 
-/********************************************************/
 
-ValueSet:  VSOcupacionesDetalladas
-Id: VSOcupacionesDetalladas
-Title: "Ocupaciones Detalladas"
-Description: "Código asociados a el detalle de las ocupaciones de un paciente"
+CodeSystem:  SexoBiologicoCS
+Id: eis-SexoBiologico-CS
+Title: "Sexo Biológico"
+Description: "El sexo biológico corresponde a la determinación realizada mediante la aplicación de criterios biológicos y anatómicos, utilizados para clasificar a las personas como hombre o mujer al momento del nacimiento."
+* ^language = #es
+* ^caseSensitive = true
 * ^version = "1.0.0"
 * ^status = #active
 * ^experimental = true
-* ^date = "2022-01-18T00:00:00-03:00"
-* ^contact.name = "HL7 Chile"
-* ^contact.telecom.system = #email
-* ^contact.telecom.value = "chair@hl7chile.cl"
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
 
-* codes from system CSOcupacionesDetalladas
-
+* #1 "Hombre"
+* #2 "Mujer"
+* #3 "Intersexual"
+* #93 "No Informado"
+* #99 "Desconocido"
 /********************************************************/
 
-
-CodeSystem:  CSPrevision
-Id: CSPrevision
-Title: "Previsión Salud"
-Description: "Código asociados al tipo de previsión a la que el paciente pertenece"
-* ^caseSensitive = true
-* ^experimental = true //dependera del uso que le den al codesystem
-* ^version = "1.0.0"
-* ^status = #active
-* ^date = "2022-01-18T00:00:00-03:00"
-* ^contact.name = "HL7 Chile"
-* ^contact.telecom.system = #email
-* ^contact.telecom.value = "chair@hl7chile.cl"
-* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
-
-* #1 "FONASA" "Fondo Nacional de Salud."
-* #2 "ISAPRE" "Instituciones de Salud Previsional."
-* #3 "CAPREDENA" "Caja de Previsión de la Defensa Nacional."
-* #4 "DIPRECA" "Dirección de Previsión de Carabineros, PDI y Gendarmería"
-* #5 "SISA" "Sistema de Salud de las Fuerzas Armadas (Ejército, Armada y Fuerza Aérea)."
-* #96 "NINGUNA"
-* #99 "DESCONOCIDO"
-
-ValueSet: VSPrevision
-Id: VSPrevision
-Title: "Ultimo nivel aprobado"
-Description: "Código del último nivel aprobado"
+/********************************************************/
+ValueSet: IdentidadGeneroVS
+Id: IdentidadGeneroVS
+Title: "Identidad de Género"
+Description: "De acuerdo con la Ley 21.120, la identidad de género se entiende como la convicción personal e interna de ser hombre, mujer u otra identidad de género, tal como la persona se percibe a sí misma. Esta puede o no corresponder con el sexo y nombre de pila consignadas en la inscripción de nacimiento."
 * ^version = "1.0.0"
 * ^status = #active
 * ^experimental = true
-* ^date = "2022-01-18T00:00:00-03:00"
-* ^contact.name = "HL7 Chile"
-* ^contact.telecom.system = #email
-* ^contact.telecom.value = "chair@hl7chile.cl"
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
 
-* codes from system  CSPrevision
+* codes from system eis-IdentidadGenero-CS
 
-/********************************************************/
-
-
-ValueSet: VSTipoOtroTelefono
-Id: VSTipoOtroTelefono
-Title: "TipoOtroTelefono"
-Description: "TipoOtroTelefono"
-* ^experimental = false
-* ^version = "0.1"
-* ^status = #active
-* ^date = "2023-01-15"
-* ^contact.name = "MINSAL CHILE"
-* ^contact.telecom.system = #email
-* ^contact.telecom.value = "minsal@minsal.cl"
-* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
-
-* codes from system CSTipoOtroTelefono
-
-CodeSystem: CSTipoOtroTelefono
-Id: CSTipoOtroTelefono
-Title: "TipoOtroTelefono"
-Description: "TipoOtroTelefono"
-* ^experimental = false
+CodeSystem:  IdentidadGeneroCS
+Id: eis-IdentidadGenero-CS
+Title: "Identidad de Género"
+Description: "De acuerdo con la Ley 21.120, la identidad de género se entiende como la convicción personal e interna de ser hombre, mujer u otra identidad de género, tal como la persona se percibe a sí misma. Esta puede o no corresponder con el sexo y nombre de pila consignadas en la inscripción de nacimiento."
+* ^language = #es
 * ^caseSensitive = true
-* ^version = "0.9"
-* ^status = #active
-* ^date = "2023-01-15"
-* ^contact.name = "MINSAL CHILE"
-* ^contact.telecom.system = #email
-* ^contact.telecom.value = "minsal@minsal.cl"
-* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
-
-* #1 "Del Trabajo de la persona"
-* #2 "Pareja o cónyuge"
-* #3 "Familiar"
-* #4 "Tutor(a) o Cuidador(a)"
-* #5 "Vecino(a)"
-* #98 "No responde"
-
-/********************************************************/
-
-
-
-/********************************************************/
-
-
-/********************************************************/
-
-
-
-
-CodeSystem:  CSLeyPrevisionales
-Id: CSLeyPrevisionales
-Title: "Leyes Previsionales"
-Description: "Código asociados a Leyes Previsonales que modifican o eximen los montos de copagos de las prestaciones específica, señaladas en la ley respectiva"
-* ^caseSensitive = true
-* ^experimental = true //dependera del uso que le den al codesystem
-* ^version = "1.0.0"
-* ^status = #active
-* ^date = "2022-01-18T00:00:00-03:00"
-* ^contact.name = "HL7 Chile"
-* ^contact.telecom.system = #email
-* ^contact.telecom.value = "chair@hl7chile.cl"
-* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
-
-* #1 "Ley Nº18.490: Accidentes de Transporte"
-* #2 "Ley Nº 16.744: Accidentes del Trabajo y Enfermedades Profesionales"
-* #3 "Ley Nº 16.744: Accidente Escolar"
-* #4 "Ley Nº 19.650/99 de Urgencia"
-* #5 "Ley 19.992 PRAIS"
-* #6 "Ley Nº 19.966 Régimen General de Garantías en Salud GES" 
-* #7 "Ley Nº20.850 Ricarte Soto"
-* #8 "Ley N° 21.030 de Despenalización de la Interrupción Voluntaria del Embarazo en Tres Causales."
-* #96 "Ninguna"
-* #97 "No recuerda"
-
-
-ValueSet:  VSLeyPrevisionales
-Id: VSLeyPrevisionales
-Title: "Leyes Previsionales"
-Description: "Código asociados a Leyes Previsonales que modifican o eximen los montos de copagos de las prestaciones específica, señaladas en la ley respectiva"
-
 * ^version = "1.0.0"
 * ^status = #active
 * ^experimental = true
-* ^date = "2022-01-18T00:00:00-03:00"
-* ^contact.name = "HL7 Chile"
-* ^contact.telecom.system = #email
-* ^contact.telecom.value = "chair@hl7chile.cl"
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
 
-* codes from system  CSLeyPrevisionales
+* #1 "Masculino" "Persona de sexo asignado al nacer “Hombre”, que se identifica a sí misma como de género masculino. También se conoce como “cisgénero masculino”.  El término “cisgénero” hace referencia a personas cuyo sexo asignado al nacer corresponde a la identidad de género que asumen de manera autónoma (Comisión Interamericana de Derechos Humanos, 2020)"
+* #2 "Femenina" "Persona de sexo asignado al nacer “Mujer”, que se identifica a sí misma como de género femenino. También se conoce como “cisgénero femenina”"
+* #4 "Transgénero Masculino" "Persona de sexo asignado al nacer “Mujer”, que se identifica a sí misma como de género masculino"
+* #5 "Transgénero Femenino" "Persona de sexo asignado al nacer “Hombre”, que se identifica a sí misma como de género femenina"
+* #6 "No Binario" "Persona que no se identifica con los géneros convencionales femenina o masculino"
+* #7 "Otro" "Corresponde a una identidad de género distinta de las categorías previamente descritas"
+* #8 "No Revelado" "La persona decide no revelar su identidad de género"
 
-/********************************************************/
+/*******************************************************/
 
-
-
-
-CodeSystem: CSServiciosdeSalud
-Id: CSServiciosdeSalud
-Title: "Servicios de Salud"
-Description: "Servicios de Salud"
-* ^experimental = false
-* ^caseSensitive = true
-* ^version = "0.9"
-* ^status = #active
-* ^date = "2023-01-15"
-* ^contact.name = "MINSAL CHILE"
-* ^contact.telecom.system = #email
-* ^contact.telecom.value = "minsal@minsal.cl"
-* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
-
-* #1 "Servicio de Salud Arica y Parinacota"
-* #2 "Servicio de Salud Tarapacá"
-* #3 "Servicio de Salud Antofagasta"
-* #4 "Servicio de Salud Atacama"
-* #5 "Servicio de Salud Coquimbo"
-* #6 "Servicio de Salud Valparaíso San Antonio"
-* #7 "Servicio de Salud Viña del Mar Quillota"
-* #8 "Servicio de Salud Aconcagua"
-* #9 "Servicio de Salud Metropolitano Norte"
-* #10 "Servicio de Salud Metropolitano Occidente"
-* #11 "Servicio de Salud Metropolitano Central"
-* #12 "Servicio de Salud Metropolitano Oriente"
-* #13 "Servicio de Salud Metropolitano Sur"
-* #14 "Servicio de Salud Metropolitano Sur Oriente"
-* #15 "Servicio de Salud Del Libertador B. O’Higgins"
-* #16 "Servicio de Salud Del Maule"
-* #17 "Servicio de Salud Ñuble"
-* #18 "Servicio de Salud Concepción"
-* #19 "Servicio de Salud Talcahuano"
-* #20 "Servicio de Salud Biobío"
-* #21 "Servicio de Salud Araucanía Sur"
-* #22 "Servicio de Salud Los Ríos"
-* #23 "Servicio de Salud Osorno"
-* #24 "Servicio de Salud Del Reloncaví"
-* #25 "Servicio de Salud Aisén"
-* #26 "Servicio de Salud Magallanes"
-* #28 "Servicio de Salud Arauco"
-* #29 "Servicio de Salud Araucanía Norte"
-* #33 "Servicio de Salud Chiloé"
-* #95 "Hospital  Digital"
-
-ValueSet: VSServiciosdeSalud
-Id: VSServiciosdeSalud
-Title: "Códigos ServiciosdeSalud"
-Description: "Códigos ServiciosdeSalud"
-* ^experimental = false
-* ^version = "0.1"
-* ^status = #active
-* ^date = "2023-01-15"
-* ^contact.name = "MINSAL CHILE"
-* ^contact.telecom.system = #email
-* ^contact.telecom.value = "minsal@minsal.cl"
-* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
-
-* codes from system CSServiciosdeSalud
-
-
-/********************************************************/
-
-
-
-CodeSystem:  CSTituloProfesional
-Id: CSTituloProfesional
-Title: "Título Profesional"
-Description: "Códigos de titulos profesionales listados en Chile"
-* ^caseSensitive = true
-* ^experimental = true //dependera del uso que le den al codesystem
-* ^version = "1.0.0"
-* ^status = #active
-* ^date = "2022-01-18T00:00:00-03:00"
-* ^contact.name = "HL7 Chile"
-* ^contact.telecom.system = #email
-* ^contact.telecom.value = "chair@hl7chile.cl"
-* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
-
-* #1 "MÉDICO CIRUJANO"
-* #2 "CIRUJANO DENTISTA"
-* #3 "ENFERMERAS(OS)"
-* #4 "ENFERMERAS(OS) MATRONAS(ES)"
-* #5 "MATRONAS(ES)"
-* #6 "TECNÓLOGOS MÉDICOS"
-* #7 "PSICÓLOGOS/AS"
-* #8 "KINESIÓLOGOS/AS"
-* #9 "FARMACÉUTICOS Y QUÍMICO-FARMACÉUTICOS"
-* #10 "BIOQUÍMICOS"
-* #11 "NUTRICIONISTAS"
-* #12 "FONOAUDIÓLOGOS/AS"
-* #13 "TERAPEUTAS OCUPACIONALES"
-* #14 "AUXILIARES PARAMÉDICOS DE ALIMENTACIÓN"
-* #15 "A.P. DE RADIOLOGÍA, RADIOTERAPIA, LAB"
-* #16 "AUXILIARES PARAMÉDICOS DE ODONTOLOGÍA"
-* #17 "AUXILIARES PARAMÉDICOS DE FARMACIA"
-* #18 "AUXILIARES DE ENFERMERÍA"
-* #19 "TÉCNICO EN NIVEL SUPERIOR EN SALUD"
-* #20 "TÉCNICOS EN SALUD"
-* #21 "TÉCNICOS NIVEL MEDIO EN SALUD"
-* #22 "LABORATORISTAS DENTALES"
-* #23 "PODÓLOGOS/AS"
-* #24 "ÓPTICOS/AS"
-* #25 "CONTACTÓLOGOS/AS"
-* #26 "HOMEÓPATAS"
-* #27 "ACUPUNTURISTAS"
-* #28 "NATURÓPATAS"
-* #29 "COSMETÓLOGOS/AS"
-* #99 "DESCONOCIDA"
-
-
-
-ValueSet:  VSTituloProfesional
-Id: VSTituloProfesional
-Title: "Título Profesional"
-Description: "Códigos de titulos profesionales listados en Chile"
-
+/*******************************************************/
+ValueSet: EstadoCivilVS
+Id: eis-EstadoCivil-VS
+Title: "Estado Civil"
+Description: "El estado civil es la situación de un individuo jurídica de una persona dentro de la sociedad, determinada principalmente por sus relaciones de familia, que la habilita para ejercer determinados derechos y contraer obligaciones de carácter civil."
 * ^version = "1.0.0"
 * ^status = #active
 * ^experimental = true
-* ^date = "2022-01-18T00:00:00-03:00"
-* ^contact.name = "HL7 Chile"
-* ^contact.telecom.system = #email
-* ^contact.telecom.value = "chair@hl7chile.cl"
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
 
-* codes from system  CSTituloProfesional
+* codes from system eis-EstadoCivil-CS
 
 
-/********************************************************/
-
-CodeSystem:  CSInstitucionEmiteTitulo
-Id: CSInstitucionEmiteTitulo
-Title: "Institución Emisora de Título Profesional"
-Description: "Códigos de Centros Educacionales, Institutos, Universidades, etc que emiten certificados profesionles"
+CodeSystem:  EstadoCivilCS
+Id: eis-EstadoCivil-CS
+Title: "Estado Civil"
+Description: "El estado civil es la situación de un individuo jurídica de una persona dentro de la sociedad, determinada principalmente por sus relaciones de familia, que la habilita para ejercer determinados derechos y contraer obligaciones de carácter civil."
+* ^language = #es
 * ^caseSensitive = true
-* ^experimental = true //dependera del uso que le den al codesystem
-* ^version = "1.0.0"
-* ^status = #active
-* ^date = "2022-01-18T00:00:00-03:00"
-* ^contact.name = "HL7 Chile"
-* ^contact.telecom.system = #email
-* ^contact.telecom.value = "chair@hl7chile.cl"
-* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
-
-* #1 "PONTIFICIA UNIVERSIDAD CATÓLICA DE VALPARAÍSO"
-* #2 "UNIVERSIDAD ACADEMIA DE HUMANISMO CRISTIANO"
-* #3 "UNIVERSIDAD ADVENTISTA DE CHILE"
-* #4 "UNIVERSIDAD ADOLFO IBÁÑEZ"
-* #5 "UNIVERSIDAD ALBERTO HURTADO"
-* #6 "UNIVERSIDAD ANDRÉS BELLO"
-* #7 "UNIVERSIDAD ARTURO PRAT"
-* #8 "UNIVERSIDAD AUSTRAL DE CHILE"
-* #9 "UNIVERSIDAD AUTÓNOMA DE CHILE"
-* #10 "UNIVERSIDAD BERNARDO O HIGGINS"
-* #11 "UNIVERSIDAD CATÓLICA DE LA SANTÍSIMA CONCEPCIÓN"
-* #12 "UNIVERSIDAD CATÓLICA SILVA HENRÍQUEZ"
-* #13 "UNIVERSIDAD CATÓLICA DE TEMUCO"
-* #14 "UNIVERSIDAD CATÓLICA DEL MAULE"
-* #15 "UNIVERSIDAD CATÓLICA DEL NORTE"
-* #16 "UNIVERSIDAD CENTRAL DE CHILE"
-* #17 "UNIVERSIDAD DE ANTOFAGASTA"
-* #18 "UNIVERSIDAD DE ARTE Y CIENCIAS SOCIALES ARCIS"
-* #19 "UNIVERSIDAD DE ARTES, CIENCIAS Y COMUNICACIÓN UNIACC"
-* #20 "UNIVERSIDAD DE ATACAMA"
-* #21 "UNIVERSIDAD UCINF"
-* #22 "UNIVERSIDAD DE CHILE"
-* #23 "UNIVERSIDAD DE CONCEPCIÓN"
-* #24 "UNIVERSIDAD DE LA FRONTERA"
-* #25 "UNIVERSIDAD DE LA SERENA"
-* #26 "UNIVERSIDAD DE LAS AMÉRICAS"
-* #27 "UNIVERSIDAD DE LOS ANDES"
-* #28 "UNIVERSIDAD DE LOS LAGOS"
-* #29 "UNIVERSIDAD DE MAGALLANES"
-* #30 "UNIVERSIDAD DE PLAYA ANCHA DE CIENCIAS DE LA EDUCACIÓN"
-* #31 "UNIVERSIDAD DE SANTIAGO DE CHILE"
-* #32 "UNIVERSIDAD DE TALCA"
-* #33 "UNIVERSIDAD DE TARAPACÁ"
-* #34 "UNIVERSIDAD DE VALPARAÍSO"
-* #35 "UNIVERSIDAD DE VIÑA DEL MAR"
-* #36 "UNIVERSIDAD DEL BÍO-BÍO"
-* #37 "UNIVERSIDAD DEL MAR"
-* #38 "UNIVERSIDAD DEL DESARROLLO"
-* #39 "UNIVERSIDAD DEL PACÍFICO"
-* #40 "UNIVERSIDAD DIEGO PORTALES"
-* #41 "UNIVERSIDAD FINIS TERRAE"
-* #42 "UNIVERSIDAD IBEROAMERICANA DE CIENCIAS Y TECNOLOGÍA UNICIT"
-* #43 "UNIVERSIDAD LA REPÚBLICA"
-* #44 "UNIVERSIDAD DEL ALBA"
-* #45 "UNIVERSIDAD METROPOLITANA DE CIENCIAS DE LA EDUCACIÓN"
-* #46 "UNIVERSIDAD SAN SEBASTIÁN"
-* #47 "UNIVERSIDAD TÉCNICA FEDERICO SANTA MARÍA"
-* #48 "UNIVERSIDAD TECNOLÓGICA DE CHILE INACAP"
-* #49 "UNIVERSIDAD SANTO TOMÁS"
-* #50 "UNIVERSIDAD TECNOLÓGICA METROPOLITANA"
-* #51 "UNIVERSIDAD MAYOR"
-* #52 "UNIVERSIDAD SEK"
-* #53 "UNIVERSIDAD GABRIELA MISTRAL"
-* #54 "UNIVERSIDAD MIGUEL DE CERVANTES"
-* #55 "UNIVERSIDAD BOLIVARIANA"
-* #56 "UNIVERSIDAD LOS LEONES"
-* #57 "INSTITUTO PROFESIONAL AIEP"
-* #58 "INSTITUTO PROFESIONAL DE CHILE"
-* #59 "INSTITUTO PROFESIONAL DIEGO PORTALES"
-* #60 "INSTITUTO PROFESIONAL DUOC UC"
-* #61 "INSTITUTO PROFESIONAL INACAP"
-* #62 "INSTITUTO PROFESIONAL VIRGINIO GÓMEZ"
-* #63 "INSTITUTO PROFESIONAL CARLOS CASANUEVA"
-* #64 "INSTITUTO PROFESIONAL LOS LEONES"
-* #65 "INSTITUTO PROFESIONAL VALLE CENTRAL"
-* #66 "INSTITUTO PROFESIONAL LATINOAMERICANO DE COMERCIO EXTERIOR, IPLACEX"
-
-ValueSet:  VSInstitucionEmiteTitulo
-Id: VSInstitucionEmiteTitulo
-Title: "Institución Emisora de Título Profesional"
-Description: "Códigos de Centros Educacionales, Institutos, Universidades, etc que emiten certificados profesionles"
-
 * ^version = "1.0.0"
 * ^status = #active
 * ^experimental = true
-* ^date = "2022-01-18T00:00:00-03:00"
-* ^contact.name = "HL7 Chile"
-* ^contact.telecom.system = #email
-* ^contact.telecom.value = "chair@hl7chile.cl"
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
 
-* codes from system  CSInstitucionEmiteTitulo
+* #1 "Soltero/a"
+* #2 "Casado/a"
+* #3 "Viudo/a"
+* #4 "Divorciado/a"
+* #5 "Separado/a Judicialmente"
+* #6 "Conviviente (con acuerdo de unión civil)"
+* #99 "Desconocido"
+
 /********************************************************/
 
-ValueSet: VSInstitucionEmiteEspecialidad
-Id: VSInstitucionEmiteEspecialidad
-Title: "InstituciónEmiteEspecialidad"
-Description: "InstituciónEmiteEspecialidad"
-* ^experimental = false
-* ^version = "0.1"
+/********************************************************/
+ValueSet: PueblosOriginariosVS
+Id: eis-PueblosOriginarios-VS
+Title: "Pueblos Indígenas u Originarios"
+Description: "Los Pueblos Indígenas u Originarios en Chile corresponden a los descendientes de agrupaciones humanas que habitaban el territorio nacional en tiempos precolombinos, y que conservan manifestaciones culturales, sociales y étnicas propias, o parte de ellas, teniendo para estos pueblos la tierra un rol fundamental en su existencia y desarrollo cultural."
+* ^version = "1.0.0"
 * ^status = #active
-* ^date = "2023-01-15"
-* ^contact.name = "MINSAL CHILE"
-* ^contact.telecom.system = #email
-* ^contact.telecom.value = "minsal@minsal.cl"
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
 
-* codes from system CSInstitucionEmiteEspecialidad
+* codes from system eis-PueblosOriginarios-CS
 
-CodeSystem: CSInstitucionEmiteEspecialidad
-Id: CSInstitucionEmiteEspecialidad
-Title: "InstituciónEmiteEspecialidad"
-Description: "InstituciónEmiteEspecialidad"
-* ^experimental = false
+CodeSystem:  PueblosOriginariosCS
+Id: eis-PueblosOriginarios-CS
+Title: "Pueblos Indígenas u Originarios"
+Description: "Los Pueblos Indígenas u Originarios en Chile corresponden a los descendientes de agrupaciones humanas que habitaban el territorio nacional en tiempos precolombinos, y que conservan manifestaciones culturales, sociales y étnicas propias, o parte de ellas, teniendo para estos pueblos la tierra un rol fundamental en su existencia y desarrollo cultural."
+* ^language = #es
 * ^caseSensitive = true
-* ^version = "0.9"
+* ^version = "1.0.0"
 * ^status = #active
-* ^date = "2023-01-15"
-* ^contact.name = "MINSAL CHILE"
-* ^contact.telecom.system = #email
-* ^contact.telecom.value = "minsal@minsal.cl"
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
 
-* #1 "PONTIFICIA UNIVERSIDAD CATÓLICA DE VALPARAÍSO"
-* #2 "UNIVERSIDAD ACADEMIA DE HUMANISMO CRISTIANO"
-* #3 "UNIVERSIDAD ADVENTISTA DE CHILE"
-* #4 "UNIVERSIDAD ADOLFO IBÁÑEZ"
-* #5 "UNIVERSIDAD ALBERTO HURTADO"
-* #6 "UNIVERSIDAD ANDRÉS BELLO"
-* #7 "UNIVERSIDAD ARTURO PRAT"
-* #8 "UNIVERSIDAD AUSTRAL DE CHILE"
-* #9 "UNIVERSIDAD AUTÓNOMA DE CHILE"
-* #10 "UNIVERSIDAD BERNARDO O HIGGINS"
-* #11 "UNIVERSIDAD CATÓLICA DE LA SANTÍSIMA CONCEPCIÓN"
-* #12 "UNIVERSIDAD CATÓLICA SILVA HENRÍQUEZ"
-* #13 "UNIVERSIDAD CATÓLICA DE TEMUCO"
-* #14 "UNIVERSIDAD CATÓLICA DEL MAULE"
-* #15 "UNIVERSIDAD CATÓLICA DEL NORTE"
-* #16 "UNIVERSIDAD CENTRAL DE CHILE"
-* #17 "UNIVERSIDAD DE ANTOFAGASTA"
-* #18 "UNIVERSIDAD DE ARTE Y CIENCIAS SOCIALES ARCIS"
-* #19 "UNIVERSIDAD DE ARTES, CIENCIAS Y COMUNICACIÓN UNIACC"
-* #20 "UNIVERSIDAD DE ATACAMA"
-* #21 "UNIVERSIDAD UCINF"
-* #22 "UNIVERSIDAD DE CHILE"
-* #23 "UNIVERSIDAD DE CONCEPCIÓN"
-* #24 "UNIVERSIDAD DE LA FRONTERA"
-* #25 "UNIVERSIDAD DE LA SERENA"
-* #26 "UNIVERSIDAD DE LAS AMÉRICAS"
-* #27 "UNIVERSIDAD DE LOS ANDES"
-* #28 "UNIVERSIDAD DE LOS LAGOS"
-* #29 "UNIVERSIDAD DE MAGALLANES"
-* #30 "UNIVERSIDAD DE PLAYA ANCHA DE CIENCIAS DE LA EDUCACIÓN"
-* #31 "UNIVERSIDAD DE SANTIAGO DE CHILE"
-* #32 "UNIVERSIDAD DE TALCA"
-* #33 "UNIVERSIDAD DE TARAPACÁ"
-* #34 "UNIVERSIDAD DE VALPARAÍSO"
-* #35 "UNIVERSIDAD DE VIÑA DEL MAR"
-* #36 "UNIVERSIDAD DEL BÍO-BÍO"
-* #37 "UNIVERSIDAD DEL MAR"
-* #38 "UNIVERSIDAD DEL DESARROLLO"
-* #39 "UNIVERSIDAD DEL PACÍFICO"
-* #40 "UNIVERSIDAD DIEGO PORTALES"
-* #41 "UNIVERSIDAD FINIS TERRAE"
-* #42 "UNIVERSIDAD IBEROAMERICANA DE CIENCIAS Y TECNOLOGÍA UNICIT"
-* #43 "UNIVERSIDAD LA REPÚBLICA"
-* #44 "UNIVERSIDAD DEL ALBA"
-* #45 "UNIVERSIDAD METROPOLITANA DE CIENCIAS DE LA EDUCACIÓN"
-* #46 "UNIVERSIDAD SAN SEBASTIÁN"
-* #47 "UNIVERSIDAD TÉCNICA FEDERICO SANTA MARÍA"
-* #48 "UNIVERSIDAD TECNOLÓGICA DE CHILE INACAP"
-* #49 "UNIVERSIDAD SANTO TOMÁS"
-* #50 "UNIVERSIDAD TECNOLÓGICA METROPOLITANA"
-* #51 "UNIVERSIDAD MAYOR"
-* #52 "UNIVERSIDAD SEK"
-* #53 "UNIVERSIDAD GABRIELA MISTRAL"
-* #54 "UNIVERSIDAD MIGUEL DE CERVANTES"
-* #55 "UNIVERSIDAD BOLIVARIANA"
-* #56 "UNIVERSIDAD LOS LEONES"
-* #57 "INSTITUTO PROFESIONAL AIEP"
-* #58 "INSTITUTO PROFESIONAL DE CHILE"
-* #59 "INSTITUTO PROFESIONAL DIEGO PORTALES"
-* #60 "INSTITUTO PROFESIONAL DUOC UC"
-* #61 "INSTITUTO PROFESIONAL INACAP"
-* #62 "INSTITUTO PROFESIONAL VIRGINIO GÓMEZ"
-* #63 "INSTITUTO PROFESIONAL CARLOS CASANUEVA"
-* #64 "INSTITUTO PROFESIONAL LOS LEONES"
-* #65 "INSTITUTO PROFESIONAL VALLE CENTRAL"
-* #66 "INSTITUTO PROFESIONAL LATINOAMERICANO DE COMERCIO EXTERIOR, IPLACEX"
-
-
+* #1 "Mapuche"
+* #2 "Aymara"
+* #3 "Rapa Nui o Pascuense"
+* #4 "Lickanantay"
+* #5 "Quechua"
+* #6 "Colla"
+* #7 "Diaguita"
+* #8 "Kawésqar"
+* #9 "Yagán"
+* #11 "Chango"
+* #12 "Selk'nam"
+* #10 "Otro (Especificar)"
+* #99 "Desconocido"
 /********************************************************/
 
-
-
 /********************************************************/
-
-
-
-/********************************************************/
-
-
-
-/********************************************************/
-
-
-/********************************************************/
-
-
-
-/********************************************************/
-
-
-
-/********************************************************/
-
-
-
-/********************************************************/
-
-ValueSet: VSOtroTipoEstabAsistenciales
-Id: VSOtroTipoEstabAsistenciales
-Title: "OtroTipoEstabAsistenciales"
-Description: "OtroTipoEstabAsistenciales"
-* ^experimental = false
-* ^version = "0.1"
+ValueSet: ReligionVS
+Id: eis-Religion-VS
+Title: "Religiones & Cultos"
+Description: "La religión o credo corresponde a un sistema de creencias y prácticas, de carácter individual o colectivo, relacionadas con lo que la persona considera sagrado o divino, y que se vinculan a su dimensión espiritual, existencial y cultural. "
+* ^version = "1.0.0"
 * ^status = #active
-* ^date = "2023-01-15"
-* ^contact.name = "MINSAL CHILE"
-* ^contact.telecom.system = #email
-* ^contact.telecom.value = "minsal@minsal.cl"
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
 
-* codes from system CSOtroTipoEstabAsistenciales
+* codes from system eis-Religion-CS
 
-CodeSystem: CSOtroTipoEstabAsistenciales
-Id: CSOtroTipoEstabAsistenciales
-Title: "OtroTipoEstabAsistenciales"
-Description: "OtroTipoEstabAsistenciales"
-* ^experimental = false
+CodeSystem:  ReligionCS
+Id: eis-Religion-CS
+Title: "Religiones & Cultos"
+Description: "La religión o credo corresponde a un sistema de creencias y prácticas, de carácter individual o colectivo, relacionadas con lo que la persona considera sagrado o divino, y que se vinculan a su dimensión espiritual, existencial y cultural. "
+* ^language = #es
 * ^caseSensitive = true
-* ^version = "0.9"
+* ^version = "1.0.0"
 * ^status = #active
-* ^date = "2023-01-15"
-* ^contact.name = "MINSAL CHILE"
-* ^contact.telecom.system = #email
-* ^contact.telecom.value = "minsal@minsal.cl"
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
 
-* #1 "Hospitales "
-* #2 "Clínicas"
-* #3 "Centros de Salud Privados"
-* #4 "Laboratorios Clínicos "
-* #5 "Centros de Diálisis"
-* #6 "Clínicas Dentales"
-* #7 "Vacunatorios "
-* #8 "Centro CONIN "
-* #9 "Centros de Diagnóstico y Tratamiento Privados "
-
+* #1 "Católica"
+* #2 "Evangélica"
+* #3 "Testigo de Jehová"
+* #4 "Judaica"
+* #5 "Mormón"
+* #6 "Musulmana"
+* #7 "Ortodoxa"
+* #8 "Otra religión o credo"
+* #9 "Ninguna"
 /********************************************************/
-
-
-
-/********************************************************/
-
-
-
-/********************************************************/
-
-
-
-
-/********************************************************/
-
-
-/********************************************************/
-
-
-
-/********************************************************/
-
-
-
-/********************************************************/
-
-
-
-/********************************************************/
-
-
-/********************************************************/
-
-
-
-/********************************************************/
-
-
-
-
-
-
-
-
-

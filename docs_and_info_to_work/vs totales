@@ -7,8 +7,8 @@ sexo_biologico <---
 identidad_genero <---
 nacionalidad
 pais_origen
-estado_civil
-pueblo_indigena
+estado_civil <---
+pueblo_indigena <---
 religion_culto
 pueblos_tribales
 nivel_discapacidad
