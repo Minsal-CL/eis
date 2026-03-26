@@ -1,4 +1,20 @@
+Alias: SCT = http://snomed.info/sct
 
+ValueSet: topo
+Id: topo
+Title: "topo"
+Description: "topo"
+* ^status = #active
+
+* include codes from system http://snomed.info/sct where constraint = "661000325101"
+
+* include codes from system SCT where concept is-a #64940007 "Handedness finding (finding)"
+* include codes from system http://snomed.info/sct where concept is-a #387713003 "Surgical procedure (procedure)"
+* SCT#87683000  "Left handed (finding)"
+* SCT#46669005  "Right handed (finding)"
+* SCT#23088002  "Ambidextrous (finding)"
+* include codes from system SCT where concept is-a #64940007 "Handedness finding (finding)"
+* exclude SCT#709880000 "Unknown handedness (finding)"
 /********************************************************/
 
 ValueSet: VSPaises
