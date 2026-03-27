@@ -1,11 +1,11 @@
 
 /********************************************************/
-ValueSet: VSComunas
-Id: VSComunas
+ValueSet: ComunasVS
+Id: eis-comunas-vs
 Title: "Comunas"
 Description: "Comunas"
 * ^experimental = false
-* ^version = "0.1"
+* ^version = "1.0.0"
 * ^status = #active
 * ^date = "2023-01-15"
 * ^contact.name = "MINSAL CHILE"
@@ -13,17 +13,18 @@ Description: "Comunas"
 * ^contact.telecom.value = "minsal@minsal.cl"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
 
-* codes from system CSComunas
+* codes from system ComunasCS
 
 /********************************************************/
 
-CodeSystem: CSComunas
-Id: CSComunas
+CodeSystem: ComunasCS
+Id: eis-comunas-cs
 Title: "Comunas"
 Description: "Comunas"
+* ^language = #es
 * ^experimental = false
 * ^caseSensitive = true
-* ^version = "0.9"
+* ^version = "1.0.0"
 * ^status = #active
 * ^date = "2023-01-15"
 * ^contact.name = "MINSAL CHILE"

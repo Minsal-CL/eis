@@ -24,6 +24,9 @@ Description: "Define el tipo de documento de identificación del usuario, pacien
 * ^experimental = true
 * ^date = "2026-03-01T00:00:00-03:00"
 * ^contact.name = "MINSAL Chile"
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
 
 * #1 "RUN Principal"
@@ -44,6 +47,8 @@ Description: "El sexo biológico corresponde a la determinación realizada media
 * ^version = "1.0.0"
 * ^status = #active
 * ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
 * ^date = "2026-03-01T00:00:00-03:00"
 * ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
@@ -94,6 +99,8 @@ Description: "De acuerdo con la Ley 21.120, la identidad de género se entiende 
 * ^version = "1.0.0"
 * ^status = #active
 * ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
 * ^date = "2026-03-01T00:00:00-03:00"
 * ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
@@ -156,6 +163,8 @@ Description: "Los Pueblos Indígenas u Originarios en Chile corresponden a los d
 * ^experimental = true
 * ^date = "2026-03-01T00:00:00-03:00"
 * ^contact.name = "MINSAL Chile"
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
 
 * codes from system eis-PueblosOriginarios-CS
@@ -169,6 +178,8 @@ Description: "Los Pueblos Indígenas u Originarios en Chile corresponden a los d
 * ^version = "1.0.0"
 * ^status = #active
 * ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
 * ^date = "2026-03-01T00:00:00-03:00"
 * ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
@@ -213,6 +224,9 @@ Description: "La religión o credo corresponde a un sistema de creencias y prác
 * ^experimental = true
 * ^date = "2026-03-01T00:00:00-03:00"
 * ^contact.name = "MINSAL Chile"
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
 
 * #1 "Católica"
@@ -234,6 +248,8 @@ Description: "Se entiende por pueblo afrodescendiente chileno al grupo humano qu
 * ^version = "1.0.0"
 * ^status = #active
 * ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
 * ^date = "2026-03-01T00:00:00-03:00"
 * ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
@@ -278,7 +294,11 @@ Description: "Las personas en situación de discapacidad son aquellas que, en re
 * ^language = #es
 * ^caseSensitive = true
 * ^version = "1.0.0"
+* ^version = "1.0.0"
 * ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
 * ^experimental = true
 * ^date = "2026-03-01T00:00:00-03:00"
 * ^contact.name = "MINSAL Chile"
@@ -353,6 +373,9 @@ Description: "Código del último nivel aprobado"
 * ^experimental = true
 * ^date = "2026-03-01T00:00:00-03:00"
 * ^contact.name = "MINSAL Chile"
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
 
 * #1 "Preescolar"
@@ -375,6 +398,8 @@ Description: "La condición de la actividad corresponde a la relación que manti
 * ^version = "1.0.0"
 * ^status = #active
 * ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
 * ^date = "2026-03-01T00:00:00-03:00"
 * ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
@@ -942,6 +967,8 @@ Description: "La previsión corresponde a la variable que identifica el sistema 
 * ^experimental = true
 * ^date = "2026-03-01T00:00:00-03:00"
 * ^contact.name = "MINSAL Chile"
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
 
 * #1 "FONASA"
@@ -979,6 +1006,8 @@ Description: "Identifica el sistema de aseguramiento de salud al cual se encuent
 * ^version = "1.0.0"
 * ^status = #active
 * ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
 * ^date = "2026-03-01T00:00:00-03:00"
 * ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"

@@ -33,28 +33,31 @@ ges_90 <---
 
 Franco 
 -------------------
-especialidad_odontologica
-especialidad_farmaceutica
-especialidad_bioquimica
-especialidad_enfermeria
-especialidades_sct
+especialidad_odontologica -
+especialidad_farmaceutica -
+especialidad_bioquimica -
+especialidad_enfermeria -
+--------
+especialidades_sct 
 eis_sct
 pni_sct
-establecimientos_tipo
-establecimiento_nivel
-establecimientos_complejidad
-establecimientos_publicos
-establecimientos_primarios
-establecimientos_secundario
-establecimientos_terciario
-establecimiento_privado
-identificacion_establecimiento
-programa_aps
-region
-provincia
-comuna
+-------
+establecimientos_tipo -
+establecimiento_nivel -
+establecimientos_complejidad -
+establecimientos_publicos -
+establecimientos_primarios -
+establecimientos_secundario -
+establecimientos_terciario -
+establecimiento_privado -
+region-
+provincia-
+comuna-
 limite_urbano_censal
-tipo_via
+tipo_via-
+
+programa_aps 
+identificacion_establecimiento
 nombre_via
 numero_domicilio
 numero_anexo_direccion
