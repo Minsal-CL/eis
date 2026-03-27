@@ -50,13 +50,14 @@ establecimientos_primarios -
 establecimientos_secundario -
 establecimientos_terciario -
 establecimiento_privado -
-identificacion_establecimiento
-programa_aps
-region
-provincia
-comuna
+region-
+provincia-
+comuna-
 limite_urbano_censal
-tipo_via
+tipo_via-
+
+programa_aps 
+identificacion_establecimiento
 nombre_via
 numero_domicilio
 numero_anexo_direccion

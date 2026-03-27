@@ -440,3 +440,77 @@ Description: "Los establecimientos privados de salud corresponden a entidades as
 
 * codes from system EstablecimientosPrivadosCS
 
+/************************************************
+Tipo de Vía
+*************************************************/
+
+CodeSystem: TipoViaCS
+Id: eis-tipo-via-cs
+Title: "Tipo de Vía"
+Description: "Corresponde al tipo o clasificación de calle."
+* ^language = #es
+* ^caseSensitive = true
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Calle"
+* #2 "Avenida"
+* #3 "Pasaje"
+* #4 "Camino"
+* #5 "Carretera"
+* #6 "Callejón"
+* #7 "Paseo"
+* #8 "Escalera"
+* #9 "Otro"
+* #10 "Rotonda"
+
+ValueSet: TipoViaVS
+Id: eis-tipo-via-vs
+Title: "Tipo de Vía"
+Description: "Corresponde al tipo o clasificación de calle."
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+* codes from system TipoViaCS
+
+/************************************************
+Limite Urbano Censal
+*************************************************/
+
+CodeSystem: LimiteUrbanoCensalCS
+Id: eis-limite-urbano-censal-cs
+Title: "Límite Urbano Censal"
+Description: "Corresponde a distinguir entre zonas urbanas y rurales, según la delimitación establecida por el Instituto Nacional de Estadísticas (INE) para fines censales, considerando factores como la densidad poblacional, infraestructura y características del entorno."
+
+* ^language = #es
+* ^caseSensitive = true
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Urbano"
+* #2 "Rural"
+
+ValueSet: LimiteUrbanoCensalVS
+Id: eis-limite-urbano-censal-vs
+Title: "Límite Urbano Censal"
+Description: "Corresponde a distinguir entre zonas urbanas y rurales, según la delimitación establecida por el Instituto Nacional de Estadísticas (INE) para fines censales, considerando factores como la densidad poblacional, infraestructura y características del entorno."
+
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system LimiteUrbanoCensalCS
