@@ -1,20 +1,3 @@
-Alias: SCT = http://snomed.info/sct
-
-ValueSet: topo
-Id: topo
-Title: "topo"
-Description: "topo"
-* ^status = #active
-
-* include codes from system http://snomed.info/sct where constraint = "661000325101"
-
-* include codes from system SCT where concept is-a #64940007 "Handedness finding (finding)"
-* include codes from system http://snomed.info/sct where concept is-a #387713003 "Surgical procedure (procedure)"
-* SCT#87683000  "Left handed (finding)"
-* SCT#46669005  "Right handed (finding)"
-* SCT#23088002  "Ambidextrous (finding)"
-* include codes from system SCT where concept is-a #64940007 "Handedness finding (finding)"
-* exclude SCT#709880000 "Unknown handedness (finding)"
 /********************************************************/
 
 ValueSet: VSPaises
@@ -33,44 +16,6 @@ Description: "Paises"
 * codes from system CSPaises
 
 /********************************************************/
-
-CodeSystem:  CSNivelInstruccion
-Id: CSNivelInstruccion
-Title: "Ultimo nivel aprobado"
-Description: "Código del último nivel aprobado"
-* ^caseSensitive = true
-* ^experimental = true //dependera del uso que le den al codesystem
-* ^version = "1.0.0"
-* ^status = #active
-* ^date = "2022-01-18T00:00:00-03:00"
-* ^contact.name = "HL7 Chile"
-* ^contact.telecom.system = #email
-* ^contact.telecom.value = "chair@hl7chile.cl"
-* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
-
-* #1 "Preescolar"
-* #2 "Especial o Diferencial "
-* #3 "Básica o Primaria"
-* #4 "Media o Secundaria"
-* #5 "Educación Superior"
-* #6 "Sin Instrucción "
-* #97 "No Recuerda"
-* #98 "No Responde"
-
-ValueSet:  VSNivelInstruccion
-Id: VSNivelInstruccion
-Title: "Ultimo nivel aprobado"
-Description: "Código del último nivel aprobado"
-* ^version = "1.0.0"
-* ^status = #active
-* ^experimental = true
-* ^date = "2022-01-18T00:00:00-03:00"
-* ^contact.name = "HL7 Chile"
-* ^contact.telecom.system = #email
-* ^contact.telecom.value = "chair@hl7chile.cl"
-* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
-
-* codes from system CSNivelInstruccion
 
 /********************************************************/
 
@@ -117,39 +62,6 @@ Description: "Categoría del último curso aprobado"
 
 /********************************************************/
 
-ValueSet: VSCondiciondelaActividad
-Id: VSCondiciondelaActividad
-Title: "Condicion de la Actividad"
-Description: "CondiciondelaActividad"
-* ^experimental = false
-* ^version = "0.1"
-* ^status = #active
-* ^date = "2023-01-15"
-* ^contact.name = "MINSAL CHILE"
-* ^contact.telecom.system = #email
-* ^contact.telecom.value = "minsal@minsal.cl"
-* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
-
-* codes from system CSCondiciondelaActividad
-
-CodeSystem: CSCondiciondelaActividad
-Id: CSCondiciondelaActividad
-Title: "CondiciondelaActividad"
-Description: "CondiciondelaActividad"
-* ^experimental = false
-* ^caseSensitive = true
-* ^version = "0.9"
-* ^status = #active
-* ^date = "2023-01-15"
-* ^contact.name = "MINSAL CHILE"
-* ^contact.telecom.system = #email
-* ^contact.telecom.value = "minsal@minsal.cl"
-* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
-
-* #1 "Inactivos"
-* #2 "Activos"
-* #3 "Cesante o Temporalmente sin Trabajo"
-* #99 "Ignorado"
 
 /********************************************************/
 
@@ -172,7 +84,7 @@ Description: "Código del último nivel aprobado"
 
 ValueSet:  VSOcupacionesDetalladas
 Id: VSOcupacionesDetalladas
-Title: "Ocupaciones Detalladas"
+Title: "Ocupaciones Desagregadas"
 Description: "Código asociados a el detalle de las ocupaciones de un paciente"
 * ^version = "1.0.0"
 * ^status = #active
@@ -186,44 +98,41 @@ Description: "Código asociados a el detalle de las ocupaciones de un paciente"
 * codes from system CSOcupacionesDetalladas
 
 /********************************************************/
-
-
-CodeSystem:  CSPrevision
-Id: CSPrevision
-Title: "Previsión Salud"
-Description: "Código asociados al tipo de previsión a la que el paciente pertenece"
-* ^caseSensitive = true
-* ^experimental = true //dependera del uso que le den al codesystem
-* ^version = "1.0.0"
-* ^status = #active
-* ^date = "2022-01-18T00:00:00-03:00"
-* ^contact.name = "HL7 Chile"
-* ^contact.telecom.system = #email
-* ^contact.telecom.value = "chair@hl7chile.cl"
-* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
-
-* #1 "FONASA" "Fondo Nacional de Salud."
-* #2 "ISAPRE" "Instituciones de Salud Previsional."
-* #3 "CAPREDENA" "Caja de Previsión de la Defensa Nacional."
-* #4 "DIPRECA" "Dirección de Previsión de Carabineros, PDI y Gendarmería"
-* #5 "SISA" "Sistema de Salud de las Fuerzas Armadas (Ejército, Armada y Fuerza Aérea)."
-* #96 "NINGUNA"
-* #99 "DESCONOCIDO"
-
-ValueSet: VSPrevision
-Id: VSPrevision
-Title: "Ultimo nivel aprobado"
-Description: "Código del último nivel aprobado"
+ValueSet: PrevisiondeSaludVS
+Id: eis-PrevisiondeSalud-VS
+Title: "Previsión de Salud"
+Description: "La previsión corresponde a la variable que identifica el sistema de aseguramiento de salud vigente al que se encuentra adscrita la persona, el cual define la cobertura para acciones de promoción, prevención, tratamiento y control de las enfermedades."
 * ^version = "1.0.0"
 * ^status = #active
 * ^experimental = true
-* ^date = "2022-01-18T00:00:00-03:00"
-* ^contact.name = "HL7 Chile"
-* ^contact.telecom.system = #email
-* ^contact.telecom.value = "chair@hl7chile.cl"
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
 
-* codes from system  CSPrevision
+* codes from system  eis-PrevisiondeSalud-CS
+
+CodeSystem:  PrevisiondeSaludCS
+Id: eis-PrevisiondeSalud-CS
+Title: "Previsión de Salud"
+Description: "La previsión corresponde a la variable que identifica el sistema de aseguramiento de salud vigente al que se encuentra adscrita la persona, el cual define la cobertura para acciones de promoción, prevención, tratamiento y control de las enfermedades."
+* ^language = #es
+* ^caseSensitive = true
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "FONASA"
+* #2 "ISAPRE"
+* #3 "CAPREDENA"
+* #4 "DIPRECA"
+* #6 "SISAE (Sistema de Salud del Ejército)"
+* #7 "SISAN (Sistema de Salud de la Armada)"
+* #8 "SISAF (Sistema de Salud de la Fuerza Aérea)"
+* #96 "Ninguna"
+* #99 "Desconocido"
 
 /********************************************************/
 
@@ -319,14 +228,25 @@ Description: "Código asociados a Leyes Previsonales que modifican o eximen los 
 * codes from system  CSLeyPrevisionales
 
 /********************************************************/
-
-
-
-
-CodeSystem: CSServiciosdeSalud
-Id: CSServiciosdeSalud
+ValueSet: ServiciosdeSaludVS
+Id: eis-ServiciosdeSalud-VS
 Title: "Servicios de Salud"
-Description: "Servicios de Salud"
+Description: "Corresponde a los códigos y valores asociados a los servicios de salud del país, utilizados para la identificación territorial y administrativa de la red asistencial en los sistemas de información en salud."
+* ^experimental = false
+* ^version = "0.1"
+* ^status = #active
+* ^date = "2023-01-15"
+* ^contact.name = "MINSAL CHILE"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "minsal@minsal.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system eis-ServiciosdeSalud-CS
+
+CodeSystem: ServiciosdeSaludCS
+Id: eis-ServiciosdeSalud-CS
+Title: "Servicios de Salud"
+Description: "Corresponde a los códigos y valores asociados a los servicios de salud del país, utilizados para la identificación territorial y administrativa de la red asistencial en los sistemas de información en salud."
 * ^experimental = false
 * ^caseSensitive = true
 * ^version = "0.9"
@@ -337,7 +257,7 @@ Description: "Servicios de Salud"
 * ^contact.telecom.value = "minsal@minsal.cl"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
 
-* #1 "Servicio de Salud Arica y Parinacota"
+* #1 "Servicio de Salud Arica"
 * #2 "Servicio de Salud Tarapacá"
 * #3 "Servicio de Salud Antofagasta"
 * #4 "Servicio de Salud Atacama"
@@ -366,190 +286,257 @@ Description: "Servicios de Salud"
 * #28 "Servicio de Salud Arauco"
 * #29 "Servicio de Salud Araucanía Norte"
 * #33 "Servicio de Salud Chiloé"
-* #95 "Hospital  Digital"
-
-ValueSet: VSServiciosdeSalud
-Id: VSServiciosdeSalud
-Title: "Códigos ServiciosdeSalud"
-Description: "Códigos ServiciosdeSalud"
-* ^experimental = false
-* ^version = "0.1"
-* ^status = #active
-* ^date = "2023-01-15"
-* ^contact.name = "MINSAL CHILE"
-* ^contact.telecom.system = #email
-* ^contact.telecom.value = "minsal@minsal.cl"
-* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
-
-* codes from system CSServiciosdeSalud
 
 
 /********************************************************/
-
-
-
-CodeSystem:  CSTituloProfesional
-Id: CSTituloProfesional
+ValueSet: TituloProfesionalVS
+Id: eis-TituloProfesional-VS
 Title: "Título Profesional"
-Description: "Códigos de titulos profesionales listados en Chile"
-* ^caseSensitive = true
-* ^experimental = true //dependera del uso que le den al codesystem
+Description: "El título profesional corresponde al documento oficial que acredita que una persona ha completado un programa formal de estudios y ha aprobado las evaluaciones, pruebas o exámenes requeridos para el ejercicio de una determinada profesión, certificando las competencias generales, científicas y técnicas necesarias para su adecuado desempeño profesional."
 * ^version = "1.0.0"
 * ^status = #active
-* ^date = "2022-01-18T00:00:00-03:00"
-* ^contact.name = "HL7 Chile"
-* ^contact.telecom.system = #email
-* ^contact.telecom.value = "chair@hl7chile.cl"
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
 
-* #1 "MÉDICO CIRUJANO"
-* #2 "CIRUJANO DENTISTA"
-* #3 "ENFERMERAS(OS)"
-* #4 "ENFERMERAS(OS) MATRONAS(ES)"
-* #5 "MATRONAS(ES)"
-* #6 "TECNÓLOGOS MÉDICOS"
-* #7 "PSICÓLOGOS/AS"
-* #8 "KINESIÓLOGOS/AS"
-* #9 "FARMACÉUTICOS Y QUÍMICO-FARMACÉUTICOS"
-* #10 "BIOQUÍMICOS"
-* #11 "NUTRICIONISTAS"
-* #12 "FONOAUDIÓLOGOS/AS"
-* #13 "TERAPEUTAS OCUPACIONALES"
-* #14 "AUXILIARES PARAMÉDICOS DE ALIMENTACIÓN"
-* #15 "A.P. DE RADIOLOGÍA, RADIOTERAPIA, LAB"
-* #16 "AUXILIARES PARAMÉDICOS DE ODONTOLOGÍA"
-* #17 "AUXILIARES PARAMÉDICOS DE FARMACIA"
-* #18 "AUXILIARES DE ENFERMERÍA"
-* #19 "TÉCNICO EN NIVEL SUPERIOR EN SALUD"
-* #20 "TÉCNICOS EN SALUD"
-* #21 "TÉCNICOS NIVEL MEDIO EN SALUD"
-* #22 "LABORATORISTAS DENTALES"
-* #23 "PODÓLOGOS/AS"
-* #24 "ÓPTICOS/AS"
-* #25 "CONTACTÓLOGOS/AS"
-* #26 "HOMEÓPATAS"
-* #27 "ACUPUNTURISTAS"
-* #28 "NATURÓPATAS"
-* #29 "COSMETÓLOGOS/AS"
-* #99 "DESCONOCIDA"
+* codes from system  eis-TituloProfesional-CS
 
-
-
-ValueSet:  VSTituloProfesional
-Id: VSTituloProfesional
+CodeSystem: TituloProfesional-CS
+Id: eis-TituloProfesional-CS
 Title: "Título Profesional"
-Description: "Códigos de titulos profesionales listados en Chile"
+Description: "El título profesional corresponde al documento oficial que acredita que una persona ha completado un programa formal de estudios y ha aprobado las evaluaciones, pruebas o exámenes requeridos para el ejercicio de una determinada profesión, certificando las competencias generales, científicas y técnicas necesarias para su adecuado desempeño profesional."
+* ^language = #es
+* ^caseSensitive = true
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Médico/as Cirujano/as"
+* #2 "Cirujano/as Dentistas"
+* #3 "Enfermeros/as"
+* #4 "Enfermeros/as Matrones/Matronas"
+* #5 "Matrones/as"
+* #6 "Tecnólogos/as Médicos/as"
+* #7 "Psicólogos/as"
+* #8 "Kinesiólogos/as"
+* #9 "Farmacéuticos/as y Químico Farmacéuticos/as"
+* #10 "Bioquímicos/as"
+* #11 "Nutricionistas"
+* #12 "Fonoaudiólogos/as"
+* #13 "Terapeutas Ocupacionales"
+* #14 "Técnicos/as y Auxiliares Paramédicos/as en Alimentación y Nutrición"
+* #15 "Técnicos/as y Auxiliares Paramédicos/as en Diagnóstico y Servicios Médicos (Radiología, Radioterapia, Laboratorio Clínico y Banco de Sangre)"
+* #16 "Técnicos/as y Auxiliares Paramédicos/as en Odontología y Salud Oral"
+* #17 "Técnicos/as y Auxiliares Paramédicos/as en Farmacia"
+* #18 "Técnicos/as en Enfermería, Ginecobstetricia y Pabellones Quirúrgicos"
+* #19 "Técnicos/as en Salud de Prevención y Rehabilitación"
+* #20 "Naturópatas y Técnicos/as en Naturopatía"
+* #21 "Podólogos/as y Técnicos/as en Podología Clínica"
+* #22 "Cosmetólogos/as y Técnicos/as en Cosmetología"
+* #23 "Contactólogos/as y Técnicos/as en Contactología"
+* #24 "Ópticos/as y Técnicos/as en Óptica"
+* #25 "Acunpunturistas, Homeópatas y Naturópatas"
+/********************************************************/
+
+/********************************************************/
+ValueSet:  InstitucionEmisoradeTituloProfesionalydeEspecialidadVS
+Id:eis-InstitucionEmisoradeTituloProfesionalydeEspecialidad-VS
+Title: "Institución Emisora de Título Profesional y de Especialidad"
+Description: "La institución emisora del título profesional y/o especialidad corresponde al nombre de la institución formadora que otorga el respectivo título o certificación, acreditando que el prestador de salud ha cumplido con todas las exigencias académicas y formativas establecidas en el programa de formación correspondiente."
 
 * ^version = "1.0.0"
 * ^status = #active
 * ^experimental = true
-* ^date = "2022-01-18T00:00:00-03:00"
-* ^contact.name = "HL7 Chile"
-* ^contact.telecom.system = #email
-* ^contact.telecom.value = "chair@hl7chile.cl"
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
 
-* codes from system  CSTituloProfesional
+* codes from system  eis-InstitucionEmisoradeTituloProfesionalydeEspecialidad-VS
 
 
-/********************************************************/
-
-CodeSystem:  CSInstitucionEmiteTitulo
-Id: CSInstitucionEmiteTitulo
-Title: "Institución Emisora de Título Profesional"
-Description: "Códigos de Centros Educacionales, Institutos, Universidades, etc que emiten certificados profesionles"
+CodeSystem:  InstitucionEmisoradeTituloProfesionalydeEspecialidadVS
+Id: eis-InstitucionEmisoradeTituloProfesionalydeEspecialidad-VS
+Title: "Institución Emisora de Título Profesional y de Especialidad"
+Description: "La institución emisora del título profesional y/o especialidad corresponde al nombre de la institución formadora que otorga el respectivo título o certificación, acreditando que el prestador de salud ha cumplido con todas las exigencias académicas y formativas establecidas en el programa de formación correspondiente."
+* ^language = #es
 * ^caseSensitive = true
-* ^experimental = true //dependera del uso que le den al codesystem
-* ^version = "1.0.0"
-* ^status = #active
-* ^date = "2022-01-18T00:00:00-03:00"
-* ^contact.name = "HL7 Chile"
-* ^contact.telecom.system = #email
-* ^contact.telecom.value = "chair@hl7chile.cl"
-* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
-
-* #1 "PONTIFICIA UNIVERSIDAD CATÓLICA DE VALPARAÍSO"
-* #2 "UNIVERSIDAD ACADEMIA DE HUMANISMO CRISTIANO"
-* #3 "UNIVERSIDAD ADVENTISTA DE CHILE"
-* #4 "UNIVERSIDAD ADOLFO IBÁÑEZ"
-* #5 "UNIVERSIDAD ALBERTO HURTADO"
-* #6 "UNIVERSIDAD ANDRÉS BELLO"
-* #7 "UNIVERSIDAD ARTURO PRAT"
-* #8 "UNIVERSIDAD AUSTRAL DE CHILE"
-* #9 "UNIVERSIDAD AUTÓNOMA DE CHILE"
-* #10 "UNIVERSIDAD BERNARDO O HIGGINS"
-* #11 "UNIVERSIDAD CATÓLICA DE LA SANTÍSIMA CONCEPCIÓN"
-* #12 "UNIVERSIDAD CATÓLICA SILVA HENRÍQUEZ"
-* #13 "UNIVERSIDAD CATÓLICA DE TEMUCO"
-* #14 "UNIVERSIDAD CATÓLICA DEL MAULE"
-* #15 "UNIVERSIDAD CATÓLICA DEL NORTE"
-* #16 "UNIVERSIDAD CENTRAL DE CHILE"
-* #17 "UNIVERSIDAD DE ANTOFAGASTA"
-* #18 "UNIVERSIDAD DE ARTE Y CIENCIAS SOCIALES ARCIS"
-* #19 "UNIVERSIDAD DE ARTES, CIENCIAS Y COMUNICACIÓN UNIACC"
-* #20 "UNIVERSIDAD DE ATACAMA"
-* #21 "UNIVERSIDAD UCINF"
-* #22 "UNIVERSIDAD DE CHILE"
-* #23 "UNIVERSIDAD DE CONCEPCIÓN"
-* #24 "UNIVERSIDAD DE LA FRONTERA"
-* #25 "UNIVERSIDAD DE LA SERENA"
-* #26 "UNIVERSIDAD DE LAS AMÉRICAS"
-* #27 "UNIVERSIDAD DE LOS ANDES"
-* #28 "UNIVERSIDAD DE LOS LAGOS"
-* #29 "UNIVERSIDAD DE MAGALLANES"
-* #30 "UNIVERSIDAD DE PLAYA ANCHA DE CIENCIAS DE LA EDUCACIÓN"
-* #31 "UNIVERSIDAD DE SANTIAGO DE CHILE"
-* #32 "UNIVERSIDAD DE TALCA"
-* #33 "UNIVERSIDAD DE TARAPACÁ"
-* #34 "UNIVERSIDAD DE VALPARAÍSO"
-* #35 "UNIVERSIDAD DE VIÑA DEL MAR"
-* #36 "UNIVERSIDAD DEL BÍO-BÍO"
-* #37 "UNIVERSIDAD DEL MAR"
-* #38 "UNIVERSIDAD DEL DESARROLLO"
-* #39 "UNIVERSIDAD DEL PACÍFICO"
-* #40 "UNIVERSIDAD DIEGO PORTALES"
-* #41 "UNIVERSIDAD FINIS TERRAE"
-* #42 "UNIVERSIDAD IBEROAMERICANA DE CIENCIAS Y TECNOLOGÍA UNICIT"
-* #43 "UNIVERSIDAD LA REPÚBLICA"
-* #44 "UNIVERSIDAD DEL ALBA"
-* #45 "UNIVERSIDAD METROPOLITANA DE CIENCIAS DE LA EDUCACIÓN"
-* #46 "UNIVERSIDAD SAN SEBASTIÁN"
-* #47 "UNIVERSIDAD TÉCNICA FEDERICO SANTA MARÍA"
-* #48 "UNIVERSIDAD TECNOLÓGICA DE CHILE INACAP"
-* #49 "UNIVERSIDAD SANTO TOMÁS"
-* #50 "UNIVERSIDAD TECNOLÓGICA METROPOLITANA"
-* #51 "UNIVERSIDAD MAYOR"
-* #52 "UNIVERSIDAD SEK"
-* #53 "UNIVERSIDAD GABRIELA MISTRAL"
-* #54 "UNIVERSIDAD MIGUEL DE CERVANTES"
-* #55 "UNIVERSIDAD BOLIVARIANA"
-* #56 "UNIVERSIDAD LOS LEONES"
-* #57 "INSTITUTO PROFESIONAL AIEP"
-* #58 "INSTITUTO PROFESIONAL DE CHILE"
-* #59 "INSTITUTO PROFESIONAL DIEGO PORTALES"
-* #60 "INSTITUTO PROFESIONAL DUOC UC"
-* #61 "INSTITUTO PROFESIONAL INACAP"
-* #62 "INSTITUTO PROFESIONAL VIRGINIO GÓMEZ"
-* #63 "INSTITUTO PROFESIONAL CARLOS CASANUEVA"
-* #64 "INSTITUTO PROFESIONAL LOS LEONES"
-* #65 "INSTITUTO PROFESIONAL VALLE CENTRAL"
-* #66 "INSTITUTO PROFESIONAL LATINOAMERICANO DE COMERCIO EXTERIOR, IPLACEX"
-
-ValueSet:  VSInstitucionEmiteTitulo
-Id: VSInstitucionEmiteTitulo
-Title: "Institución Emisora de Título Profesional"
-Description: "Códigos de Centros Educacionales, Institutos, Universidades, etc que emiten certificados profesionles"
-
 * ^version = "1.0.0"
 * ^status = #active
 * ^experimental = true
-* ^date = "2022-01-18T00:00:00-03:00"
-* ^contact.name = "HL7 Chile"
-* ^contact.telecom.system = #email
-* ^contact.telecom.value = "chair@hl7chile.cl"
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
 
-* codes from system  CSInstitucionEmiteTitulo
+* #1 "Academia De Ciencias Policiales De Carabineros"
+* #2 "Academia De Guerra Aérea"
+* #3 "Academia De Guerra Del Ejército"
+* #4 "Academia De Guerra Naval De La Armada"
+* #5 "Academia Nacional De Estudios Políticos Y Estratégicos"
+* #6 "Academia Politécnica Aeronáutica"
+* #7 "Academia Politécnica Militar"
+* #8 "Academia Politécnica Naval"
+* #9 "Academia Superior De Estudios Policiales De La Policía De Investigaciones De Chile"
+* #10 "CFT Acreditación Del Medio Ambiente IDMA"
+* #11 "CFT ACCIOMA"
+* #12 "Instituto Adolfo Matthei"
+* #13 "Instituto AIEP"
+* #14 "CFT Alpes – Centro De Formación Técnica"
+* #15 "CFT Andrés Bello – Centro De Formación Técnica"
+* #16 "Instituto Arcos – Instituto Profesional De Artes Y Comunicación"
+* #17 "Instituto Arco Santiago – Instituto Profesional Escuela De Comercio"
+* #18 "Universidad De Arte Y Ciencias Sociales (ARCIS)"
+* #19 "Universidad Atacama"
+* #20 "Universidad Autónoma De Chile"
+* #21 "Universidad Austral De Chile"
+* #22 "Universidad Aysén"
+* #23 "CFT Barros Arana – Centro De Formación Técnica"
+* #24 "Universidad Bío-Bío"
+* #25 "Universidad Bolivariana"
+* #26 "CFT Lota Arauco (Campus Arauco)"
+* #27 "CFT Canon – Centro De Formación Técnica"
+* #28 "Escuela De Suboficiales (Carabineros “S.O.M. Fabriciano González Urzúa”)"
+* #29 "Escuela Carabineros De Chile"
+* #30 "Academia Politécnica Aeronáutica (Carga Aérea)"
+* #31 "Instituto Carlos Casanueva – Instituto Profesional"
+* #32 "Instituto Catequístico Puc – Instituto Profesional"
+* #33 "CFT Ceduc-Ucn"
+* #34 "CFT Ceitec"
+* #35 "CFT Cenco"
+* #36 "Universidad Central De Chile"
+* #37 "CFT Centro Tecnológico Superior Infomed"
+* #38 "Universidad Chile"
+* #39 "Academia Ciencias Policiales De Carabineros"
+* #40 "Instituto Cine De Chile – Instituto Profesional Escuela"
+* #41 "Pontificia Universidad Corporación Cft Pucv (Cft De La Pontificia U. Católica De Valparaíso)"
+* #42 "CFT Educap"
+* #43 "CFT Enac"
+* #44 "CFT Escuela Culinaria Francesa"
+* #45 "CFT Escuela De Comercio De Santiago"
+* #46 "CFT Escuela Superior De Administración De Negocios Del Norte (Esane Del Norte)"
+* #47 "CFT Icce"
+* #48 "CFT Icel"
+* #49 "CFT Inacap"
+* #50 "CFT Insec"
+* #51 "CFT Instituto Superior Alemán De Comercio Insalco"
+* #52 "CFT Instituto Tecnológico De Chile Itc"
+* #53 "CFT Iprosec"
+* #54 "CFT Juan Bohon"
+* #55 "CFT Laplace"
+* #56 "CFT Los Lagos"
+* #57 "CFT Lota Arauco"
+* #58 "CFT Manpower"
+* #59 "CFT Proandes"
+* #60 "CFT Prodata"
+* #61 "CFT Profasoc"
+* #62 "CFT Protec"
+* #63 "CFT San Agustín"
+* #64 "CFT Santo Tomás"
+* #65 "CFT Tarapacá"
+* #66 "CFT Teodoro Wickel Klüwen"
+* #67 "CFT Uda"
+* #68 "CFT Uvalpo"
+* #69 "CFT Duoc Uc"
+* #70 "Instituto Duoc Uc – Instituto Profesional"
+* #71 "Instituto Eatrl – Instituto Profesional"
+* #72 "Escuela De Aviación Capitán Manuel Ávalos Prado"
+* #73 "Escuela De Carabineros De Chile “General Carlos Ibáñez Del Campo”"
+* #74 "Escuela De Especialidades “Sgto. 1.º Adolfo Menadier Rojas” (Fuerza Aérea)"
+* #75 "Escuela De Grumetes A.N.C."
+* #76 "Escuela De Investigaciones Policiales"
+* #77 "Escuela De Suboficiales De Carabineros De Chile “S.O.M. Fabriciano González Urzúa”"
+* #78 "Escuela De Suboficiales “Sg2. Daniel Rebolledo Sepúlveda” (Ejército)"
+* #79 "Escuela Militar Del Libertador Bernardo O’Higgins"
+* #80 "Escuela Naval Arturo Prat"
+* #81 "Escuela Técnica Aeronáutica"
+* #82 "Instituto De Cine De Chile – Instituto Profesional"
+* #83 "Instituto Esc. De Contadores Auditores De Santiago – Instituto Profesional"
+* #84 "Instituto Moderna De Música – Instituto Profesional"
+* #85 "Instituto Esucomex – Instituto Profesional"
+* #86 "Instituto Galdámez (Ipg) – Instituto Profesional"
+* #87 "Instituto Guillermo Subercaseaux – Instituto Profesional"
+* #88 "Instituto Superior De Artes Y Ciencias De La Comunicación (Iacc)"
+* #89 "Instituto Nacional Del Fútbol, Deporte Y Actividad Física (Inaf)"
+* #90 "Instituto Internacional De Artes Culinarias Y Servicios"
+* #91 "Instituto De Chile"
+* #92 "Instituto Diego Portales"
+* #93 "Instituto Incacea – Instituto Profesional"
+* #94 "Instituto Latinoamericano De Comercio Exterior (Iplacex)"
+* #95 "Instituto Libertador De Los Andes – Profesional"
+* #96 "Instituto Los Lagos – Profesional"
+* #97 "Instituto Los Leones – Profesional"
+* #98 "Instituto Projazz – Profesional"
+* #99 "Instituto Providencia – Profesional"
+* #100 "Instituto San Sebastián – Profesional"
+* #101 "Instituto Santo Tomás – Profesional"
+* #102 "Instituto Valle Central – Profesional"
+* #103 "Instituto Virginio Gómez – Profesional"
+* #104 "Instituto Ip Inacap – Instituto Profesional"
+* #105 "CFT Juan Bohon"
+* #106 "Pontificia Universidad Católica De Chile"
+* #107 "Pontificia Universidad Católica De Valparaíso"
+* #108 "Universidad Academia De Humanismo Cristiano"
+* #109 "Universidad Adolfo Ibáñez"
+* #110 "Universidad Adventista De Chile"
+* #111 "Universidad Alberto Hurtado"
+* #112 "Universidad Andrés Bello"
+* #113 "Universidad Arturo Prat"
+* #114 "Universidad Austral De Chile"
+* #115 "Universidad Autónoma De Chile"
+* #116 "Universidad Bernardo O’Higgins"
+* #117 "Universidad Bolivariana"
+* #118 "Universidad Católica De La Santísima Concepción"
+* #119 "Universidad Católica De Temuco"
+* #120 "Universidad Católica Del Maule"
+* #121 "Universidad Católica Del Norte"
+* #122 "Universidad Católica Silva Henríquez"
+* #123 "Universidad Central De Chile"
+* #124 "Universidad De Aconcagua"
+* #125 "Universidad De Antofagasta"
+* #126 "Universidad De Arte Y Ciencias Sociales Arcis"
+* #127 "Universidad De Artes, Ciencias Y Comunicación Uniacc"
+* #128 "Universidad De Atacama"
+* #129 "Universidad De Aysén"
+* #130 "Universidad De Chile"
+* #131 "Universidad De Concepción"
+* #132 "Universidad De La Frontera"
+* #133 "Universidad De La Serena"
+* #134 "Universidad De Las Américas"
+* #135 "Universidad De Los Andes"
+* #136 "Universidad De Los Lagos"
+* #137 "Universidad De Magallanes"
+* #138 "Universidad De O’Higgins"
+* #139 "Universidad De Playa Ancha De Ciencias De La Educación"
+* #140 "Universidad De Santiago De Chile"
+* #141 "Universidad De Talca"
+* #142 "Universidad De Tarapacá"
+* #143 "Universidad De Valparaíso"
+* #144 "Universidad Del Alba"
+* #145 "Universidad Del Bío-Bío"
+* #146 "Universidad Del Desarrollo"
+* #147 "Universidad Del Mar"
+* #148 "Universidad Del Pacífico"
+* #149 "Universidad Diego Portales"
+* #150 "Universidad Finis Terrae"
+* #151 "Universidad Gabriela Mistral"
+* #152 "Universidad Iberoamericana De Ciencias Y Tecnología Unicit"
+* #153 "Universidad La República"
+* #154 "Universidad Los Leones"
+* #155 "Universidad Mayor"
+* #156 "Universidad Metropolitana De Ciencias De La Educación"
+* #157 "Universidad Miguel De Cervantes"
+* #158 "Universidad San Sebastián"
+* #159 "Universidad Santo Tomás"
+* #160 "Universidad SEK"
+* #161 "Universidad Técnica Federico Santa María"
+* #162 "Universidad Tecnológica De Chile Inacap"
+* #163 "Universidad Tecnológica Metropolitana"
+* #164 "Universidad UCINF"
+* #165 "Universidad Viña Del Mar"
+
 /********************************************************/
 
 ValueSet: VSInstitucionEmiteEspecialidad
@@ -653,28 +640,6 @@ Description: "InstituciónEmiteEspecialidad"
 
 
 
-/********************************************************/
-
-
-
-/********************************************************/
-
-
-
-/********************************************************/
-
-
-/********************************************************/
-
-
-
-/********************************************************/
-
-
-
-/********************************************************/
-
-
 
 /********************************************************/
 
@@ -718,47 +683,4 @@ Description: "OtroTipoEstabAsistenciales"
 * #9 "Centros de Diagnóstico y Tratamiento Privados "
 
 /********************************************************/
-
-
-
-/********************************************************/
-
-
-
-/********************************************************/
-
-
-
-
-/********************************************************/
-
-
-/********************************************************/
-
-
-
-/********************************************************/
-
-
-
-/********************************************************/
-
-
-
-/********************************************************/
-
-
-/********************************************************/
-
-
-
-/********************************************************/
-
-
-
-
-
-
-
-
 

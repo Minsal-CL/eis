@@ -9,26 +9,26 @@ nacionalidad
 pais_origen
 estado_civil <---
 pueblo_indigena <---
-religion_culto
-pueblos_tribales
-nivel_discapacidad
-origen_discapacidad
-nivel_educativo
-condicion_actividad_laboral
-ocupacion
-ocupaciones_desagregadas
-prevision_salud
-tipo_sistema_salud
-modalidad_atencion
-tramos_fonasa
-leyes_relacionadas
-seremi
-servicio_salud
-titulo_profesional
-titulo_profesional_sct
-institucion_emisora
-especialidad_medica
-ges_90
+religion_culto <---
+pueblos_tribales <---
+nivel_discapacidad <---
+origen_discapacidad <---
+nivel_educativo <---
+condicion_actividad_laboral <---
+ocupacion <---
+ocupaciones_desagregadas <---
+prevision_salud <---
+tipo_sistema_salud <---
+modalidad_atencion <---
+tramos_fonasa <---
+leyes_relacionadas *** NO ESTA
+seremi <---
+servicio_salud <---
+titulo_profesional <---
+titulo_profesional_sct <---
+institucion_emisora <---
+especialidad_medica <---
+ges_90 <---
 
 
 Franco 

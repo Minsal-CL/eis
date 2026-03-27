@@ -1,44 +1,68 @@
-CodeSystem:  CSOcupaciones
-Id: CSOcupaciones
-Title: "Ocupaciones Paciente"
-Description: "Código asociados a la Ocupación del paciente"
-* ^caseSensitive = true
-* ^experimental = true //dependera del uso que le den al codesystem
+/********************************************************/
+
+ValueSet: GruposdeOcupacionesVS
+Id: eis-GruposdeOcupaciones-VS
+Title: "Grupos de Ocupaciones"
+Description: "La ocupación corresponde al conjunto de tareas y funciones asociadas al empleo que la persona desempeña o ha desempeñado. Una persona puede estar vinculada a una ocupación a través de su empleo principal, un empleo secundario o un empleo desempeñado anteriormente."
 * ^version = "1.0.0"
 * ^status = #active
-* ^date = "2022-01-18T00:00:00-03:00"
-* ^contact.name = "HL7 Chile"
-* ^contact.telecom.system = #email
-* ^contact.telecom.value = "chair@hl7chile.cl"
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
 
-* #1 "Miembro del Poder Ejecutivo de los Cuerpos Legislativos, Personal Directivo de la Administración Pública y de Empresa."
-* #2 "Profesionales Científicos o Intelectuales."
+* codes from system eis-GruposdeOcupaciones-CS
+
+CodeSystem:  GruposdeOcupacionesCS
+Id: eis-GruposdeOcupaciones-CS
+Title: "Grupos de Ocupaciones"
+Description: "La ocupación corresponde al conjunto de tareas y funciones asociadas al empleo que la persona desempeña o ha desempeñado. Una persona puede estar vinculada a una ocupación a través de su empleo principal, un empleo secundario o un empleo desempeñado anteriormente."
+* ^language = #es
+* ^caseSensitive = true
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Directores, Gerentes y Administradores"
+* #2 "Profesionales, Científicos e Intelectuales"
 * #3 "Técnicos y Profesionales de Nivel Medio"
-* #4 "Empleados de Oficina"
+* #4 "Personal de Apoyo Administrativo"
 * #5 "Trabajadores de los Servicios y Vendedores de Comercio y Mercado"
 * #6 "Agricultores y Trabajadores Calificados Agropecuarios y Pesqueros"
-* #7 "Oficiales, Operarios y Artesanos de Artes Mecánicas y de Otros Oficios"
-* #8 "Operadores de Instalaciones y Máquinas y Montadoras"
-* #9 "Trabajadores No Calificados"
-* #10 "Fuerzas Armadas"
+* #7 "Artesanos y Operarios de Oficios"
+* #8 "Operadores de Instalaciones, Máquinas y Ensambladores"
+* #9 "Ocupaciones Elementales"
+* #10 "Ocupaciones de las Fuerzas Armadas"
 * #99 "Desconocido"
 
 /********************************************************/
-
-
-CodeSystem:  CSOcupacionesDetalladas
-Id: CSOcupacionesDetalladas
-Title: "Ocupaciones Detalladas"
+ValueSet: OcupacionesDesagregadasVS
+Id: eis-OcupacionesDesagregadas-VS
+Title: "Ocupaciones Desagregadas"
 Description: "Código asociados a el detalle de las ocupaciones de un paciente"
-* ^caseSensitive = true
-* ^experimental = true //dependera del uso que le den al codesystem
 * ^version = "1.0.0"
 * ^status = #active
-* ^date = "2022-01-18T00:00:00-03:00"
-* ^contact.name = "HL7 Chile"
-* ^contact.telecom.system = #email
-* ^contact.telecom.value = "chair@hl7chile.cl"
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system eis-OcupacionesDesagregadas-CS
+
+CodeSystem:  OcupacionesDesagregadasCS
+Id: eis-OcupacionesDesagregadas-CS
+Title: "Ocupaciones Desagregadas"
+Description: "Código asociados a el detalle de las ocupaciones de un paciente"
+* ^language = #es
+* ^caseSensitive = true
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
 
 * #0110 "Oficiales de las Fuerzas Armadas"

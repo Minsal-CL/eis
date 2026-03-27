@@ -1,83 +1,23 @@
 /********************************************************/
-CodeSystem:  CSSituacionDiscapacidadOrigen
-Id: CSSituacionDiscapacidadOrigen
-Title: "Valoración de Desempeño en Comunidad (IVADEC-CIF)"
-Description: "Valoración de Desempeño en Comunidad (IVADEC-CIF)"
-* ^caseSensitive = true
-* ^experimental = true //dependera del uso que le den al codesystem
-* ^version = "1.0.0"
-* ^status = #active
-* ^date = "2022-01-18T00:00:00-03:00"
-* ^contact.name = "HL7 Chile"
-* ^contact.telecom.system = #email
-* ^contact.telecom.value = "chair@hl7chile.cl"
-* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
-
-* #1 "Origen Físico"
-* #2 "Origen sensorial visual"
-* #3 "Origen sensorial auditivo"
-* #4 "Origen mental síquico"
-* #5 "Origen mental intelectual"
-* #6 "Origen múltiple"
-
-ValueSet: VSSituacionDiscapacidadOrigen
-Id: VSSituacionDiscapacidadOrigen
-Title: "Valoración de Desempeño en Comunidad (IVADEC-CIF)"
-Description: "Valoración de Desempeño en Comunidad (IVADEC-CIF)"
-* ^version = "1.0.0"
-* ^status = #active
-* ^experimental = true
-* ^date = "2022-01-18T00:00:00-03:00"
-* ^contact.name = "HL7 Chile"
-* ^contact.telecom.system = #email
-* ^contact.telecom.value = "chair@hl7chile.cl"
-* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
-
-* codes from system CSSituacionDiscapacidadOrigen
-/********************************************************/
-
-/********************************************************/
-CodeSystem:  CSSituacionDiscapacidadNivel
-Id: CSSituacionDiscapacidadNivel
-Title: "Valoración de Desempeño en Comunidad (IVADEC-CIF)"
-Description: "Valoración de Desempeño en Comunidad (IVADEC-CIF)"
-* ^caseSensitive = true
-* ^experimental = true //dependera del uso que le den al codesystem
-* ^version = "1.0.0"
-* ^status = #active
-* ^date = "2022-01-18T00:00:00-03:00"
-* ^contact.name = "HL7 Chile"
-* ^contact.telecom.system = #email
-* ^contact.telecom.value = "chair@hl7chile.cl"
-* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
-
-* #1 "Sin discapacidad"
-* #2 "Discapacidad leve"
-* #3 "Discapacidad moderada"
-* #4 "Discapacidad severa"
-* #5 "Discapacidad profunda"
-
-ValueSet: VSSituacionDiscapacidadNivel
-Id: VSSituacionDiscapacidadNivel
-Title: "Valoración de Desempeño en Comunidad (IVADEC-CIF)"
-Description: "Valoración de Desempeño en Comunidad (IVADEC-CIF)"
-* ^version = "1.0.0"
-* ^status = #active
-* ^experimental = true
-* ^date = "2022-01-18T00:00:00-03:00"
-* ^contact.name = "HL7 Chile"
-* ^contact.telecom.system = #email
-* ^contact.telecom.value = "chair@hl7chile.cl"
-* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
-
-* codes from system CSSituacionDiscapacidadNivel
-/********************************************************/
-
-/********************************************************/
-CodeSystem:  CSTipoSistemaSalud
-Id: CSTipoSistemaSalud
+ValueSet: TipodeSistemadeSaludVS
+Id: eis-TipodeSistemadeSalud-VS
 Title: "Tipo de Sistema de Salud"
-Description: "Código asociados al tipo de sistema de salud en el cual se atiende el paciente"
+Description: "Identifica el sistema de aseguramiento de salud al cual se encuentra adscrita la persona, ya sea FONASA, ISAPRE o regímenes institucionales como Capredena o Dipreca. Este dato permite determinar copagos, beneficios y las rutas de derivación dentro de la red asistencial."
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2022-01-18T00:00:00-03:00"
+* ^contact.name = "HL7 Chile"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "chair@hl7chile.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system  eis-TipodeSistemadeSalud-CS
+
+CodeSystem:  TipodeSistemadeSaludCS
+Id: eis-TipodeSistemadeSalud-CS
+Title: "Tipo de Sistema de Salud"
+Description: "Identifica el sistema de aseguramiento de salud al cual se encuentra adscrita la persona, ya sea FONASA, ISAPRE o regímenes institucionales como Capredena o Dipreca. Este dato permite determinar copagos, beneficios y las rutas de derivación dentro de la red asistencial."
 * ^caseSensitive = true
 * ^experimental = true //dependera del uso que le den al codesystem
 * ^version = "1.0.0"
@@ -88,125 +28,102 @@ Description: "Código asociados al tipo de sistema de salud en el cual se atiend
 * ^contact.telecom.value = "chair@hl7chile.cl"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
 
-* #1 "Público" 
-* #2 "Privado" 
+* #1 "Público"
+* #2 "Privado"
 * #3 "Fuerzas Armadas y de Orden y Seguridad Pública"
-
-ValueSet: VSTipoSistemaSalud
-Id: VSTipoSistemaSalud
-Title: "Tipo de Sistema de Salud"
-Description: "Código asociados al tipo de sistema de salud en el cual se atiende el paciente"
-* ^version = "1.0.0"
-* ^status = #active
-* ^experimental = true
-* ^date = "2022-01-18T00:00:00-03:00"
-* ^contact.name = "HL7 Chile"
-* ^contact.telecom.system = #email
-* ^contact.telecom.value = "chair@hl7chile.cl"
-* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
-
-* codes from system  CSTipoSistemaSalud
 /********************************************************/
 
 /********************************************************/
-CodeSystem:  CSMModalidadAtencionFonasa
-Id: CSModalidadAtencionFonasa
+ValueSet: ModalidaddeAtencionFONASAVS
+Id: eis-ModalidaddeAtencionFONASA-VS
 Title: "Modalidad de Atención FONASA"
-Description: "Código asociados al tipo de modalidad en la cual se atiende el paciente FONASA"
-* ^caseSensitive = true
-* ^experimental = true //dependera del uso que le den al codesystem
+Description: "La modalidad de atención FONASA corresponde a la forma en que  una persona afiliada voluntariamente al Fondo Nacional de Salud (FONASA) accede a las prestaciones de salud, permitiéndole contar con los servicios y la protección financiera otorgada por el Seguro Público de Salud"
 * ^version = "1.0.0"
 * ^status = #active
-* ^date = "2022-01-18T00:00:00-03:00"
-* ^contact.name = "HL7 Chile"
-* ^contact.telecom.system = #email
-* ^contact.telecom.value = "chair@hl7chile.cl"
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
 
-* #1 "MAI Modalidad de Atención Institucional" 
-* #2 "MLE Modalidad de Atención Libre Elección" 
+* codes from system  esi-ModalidaddeAtencionFONASA-CS
 
-ValueSet: VSModalidadAtencionFonasa
-Id: VSModalidadAtencionFonasa
+CodeSystem:  ModalidaddeAtencionFONASACS
+Id: eis-ModalidaddeAtencionFONASA-CS
 Title: "Modalidad de Atención FONASA"
-Description: "Código asociados al tipo de modalidad en la cual se atiende el paciente FONASA"
-* ^version = "1.0.0"
-* ^status = #active
-* ^experimental = true
-* ^date = "2022-01-18T00:00:00-03:00"
-* ^contact.name = "HL7 Chile"
-* ^contact.telecom.system = #email
-* ^contact.telecom.value = "chair@hl7chile.cl"
-* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
-
-* codes from system  CSModalidadAtencionFonasa
-/********************************************************/
-
-/********************************************************/
-CodeSystem:  CSTramosFonasa
-Id: CSTramosFonasa
-Title: "Tramos de FONASA"
-Description: "Código asociados a el tramo al cual pertenece el paciente a FONASA"
+Description: "La modalidad de atención FONASA corresponde a la forma en que  una persona afiliada voluntariamente al Fondo Nacional de Salud (FONASA) accede a las prestaciones de salud, permitiéndole contar con los servicios y la protección financiera otorgada por el Seguro Público de Salud"
+* ^language = #es
 * ^caseSensitive = true
-* ^experimental = true //dependera del uso que le den al codesystem
-* ^version = "1.0.0"
-* ^status = #active
-* ^date = "2022-01-18T00:00:00-03:00"
-* ^contact.name = "HL7 Chile"
-* ^contact.telecom.system = #email
-* ^contact.telecom.value = "chair@hl7chile.cl"
-* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
-
-* #A "TRAMO A"
-* #B "TRAMO B" 
-* #C "TRAMO C"
-* #D "TRAMO D"
-
-ValueSet: VSTramosFonasa
-Id: VSTramosFonasa
-Title: "Tramos de FONASA"
-Description: "Código asociados a el tramo al cual pertenece el paciente a FONASA"
 * ^version = "1.0.0"
 * ^status = #active
 * ^experimental = true
-* ^date = "2022-01-18T00:00:00-03:00"
-* ^contact.name = "HL7 Chile"
-* ^contact.telecom.system = #email
-* ^contact.telecom.value = "chair@hl7chile.cl"
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
 
-* codes from system  CSTramosFonasa
+* #MAI "Modalidad de Atención Institucional" "El beneficiario/a recibe atención en hospitales y establecimientos de atención primaria perteneciente a la red pública de salud"
+* #MLE "Modalidad Libre Elección" "El beneficiario/a accede a prestaciones de salud mediante prestadores privados adscritos a esta modalidad, tanto en atención ambulatoria como hospitalaria"
+
+/********************************************************/
+TramosFONASA
+/********************************************************/
+ValueSet: TramosFONASAVS
+Id: eis-TramosFONASA-VS
+Title: "Tramos FONASA"
+Description: "Los tramos FONASA corresponden a la clasificación que realiza el Fondo Nacional de Salud (FONASA) en función del nivel de ingreso mensual que percibe la persona, la cual determina el acceso a beneficios, copagos y modalidades de atención dentro del Seguro Público de Salud. "
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system  eis-TramosFONASA-CS
+
+CodeSystem: TramosFONASACS
+Id: eis-TramosFONASA-CS
+Title: "Tramos FONASA"
+Description: "Los tramos FONASA corresponden a la clasificación que realiza el Fondo Nacional de Salud (FONASA) en función del nivel de ingreso mensual que percibe la persona, la cual determina el acceso a beneficios, copagos y modalidades de atención dentro del Seguro Público de Salud. "
+* ^language = #es
+* ^caseSensitive = true
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #A "Tramo A"
+* #B "Tramo B"
+* #C "Tramo C"
+* #D "Tramo D"
+
 /********************************************************/
 
 /********************************************************/
-ValueSet:  VSSeremi
-Id: VSSeremi
+ValueSet: SEREMIVS
+Id: eis-SEREMI-VS
 Title: "SEREMI"
-Description: "SEREMI"
-
+Description: "Corresponde a los códigos y valores asociados a cada Secretaría Regional Ministerial (SEREMI), utilizados en los sistemas de información en salud. La codificación de la SEREMI es coincidente con el código de la región, el cual prevalece para efectos de registro e interoperabilidad."
 * ^version = "1.0.0"
 * ^status = #active
 * ^experimental = true
-* ^date = "2022-01-18T00:00:00-03:00"
-* ^contact.name = "HL7 Chile"
-* ^contact.telecom.system = #email
-* ^contact.telecom.value = "chair@hl7chile.cl"
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
 
-* codes from system  CSLeyPrevisionales
+* codes from system  eis-SEREMI-CS
 
-CodeSystem: CSSeremi
-Id: CSSEREMI
-Title: "SEREMIs"
-Description: "SEREMIs"
-* ^experimental = false
+CodeSystem: SEREMICS
+Id: eis-SEREMI-CS
+Title: "SEREMI"
+Description: "Corresponde a los códigos y valores asociados a cada Secretaría Regional Ministerial (SEREMI), utilizados en los sistemas de información en salud. La codificación de la SEREMI es coincidente con el código de la región, el cual prevalece para efectos de registro e interoperabilidad."
+* ^language = #es
 * ^caseSensitive = true
-* ^version = "0.9"
+* ^version = "1.0.0"
 * ^status = #active
-* ^date = "2023-01-15"
-* ^contact.name = "MINSAL CHILE"
-* ^contact.telecom.system = #email
-* ^contact.telecom.value = "minsal@minsal.cl"
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
 
 * #1 "SEREMI De Tarapacá"
@@ -260,42 +177,39 @@ Description: "TipoPrestador"
 * #1 "Individuales"
 * #2 "Institucionales"
 /********************************************************/
-
+EspecialidadesySubespecialidadesMedicas
 /********************************************************/
-ValueSet: VSEspecialidadMedica
-Id: VSEspecialidadMedica
-Title: "EspecialidadMedica"
-Description: "EspecialidadMedica"
-* ^experimental = false
-* ^version = "0.1"
+ValueSet: EspecialidadesySubespecialidadesMedicasVS
+Id: eis-EspecialidadesySubespecialidadesMedicas-VS
+Title: "Especialidades y Subespecialidades Médicas"
+Description: "La certificación de especialidades y subespecialidades médicas corresponden al proceso mediante el cual se reconoce oficialmente que un prestador individual de salud posee y domina un conjunto de conocimientos, competencias y experiencias específicas, relevantes para el ejercicio profesional en un ámbito determinado de la atención de salud."
+* ^version = "1.0.0"
 * ^status = #active
-* ^date = "2023-01-15"
-* ^contact.name = "MINSAL CHILE"
-* ^contact.telecom.system = #email
-* ^contact.telecom.value = "minsal@minsal.cl"
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
 
-* codes from system CSEspecialidadMedica
+* codes from system eis-EspecialidadesySubespecialidadesMedicas-CS
 
-CodeSystem: CSEspecialidadMedica
-Id: CSEspecialidadMedica
-Title: "EspecialidadMedica"
-Description: "EspecialidadMedica"
-* ^experimental = false
+CodeSystem: EspecialidadesySubespecialidadesMedicasCS
+Id: eis-EspecialidadesySubespecialidadesMedicas-CS
+Title: "Especialidades y Subespecialidades Médicas"
+Description: "La certificación de especialidades y subespecialidades médicas corresponden al proceso mediante el cual se reconoce oficialmente que un prestador individual de salud posee y domina un conjunto de conocimientos, competencias y experiencias específicas, relevantes para el ejercicio profesional en un ámbito determinado de la atención de salud."
+* ^language = #es
 * ^caseSensitive = true
-* ^version = "0.9"
+* ^version = "1.0.0"
 * ^status = #active
-* ^date = "2023-01-15"
-* ^contact.name = "MINSAL CHILE"
-* ^contact.telecom.system = #email
-* ^contact.telecom.value = "minsal@minsal.cl"
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
 
 * #1 "Anatomía Patológica"
 * #2 "Anestesiología"
 * #3 "Cardiología"
 * #4 "Cirugía General"
-* #5 "Cirugía de Cabeza, Cuello y Maxilofacial"
+* #5 "Cirugía de Cabeza, Cuello y Maxilofac ial"
 * #6 "Cirugía Cardiovascular"
 * #7 "Cirugía de Tórax"
 * #8 "Cirugía Plástica y Reparadora"
@@ -360,7 +274,7 @@ Description: "EspecialidadMedica"
 * #67 "Traumatología y Ortopedia Pediátrica"
 * #68 "Urología Pediátrica"
 * #69 "Ginecología Oncológica"
-* #70 "Mastología (Cirugía de mamas)**"
+* #70 "Mastología (Cirugía de mamas)"
 * #71 "Medicina Paliativa y de Manejo del Dolor"
 * #72 "Medicina Reproductiva e Infertilidad"
 * #73 "Medicina del Adolescente"
