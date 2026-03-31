@@ -7,3 +7,5 @@ Alias:   geolocationAlias = http://hl7.org/fhir/StructureDefinition/geolocation
 RuleSet: RuleSetMeta
 * ^version = "0.5.0"
 * ^status = #draft
+
+Alias: DigitoVerificador = http://hl7.org/fhir/StructureDefinition/identifier-checkDigit

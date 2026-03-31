@@ -1,4 +1,4 @@
-/*
+
 Profile: ClAddress
 Parent: Address
 Id: cl-address
@@ -52,16 +52,6 @@ Description: "Variable dirección"
 * extension contains DireccionCompleta named DireccionCompletaCL 0..1 MS
 * extension ^short = "Extensión de Nacionalidad para pacientes extranjeros"
 * extension ^definition = "Para hacer uso de esta extensión se debe agregar el path: extension.url = \"nacionalidad\""
-
-/*
-* country ^short = "Campo para País de Residencia"
-* country ^definition = "Campo para País de Residencia"
-* country 1..1 MS
-* country.extension contains CodigoPaises named paises  1..1  MS
-* country.extension ^short = "Código de Países"
-* country.extension ^definition = "Código de Países"
-
-*/
 
 
 
