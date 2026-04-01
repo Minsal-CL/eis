@@ -250,23 +250,6 @@ Description: "Son unidades de atención que operan en territorios de acuerdo a u
 
 
 
-
-
-
-
-Extension:   LimiteUrbano
-Id:          LimiteUrbano
-Title:       "Limite urbano censal de la region"
-Description: "Limite urbano censal de la region"
-* value[x] only CodeableConcept
-* value[x] ^short = "Codigo limite urbano"
-* url 1..1 MS
-* valueCodeableConcept.coding 1..1 MS
-  * code 1..1 MS
-  * code from VSCodigoLimiteUrbanoCL
-  * system 0..1 MS
-  * display 0..1 MS
-
 Extension:   DireccionCompleta
 Id:          DireccionCompleta
 Title:       "Direccion Completa"
