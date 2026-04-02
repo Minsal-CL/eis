@@ -6,8 +6,8 @@
 id: hl7.fhir.cl.minsal.eis
 canonical: https://interoperabilidad.minsal.cl/fhir/ig/eis
 name: EstandaresdeInformaciondeSalud 
-title: Guía de Estandares de Informacionde Salud
-description: "Esta Guía de Estandares de Informacionde Salud desarrolla el Decreto Excento 231 del DEIS que reemplaza la norma técnica 820, y tiene como finalidad determinar compatibilidad de esta con el estándar FHIR"
+title: Guía de Estandares de Información de Salud
+description: "Esta Guía de Estandares de Información de Salud desarrolla el Decreto Excento 231 del DEIS que reemplaza la norma técnica 820, y tiene como finalidad determinar compatibilidad de esta con el estándar FHIR"
 status: draft # draft | active | retired | unknown
 version: 0.1.1
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
