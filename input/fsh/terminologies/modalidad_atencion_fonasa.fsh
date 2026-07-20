@@ -4,6 +4,7 @@ Modalidad de Atención	 / 	modalidad_atencion_fonasa_v1.0.0.csv
 ********************************************************/
 ValueSet: ModalidaddeAtencionFONASAVS
 Id: eis-ModalidaddeAtencionFONASA-VS
+Title: "Modalidad de Atención FONASA"
 Description: "La modalidad de atención FONASA corresponde a la forma en que  una persona afiliada voluntariamente al Fondo Nacional de Salud (FONASA) accede a las prestaciones de salud, permitiéndole contar con los servicios y la protección financiera otorgada por el Seguro Público de Salud"
 * ^version = "1.0.0"
 * ^status = #active
@@ -16,6 +17,7 @@ Description: "La modalidad de atención FONASA corresponde a la forma en que  un
 
 CodeSystem:  ModalidaddeAtencionFONASACS
 Id: eis-ModalidaddeAtencionFONASA-CS
+Title: "Modalidad de Atención FONASA"
 Description: "La modalidad de atención FONASA corresponde a la forma en que  una persona afiliada voluntariamente al Fondo Nacional de Salud (FONASA) accede a las prestaciones de salud, permitiéndole contar con los servicios y la protección financiera otorgada por el Seguro Público de Salud"
 * ^language = #es
 * ^caseSensitive = true

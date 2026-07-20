@@ -4,6 +4,7 @@ Subespecialidades médicas	 / 	especialidad-subespecialidad_medica_v1.0.0.csv
 ********************************************************/
 ValueSet: EspecialidadesySubespecialidadesMedicasVS
 Id: eis-EspecialidadesySubespecialidadesMedicas-VS
+Title: "Especialidades y Subespecialidades Medicas"
 Description: "La certificación de especialidades y subespecialidades médicas corresponden al proceso mediante el cual se reconoce oficialmente que un prestador individual de salud posee y domina un conjunto de conocimientos, competencias y experiencias específicas, relevantes para el ejercicio profesional en un ámbito determinado de la atención de salud."
 * ^version = "1.0.0"
 * ^status = #active
@@ -16,6 +17,7 @@ Description: "La certificación de especialidades y subespecialidades médicas c
 
 CodeSystem: EspecialidadesySubespecialidadesMedicasCS
 Id: eis-EspecialidadesySubespecialidadesMedicas-CS
+Title: "Especialidades y Subespecialidades Medicas"
 Description: "La certificación de especialidades y subespecialidades médicas corresponden al proceso mediante el cual se reconoce oficialmente que un prestador individual de salud posee y domina un conjunto de conocimientos, competencias y experiencias específicas, relevantes para el ejercicio profesional en un ámbito determinado de la atención de salud."
 * ^language = #es
 * ^caseSensitive = true

@@ -3,7 +3,8 @@ Religiones & Cultos
 Religiones o Cultos	 / 	religion_culto_v1.0.0.csv
 ********************************************************/
 ValueSet: ReligionVS
-Id: eis-Religion-VS
+Id: eis-religion-vs
+Title: "Religiones y Cultos"
 Description: "La religión o credo corresponde a un sistema de creencias y prácticas, de carácter individual o colectivo, relacionadas con lo que la persona considera sagrado o divino, y que se vinculan a su dimensión espiritual, existencial y cultural."
 * ^version = "1.0.0"
 * ^status = #active
@@ -12,10 +13,11 @@ Description: "La religión o credo corresponde a un sistema de creencias y prác
 * ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
 
-* codes from system eis-Religion-CS
+* codes from system eis-religion-cs
 
 CodeSystem:  ReligionCS
-Id: eis-Religion-CS
+Id: eis-religion-cs
+Title: "Religiones y Cultos"
 Description: "La religión o credo corresponde a un sistema de creencias y prácticas, de carácter individual o colectivo, relacionadas con lo que la persona considera sagrado o divino, y que se vinculan a su dimensión espiritual, existencial y cultural."
 * ^language = #es
 * ^caseSensitive = true

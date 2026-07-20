@@ -4,6 +4,7 @@ Condición de la Actividad Laboral	 / 	condicion_actividad_laboral_v1.0.0.csv
 ********************************************************/
 ValueSet: CondiciondelaActividadLaboralVS
 Id: eis-CondiciondelaActividadLaboral-VS
+Title: "Condicion de la Actividad Laboral"
 Description: "La condición de la actividad corresponde a la relación que mantiene la persona con el trabajo al momento del registro, y se vincula con su ciclo de vida laboral, permitiendo identificar su situación de actividad económica. "
 * ^version = "1.0.0"
 * ^status = #active
@@ -18,6 +19,7 @@ Description: "La condición de la actividad corresponde a la relación que manti
 
 CodeSystem: CondiciondelaActividadLaboralCS
 Id: eis-CondiciondelaActividadLaboral-CS
+Title: "Condicion de la Actividad Laboral"
 Description: "La condición de la actividad corresponde a la relación que mantiene la persona con el trabajo al momento del registro, y se vincula con su ciclo de vida laboral, permitiendo identificar su situación de actividad económica. "
 * ^language = #es
 * ^caseSensitive = true

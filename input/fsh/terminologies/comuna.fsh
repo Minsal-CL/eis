@@ -20,7 +20,7 @@ Description: "Comunas"
 CodeSystem: ComunasCS
 Id: eis-comunas-cs
 Title: "Comunas"
-Description: "Comunas"
+Description: "Código de comunas"
 * ^language = #es
 * ^experimental = false
 * ^caseSensitive = true

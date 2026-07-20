@@ -3,7 +3,7 @@ Tipo de Prestador
 Tipo de Prestador	 / 	tipo_prestador_v1.0.0.csv
 ********************************************************/
 ValueSet: TipoPrestadorVS
-Id: eis-tipo-prestador-VS
+Id: eis-tipo-prestador-vs
 Title: "Tipo de Prestador"
 Description: "Tipo de Prestador"
 * ^version = "1.0.0"
@@ -13,10 +13,10 @@ Description: "Tipo de Prestador"
 * ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
 
-* codes from system eis-tipo-prestador-CS
+* codes from system eis-tipo-prestador-cs
 
 CodeSystem: TipoPrestadorCS
-Id: eis-tipo-prestador-CS
+Id: eis-tipo-prestador-cs
 Title: "Tipo de Prestador"
 Description: "Tipo de Prestador"
 * ^language = #es

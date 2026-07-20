@@ -4,6 +4,7 @@ Ocupaciones Desagregadas	 / 	ocupaciones_desagregadas_v1.0.0.csv
 ********************************************************/
 ValueSet: OcupacionesDesagregadasVS
 Id: eis-OcupacionesDesagregadas-VS
+Title: "Ocupaciones Desagregadas"
 Description: "Código asociados a el detalle de las ocupaciones de un paciente"
 * ^version = "1.0.0"
 * ^status = #active
@@ -16,6 +17,7 @@ Description: "Código asociados a el detalle de las ocupaciones de un paciente"
 
 CodeSystem:  OcupacionesDesagregadasCS
 Id: eis-OcupacionesDesagregadas-CS
+Title: "Ocupaciones Desagregadas"
 Description: "Código asociados a el detalle de las ocupaciones de un paciente"
 * ^language = #es
 * ^caseSensitive = true

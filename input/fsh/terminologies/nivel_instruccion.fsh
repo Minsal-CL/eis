@@ -4,6 +4,7 @@ Nivel de Instrucción	 / 	nivel_instruccion_v1.0.0.csv
 ********************************************************/
 ValueSet:  NiveldeInstruccionVS
 Id: eis-NiveldeInstruccion-CS
+Title: "Nivel de Instrucción"
 Description: "Código del último nivel aprobado"
 * ^version = "1.0.0"
 * ^status = #active
@@ -16,6 +17,7 @@ Description: "Código del último nivel aprobado"
 
 CodeSystem:  NiveldeInstruccionCS
 Id: eis-NiveldeInstruccion-CS
+Title: "Nivel de Instrucción"
 Description: "Código del último nivel aprobado"
 * ^language = #es
 * ^caseSensitive = true

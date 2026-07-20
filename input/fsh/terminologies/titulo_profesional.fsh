@@ -3,7 +3,8 @@ Título Profesional
 Título Profesional	 / 	titulo_profesional_v1.0.0.csv
 ********************************************************/
 ValueSet: TituloProfesionalVS
-Id: eis-TituloProfesional-VS
+Id: eis-titulo-profesional-vs
+Title: "Título Profesional"
 Description: "El título profesional corresponde al documento oficial que acredita que una persona ha completado un programa formal de estudios y ha aprobado las evaluaciones, pruebas o exámenes requeridos para el ejercicio de una determinada profesión, certificando las competencias generales, científicas y técnicas necesarias para su adecuado desempeño profesional."
 * ^version = "1.0.0"
 * ^status = #active
@@ -12,10 +13,11 @@ Description: "El título profesional corresponde al documento oficial que acredi
 * ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
 
-* codes from system  eis-TituloProfesional-CS
+* codes from system  eis-titulo-profesional-cs
 
 CodeSystem: TituloProfesionalCS
-Id: eis-TituloProfesional-CS
+Id: eis-titulo-profesional-cs
+Title: "Título Profesional"
 Description: "El título profesional corresponde al documento oficial que acredita que una persona ha completado un programa formal de estudios y ha aprobado las evaluaciones, pruebas o exámenes requeridos para el ejercicio de una determinada profesión, certificando las competencias generales, científicas y técnicas necesarias para su adecuado desempeño profesional."
 * ^language = #es
 * ^caseSensitive = true

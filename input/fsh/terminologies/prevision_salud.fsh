@@ -4,6 +4,7 @@ Previsión de Salud	 / 	prevision_salud_v1.0.0.csv
 ********************************************************/
 ValueSet: PrevisiondeSaludVS
 Id: eis-PrevisiondeSalud-VS
+Title: "Previsión de Salud"
 Description: "La previsión corresponde a la variable que identifica el sistema de aseguramiento de salud vigente al que se encuentra adscrita la persona, el cual define la cobertura para acciones de promoción, prevención, tratamiento y control de las enfermedades."
 * ^version = "1.0.0"
 * ^status = #active
@@ -16,6 +17,7 @@ Description: "La previsión corresponde a la variable que identifica el sistema 
 
 CodeSystem:  PrevisiondeSaludCS
 Id: eis-PrevisiondeSalud-CS
+Title: "Previsión de Salud"
 Description: "La previsión corresponde a la variable que identifica el sistema de aseguramiento de salud vigente al que se encuentra adscrita la persona, el cual define la cobertura para acciones de promoción, prevención, tratamiento y control de las enfermedades."
 * ^language = #es
 * ^caseSensitive = true

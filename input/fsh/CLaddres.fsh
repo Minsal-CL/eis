@@ -3,7 +3,7 @@ Profile: DireccionEIS
 Parent: Address
 Id: eis-direccion
 Title: "Dirección"
-Description: "Variable dirección"
+Description: "Dirección"
 * ^version = "1.0.0"
 * . ^comment = "Variable dirección"
 * . ^short = "Tipo de dato para agragar la dirección de un paciente"
@@ -47,20 +47,20 @@ Description: "Variable dirección"
 * country.extension ^short = "Código de País"
 * country.extension ^definition = "Código de País"
 
-* extension contains LimiteUrbano named limiteUrbano 0..1 MS and geolocationAlias named coordenadas 0..1 MS and TipoDeVia named tipoDeVia 0..1 MS 
+* extension contains geolocationAlias named coordenadas 0..1 MS and TipoDeVia named tipoDeVia 0..1 MS 
 
-* extension[limiteUrbano] ^short = "Extensión para indicar si la dirección se encuentra dentro del límite urbano o no"
+//* extension[limiteUrbano] ^short = "Extensión para indicar si la dirección se encuentra dentro del límite urbano o no"
 * extension[coordenadas] ^short = "Extensión para agregar coordenadas geográficas"
 * extension[tipoDeVia] ^short = "Extensión para agregar el tipo de vía"
 
-Extension:   LimiteUrbano
-Id:          LimiteUrbano
-Title:       "Limite urbano censal de la region"
-Description: "Limite urbano censal de la region"
-* value[x] only CodeableConcept
-* value[x] ^short = "Codigo limite urbano"
-* url 1..1 MS
-* value[x] from LimiteUrbanoCensalVS
+//Extension:   LimiteUrbano
+//Id:          LimiteUrbano
+//Title:       "Limite urbano censal de la region"
+//Description: "Limite urbano censal de la region"
+//* value[x] only CodeableConcept
+//* value[x] ^short = "Codigo limite urbano" 
+//* url 1..1 MS
+//* value[x] from LimiteUrbanoCensalVS
 
 /* 		Extension 		*/
 /*	Comunas Chile	*/

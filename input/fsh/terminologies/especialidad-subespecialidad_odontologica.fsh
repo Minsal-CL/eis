@@ -1,3 +1,18 @@
+ValueSet: EspecialidadesOdontologicasVS
+Id: eis-especialidades-odontologicas-vs
+Title: "Especialidades y Subespecialidades Odontológicas"
+Description: "La certificación de especialidades y subespecialidades odontológicas corresponde al proceso mediante el cual se reconoce oficialmente que un prestador individual del área odontológica posee los conocimientos, competencias y experiencias específicas requeridas para el ejercicio profesional en un ámbito determinado de la atención odontológica."
+
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system EspecialidadesOdontologicasCS
+
+
 /********************************************************
 Especialidades y Subespecialidades Odontológicas
 Especialidades odontológicas	 / 	especialidad-subespecialidad_odontologica_v1.0.0.csv
@@ -32,16 +47,3 @@ Description: "La certificación de especialidades y subespecialidades odontológ
 * #15 "Odontogeriatría" "Odontogeriatría"
 * #16 "Rehabilitación Oral Fija" "Rehabilitación Oral Fija"
 
-ValueSet: EspecialidadesOdontologicasVS
-Id: eis-especialidades-odontologicas-vs
-Title: "Especialidades y Subespecialidades Odontológicas"
-Description: "La certificación de especialidades y subespecialidades odontológicas corresponde al proceso mediante el cual se reconoce oficialmente que un prestador individual del área odontológica posee los conocimientos, competencias y experiencias específicas requeridas para el ejercicio profesional en un ámbito determinado de la atención odontológica."
-
-* ^version = "1.0.0"
-* ^status = #active
-* ^experimental = true
-* ^date = "2026-03-01T00:00:00-03:00"
-* ^contact.name = "MINSAL Chile"
-* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
-
-* codes from system EspecialidadesOdontologicasCS

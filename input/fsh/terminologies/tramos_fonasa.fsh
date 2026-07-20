@@ -4,6 +4,7 @@ Tramos	 / 	tramos_fonasa_v1.0.0.csv
 ********************************************************/
 ValueSet: TramosFONASAVS
 Id: eis-tramos-fonasa-vs
+Title: "Tramos FONASA"
 Description: "Los tramos FONASA corresponden a la clasificación que realiza el Fondo Nacional de Salud (FONASA) en función del nivel de ingreso mensual que percibe la persona, la cual determina el acceso a beneficios, copagos y modalidades de atención dentro del Seguro Público de Salud. "
 * ^version = "1.0.0"
 * ^status = #active
@@ -16,6 +17,7 @@ Description: "Los tramos FONASA corresponden a la clasificación que realiza el 
 
 CodeSystem: TramosFONASACS
 Id: eis-tramos-fonasa-cs
+Title: "Tramos FONASA"
 Description: "Los tramos FONASA corresponden a la clasificación que realiza el Fondo Nacional de Salud (FONASA) en función del nivel de ingreso mensual que percibe la persona, la cual determina el acceso a beneficios, copagos y modalidades de atención dentro del Seguro Público de Salud. "
 * ^language = #es
 * ^caseSensitive = true

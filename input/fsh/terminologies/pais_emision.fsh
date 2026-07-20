@@ -4,8 +4,8 @@ País de emisión	 / 	pais_emision_v1.0.0.csv
 ********************************************************/
 ValueSet: PaisEmisionVS
 Id: eis-pais-emision-vs
-Title: "País de emisión Códigos de Países"
-Description: "País de emisión Codigos de países segun norma ISO3166-N"
+Title: "Códigos de Países"
+Description: "Codigos de países"
 
 * ^version = "1.0.0"
 * ^status = #active

@@ -4,6 +4,7 @@ Nivel de Discapacidad	 / 	nivel_discapacidad_v1.0.0.csv
 ********************************************************/
 ValueSet: NiveldeDiscapacidadVS
 Id: eis-NiveldeDiscapacidad-VS
+Title: "Nivel de Discapacidad"
 Description: "Las personas en situación de discapacidad son aquellas que, en relación con condiciones de salud de carácter físico, psíquico, intelectual, sensorial u otras, y al interactuar con diversas barreras contextuales, actitudinales y ambientales, presentan restricciones en su participación plena y efectiva en la sociedad, en igualdad de condiciones con las demás personas."
 * ^version = "1.0.0"
 * ^status = #active
@@ -16,6 +17,7 @@ Description: "Las personas en situación de discapacidad son aquellas que, en re
 
 CodeSystem:  NiveldeDiscapacidadCS
 Id: eis-NiveldeDiscapacidad-CS
+Title: "Nivel de Discapacidad"
 Description: "Las personas en situación de discapacidad son aquellas que, en relación con condiciones de salud de carácter físico, psíquico, intelectual, sensorial u otras, y al interactuar con diversas barreras contextuales, actitudinales y ambientales, presentan restricciones en su participación plena y efectiva en la sociedad, en igualdad de condiciones con las demás personas."
 * ^language = #es
 * ^caseSensitive = true

@@ -4,8 +4,8 @@ País de Nacimiento	 / 	pais_nacimiento_v1.0.0.csv
 ********************************************************/
 ValueSet: PaisNacimientoVS
 Id: eis-pais-nacimiento-vs
-Title: "Pais Nacimiento Códigos de Países"
-Description: "Pais Nacimiento Codigos de países segun norma ISO3166-N"
+Title: "Códigos de Países"
+Description: "Códigos de países"
 
 * ^version = "1.0.0"
 * ^status = #active
@@ -18,8 +18,8 @@ Description: "Pais Nacimiento Codigos de países segun norma ISO3166-N"
 
 CodeSystem: PaisNacimientoCS
 Id: eis-pais-nacimiento-cs
-Title: "Pais de Nacimiento Códigos de Países"
-Description: "Pais de Nacimiento Codigos de países segun norma ISO3166-N"
+Title: "Códigos de Países"
+Description: "Códigos de países"
 * ^language = #es
 * ^caseSensitive = true
 * ^version = "1.0.0"

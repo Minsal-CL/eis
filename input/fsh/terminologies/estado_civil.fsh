@@ -4,6 +4,7 @@ Estado Civil	 / 	estado_civil_v1.0.0.csv
 ********************************************************/
 ValueSet: EstadoCivilVS
 Id: eis-EstadoCivil-VS
+Title: "Estado Civil"
 Description: "El estado civil es la situación de un individuo jurídica de una persona dentro de la sociedad, determinada principalmente por sus relaciones de familia, que la habilita para ejercer determinados derechos y contraer obligaciones de carácter civil."
 * ^version = "1.0.0"
 * ^status = #active
@@ -15,7 +16,8 @@ Description: "El estado civil es la situación de un individuo jurídica de una 
 * codes from system eis-EstadoCivil-CS
 
 
-CodeSystem:  EstadoCivilCS
+CodeSystem: EstadoCivilCS
+Title: "Estado Civil"
 Id: eis-EstadoCivil-CS
 Description: "El estado civil es la situación de un individuo jurídica de una persona dentro de la sociedad, determinada principalmente por sus relaciones de familia, que la habilita para ejercer determinados derechos y contraer obligaciones de carácter civil."
 * ^language = #es

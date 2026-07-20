@@ -5,7 +5,7 @@ Código DEIS	 / 	codigo_deis_v1.0.0.csv
 ValueSet: EstablecimientosCodigoDeisVS
 Id: eis-establecimientoscodigodeis-VS
 Title: "Codigo DEIS"
-Description: "Código único proporcionado por DEIS, el cual permite reconocer de forma inequívoca a cada prestador institucional dentro de los sistemas de información en salud."
+Description: "Código único el cual permite reconocer de forma inequívoca a cada prestador institucional."
 * ^version = "1.0.0"
 * ^status = #active
 * ^experimental = true
@@ -19,7 +19,7 @@ Description: "Código único proporcionado por DEIS, el cual permite reconocer d
 CodeSystem: EstablecimientosCodigoDeisCS
 Id: eis-establecimientoscodigodeis-CS
 Title: "Codigo DEIS"
-Description: "Código único proporcionado por DEIS, el cual permite reconocer de forma inequívoca a cada prestador institucional dentro de los sistemas de información en salud."
+Description: "Código único el cual permite reconocer de forma inequívoca a cada prestador institucional."
 * ^language = #es
 * ^caseSensitive = true
 * ^version = "1.0.0"

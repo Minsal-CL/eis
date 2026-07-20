@@ -3,7 +3,7 @@ Tipo de Identificador
 Tipo de Identificador	 / 	tipo_identificador_v1.0.0.csv
 ********************************************************/
 ValueSet: TipoIdentificadorVS
-Id: eis-tipo-identificador-VS
+Id: eis-tipo-identificador-vs
 Title: "Tipo de Identificador"
 Description: "Define el tipo de documento de identificación del usuario, paciente o prestador de salud individual"
 * ^version = "1.0.0"
@@ -13,12 +13,11 @@ Description: "Define el tipo de documento de identificación del usuario, pacien
 * ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
 
-* codes from system eis-tipo-identificador-CS
+* codes from system eis-tipo-identificador-cs
 
-/**/
 
 CodeSystem: TipoIdentificadorCS
-Id: eis-tipo-identificador-CS
+Id: eis-tipo-identificador-cs
 Title: "Tipo de Identificador"
 Description: "Define el tipo de documento de identificación del usuario, paciente o prestador de salud individual"
 * ^language = #es

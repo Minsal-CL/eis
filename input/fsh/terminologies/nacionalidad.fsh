@@ -4,7 +4,7 @@ Nacionalidad	 / 	nacionalidad_v1.0.0.csv
 ********************************************************/
 ValueSet: NacionalidadVS
 Id: eis-nacionalidad-vs
-Title: "Nacionalidad Códigos de Países"
+Title: "Códigos de Países"
 Description: "Nacionalidad Codigos de países segun norma ISO3166-N"
 
 * ^version = "1.0.0"
@@ -18,7 +18,7 @@ Description: "Nacionalidad Codigos de países segun norma ISO3166-N"
 
 CodeSystem: NacionalidadCS
 Id: eis-nacionalidad-cs
-Title: "Nacionalidad Códigos de Países"
+Title: "Códigos de Países"
 Description: "Nacionalidad Codigos de países segun norma ISO3166-N"
 * ^language = #es
 * ^caseSensitive = true

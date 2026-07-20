@@ -2,8 +2,9 @@
 SEREMI
 SEREMI	 / 	seremi_v1.0.0.csv
 ********************************************************/
-ValueSet: SEREMIVS
-Id: eis-SEREMI-VS
+ValueSet: SeremiVS
+Id: eis-seremi-vs
+Title: "Seremi"
 Description: "Corresponde a los códigos y valores asociados a cada Secretaría Regional Ministerial (SEREMI), utilizados en los sistemas de información en salud. La codificación de la SEREMI es coincidente con el código de la región, el cual prevalece para efectos de registro e interoperabilidad."
 * ^version = "1.0.0"
 * ^status = #active
@@ -12,10 +13,11 @@ Description: "Corresponde a los códigos y valores asociados a cada Secretaría 
 * ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
 
-* codes from system  eis-SEREMI-CS
+* codes from system eis-seremi-cs
 
-CodeSystem: SEREMICS
-Id: eis-SEREMI-CS
+CodeSystem: SeremiCS
+Id: eis-seremi-cs
+Title: "Seremi"
 Description: "Corresponde a los códigos y valores asociados a cada Secretaría Regional Ministerial (SEREMI), utilizados en los sistemas de información en salud. La codificación de la SEREMI es coincidente con el código de la región, el cual prevalece para efectos de registro e interoperabilidad."
 * ^language = #es
 * ^caseSensitive = true

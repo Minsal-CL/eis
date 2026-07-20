@@ -4,6 +4,7 @@ Grupos de Ocupaciones	 / 	grupos_ocupaciones_v1.0.0.csv
 ********************************************************/
 ValueSet: GruposdeOcupacionesVS
 Id: eis-GruposdeOcupaciones-VS
+Title: "Grupos de Ocupaciones"
 Description: "La ocupación corresponde al conjunto de tareas y funciones asociadas al empleo que la persona desempeña o ha desempeñado. Una persona puede estar vinculada a una ocupación a través de su empleo principal, un empleo secundario o un empleo desempeñado anteriormente."
 * ^version = "1.0.0"
 * ^status = #active
@@ -16,6 +17,7 @@ Description: "La ocupación corresponde al conjunto de tareas y funciones asocia
 
 CodeSystem:  GruposdeOcupacionesCS
 Id: eis-GruposdeOcupaciones-CS
+Title: "Grupos de Ocupaciones"
 Description: "La ocupación corresponde al conjunto de tareas y funciones asociadas al empleo que la persona desempeña o ha desempeñado. Una persona puede estar vinculada a una ocupación a través de su empleo principal, un empleo secundario o un empleo desempeñado anteriormente."
 * ^language = #es
 * ^caseSensitive = true

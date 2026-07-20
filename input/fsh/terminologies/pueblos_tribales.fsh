@@ -4,6 +4,7 @@ Pueblos Tribales o Afrodescendientes	 / 	pueblos_tribales_v1.0.0.csv
 ********************************************************/
 ValueSet: PuebloAfrodescendienteChilenoVS
 Id: eis-PuebloAfrodescendienteChileno-VS
+Title: "Pueblo Afrodescendiente Chileno"
 Description: "Se entiende por pueblo afrodescendiente chileno al grupo humano que, teniendo nacionalidad chilena conforme a la Constitución Política de la República, comparte una historia, cultura, tradiciones y costumbres comunes, unidas por la conciencia de identidad y reconocimiento colectivo."
 * ^version = "1.0.0"
 * ^status = #active
@@ -18,6 +19,7 @@ Description: "Se entiende por pueblo afrodescendiente chileno al grupo humano qu
 
 CodeSystem:  PuebloAfrodescendienteChilenoCS
 Id: eis-PuebloAfrodescendienteChileno-CS
+Title: "Pueblo Afrodescendiente Chileno"
 Description: "Se entiende por pueblo afrodescendiente chileno al grupo humano que, teniendo nacionalidad chilena conforme a la Constitución Política de la República, comparte una historia, cultura, tradiciones y costumbres comunes, unidas por la conciencia de identidad y reconocimiento colectivo."
 * ^language = #es
 * ^caseSensitive = true

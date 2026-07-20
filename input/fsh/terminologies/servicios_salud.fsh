@@ -3,7 +3,8 @@ Servicios de Salud
 Servicios de Salud	 / 	servicios_salud_v1.0.0.csv
 ********************************************************/
 ValueSet: ServiciosdeSaludVS
-Id: eis-ServiciosdeSalud-VS
+Id: eis-servicios-salud-vs
+Title: "Servicios de Salud"
 Description: "Corresponde a los códigos y valores asociados a los servicios de salud del país, utilizados para la identificación territorial y administrativa de la red asistencial en los sistemas de información en salud."
 * ^version = "1.0.0"
 * ^status = #active
@@ -12,10 +13,11 @@ Description: "Corresponde a los códigos y valores asociados a los servicios de 
 * ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
 
-* codes from system eis-ServiciosdeSalud-CS
+* codes from system eis-servicios-salud-cs
 
 CodeSystem: ServiciosdeSaludCS
-Id: eis-ServiciosdeSalud-CS
+Id: eis-servicios-salud-cs
+Title: "Servicios de Salud"
 Description: "Corresponde a los códigos y valores asociados a los servicios de salud del país, utilizados para la identificación territorial y administrativa de la red asistencial en los sistemas de información en salud."
 * ^language = #es
 * ^caseSensitive = true

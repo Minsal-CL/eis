@@ -4,6 +4,7 @@ Sexo Biológico	 / 	sexo_biologico_v1.0.0.csv
 ********************************************************/
 ValueSet: SexoBiologicoVS
 Id: SexoBiologicoVS
+Title: "Sexo Biológico"
 Description: "El sexo biológico corresponde a la determinación realizada mediante la aplicación de criterios biológicos y anatómicos, utilizados para clasificar a las personas como hombre o mujer al momento del nacimiento."
 * ^version = "1.0.0"
 * ^status = #active
@@ -19,6 +20,7 @@ Description: "El sexo biológico corresponde a la determinación realizada media
 
 CodeSystem:  SexoBiologicoCS
 Id: eis-SexoBiologico-CS
+Title: "Sexo Biológico"
 Description: "El sexo biológico corresponde a la determinación realizada mediante la aplicación de criterios biológicos y anatómicos, utilizados para clasificar a las personas como hombre o mujer al momento del nacimiento."
 * ^language = #es
 * ^caseSensitive = true

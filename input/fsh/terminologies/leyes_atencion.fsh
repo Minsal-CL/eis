@@ -3,8 +3,8 @@ Leyes Relacionadas a la Atención en Salud
 Leyes Relacionadas a la Atención en Salud	 / 	leyes_atencion_v1.0.0.csv
 ********************************************************/
 
-ValueSet:  VSLeyesAtencionSalud
-Id: VSLeyesAtencionSalud
+ValueSet:  LeyesAtencionSaludVS
+Id: LeyesAtencionSaludVS
 Title: "Leyes Relacionadas a la Atención en Salud"
 Description: "Leyes que otorgan beneficio de salud por causas específicas y se relacionan con el seguro de salud general de la persona ya sea FONASA o ISAPRE."
 
@@ -15,10 +15,10 @@ Description: "Leyes que otorgan beneficio de salud por causas específicas y se 
 * ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
 
-* codes from system  CSLeyesAtencionSalud
+* codes from system  LeyesAtencionSaludCS
 
-CodeSystem:  CSLeyesAtencionSalud
-Id: CSLeyesAtencionSalud
+CodeSystem: LeyesAtencionSaludCS
+Id: LeyesAtencionSaludCS
 Title: "Leyes Relacionadas a la Atención en Salud"
 Description: "Leyes que otorgan beneficio de salud por causas específicas y se relacionan con el seguro de salud general de la persona ya sea FONASA o ISAPRE."
 * ^language = #es

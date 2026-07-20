@@ -4,6 +4,7 @@ Sexo Registral	 / 	sexo_registral_v1.0.0.csv
 ********************************************************/
 ValueSet: SexoRegistralVS
 Id: SexoRegistralVS
+Title: "Sexo Registral"
 Description: "o	Reúne los códigos y valores relacionados con el sexo registral explicitado por el SRCeI"
 * ^version = "1.0.0"
 * ^status = #active
@@ -19,6 +20,7 @@ Description: "o	Reúne los códigos y valores relacionados con el sexo registral
 
 CodeSystem:  SexoRegistralCS
 Id: eis-SexoRegistral-CS
+Title: "Sexo Registral"
 Description: "o	Reúne los códigos y valores relacionados con el sexo registral explicitado por el SRCeI"
 * ^language = #es
 * ^caseSensitive = true
