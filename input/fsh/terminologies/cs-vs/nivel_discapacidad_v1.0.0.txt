@@ -1,0 +1,5 @@
+* #1 "Sin discapacidad" "Sin discapacidad"
+* #2 "Discapacidad leve" "Discapacidad leve"
+* #3 "Discapacidad moderada" "Discapacidad moderada"
+* #4 "Discapacidad severa" "Discapacidad severa"
+* #5 "Discapacidad profunda" "Discapacidad profunda"

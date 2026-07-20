@@ -1,0 +1,91 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-PueblosOriginarios-CS> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "eis-PueblosOriginarios-CS"] ; # 
+  fhir:language [ fhir:v "es"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xml:lang=\"es\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"es\"><p class=\"res-header-id\"><b>Generated Narrative: SistemaDeCodigos eis-PueblosOriginarios-CS</b></p><a name=\"eis-PueblosOriginarios-CS\"> </a><a name=\"hceis-PueblosOriginarios-CS\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: es</p></div><p>This case-sensitive code system <code>https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-PueblosOriginarios-CS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"eis-PueblosOriginarios-CS-1\"> </a></td><td>Mapuche</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"eis-PueblosOriginarios-CS-2\"> </a></td><td>Aymara</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"eis-PueblosOriginarios-CS-3\"> </a></td><td>Rapa Nui o Pascuense</td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"eis-PueblosOriginarios-CS-4\"> </a></td><td>Lickanantay</td></tr><tr><td style=\"white-space:nowrap\">5<a name=\"eis-PueblosOriginarios-CS-5\"> </a></td><td>Quechua</td></tr><tr><td style=\"white-space:nowrap\">6<a name=\"eis-PueblosOriginarios-CS-6\"> </a></td><td>Colla</td></tr><tr><td style=\"white-space:nowrap\">7<a name=\"eis-PueblosOriginarios-CS-7\"> </a></td><td>Diaguita</td></tr><tr><td style=\"white-space:nowrap\">8<a name=\"eis-PueblosOriginarios-CS-8\"> </a></td><td>Kawésqar</td></tr><tr><td style=\"white-space:nowrap\">9<a name=\"eis-PueblosOriginarios-CS-9\"> </a></td><td>Yagán</td></tr><tr><td style=\"white-space:nowrap\">11<a name=\"eis-PueblosOriginarios-CS-11\"> </a></td><td>Chango</td></tr><tr><td style=\"white-space:nowrap\">12<a name=\"eis-PueblosOriginarios-CS-12\"> </a></td><td>Selk'nam</td></tr><tr><td style=\"white-space:nowrap\">10<a name=\"eis-PueblosOriginarios-CS-10\"> </a></td><td>Otro (Especificar)</td></tr><tr><td style=\"white-space:nowrap\">99<a name=\"eis-PueblosOriginarios-CS-99\"> </a></td><td>Desconocido</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [
+     fhir:v "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-PueblosOriginarios-CS"^^xsd:anyURI ;
+     fhir:l <https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-PueblosOriginarios-CS>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.1"] ; # 
+  fhir:name [ fhir:v "PueblosOriginariosCS"] ; # 
+  fhir:title [ fhir:v "Pueblos Indígenas u Originarios"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v true] ; # 
+  fhir:date [ fhir:v "2026-03-01T00:00:00-03:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Unidad de Interoperabilidad - MINSAL"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Unidad de Interoperabilidad - MINSAL" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://interoperabilidad.minsal.cl" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Los Pueblos Indígenas u Originarios en Chile corresponden a los descendientes de agrupaciones humanas que habitaban el territorio nacional en tiempos precolombinos, y que conservan manifestaciones culturales, sociales y étnicas propias, o parte de ellas, teniendo para estos pueblos la tierra un rol fundamental en su existencia y desarrollo cultural."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
+         fhir:l <urn:iso:std:iso:3166>
+       ] ;
+       fhir:code [ fhir:v "CL" ] ;
+       fhir:display [ fhir:v "Chile" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "13"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "1" ] ;
+     fhir:display [ fhir:v "Mapuche" ]
+  ] [
+     fhir:code [ fhir:v "2" ] ;
+     fhir:display [ fhir:v "Aymara" ]
+  ] [
+     fhir:code [ fhir:v "3" ] ;
+     fhir:display [ fhir:v "Rapa Nui o Pascuense" ]
+  ] [
+     fhir:code [ fhir:v "4" ] ;
+     fhir:display [ fhir:v "Lickanantay" ]
+  ] [
+     fhir:code [ fhir:v "5" ] ;
+     fhir:display [ fhir:v "Quechua" ]
+  ] [
+     fhir:code [ fhir:v "6" ] ;
+     fhir:display [ fhir:v "Colla" ]
+  ] [
+     fhir:code [ fhir:v "7" ] ;
+     fhir:display [ fhir:v "Diaguita" ]
+  ] [
+     fhir:code [ fhir:v "8" ] ;
+     fhir:display [ fhir:v "Kawésqar" ]
+  ] [
+     fhir:code [ fhir:v "9" ] ;
+     fhir:display [ fhir:v "Yagán" ]
+  ] [
+     fhir:code [ fhir:v "11" ] ;
+     fhir:display [ fhir:v "Chango" ]
+  ] [
+     fhir:code [ fhir:v "12" ] ;
+     fhir:display [ fhir:v "Selk'nam" ]
+  ] [
+     fhir:code [ fhir:v "10" ] ;
+     fhir:display [ fhir:v "Otro (Especificar)" ]
+  ] [
+     fhir:code [ fhir:v "99" ] ;
+     fhir:display [ fhir:v "Desconocido" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,7 @@
+* #1 "Masculino" "Masculino"
+* #2 "Femenina" "Femenina"
+* #4 "Transgénero Masculino" "Transgénero Masculino"
+* #5 "Transgénero Femenina" "Transgénero Femenina"
+* #6 "No Binario" "No Binario"
+* #7 "Otro" "Otro"
+* #93 "No Informado" "No Informado"

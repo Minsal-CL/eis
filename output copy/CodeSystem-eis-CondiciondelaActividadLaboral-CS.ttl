@@ -1,0 +1,68 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-CondiciondelaActividadLaboral-CS> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "eis-CondiciondelaActividadLaboral-CS"] ; # 
+  fhir:language [ fhir:v "es"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xml:lang=\"es\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"es\"><p class=\"res-header-id\"><b>Generated Narrative: SistemaDeCodigos eis-CondiciondelaActividadLaboral-CS</b></p><a name=\"eis-CondiciondelaActividadLaboral-CS\"> </a><a name=\"hceis-CondiciondelaActividadLaboral-CS\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: es</p></div><p>This case-sensitive code system <code>https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-CondiciondelaActividadLaboral-CS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"eis-CondiciondelaActividadLaboral-CS-1\"> </a></td><td>Inactivo</td><td>Personas que no participan del mercado laboral, tales como dueña(o) de casa, estudiante, pensionado(a), rentista o persona privada de libertad</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"eis-CondiciondelaActividadLaboral-CS-2\"> </a></td><td>Activo</td><td>Personas que se encuentran trabajando al momento del registro, independiente del tipo de ocupación que desempeñen (por ejemplo: obrero, operario, vendedor, arquitecto, médico, auxiliar, entre otros)</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"eis-CondiciondelaActividadLaboral-CS-3\"> </a></td><td>Cesante o temporalmente sin trabajo</td><td>Personas que, habiendo participado previamente del mercado laboral, se encuentran cesantes, o temporalmente sin trabajo al momento del registro</td></tr><tr><td style=\"white-space:nowrap\">99<a name=\"eis-CondiciondelaActividadLaboral-CS-99\"> </a></td><td>Desconocido</td><td>Corresponde a los casos en que no se dispone de información sobre la condición de la actividad de la persona</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [
+     fhir:v "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-CondiciondelaActividadLaboral-CS"^^xsd:anyURI ;
+     fhir:l <https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-CondiciondelaActividadLaboral-CS>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.1"] ; # 
+  fhir:name [ fhir:v "CondiciondelaActividadLaboralCS"] ; # 
+  fhir:title [ fhir:v "Condición de la Actividad Laboral"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v true] ; # 
+  fhir:date [ fhir:v "2026-03-01T00:00:00-03:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Unidad de Interoperabilidad - MINSAL"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Unidad de Interoperabilidad - MINSAL" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://interoperabilidad.minsal.cl" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "La condición de la actividad corresponde a la relación que mantiene la persona con el trabajo al momento del registro, y se vincula con su ciclo de vida laboral, permitiendo identificar su situación de actividad económica. "] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
+         fhir:l <urn:iso:std:iso:3166>
+       ] ;
+       fhir:code [ fhir:v "CL" ] ;
+       fhir:display [ fhir:v "Chile" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "4"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "1" ] ;
+     fhir:display [ fhir:v "Inactivo" ] ;
+     fhir:definition [ fhir:v "Personas que no participan del mercado laboral, tales como dueña(o) de casa, estudiante, pensionado(a), rentista o persona privada de libertad" ]
+  ] [
+     fhir:code [ fhir:v "2" ] ;
+     fhir:display [ fhir:v "Activo" ] ;
+     fhir:definition [ fhir:v "Personas que se encuentran trabajando al momento del registro, independiente del tipo de ocupación que desempeñen (por ejemplo: obrero, operario, vendedor, arquitecto, médico, auxiliar, entre otros)" ]
+  ] [
+     fhir:code [ fhir:v "3" ] ;
+     fhir:display [ fhir:v "Cesante o temporalmente sin trabajo" ] ;
+     fhir:definition [ fhir:v "Personas que, habiendo participado previamente del mercado laboral, se encuentran cesantes, o temporalmente sin trabajo al momento del registro" ]
+  ] [
+     fhir:code [ fhir:v "99" ] ;
+     fhir:display [ fhir:v "Desconocido" ] ;
+     fhir:definition [ fhir:v "Corresponde a los casos en que no se dispone de información sobre la condición de la actividad de la persona" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

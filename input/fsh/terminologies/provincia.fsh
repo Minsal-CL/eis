@@ -1,0 +1,90 @@
+/********************************************************
+Provincia
+Provincia	 / 	provincia_v1.0.0.csv
+********************************************************/
+ValueSet: ProvinciasVS
+Id: eis-provincias-vs
+Title: "Provincias"
+Description: "Provincias"
+* ^experimental = false
+* ^version = "1.0."
+* ^status = #active
+* ^date = "2026-03-01"
+* ^contact.name = "MINSAL CHILE"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "minsal@minsal.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system eis-provincias-cs
+
+CodeSystem: ProvinciasCS
+Id: eis-provincias-cs
+Title: "Provincias"
+Description: "Provincias"
+* ^language = #es
+* ^experimental = false
+* ^caseSensitive = true
+* ^version = "1.0."
+* ^status = #active
+* ^date = "2023-01-15"
+* ^contact.name = "MINSAL CHILE"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "minsal@minsal.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #11 "Iquique" "Iquique"
+* #14 "Tamarugal" "Tamarugal"
+* #21 "Antofagasta" "Antofagasta"
+* #22 "El loa" "El loa"
+* #23 "Tocopilla" "Tocopilla"
+* #31 "Copiapó" "Copiapó"
+* #32 "Chañaral" "Chañaral"
+* #33 "Huasco" "Huasco"
+* #41 "Elqui" "Elqui"
+* #42 "Choapa" "Choapa"
+* #43 "Limarí" "Limarí"
+* #51 "Valparaíso" "Valparaíso"
+* #52 "Isla de pascua" "Isla de pascua"
+* #53 "Los andes" "Los andes"
+* #54 "Petorca" "Petorca"
+* #55 "Quillota" "Quillota"
+* #56 "San antonio" "San antonio"
+* #57 "San felipe de aconcagua" "San felipe de aconcagua"
+* #58 "Marga marga" "Marga marga"
+* #61 "Cachapoal" "Cachapoal"
+* #62 "Cardenal caro" "Cardenal caro"
+* #63 "Colchagua" "Colchagua"
+* #71 "Talca" "Talca"
+* #72 "Cauquenes" "Cauquenes"
+* #73 "Curicó" "Curicó"
+* #74 "Linares" "Linares"
+* #81 "Concepción" "Concepción"
+* #82 "Arauco" "Arauco"
+* #83 "Biobío" "Biobío"
+* #91 "Cautín" "Cautín"
+* #92 "Malleco" "Malleco"
+* #101 "Llanquihue" "Llanquihue"
+* #102 "Chiloé" "Chiloé"
+* #103 "Osorno" "Osorno"
+* #104 "Palena" "Palena"
+* #111 "Coihaique" "Coihaique"
+* #112 "Capitán prat" "Capitán prat"
+* #113 "Aisén" "Aisén"
+* #114 "General carrera" "General carrera"
+* #121 "Magallanes" "Magallanes"
+* #122 "Antártica chilena" "Antártica chilena"
+* #123 "Tierra del fuego" "Tierra del fuego"
+* #124 "Ultima esperanza" "Ultima esperanza"
+* #131 "Santiago" "Santiago"
+* #132 "Cordillera" "Cordillera"
+* #133 "Chacabuco" "Chacabuco"
+* #134 "Maipo" "Maipo"
+* #135 "Melipilla" "Melipilla"
+* #136 "Talagante" "Talagante"
+* #141 "Valdivia" "Valdivia"
+* #142 "Ranco" "Ranco"
+* #151 "Arica" "Arica"
+* #152 "Parinacota" "Parinacota"
+* #161 "Diguillín" "Diguillín"
+* #162 "Itata" "Itata"
+* #163 "Punilla" "Punilla"

@@ -1,0 +1,1127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>Artifacts Summary - Guía de Estandares de Información de Salud v0.1.1</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+<link href="assets/css/hl7chile.css" rel="stylesheet" />
+<script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=G-HLBNC861DJ" async>
+</script>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"3"}
+    h3,h4,h5,h6{--heading-prefix:"3.0"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
+
+<div id="project-nav">
+    <a id="MINSAL-logo" no-external="true" href="http://minsal.cl">
+        <img height="71" alt="Visitar sitio MINSAL Chile" src="assets/images/minsal-logo.svg" />
+    </a>
+</div>
+<div id="family-nav">
+    <a id="hl7chile-logo" no-external="true" href="http://hl7chile.cl"><img height="71" alt="Visitar HL7 Chile" src="assets/images/hl7chile-logo.svg" /> </a>
+</div>
+<!--
+<div id="hl7-search">
+  <a id="hl7-search-lnk" no-external="true" href="searchform.html"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+</div>
+-->
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Guía de Estandares de Información de Salud</span>
+            <br/>
+            <span style="display:inline-block;">0.1.1 - ci-build
+
+
+
+  <img alt="Chile flag" src="assets/images/chl.svg" height="16" title="Chile"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+  <li>
+    <a href="changes.html">Historial de Cambios</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Artifacts Summary</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Guía de Estandares de Información de Salud - Local Development build (v0.1.1) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='https://interoperabilidad.minsal.cl/fhir/ig/eis/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <h2>Artifacts Summary</h2>
+  
+  
+  
+  <!--DO NOT EDIT THIS FILE - It is generated by https://github.com/HL7/ig-template-base/blob/master/scripts/createArtifactSummary.xslt and any changes made will be overwritten--><div xmlns="http://www.w3.org/1999/xhtml"
+     xmlns:f="http://hl7.org/fhir"
+     xmlns:html="http://www.w3.org/1999/xhtml"
+     class="markdown-toc">
+   <p>Contents:</p>
+   <ul>
+      <li>
+         <a href="#1">Structures: Logical Models</a>
+      </li>
+      <li>
+         <a href="#2">Structures: Data Type Profiles</a>
+      </li>
+      <li>
+         <a href="#3">Structures: Extension Definitions</a>
+      </li>
+      <li>
+         <a href="#4">Terminology: Value Sets</a>
+      </li>
+      <li>
+         <a href="#5">Terminology: Code Systems</a>
+      </li>
+   </ul>
+</div>
+<div xmlns="http://www.w3.org/1999/xhtml"
+     xmlns:f="http://hl7.org/fhir"
+     xmlns:html="http://www.w3.org/1999/xhtml">
+   <p>This page provides a list of the FHIR artifacts defined as part of this implementation guide.</p>
+   <a name="1"> </a>
+   <h3>Structures: Logical Models </h3>
+    <p>These define data models that represent the domain covered by this implementation guide in more business-friendly terms than the underlying FHIR resources.</p>
+<table class="grid">
+      <col style="width:20%"/>
+      <tbody>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-ModeloLogicoEISDireccion.html"
+                  title="StructureDefinition/ModeloLogicoEISDireccion">Modelo Logico para el tipo de dato Direccion</a>
+            </td>
+            <td>
+<p>Modelo Logico para el tipo de dato Nombre</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-ModeloLogicoEISNombre.html"
+                  title="StructureDefinition/ModeloLogicoEISNombre">Modelo Logico para el tipo de dato Nombre</a>
+            </td>
+            <td>
+<p>Modelo Logico para el tipo de dato Nombre</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-ModeloLogicoEISRUN.html"
+                  title="StructureDefinition/ModeloLogicoEISRUN">Modelo Logico para el tipo de dato RUN</a>
+            </td>
+            <td>
+<p>Modelo Logico para el tipo de dato RUN</p>
+</td>
+         </tr>
+      </tbody>
+   </table>
+   <a name="2"> </a>
+   <h3>Structures: Data Type Profiles </h3>
+    <p>These define constraints on FHIR data types for systems conforming to this implementation guide.</p>
+<table class="grid">
+      <col style="width:20%"/>
+      <tbody>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-deis-identifier.html"
+                  title="StructureDefinition/deis-identifier">DEIS Identificador Paciente</a>
+            </td>
+            <td>
+<p>Forma de identificar a un paciente en Chile</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-eis-direccion.html"
+                  title="StructureDefinition/eis-direccion">Dirección</a>
+            </td>
+            <td>
+<p>Variable dirección</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-eis-nombre-oficial.html"
+                  title="StructureDefinition/eis-nombre-oficial">Nombre Oficial</a>
+            </td>
+            <td>
+<p>Tipo relacionado con el formato en que se define un nombre oficial según Deis. Se recomienda agregar use para la definición del tipo de nombre</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-eis-nombre-social.html"
+                  title="StructureDefinition/eis-nombre-social">Nombre Social</a>
+            </td>
+            <td>
+<p>Tipo relacionado con el formato en que se define un nombre social según Deis. Se recomienda agregar use para la definición del tipo de nombre</p>
+</td>
+         </tr>
+      </tbody>
+   </table>
+   <a name="3"> </a>
+   <h3>Structures: Extension Definitions </h3>
+    <p>These define constraints on FHIR data types for systems conforming to this implementation guide.</p>
+<table class="grid">
+      <col style="width:20%"/>
+      <tbody>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-eis-comunas.html"
+                  title="StructureDefinition/eis-comunas">Códigos para Comunas en Chile</a>
+            </td>
+            <td>
+<p>Esta extensión que permite codiificar las Comunas en Chile en el campo de Dirección</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-eis-paises.html"
+                  title="StructureDefinition/eis-paises">Códigos para Países</a>
+            </td>
+            <td>
+<p>Esta extensión que permite codificar los Países en el campo de Dirección</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-eis-provincias.html"
+                  title="StructureDefinition/eis-provincias">Códigos para Provincias en Chile</a>
+            </td>
+            <td>
+<p>Esta extensión que permite codificar las Provincias en Chile en el campo de Dirección</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-eis-regiones.html"
+                  title="StructureDefinition/eis-regiones">Códigos para Regiones en Chile</a>
+            </td>
+            <td>
+<p>Esta extensión que permite codificar las Regiones en Chile en el campo de Dirección</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-eis-tipo-de-via.html"
+                  title="StructureDefinition/eis-tipo-de-via">Códigos para Tipo de Via</a>
+            </td>
+            <td>
+<p>Esta extensión que permite codificar el tipo de vía en el campo de Dirección</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-LimiteUrbano.html"
+                  title="StructureDefinition/LimiteUrbano">Limite urbano censal de la region</a>
+            </td>
+            <td>
+<p>Limite urbano censal de la region</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-SegundoApellido.html"
+                  title="StructureDefinition/SegundoApellido">Segundo Apellido</a>
+            </td>
+            <td>
+<p>Segundo Apellido</p>
+</td>
+         </tr>
+      </tbody>
+   </table>
+   <a name="4"> </a>
+   <h3>Terminology: Value Sets </h3>
+    <p>These define sets of codes used by systems conforming to this implementation guide.</p>
+<table class="grid">
+      <col style="width:20%"/>
+      <tbody>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eis-comunas-vs.html" title="ValueSet/eis-comunas-vs">Comunas</a>
+            </td>
+            <td>
+<p>Comunas</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eis-CondiciondelaActividadLaboral-VS.html"
+                  title="ValueSet/eis-CondiciondelaActividadLaboral-VS">Condición de la Actividad Laboral</a>
+            </td>
+            <td>
+<p>La condición de la actividad corresponde a la relación que mantiene la persona con el trabajo al momento del registro, y se vincula con su ciclo de vida laboral, permitiendo identificar su situación de actividad económica.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eis-paises-vs.html" title="ValueSet/eis-paises-vs">Códigos de Países</a>
+            </td>
+            <td>
+<p>Codigos definidos para la identificación de países segun norma ISO3166-N</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eis-especialidades-farmaceuticas-vs.html"
+                  title="ValueSet/eis-especialidades-farmaceuticas-vs">Especialidades Farmacéuticas</a>
+            </td>
+            <td>
+<p>Conjunto de códigos y valores asociados a las especialidades y subespecialidades farmacéuticas o químico-farmacéuticas, que permiten identificar y registrar el ámbito específico de desempeño profesional del prestador individual del área farmacéutica.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eis-especialidades-bioquimicas-vs.html"
+                  title="ValueSet/eis-especialidades-bioquimicas-vs">Especialidades y Subespecialidades Bioquímicas</a>
+            </td>
+            <td>
+<p>Corresponde al conjunto de códigos y valores asociados a las especialidades y subespecialidades bioquímicas, que permiten identificar el ámbito específico de desempeño profesional del prestador individual del área de la bioquímica en el sistema de salud.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eis-EspecialidadesySubespecialidadesMedicas-VS.html"
+                  title="ValueSet/eis-EspecialidadesySubespecialidadesMedicas-VS">Especialidades y Subespecialidades Médicas</a>
+            </td>
+            <td>
+<p>La certificación de especialidades y subespecialidades médicas corresponden al proceso mediante el cual se reconoce oficialmente que un prestador individual de salud posee y domina un conjunto de conocimientos, competencias y experiencias específicas, relevantes para el ejercicio profesional en un ámbito determinado de la atención de salud.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eis-especialidades-odontologicas-vs.html"
+                  title="ValueSet/eis-especialidades-odontologicas-vs">Especialidades y Subespecialidades Odontológicas</a>
+            </td>
+            <td>
+<p>La certificación de especialidades y subespecialidades odontológicas corresponde al proceso mediante el cual se reconoce oficialmente que un prestador individual del área odontológica posee los conocimientos, competencias y experiencias específicas requeridas para el ejercicio profesional en un ámbito determinado de la atención odontológica.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eis-especialidades-enfermeria-vs.html"
+                  title="ValueSet/eis-especialidades-enfermeria-vs">Especialidades y Subespecialidades de Enfermería</a>
+            </td>
+            <td>
+<p>Corresponde al conjunto de códigos y valores asociados a las especialidades y subespecialidades de enfermería, que permiten identificar el ámbito específico de desempeño profesional del prestador individual del área de enfermería en el sistema de salud.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eis-establecimientos-privados-vs.html"
+                  title="ValueSet/eis-establecimientos-privados-vs">Establecimientos Privados</a>
+            </td>
+            <td>
+<p>Los establecimientos privados de salud corresponden a entidades asistenciales autorizadas que otorgan prestaciones de promoción, prevención, diagnóstico, tratamiento, recuperación y rehabilitación de la salud, en modalidad ambulatoria y/o con internación, conforme a la normativa sanitaria vigente.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eis-establecimientos-nivel-primario-vs.html"
+                  title="ValueSet/eis-establecimientos-nivel-primario-vs">Establecimientos Públicos de Nivel Primario</a>
+            </td>
+            <td>
+<p>Los establecimientos públicos de atención primaria corresponden a aquellos a través de los cuales se otorgan acciones de promoción, prevención, tratamiento y rehabilitación, constituyendo el primer nivel de atención del sistema público de salud.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eis-establecimientos-nivel-secundario-vs.html"
+                  title="ValueSet/eis-establecimientos-nivel-secundario-vs">Establecimientos Públicos de Nivel Secundario</a>
+            </td>
+            <td>
+<p>Los centros de especialidad son establecimientos públicos de atención ambulatoria que otorgan prestaciones diagnósticas y/o terapéuticas asociadas a una o más especialidades, y cuentan con personería jurídica y un director médico responsable legalmente registrado.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eis-establecimientos-nivel-terciario-vs.html"
+                  title="ValueSet/eis-establecimientos-nivel-terciario-vs">Establecimientos Públicos de Nivel Terciario</a>
+            </td>
+            <td>
+<p>Los establecimientos públicos de nivel terciario corresponden a hospitales e institutos que otorgan atención de alta complejidad, ejecutando acciones de recuperación y rehabilitación de personas enfermas. Este nivel se asocia a la atención cerrada o con internación.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eis-establecimientos-nivel-atencion-vs.html"
+                  title="ValueSet/eis-establecimientos-nivel-atencion-vs">Establecimientos según Nivel de Atención</a>
+            </td>
+            <td>
+<p>El sistema público de salud se organiza en niveles de atención según la complejidad y cobertura de las prestaciones que entrega: primario, secundario y terciario. El acceso a los niveles secundario y terciario se realiza, en general, mediante referencia desde niveles de menor complejidad.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eis-establecimientos-nivel-complejidad-vs.html"
+                  title="ValueSet/eis-establecimientos-nivel-complejidad-vs">Establecimientos según Nivel de Complejidad </a>
+            </td>
+            <td>
+<p>El nivel de complejidad de los establecimientos que integran la Red Asistencial del Sistema Nacional de Servicios de Salud se determina conforme a lo establecido en el Reglamento Orgánico de los Servicios de Salud, considerando su infraestructura, capacidad resolutiva y tipo de prestaciones que otorgan.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eis-establecimientos-tipo-atencion-vs.html"
+                  title="ValueSet/eis-establecimientos-tipo-atencion-vs">Establecimientos según Tipo de Atención</a>
+            </td>
+            <td>
+<p>De acuerdo con tipo de atención otorgada, los prestadores de salud pueden clasificarse en prestadores institucionales de atención abierta (ambulatoria) o prestadores institucionales de atención cerrada (hospitalaria).</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eis-EstadoCivil-VS.html"
+                  title="ValueSet/eis-EstadoCivil-VS">Estado Civil</a>
+            </td>
+            <td>
+<p>El estado civil es la situación de un individuo jurídica de una persona dentro de la sociedad, determinada principalmente por sus relaciones de familia, que la habilita para ejercer determinados derechos y contraer obligaciones de carácter civil.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eis-GES-VS.html" title="ValueSet/eis-GES-VS">GES (Garantías Explícitas en Salud)</a>
+            </td>
+            <td>
+<p>El GES (Garantías Explícitas en Salud), anteriormente conocido como AUGE, es un sistema legal de salud en Chile para afiliados a Fonasa e Isapres. Garantiza cobertura para 87 problemas de salud específicos, asegurando acceso, calidad, oportunidad y protección financiera (copagos limitados). Se aplica a través de redes de prestadores acreditados.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eis-GruposdeOcupaciones-VS.html"
+                  title="ValueSet/eis-GruposdeOcupaciones-VS">Grupos de Ocupaciones</a>
+            </td>
+            <td>
+<p>La ocupación corresponde al conjunto de tareas y funciones asociadas al empleo que la persona desempeña o ha desempeñado. Una persona puede estar vinculada a una ocupación a través de su empleo principal, un empleo secundario o un empleo desempeñado anteriormente.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-IdentidadGeneroVS.html"
+                  title="ValueSet/IdentidadGeneroVS">Identidad de Género</a>
+            </td>
+            <td>
+<p>De acuerdo con la Ley 21.120, la identidad de género se entiende como la convicción personal e interna de ser hombre, mujer u otra identidad de género, tal como la persona se percibe a sí misma. Esta puede o no corresponder con el sexo y nombre de pila consignadas en la inscripción de nacimiento.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eis-InstitucionEmisoradeTituloProfesionalydeEspecialidad-VS.html"
+                  title="ValueSet/eis-InstitucionEmisoradeTituloProfesionalydeEspecialidad-VS">Institución Emisora de Título Profesional y de Especialidad</a>
+            </td>
+            <td>
+<p>La institución emisora del título profesional y/o especialidad corresponde al nombre de la institución formadora que otorga el respectivo título o certificación, acreditando que el prestador de salud ha cumplido con todas las exigencias académicas y formativas establecidas en el programa de formación correspondiente.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eis-limite-urbano-censal-vs.html"
+                  title="ValueSet/eis-limite-urbano-censal-vs">Límite Urbano Censal</a>
+            </td>
+            <td>
+<p>Corresponde a distinguir entre zonas urbanas y rurales, según la delimitación establecida por el Instituto Nacional de Estadísticas (INE) para fines censales, considerando factores como la densidad poblacional, infraestructura y características del entorno.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eis-ModalidaddeAtencionFONASA-VS.html"
+                  title="ValueSet/eis-ModalidaddeAtencionFONASA-VS">Modalidad de Atención FONASA</a>
+            </td>
+            <td>
+<p>La modalidad de atención FONASA corresponde a la forma en que  una persona afiliada voluntariamente al Fondo Nacional de Salud (FONASA) accede a las prestaciones de salud, permitiéndole contar con los servicios y la protección financiera otorgada por el Seguro Público de Salud</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eis-NiveldeDiscapacidad-VS.html"
+                  title="ValueSet/eis-NiveldeDiscapacidad-VS">Nivel de Discapacidad</a>
+            </td>
+            <td>
+<p>Las personas en situación de discapacidad son aquellas que, en relación con condiciones de salud de carácter físico, psíquico, intelectual, sensorial u otras, y al interactuar con diversas barreras contextuales, actitudinales y ambientales, presentan restricciones en su participación plena y efectiva en la sociedad, en igualdad de condiciones con las demás personas.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eis-NiveldeInstruccion-CS.html"
+                  title="ValueSet/eis-NiveldeInstruccion-CS">Nivel de Instrucción</a>
+            </td>
+            <td>
+<p>Código del último nivel aprobado</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eis-OcupacionesDesagregadas-VS.html"
+                  title="ValueSet/eis-OcupacionesDesagregadas-VS">Ocupaciones Desagregadas</a>
+            </td>
+            <td>
+<p>Código asociados a el detalle de las ocupaciones de un paciente</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eis-OrigendeDiscapacidad-VS.html"
+                  title="ValueSet/eis-OrigendeDiscapacidad-VS">Origen de Discapacidad</a>
+            </td>
+            <td>
+<p>El origen de la discapacidad corresponde al evento, condición o circunstancia a partir de la cual se genera una situación de discapacidad en la persona, considerando la interacción entre sus condiciones de salud y las barreras contextuales, actitudinales y ambientales.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eis-PrevisiondeSalud-VS.html"
+                  title="ValueSet/eis-PrevisiondeSalud-VS">Previsión de Salud</a>
+            </td>
+            <td>
+<p>La previsión corresponde a la variable que identifica el sistema de aseguramiento de salud vigente al que se encuentra adscrita la persona, el cual define la cobertura para acciones de promoción, prevención, tratamiento y control de las enfermedades.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eis-provincias-vs.html"
+                  title="ValueSet/eis-provincias-vs">Provincias</a>
+            </td>
+            <td>
+<p>Provincias</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eis-PuebloAfrodescendienteChileno-VS.html"
+                  title="ValueSet/eis-PuebloAfrodescendienteChileno-VS">Pueblo Afrodescendiente Chileno</a>
+            </td>
+            <td>
+<p>Se entiende por pueblo afrodescendiente chileno al grupo humano que, teniendo nacionalidad chilena conforme a la Constitución Política de la República, comparte una historia, cultura, tradiciones y costumbres comunes, unidas por la conciencia de identidad y reconocimiento colectivo.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eis-PueblosOriginarios-VS.html"
+                  title="ValueSet/eis-PueblosOriginarios-VS">Pueblos Indígenas u Originarios</a>
+            </td>
+            <td>
+<p>Los Pueblos Indígenas u Originarios en Chile corresponden a los descendientes de agrupaciones humanas que habitaban el territorio nacional en tiempos precolombinos, y que conservan manifestaciones culturales, sociales y étnicas propias, o parte de ellas, teniendo para estos pueblos la tierra un rol fundamental en su existencia y desarrollo cultural.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eis-regiones-vs.html" title="ValueSet/eis-regiones-vs">Regiones</a>
+            </td>
+            <td>
+<p>Regiones</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eis-Religion-VS.html" title="ValueSet/eis-Religion-VS">Religiones &amp; Cultos</a>
+            </td>
+            <td>
+<p>La religión o credo corresponde a un sistema de creencias y prácticas, de carácter individual o colectivo, relacionadas con lo que la persona considera sagrado o divino, y que se vinculan a su dimensión espiritual, existencial y cultural.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eis-SEREMI-VS.html" title="ValueSet/eis-SEREMI-VS">SEREMI</a>
+            </td>
+            <td>
+<p>Corresponde a los códigos y valores asociados a cada Secretaría Regional Ministerial (SEREMI), utilizados en los sistemas de información en salud. La codificación de la SEREMI es coincidente con el código de la región, el cual prevalece para efectos de registro e interoperabilidad.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eis-ServiciosdeSalud-VS.html"
+                  title="ValueSet/eis-ServiciosdeSalud-VS">Servicios de Salud</a>
+            </td>
+            <td>
+<p>Corresponde a los códigos y valores asociados a los servicios de salud del país, utilizados para la identificación territorial y administrativa de la red asistencial en los sistemas de información en salud.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-SexoBiologicoVS.html" title="ValueSet/SexoBiologicoVS">Sexo Biológico</a>
+            </td>
+            <td>
+<p>El sexo biológico corresponde a la determinación realizada mediante la aplicación de criterios biológicos y anatómicos, utilizados para clasificar a las personas como hombre o mujer al momento del nacimiento.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eis-tipo-establecimiento-publicos-vs.html"
+                  title="ValueSet/eis-tipo-establecimiento-publicos-vs">Tipo de Establecimientos Públicos</a>
+            </td>
+            <td>
+<p>Los establecimientos públicos de salud son estructuras organizadas que otorgan acciones de promoción, protección, recuperación y rehabilitación de la salud, de forma presencial o remota, y que cuentan con autorización sanitaria de la SEREMI de salud y acreditación de calidad de la Superintendencia de Salud.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eis-TipodeIdentificador-VS.html"
+                  title="ValueSet/eis-TipodeIdentificador-VS">Tipo de Identificador</a>
+            </td>
+            <td>
+<p>Define el tipo de documento de identificación del usuario, paciente o prestador de salud individual</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eis-TipodeSistemadeSalud-VS.html"
+                  title="ValueSet/eis-TipodeSistemadeSalud-VS">Tipo de Sistema de Salud</a>
+            </td>
+            <td>
+<p>Identifica el sistema de aseguramiento de salud al cual se encuentra adscrita la persona, ya sea FONASA, ISAPRE o regímenes institucionales como Capredena o Dipreca. Este dato permite determinar copagos, beneficios y las rutas de derivación dentro de la red asistencial.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eis-tipo-via-vs.html" title="ValueSet/eis-tipo-via-vs">Tipo de Vía</a>
+            </td>
+            <td>
+<p>Corresponde al tipo o clasificación de calle.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eis-TramosFONASA-VS.html"
+                  title="ValueSet/eis-TramosFONASA-VS">Tramos FONASA</a>
+            </td>
+            <td>
+<p>Los tramos FONASA corresponden a la clasificación que realiza el Fondo Nacional de Salud (FONASA) en función del nivel de ingreso mensual que percibe la persona, la cual determina el acceso a beneficios, copagos y modalidades de atención dentro del Seguro Público de Salud.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eis-TituloProfesional-VS.html"
+                  title="ValueSet/eis-TituloProfesional-VS">Título Profesional</a>
+            </td>
+            <td>
+<p>El título profesional corresponde al documento oficial que acredita que una persona ha completado un programa formal de estudios y ha aprobado las evaluaciones, pruebas o exámenes requeridos para el ejercicio de una determinada profesión, certificando las competencias generales, científicas y técnicas necesarias para su adecuado desempeño profesional.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eis-TituloProfesionalSCT-VS.html"
+                  title="ValueSet/eis-TituloProfesionalSCT-VS">Título Profesional SCT</a>
+            </td>
+            <td>
+<p>El título profesional corresponde al documento oficial que acredita que una persona ha completado un programa formal de estudios y ha aprobado las evaluaciones, pruebas o exámenes requeridos para el ejercicio de una determinada profesión, certificando las competencias generales, científicas y técnicas necesarias para su adecuado desempeño profesional.</p>
+</td>
+         </tr>
+      </tbody>
+   </table>
+   <a name="5"> </a>
+   <h3>Terminology: Code Systems </h3>
+    <p>These define new code systems used by systems conforming to this implementation guide.</p>
+<table class="grid">
+      <col style="width:20%"/>
+      <tbody>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-eis-comunas-cs.html" title="CodeSystem/eis-comunas-cs">Comunas</a>
+            </td>
+            <td>
+<p>Comunas</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-eis-CondiciondelaActividadLaboral-CS.html"
+                  title="CodeSystem/eis-CondiciondelaActividadLaboral-CS">Condición de la Actividad Laboral</a>
+            </td>
+            <td>
+<p>La condición de la actividad corresponde a la relación que mantiene la persona con el trabajo al momento del registro, y se vincula con su ciclo de vida laboral, permitiendo identificar su situación de actividad económica.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-eis-especialidades-bioquimicas-cs.html"
+                  title="CodeSystem/eis-especialidades-bioquimicas-cs">Especialidades y Subespecialidades Farmacéuticas o Químico Farmacéuticas</a>
+            </td>
+            <td>
+<p>Corresponde al conjunto de códigos y valores asociados a las especialidades y subespecialidades bioquímicas, que permiten identificar el ámbito específico de desempeño profesional del prestador individual del área de la bioquímica en el sistema de salud.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-eis-especialidades-farmaceuticas-cs.html"
+                  title="CodeSystem/eis-especialidades-farmaceuticas-cs">Especialidades y Subespecialidades Farmacéuticas o Químico Farmacéuticas</a>
+            </td>
+            <td>
+<p>Corresponde al conjunto de códigos y valores asociados a las especialidades y subespecialidades farmacéuticas o químico-farmacéuticas, que permiten identificar y registrar el ámbito específico de desempeño profesional del prestador individual del área farmacéutica.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-eis-EspecialidadesySubespecialidadesMedicas-CS.html"
+                  title="CodeSystem/eis-EspecialidadesySubespecialidadesMedicas-CS">Especialidades y Subespecialidades Médicas</a>
+            </td>
+            <td>
+<p>La certificación de especialidades y subespecialidades médicas corresponden al proceso mediante el cual se reconoce oficialmente que un prestador individual de salud posee y domina un conjunto de conocimientos, competencias y experiencias específicas, relevantes para el ejercicio profesional en un ámbito determinado de la atención de salud.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-eis-especialidades-odontologicas-cs.html"
+                  title="CodeSystem/eis-especialidades-odontologicas-cs">Especialidades y Subespecialidades Odontológicas</a>
+            </td>
+            <td>
+<p>La certificación de especialidades y subespecialidades odontológicas corresponde al proceso mediante el cual se reconoce oficialmente que un prestador individual del área odontológica posee los conocimientos, competencias y experiencias específicas requeridas para el ejercicio profesional en un ámbito determinado de la atención odontológica.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-eis-especialidades-enfermeria-cs.html"
+                  title="CodeSystem/eis-especialidades-enfermeria-cs">Especialidades y Subespecialidades de Enfermería</a>
+            </td>
+            <td>
+<p>Corresponde al conjunto de códigos y valores asociados a las especialidades y subespecialidades de enfermería, que permiten identificar el ámbito específico de desempeño profesional del prestador individual del área de enfermería en el sistema de salud.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-eis-establecimientos-privados-cs.html"
+                  title="CodeSystem/eis-establecimientos-privados-cs">Establecimientos Privados</a>
+            </td>
+            <td>
+<p>Los establecimientos privados de salud corresponden a entidades asistenciales autorizadas que otorgan prestaciones de promoción, prevención, diagnóstico, tratamiento, recuperación y rehabilitación de la salud, en modalidad ambulatoria y/o con internación, conforme a la normativa sanitaria vigente.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-eis-establecimientos-nivel-primario-cs.html"
+                  title="CodeSystem/eis-establecimientos-nivel-primario-cs">Establecimientos Públicos de Nivel Primario</a>
+            </td>
+            <td>
+<p>Los establecimientos públicos de atención primaria corresponden a aquellos a través de los cuales se otorgan acciones de promoción, prevención, tratamiento y rehabilitación, constituyendo el primer nivel de atención del sistema público de salud.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-eis-establecimientos-nivel-secundario-cs.html"
+                  title="CodeSystem/eis-establecimientos-nivel-secundario-cs">Establecimientos Públicos de Nivel Secundario</a>
+            </td>
+            <td>
+<p>Los centros de especialidad son establecimientos públicos de atención ambulatoria que otorgan prestaciones diagnósticas y/o terapéuticas asociadas a una o más especialidades, y cuentan con personería jurídica y un director médico responsable legalmente registrado.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-eis-establecimientos-nivel-terciario-cs.html"
+                  title="CodeSystem/eis-establecimientos-nivel-terciario-cs">Establecimientos Públicos de Nivel Terciario</a>
+            </td>
+            <td>
+<p>Los establecimientos públicos de nivel terciario corresponden a hospitales e institutos que otorgan atención de alta complejidad, ejecutando acciones de recuperación y rehabilitación de personas enfermas. Este nivel se asocia a la atención cerrada o con internación.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-eis-establecimientos-nivel-atencion-cs.html"
+                  title="CodeSystem/eis-establecimientos-nivel-atencion-cs">Establecimientos según Nivel de Atención</a>
+            </td>
+            <td>
+<p>El sistema público de salud se organiza en niveles de atención según la complejidad y cobertura de las prestaciones que entrega: primario, secundario y terciario. El acceso a los niveles secundario y terciario se realiza, en general, mediante referencia desde niveles de menor complejidad.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-eis-establecimientos-nivel-complejidad-cs.html"
+                  title="CodeSystem/eis-establecimientos-nivel-complejidad-cs">Establecimientos según Nivel de Complejidad</a>
+            </td>
+            <td>
+<p>El nivel de complejidad de los establecimientos que integran la Red Asistencial del Sistema Nacional de Servicios de Salud se determina conforme a lo establecido en el Reglamento Orgánico de los Servicios de Salud, considerando su infraestructura, capacidad resolutiva y tipo de prestaciones que otorgan.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-eis-establecimientos-tipo-atencion-cs.html"
+                  title="CodeSystem/eis-establecimientos-tipo-atencion-cs">Establecimientos según Tipo de Atención</a>
+            </td>
+            <td>
+<p>De acuerdo con tipo de atención otorgada, los prestadores de salud pueden clasificarse en prestadores institucionales de atención abierta (ambulatoria) o prestadores institucionales de atención cerrada (hospitalaria).</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-eis-EstadoCivil-CS.html"
+                  title="CodeSystem/eis-EstadoCivil-CS">Estado Civil</a>
+            </td>
+            <td>
+<p>El estado civil es la situación de un individuo jurídica de una persona dentro de la sociedad, determinada principalmente por sus relaciones de familia, que la habilita para ejercer determinados derechos y contraer obligaciones de carácter civil.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-eis-GES-CS.html" title="CodeSystem/eis-GES-CS">GES (Garantías Explícitas en Salud)</a>
+            </td>
+            <td>
+<p>El GES (Garantías Explícitas en Salud), anteriormente conocido como AUGE, es un sistema legal de salud en Chile para afiliados a Fonasa e Isapres. Garantiza cobertura para 87 problemas de salud específicos, asegurando acceso, calidad, oportunidad y protección financiera (copagos limitados). Se aplica a través de redes de prestadores acreditados.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-eis-GruposdeOcupaciones-CS.html"
+                  title="CodeSystem/eis-GruposdeOcupaciones-CS">Grupos de Ocupaciones</a>
+            </td>
+            <td>
+<p>La ocupación corresponde al conjunto de tareas y funciones asociadas al empleo que la persona desempeña o ha desempeñado. Una persona puede estar vinculada a una ocupación a través de su empleo principal, un empleo secundario o un empleo desempeñado anteriormente.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-eis-IdentidadGenero-CS.html"
+                  title="CodeSystem/eis-IdentidadGenero-CS">Identidad de Género</a>
+            </td>
+            <td>
+<p>De acuerdo con la Ley 21.120, la identidad de género se entiende como la convicción personal e interna de ser hombre, mujer u otra identidad de género, tal como la persona se percibe a sí misma. Esta puede o no corresponder con el sexo y nombre de pila consignadas en la inscripción de nacimiento.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-eis-InstitucionEmisoradeTituloProfesionalydeEspecialidad-CS.html"
+                  title="CodeSystem/eis-InstitucionEmisoradeTituloProfesionalydeEspecialidad-CS">Institución Emisora de Título Profesional y de Especialidad</a>
+            </td>
+            <td>
+<p>La institución emisora del título profesional y/o especialidad corresponde al nombre de la institución formadora que otorga el respectivo título o certificación, acreditando que el prestador de salud ha cumplido con todas las exigencias académicas y formativas establecidas en el programa de formación correspondiente.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-eis-limite-urbano-censal-cs.html"
+                  title="CodeSystem/eis-limite-urbano-censal-cs">Límite Urbano Censal</a>
+            </td>
+            <td>
+<p>Corresponde a distinguir entre zonas urbanas y rurales, según la delimitación establecida por el Instituto Nacional de Estadísticas (INE) para fines censales, considerando factores como la densidad poblacional, infraestructura y características del entorno.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-eis-ModalidaddeAtencionFONASA-CS.html"
+                  title="CodeSystem/eis-ModalidaddeAtencionFONASA-CS">Modalidad de Atención FONASA</a>
+            </td>
+            <td>
+<p>La modalidad de atención FONASA corresponde a la forma en que  una persona afiliada voluntariamente al Fondo Nacional de Salud (FONASA) accede a las prestaciones de salud, permitiéndole contar con los servicios y la protección financiera otorgada por el Seguro Público de Salud</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-eis-NiveldeDiscapacidad-CS.html"
+                  title="CodeSystem/eis-NiveldeDiscapacidad-CS">Nivel de Discapacidad</a>
+            </td>
+            <td>
+<p>Las personas en situación de discapacidad son aquellas que, en relación con condiciones de salud de carácter físico, psíquico, intelectual, sensorial u otras, y al interactuar con diversas barreras contextuales, actitudinales y ambientales, presentan restricciones en su participación plena y efectiva en la sociedad, en igualdad de condiciones con las demás personas.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-eis-OcupacionesDesagregadas-CS.html"
+                  title="CodeSystem/eis-OcupacionesDesagregadas-CS">Ocupaciones Desagregadas</a>
+            </td>
+            <td>
+<p>Código asociados a el detalle de las ocupaciones de un paciente</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-eis-OrigendeDiscapacidad-CS.html"
+                  title="CodeSystem/eis-OrigendeDiscapacidad-CS">Origen de Discapacidad</a>
+            </td>
+            <td>
+<p>El origen de la discapacidad corresponde al evento, condición o circunstancia a partir de la cual se genera una situación de discapacidad en la persona, considerando la interacción entre sus condiciones de salud y las barreras contextuales, actitudinales y ambientales.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-eis-PrevisiondeSalud-CS.html"
+                  title="CodeSystem/eis-PrevisiondeSalud-CS">Previsión de Salud</a>
+            </td>
+            <td>
+<p>La previsión corresponde a la variable que identifica el sistema de aseguramiento de salud vigente al que se encuentra adscrita la persona, el cual define la cobertura para acciones de promoción, prevención, tratamiento y control de las enfermedades.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-eis-provincias-cs.html"
+                  title="CodeSystem/eis-provincias-cs">Provincias</a>
+            </td>
+            <td>
+<p>Provincias</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-eis-PuebloAfrodescendienteChileno-CS.html"
+                  title="CodeSystem/eis-PuebloAfrodescendienteChileno-CS">Pueblo Afrodescendiente Chileno</a>
+            </td>
+            <td>
+<p>Se entiende por pueblo afrodescendiente chileno al grupo humano que, teniendo nacionalidad chilena conforme a la Constitución Política de la República, comparte una historia, cultura, tradiciones y costumbres comunes, unidas por la conciencia de identidad y reconocimiento colectivo.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-eis-PueblosOriginarios-CS.html"
+                  title="CodeSystem/eis-PueblosOriginarios-CS">Pueblos Indígenas u Originarios</a>
+            </td>
+            <td>
+<p>Los Pueblos Indígenas u Originarios en Chile corresponden a los descendientes de agrupaciones humanas que habitaban el territorio nacional en tiempos precolombinos, y que conservan manifestaciones culturales, sociales y étnicas propias, o parte de ellas, teniendo para estos pueblos la tierra un rol fundamental en su existencia y desarrollo cultural.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-eis-regiones-cs.html"
+                  title="CodeSystem/eis-regiones-cs">Regiones</a>
+            </td>
+            <td>
+<p>Regiones</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-eis-Religion-CS.html"
+                  title="CodeSystem/eis-Religion-CS">Religiones &amp; Cultos</a>
+            </td>
+            <td>
+<p>La religión o credo corresponde a un sistema de creencias y prácticas, de carácter individual o colectivo, relacionadas con lo que la persona considera sagrado o divino, y que se vinculan a su dimensión espiritual, existencial y cultural.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-eis-SEREMI-CS.html" title="CodeSystem/eis-SEREMI-CS">SEREMI</a>
+            </td>
+            <td>
+<p>Corresponde a los códigos y valores asociados a cada Secretaría Regional Ministerial (SEREMI), utilizados en los sistemas de información en salud. La codificación de la SEREMI es coincidente con el código de la región, el cual prevalece para efectos de registro e interoperabilidad.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-eis-ServiciosdeSalud-CS.html"
+                  title="CodeSystem/eis-ServiciosdeSalud-CS">Servicios de Salud</a>
+            </td>
+            <td>
+<p>Corresponde a los códigos y valores asociados a los servicios de salud del país, utilizados para la identificación territorial y administrativa de la red asistencial en los sistemas de información en salud.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-eis-SexoBiologico-CS.html"
+                  title="CodeSystem/eis-SexoBiologico-CS">Sexo Biológico</a>
+            </td>
+            <td>
+<p>El sexo biológico corresponde a la determinación realizada mediante la aplicación de criterios biológicos y anatómicos, utilizados para clasificar a las personas como hombre o mujer al momento del nacimiento.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-eis-tipo-establecimiento-publicos-cs.html"
+                  title="CodeSystem/eis-tipo-establecimiento-publicos-cs">Tipo de Establecimientos Públicos</a>
+            </td>
+            <td>
+<p>Los establecimientos públicos de salud son estructuras organizadas que otorgan acciones de promoción, protección, recuperación y rehabilitación de la salud, de forma presencial o remota, y que cuentan con autorización sanitaria de la SEREMI de salud y acreditación de calidad de la Superintendencia de Salud.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-eis-TipodeIdentificador-CS.html"
+                  title="CodeSystem/eis-TipodeIdentificador-CS">Tipo de Identificador</a>
+            </td>
+            <td>
+<p>Define el tipo de documento de identificación del usuario, paciente o prestador de salud individual</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-eis-TipodeSistemadeSalud-CS.html"
+                  title="CodeSystem/eis-TipodeSistemadeSalud-CS">Tipo de Sistema de Salud</a>
+            </td>
+            <td>
+<p>Identifica el sistema de aseguramiento de salud al cual se encuentra adscrita la persona, ya sea FONASA, ISAPRE o regímenes institucionales como Capredena o Dipreca. Este dato permite determinar copagos, beneficios y las rutas de derivación dentro de la red asistencial.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-eis-tipo-via-cs.html"
+                  title="CodeSystem/eis-tipo-via-cs">Tipo de Vía</a>
+            </td>
+            <td>
+<p>Corresponde al tipo o clasificación de calle.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-eis-TramosFONASA-CS.html"
+                  title="CodeSystem/eis-TramosFONASA-CS">Tramos FONASA</a>
+            </td>
+            <td>
+<p>Los tramos FONASA corresponden a la clasificación que realiza el Fondo Nacional de Salud (FONASA) en función del nivel de ingreso mensual que percibe la persona, la cual determina el acceso a beneficios, copagos y modalidades de atención dentro del Seguro Público de Salud.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-eis-TituloProfesional-CS.html"
+                  title="CodeSystem/eis-TituloProfesional-CS">Título Profesional</a>
+            </td>
+            <td>
+<p>El título profesional corresponde al documento oficial que acredita que una persona ha completado un programa formal de estudios y ha aprobado las evaluaciones, pruebas o exámenes requeridos para el ejercicio de una determinada profesión, certificando las competencias generales, científicas y técnicas necesarias para su adecuado desempeño profesional.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-eis-TituloProfesionalSCT-CS.html"
+                  title="CodeSystem/eis-TituloProfesionalSCT-CS">Título Profesional SCT</a>
+            </td>
+            <td>
+<p>El título profesional corresponde al documento oficial que acredita que una persona ha completado un programa formal de estudios y ha aprobado las evaluaciones, pruebas o exámenes requeridos para el ejercicio de una determinada profesión, certificando las competencias generales, científicas y técnicas necesarias para su adecuado desempeño profesional.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-eis-NiveldeInstruccion-CS.html"
+                  title="CodeSystem/eis-NiveldeInstruccion-CS">Ultimo nivel aprobado</a>
+            </td>
+            <td>
+<p>Código del último nivel aprobado</p>
+</td>
+         </tr>
+      </tbody>
+   </table>
+</div>
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="https://interoperabilidad.minsal.cl">Unidad de Interoperabilidad - MINSAL</a>.  Package hl7.fhir.cl.minsal.eis#0.1.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Apr 13, 2026 14:38-0400">2026-04-13</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+             Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Tabla de contenidos</a> |
+<a style="color: var(--footer-hyperlink-text-color)" href="qa.html">Reporte QA</a> |
+<a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="https://interoperabilidad.minsal.cl/fhir/ig/eis/history.html">Historial de versiones</a></a>
+
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

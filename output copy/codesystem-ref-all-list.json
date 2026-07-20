@@ -1,0 +1,512 @@
+{
+  "codeSystems" : [{
+    "url" : "http://hl7.org/fhir/address-type",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "AddressType",
+    "title" : "AddressType",
+    "description" : "The type of an address (physical / postal).",
+    "oids" : ["2.16.840.1.113883.4.642.4.70"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-address-type.html" : "AddressType"
+  },
+  {
+    "url" : "http://hl7.org/fhir/address-use",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "AddressUse",
+    "title" : "AddressUse",
+    "description" : "The use of an address.",
+    "oids" : ["2.16.840.1.113883.4.642.4.68"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-address-use.html" : "AddressUse"
+  },
+  {
+    "url" : "http://hl7.org/fhir/identifier-use",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "IdentifierUse",
+    "title" : "IdentifierUse",
+    "description" : "Identifies the purpose for this identifier, if known .",
+    "oids" : ["2.16.840.1.113883.4.642.4.58"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-identifier-use.html" : "IdentifierUse"
+  },
+  {
+    "url" : "http://hl7.org/fhir/name-use",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "NameUse",
+    "title" : "NameUse",
+    "description" : "The use of a human name.",
+    "oids" : ["2.16.840.1.113883.4.642.4.66"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-name-use.html" : "NameUse"
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-CondiciondelaActividadLaboral-CS",
+    "version" : "0.1.1",
+    "status" : "active",
+    "name" : "CondiciondelaActividadLaboralCS",
+    "title" : "Condición de la Actividad Laboral",
+    "description" : "La condición de la actividad corresponde a la relación que mantiene la persona con el trabajo al momento del registro, y se vincula con su ciclo de vida laboral, permitiendo identificar su situación de actividad económica.",
+    "uses" : {
+    },
+    "ValueSet-eis-CondiciondelaActividadLaboral-VS.html" : "Condición de la Actividad Laboral"
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-EspecialidadesySubespecialidadesMedicas-CS",
+    "version" : "0.1.1",
+    "status" : "active",
+    "name" : "EspecialidadesySubespecialidadesMedicasCS",
+    "title" : "Especialidades y Subespecialidades Médicas",
+    "description" : "La certificación de especialidades y subespecialidades médicas corresponden al proceso mediante el cual se reconoce oficialmente que un prestador individual de salud posee y domina un conjunto de conocimientos, competencias y experiencias específicas, relevantes para el ejercicio profesional en un ámbito determinado de la atención de salud.",
+    "uses" : {
+    },
+    "ValueSet-eis-EspecialidadesySubespecialidadesMedicas-VS.html" : "Especialidades y Subespecialidades Médicas"
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-EstadoCivil-CS",
+    "version" : "0.1.1",
+    "status" : "active",
+    "name" : "EstadoCivilCS",
+    "title" : "Estado Civil",
+    "description" : "El estado civil es la situación de un individuo jurídica de una persona dentro de la sociedad, determinada principalmente por sus relaciones de familia, que la habilita para ejercer determinados derechos y contraer obligaciones de carácter civil.",
+    "uses" : {
+    },
+    "ValueSet-eis-EstadoCivil-VS.html" : "Estado Civil"
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-GES-CS",
+    "version" : "0.1.1",
+    "status" : "active",
+    "name" : "GESCS",
+    "title" : "GES (Garantías Explícitas en Salud)",
+    "description" : "El GES (Garantías Explícitas en Salud), anteriormente conocido como AUGE, es un sistema legal de salud en Chile para afiliados a Fonasa e Isapres. Garantiza cobertura para 87 problemas de salud específicos, asegurando acceso, calidad, oportunidad y protección financiera (copagos limitados). Se aplica a través de redes de prestadores acreditados.",
+    "uses" : {
+    },
+    "ValueSet-eis-GES-VS.html" : "GES (Garantías Explícitas en Salud)"
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-GruposdeOcupaciones-CS",
+    "version" : "0.1.1",
+    "status" : "active",
+    "name" : "GruposdeOcupacionesCS",
+    "title" : "Grupos de Ocupaciones",
+    "description" : "La ocupación corresponde al conjunto de tareas y funciones asociadas al empleo que la persona desempeña o ha desempeñado. Una persona puede estar vinculada a una ocupación a través de su empleo principal, un empleo secundario o un empleo desempeñado anteriormente.",
+    "uses" : {
+    },
+    "ValueSet-eis-GruposdeOcupaciones-VS.html" : "Grupos de Ocupaciones"
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-IdentidadGenero-CS",
+    "version" : "0.1.1",
+    "status" : "active",
+    "name" : "IdentidadGeneroCS",
+    "title" : "Identidad de Género",
+    "description" : "De acuerdo con la Ley 21.120, la identidad de género se entiende como la convicción personal e interna de ser hombre, mujer u otra identidad de género, tal como la persona se percibe a sí misma. Esta puede o no corresponder con el sexo y nombre de pila consignadas en la inscripción de nacimiento.",
+    "uses" : {
+    },
+    "ValueSet-IdentidadGeneroVS.html" : "Identidad de Género"
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-InstitucionEmisoradeTituloProfesionalydeEspecialidad-CS",
+    "version" : "0.1.1",
+    "status" : "active",
+    "name" : "InstitucionEmisoradeTituloProfesionalydeEspecialidadCS",
+    "title" : "Institución Emisora de Título Profesional y de Especialidad",
+    "description" : "La institución emisora del título profesional y/o especialidad corresponde al nombre de la institución formadora que otorga el respectivo título o certificación, acreditando que el prestador de salud ha cumplido con todas las exigencias académicas y formativas establecidas en el programa de formación correspondiente.",
+    "uses" : {
+    },
+    "ValueSet-eis-InstitucionEmisoradeTituloProfesionalydeEspecialidad-VS.html" : "Institución Emisora de Título Profesional y de Especialidad"
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-ModalidaddeAtencionFONASA-CS",
+    "version" : "0.1.1",
+    "status" : "active",
+    "name" : "ModalidaddeAtencionFONASACS",
+    "title" : "Modalidad de Atención FONASA",
+    "description" : "La modalidad de atención FONASA corresponde a la forma en que  una persona afiliada voluntariamente al Fondo Nacional de Salud (FONASA) accede a las prestaciones de salud, permitiéndole contar con los servicios y la protección financiera otorgada por el Seguro Público de Salud",
+    "uses" : {
+    },
+    "ValueSet-eis-ModalidaddeAtencionFONASA-VS.html" : "Modalidad de Atención FONASA"
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-NiveldeDiscapacidad-CS",
+    "version" : "0.1.1",
+    "status" : "active",
+    "name" : "NiveldeDiscapacidadCS",
+    "title" : "Nivel de Discapacidad",
+    "description" : "Las personas en situación de discapacidad son aquellas que, en relación con condiciones de salud de carácter físico, psíquico, intelectual, sensorial u otras, y al interactuar con diversas barreras contextuales, actitudinales y ambientales, presentan restricciones en su participación plena y efectiva en la sociedad, en igualdad de condiciones con las demás personas.",
+    "uses" : {
+    },
+    "ValueSet-eis-NiveldeDiscapacidad-VS.html" : "Nivel de Discapacidad"
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-NiveldeInstruccion-CS",
+    "version" : "0.1.1",
+    "status" : "active",
+    "name" : "NiveldeInstruccionCS",
+    "title" : "Ultimo nivel aprobado",
+    "description" : "Código del último nivel aprobado",
+    "uses" : {
+    },
+    "ValueSet-eis-NiveldeInstruccion-CS.html" : "Nivel de Instrucción"
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-OcupacionesDesagregadas-CS",
+    "version" : "0.1.1",
+    "status" : "active",
+    "name" : "OcupacionesDesagregadasCS",
+    "title" : "Ocupaciones Desagregadas",
+    "description" : "Código asociados a el detalle de las ocupaciones de un paciente",
+    "uses" : {
+    },
+    "ValueSet-eis-OcupacionesDesagregadas-VS.html" : "Ocupaciones Desagregadas"
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-OrigendeDiscapacidad-CS",
+    "version" : "0.1.1",
+    "status" : "active",
+    "name" : "OrigendeDiscapacidadCS",
+    "title" : "Origen de Discapacidad",
+    "description" : "El origen de la discapacidad corresponde al evento, condición o circunstancia a partir de la cual se genera una situación de discapacidad en la persona, considerando la interacción entre sus condiciones de salud y las barreras contextuales, actitudinales y ambientales.",
+    "uses" : {
+    },
+    "ValueSet-eis-OrigendeDiscapacidad-VS.html" : "Origen de Discapacidad"
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-PrevisiondeSalud-CS",
+    "version" : "0.1.1",
+    "status" : "active",
+    "name" : "PrevisiondeSaludCS",
+    "title" : "Previsión de Salud",
+    "description" : "La previsión corresponde a la variable que identifica el sistema de aseguramiento de salud vigente al que se encuentra adscrita la persona, el cual define la cobertura para acciones de promoción, prevención, tratamiento y control de las enfermedades.",
+    "uses" : {
+    },
+    "ValueSet-eis-PrevisiondeSalud-VS.html" : "Previsión de Salud"
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-PuebloAfrodescendienteChileno-CS",
+    "version" : "0.1.1",
+    "status" : "active",
+    "name" : "PuebloAfrodescendienteChilenoCS",
+    "title" : "Pueblo Afrodescendiente Chileno",
+    "description" : "Se entiende por pueblo afrodescendiente chileno al grupo humano que, teniendo nacionalidad chilena conforme a la Constitución Política de la República, comparte una historia, cultura, tradiciones y costumbres comunes, unidas por la conciencia de identidad y reconocimiento colectivo.",
+    "uses" : {
+    },
+    "ValueSet-eis-PuebloAfrodescendienteChileno-VS.html" : "Pueblo Afrodescendiente Chileno"
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-PueblosOriginarios-CS",
+    "version" : "0.1.1",
+    "status" : "active",
+    "name" : "PueblosOriginariosCS",
+    "title" : "Pueblos Indígenas u Originarios",
+    "description" : "Los Pueblos Indígenas u Originarios en Chile corresponden a los descendientes de agrupaciones humanas que habitaban el territorio nacional en tiempos precolombinos, y que conservan manifestaciones culturales, sociales y étnicas propias, o parte de ellas, teniendo para estos pueblos la tierra un rol fundamental en su existencia y desarrollo cultural.",
+    "uses" : {
+    },
+    "ValueSet-eis-PueblosOriginarios-VS.html" : "Pueblos Indígenas u Originarios"
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-Religion-CS",
+    "version" : "0.1.1",
+    "status" : "active",
+    "name" : "ReligionCS",
+    "title" : "Religiones & Cultos",
+    "description" : "La religión o credo corresponde a un sistema de creencias y prácticas, de carácter individual o colectivo, relacionadas con lo que la persona considera sagrado o divino, y que se vinculan a su dimensión espiritual, existencial y cultural.",
+    "uses" : {
+    },
+    "ValueSet-eis-Religion-VS.html" : "Religiones & Cultos"
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-SEREMI-CS",
+    "version" : "0.1.1",
+    "status" : "active",
+    "name" : "SEREMICS",
+    "title" : "SEREMI",
+    "description" : "Corresponde a los códigos y valores asociados a cada Secretaría Regional Ministerial (SEREMI), utilizados en los sistemas de información en salud. La codificación de la SEREMI es coincidente con el código de la región, el cual prevalece para efectos de registro e interoperabilidad.",
+    "uses" : {
+    },
+    "ValueSet-eis-SEREMI-VS.html" : "SEREMI"
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-ServiciosdeSalud-CS",
+    "version" : "0.1.1",
+    "status" : "active",
+    "name" : "ServiciosdeSaludCS",
+    "title" : "Servicios de Salud",
+    "description" : "Corresponde a los códigos y valores asociados a los servicios de salud del país, utilizados para la identificación territorial y administrativa de la red asistencial en los sistemas de información en salud.",
+    "uses" : {
+    },
+    "ValueSet-eis-ServiciosdeSalud-VS.html" : "Servicios de Salud"
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-SexoBiologico-CS",
+    "version" : "0.1.1",
+    "status" : "active",
+    "name" : "SexoBiologicoCS",
+    "title" : "Sexo Biológico",
+    "description" : "El sexo biológico corresponde a la determinación realizada mediante la aplicación de criterios biológicos y anatómicos, utilizados para clasificar a las personas como hombre o mujer al momento del nacimiento.",
+    "uses" : {
+    },
+    "ValueSet-SexoBiologicoVS.html" : "Sexo Biológico"
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-TipodeIdentificador-CS",
+    "version" : "0.1.1",
+    "status" : "active",
+    "name" : "TipodeIdentificadorCS",
+    "title" : "Tipo de Identificador",
+    "description" : "Define el tipo de documento de identificación del usuario, paciente o prestador de salud individual",
+    "uses" : {
+    },
+    "ValueSet-eis-TipodeIdentificador-VS.html" : "Tipo de Identificador"
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-TipodeSistemadeSalud-CS",
+    "version" : "0.1.1",
+    "status" : "active",
+    "name" : "TipodeSistemadeSaludCS",
+    "title" : "Tipo de Sistema de Salud",
+    "description" : "Identifica el sistema de aseguramiento de salud al cual se encuentra adscrita la persona, ya sea FONASA, ISAPRE o regímenes institucionales como Capredena o Dipreca. Este dato permite determinar copagos, beneficios y las rutas de derivación dentro de la red asistencial.",
+    "uses" : {
+    },
+    "ValueSet-eis-TipodeSistemadeSalud-VS.html" : "Tipo de Sistema de Salud"
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-TituloProfesional-CS",
+    "version" : "0.1.1",
+    "status" : "active",
+    "name" : "TituloProfesionalCS",
+    "title" : "Título Profesional",
+    "description" : "El título profesional corresponde al documento oficial que acredita que una persona ha completado un programa formal de estudios y ha aprobado las evaluaciones, pruebas o exámenes requeridos para el ejercicio de una determinada profesión, certificando las competencias generales, científicas y técnicas necesarias para su adecuado desempeño profesional.",
+    "uses" : {
+    },
+    "ValueSet-eis-TituloProfesional-VS.html" : "Título Profesional"
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-TituloProfesionalSCT-CS",
+    "version" : "0.1.1",
+    "status" : "active",
+    "name" : "TituloProfesionalSCTCS",
+    "title" : "Título Profesional SCT",
+    "description" : "El título profesional corresponde al documento oficial que acredita que una persona ha completado un programa formal de estudios y ha aprobado las evaluaciones, pruebas o exámenes requeridos para el ejercicio de una determinada profesión, certificando las competencias generales, científicas y técnicas necesarias para su adecuado desempeño profesional.",
+    "uses" : {
+    },
+    "ValueSet-eis-TituloProfesionalSCT-VS.html" : "Título Profesional SCT"
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-TramosFONASA-CS",
+    "version" : "0.1.1",
+    "status" : "active",
+    "name" : "TramosFONASACS",
+    "title" : "Tramos FONASA",
+    "description" : "Los tramos FONASA corresponden a la clasificación que realiza el Fondo Nacional de Salud (FONASA) en función del nivel de ingreso mensual que percibe la persona, la cual determina el acceso a beneficios, copagos y modalidades de atención dentro del Seguro Público de Salud.",
+    "uses" : {
+    },
+    "ValueSet-eis-TramosFONASA-VS.html" : "Tramos FONASA"
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-comunas-cs",
+    "version" : "0.1.1",
+    "status" : "active",
+    "name" : "ComunasCS",
+    "title" : "Comunas",
+    "description" : "Comunas",
+    "uses" : {
+    },
+    "ValueSet-eis-comunas-vs.html" : "Comunas"
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-especialidades-bioquimicas-cs",
+    "version" : "0.1.1",
+    "status" : "active",
+    "name" : "EspecialidadesBioquimicasCS",
+    "title" : "Especialidades y Subespecialidades Farmacéuticas o Químico Farmacéuticas",
+    "description" : "Corresponde al conjunto de códigos y valores asociados a las especialidades y subespecialidades bioquímicas, que permiten identificar el ámbito específico de desempeño profesional del prestador individual del área de la bioquímica en el sistema de salud.",
+    "uses" : {
+    },
+    "ValueSet-eis-especialidades-bioquimicas-vs.html" : "Especialidades y Subespecialidades Bioquímicas"
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-especialidades-enfermeria-cs",
+    "version" : "0.1.1",
+    "status" : "active",
+    "name" : "EspecialidadesEnfermeriaCS",
+    "title" : "Especialidades y Subespecialidades de Enfermería",
+    "description" : "Corresponde al conjunto de códigos y valores asociados a las especialidades y subespecialidades de enfermería, que permiten identificar el ámbito específico de desempeño profesional del prestador individual del área de enfermería en el sistema de salud.",
+    "uses" : {
+    },
+    "ValueSet-eis-especialidades-enfermeria-vs.html" : "Especialidades y Subespecialidades de Enfermería"
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-especialidades-farmaceuticas-cs",
+    "version" : "0.1.1",
+    "status" : "active",
+    "name" : "EspecialidadesFarmaceuticasCS",
+    "title" : "Especialidades y Subespecialidades Farmacéuticas o Químico Farmacéuticas",
+    "description" : "Corresponde al conjunto de códigos y valores asociados a las especialidades y subespecialidades farmacéuticas o químico-farmacéuticas, que permiten identificar y registrar el ámbito específico de desempeño profesional del prestador individual del área farmacéutica.",
+    "uses" : {
+    },
+    "ValueSet-eis-especialidades-farmaceuticas-vs.html" : "Especialidades Farmacéuticas"
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-especialidades-odontologicas-cs",
+    "version" : "0.1.1",
+    "status" : "active",
+    "name" : "EspecialidadesOdontologicasCS",
+    "title" : "Especialidades y Subespecialidades Odontológicas",
+    "description" : "La certificación de especialidades y subespecialidades odontológicas corresponde al proceso mediante el cual se reconoce oficialmente que un prestador individual del área odontológica posee los conocimientos, competencias y experiencias específicas requeridas para el ejercicio profesional en un ámbito determinado de la atención odontológica.",
+    "uses" : {
+    },
+    "ValueSet-eis-especialidades-odontologicas-vs.html" : "Especialidades y Subespecialidades Odontológicas"
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-establecimientos-nivel-atencion-cs",
+    "version" : "0.1.1",
+    "status" : "active",
+    "name" : "EstablecimientosNivelAtencionCS",
+    "title" : "Establecimientos según Nivel de Atención",
+    "description" : "El sistema público de salud se organiza en niveles de atención según la complejidad y cobertura de las prestaciones que entrega: primario, secundario y terciario. El acceso a los niveles secundario y terciario se realiza, en general, mediante referencia desde niveles de menor complejidad.",
+    "uses" : {
+    },
+    "ValueSet-eis-establecimientos-nivel-atencion-vs.html" : "Establecimientos según Nivel de Atención"
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-establecimientos-nivel-complejidad-cs",
+    "version" : "0.1.1",
+    "status" : "active",
+    "name" : "EstablecimientosNivelComplejidadCS",
+    "title" : "Establecimientos según Nivel de Complejidad",
+    "description" : "El nivel de complejidad de los establecimientos que integran la Red Asistencial del Sistema Nacional de Servicios de Salud se determina conforme a lo establecido en el Reglamento Orgánico de los Servicios de Salud, considerando su infraestructura, capacidad resolutiva y tipo de prestaciones que otorgan.",
+    "uses" : {
+    },
+    "ValueSet-eis-establecimientos-nivel-complejidad-vs.html" : "Establecimientos según Nivel de Complejidad "
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-establecimientos-nivel-primario-cs",
+    "version" : "0.1.1",
+    "status" : "active",
+    "name" : "EstablecimientosNivelPrimarioCS",
+    "title" : "Establecimientos Públicos de Nivel Primario",
+    "description" : "Los establecimientos públicos de atención primaria corresponden a aquellos a través de los cuales se otorgan acciones de promoción, prevención, tratamiento y rehabilitación, constituyendo el primer nivel de atención del sistema público de salud.",
+    "uses" : {
+    },
+    "ValueSet-eis-establecimientos-nivel-primario-vs.html" : "Establecimientos Públicos de Nivel Primario"
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-establecimientos-nivel-secundario-cs",
+    "version" : "0.1.1",
+    "status" : "active",
+    "name" : "EstablecimientosNivelSecundarioCS",
+    "title" : "Establecimientos Públicos de Nivel Secundario",
+    "description" : "Los centros de especialidad son establecimientos públicos de atención ambulatoria que otorgan prestaciones diagnósticas y/o terapéuticas asociadas a una o más especialidades, y cuentan con personería jurídica y un director médico responsable legalmente registrado.",
+    "uses" : {
+    },
+    "ValueSet-eis-establecimientos-nivel-secundario-vs.html" : "Establecimientos Públicos de Nivel Secundario"
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-establecimientos-nivel-terciario-cs",
+    "version" : "0.1.1",
+    "status" : "active",
+    "name" : "EstablecimientosNivelTerciarioCS",
+    "title" : "Establecimientos Públicos de Nivel Terciario",
+    "description" : "Los establecimientos públicos de nivel terciario corresponden a hospitales e institutos que otorgan atención de alta complejidad, ejecutando acciones de recuperación y rehabilitación de personas enfermas. Este nivel se asocia a la atención cerrada o con internación.",
+    "uses" : {
+    },
+    "ValueSet-eis-establecimientos-nivel-terciario-vs.html" : "Establecimientos Públicos de Nivel Terciario"
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-establecimientos-privados-cs",
+    "version" : "0.1.1",
+    "status" : "active",
+    "name" : "EstablecimientosPrivadosCS",
+    "title" : "Establecimientos Privados",
+    "description" : "Los establecimientos privados de salud corresponden a entidades asistenciales autorizadas que otorgan prestaciones de promoción, prevención, diagnóstico, tratamiento, recuperación y rehabilitación de la salud, en modalidad ambulatoria y/o con internación, conforme a la normativa sanitaria vigente.",
+    "uses" : {
+    },
+    "ValueSet-eis-establecimientos-privados-vs.html" : "Establecimientos Privados"
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-establecimientos-tipo-atencion-cs",
+    "version" : "0.1.1",
+    "status" : "active",
+    "name" : "EstablecimientosTipoAtencionCS",
+    "title" : "Establecimientos según Tipo de Atención",
+    "description" : "De acuerdo con tipo de atención otorgada, los prestadores de salud pueden clasificarse en prestadores institucionales de atención abierta (ambulatoria) o prestadores institucionales de atención cerrada (hospitalaria).",
+    "uses" : {
+    },
+    "ValueSet-eis-establecimientos-tipo-atencion-vs.html" : "Establecimientos según Tipo de Atención"
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-limite-urbano-censal-cs",
+    "version" : "0.1.1",
+    "status" : "active",
+    "name" : "LimiteUrbanoCensalCS",
+    "title" : "Límite Urbano Censal",
+    "description" : "Corresponde a distinguir entre zonas urbanas y rurales, según la delimitación establecida por el Instituto Nacional de Estadísticas (INE) para fines censales, considerando factores como la densidad poblacional, infraestructura y características del entorno.",
+    "uses" : {
+    },
+    "ValueSet-eis-limite-urbano-censal-vs.html" : "Límite Urbano Censal"
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-provincias-cs",
+    "version" : "0.1.1",
+    "status" : "active",
+    "name" : "ProvinciasCS",
+    "title" : "Provincias",
+    "description" : "Provincias",
+    "uses" : {
+    },
+    "ValueSet-eis-provincias-vs.html" : "Provincias"
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-regiones-cs",
+    "version" : "0.1.1",
+    "status" : "active",
+    "name" : "RegionesCS",
+    "title" : "Regiones",
+    "description" : "Regiones",
+    "uses" : {
+    },
+    "ValueSet-eis-regiones-vs.html" : "Regiones"
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-tipo-establecimiento-publicos-cs",
+    "version" : "0.1.1",
+    "status" : "active",
+    "name" : "TipoEstablecimientoPublicosCS",
+    "title" : "Tipo de Establecimientos Públicos",
+    "description" : "Los establecimientos públicos de salud son estructuras organizadas que otorgan acciones de promoción, protección, recuperación y rehabilitación de la salud, de forma presencial o remota, y que cuentan con autorización sanitaria de la SEREMI de salud y acreditación de calidad de la Superintendencia de Salud.",
+    "uses" : {
+    },
+    "ValueSet-eis-tipo-establecimiento-publicos-vs.html" : "Tipo de Establecimientos Públicos"
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-tipo-via-cs",
+    "version" : "0.1.1",
+    "status" : "active",
+    "name" : "TipoViaCS",
+    "title" : "Tipo de Vía",
+    "description" : "Corresponde al tipo o clasificación de calle.",
+    "uses" : {
+    },
+    "ValueSet-eis-tipo-via-vs.html" : "Tipo de Vía"
+  },
+  {
+    "url" : "urn:iso:std:iso:3166",
+    "version" : "20210120",
+    "status" : "draft",
+    "name" : "Iso3166",
+    "title" : "ISO 3166 Country Codes",
+    "description" : "",
+    "uses" : {
+    },
+    "ValueSet-eis-paises-vs.html" : "Códigos de Países"
+  }]
+}

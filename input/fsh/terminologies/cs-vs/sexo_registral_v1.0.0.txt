@@ -1,0 +1,5 @@
+* #M "Masculino" "Masculino"
+* #F "Femenino" "Femenino"
+* #X "No Binario" "No Binario"
+* #I "Indeterminado" "Indeterminado"
+* #D "Desconocido" "Desconocido"

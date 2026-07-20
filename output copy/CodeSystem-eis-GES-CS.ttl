@@ -1,0 +1,319 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-GES-CS> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "eis-GES-CS"] ; # 
+  fhir:language [ fhir:v "es"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xml:lang=\"es\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"es\"><p class=\"res-header-id\"><b>Generated Narrative: SistemaDeCodigos eis-GES-CS</b></p><a name=\"eis-GES-CS\"> </a><a name=\"hceis-GES-CS\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: es</p></div><p>This case-sensitive code system <code>https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-GES-CS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">2521000325102<a name=\"eis-GES-CS-2521000325102\"> </a></td><td>programa de Garantías Explícitas en Salud para politraumatizado grave (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">2491000325100<a name=\"eis-GES-CS-2491000325100\"> </a></td><td>programa de Garantías Explícitas en Salud para disrafias espinales (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">2361000325103<a name=\"eis-GES-CS-2361000325103\"> </a></td><td>programa de Garantías Explícitas en Salud para tratamiento de la hiperplasia benigna de la próstata en personas sintomáticas (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">2231000325102<a name=\"eis-GES-CS-2231000325102\"> </a></td><td>programa de Garantías Explícitas en Salud para hipoacusia bilateral en personas de 65 años y más que requieren uso de audífono (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">2591000325104<a name=\"eis-GES-CS-2591000325104\"> </a></td><td>programa de Garantías Explícitas en Salud para fibrosis quística (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">2201000325108<a name=\"eis-GES-CS-2201000325108\"> </a></td><td>programa de Garantías Explícitas en Salud para estrabismo en personas menores de 9 años (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">2461000325106<a name=\"eis-GES-CS-2461000325106\"> </a></td><td>programa de Garantías Explícitas en Salud para colecistectomía preventiva del cáncer de vesícula en personas de 35 a 49 años (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">2561000325105<a name=\"eis-GES-CS-2561000325105\"> </a></td><td>programa de Garantías Explícitas en Salud para hemofilia (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">2141000325101<a name=\"eis-GES-CS-2141000325101\"> </a></td><td>programa de Garantías Explícitas en Salud para salud oral integral para niños y niñas de 6 años (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">2271000325100<a name=\"eis-GES-CS-2271000325100\"> </a></td><td>programa de Garantías Explícitas en Salud para artritis reumatoidea (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">2431000325101<a name=\"eis-GES-CS-2431000325101\"> </a></td><td>programa de Garantías Explícitas en Salud para displasia luxante de caderas (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">2371000325105<a name=\"eis-GES-CS-2371000325105\"> </a></td><td>programa de Garantías Explícitas en Salud para tratamiento quirúrgico de escoliosis en personas menores de 25 años (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">2111000325102<a name=\"eis-GES-CS-2111000325102\"> </a></td><td>programa de Garantías Explícitas en Salud para urgencia odontológica ambulatoria (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">2531000325100<a name=\"eis-GES-CS-2531000325100\"> </a></td><td>programa de Garantías Explícitas en Salud para traumatismo cráneo-encefálico moderado o grave (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">2401000325107<a name=\"eis-GES-CS-2401000325107\"> </a></td><td>programa de Garantías Explícitas en Salud para tratamiento quirúrgico de hernia del núcleo pulposo lumbar (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">2241000325106<a name=\"eis-GES-CS-2241000325106\"> </a></td><td>programa de Garantías Explícitas en Salud para retinopatía del prematuro (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">2471000325104<a name=\"eis-GES-CS-2471000325104\"> </a></td><td>programa de Garantías Explícitas en Salud para rehabilitación SARS-COV-2 (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">2181000325109<a name=\"eis-GES-CS-2181000325109\"> </a></td><td>programa de Garantías Explícitas en Salud para tratamiento quirúrgico de cataratas (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">2211000325105<a name=\"eis-GES-CS-2211000325105\"> </a></td><td>programa de Garantías Explícitas en Salud para retinopatía diabética (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">2501000325106<a name=\"eis-GES-CS-2501000325106\"> </a></td><td>programa de Garantías Explícitas en Salud para fisura labiopalatina (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">2571000325103<a name=\"eis-GES-CS-2571000325103\"> </a></td><td>programa de Garantías Explícitas en Salud para enfermedad de Alzheimer y otras demencias (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">2441000325105<a name=\"eis-GES-CS-2441000325105\"> </a></td><td>programa de Garantías Explícitas en Salud para leucemia en personas de 15 años y más (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">2151000325103<a name=\"eis-GES-CS-2151000325103\"> </a></td><td>programa de Garantías Explícitas en Salud para prevención de parto prematuro (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">2281000325103<a name=\"eis-GES-CS-2281000325103\"> </a></td><td>programa de Garantías Explícitas en Salud para artritis idiopática juvenil (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">2381000325107<a name=\"eis-GES-CS-2381000325107\"> </a></td><td>programa de Garantías Explícitas en Salud para endoprótesis total de cadera en personas de 65 años y más con artrosis de cadera con limitación funcional severa (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">2251000325109<a name=\"eis-GES-CS-2251000325109\"> </a></td><td>programa de Garantías Explícitas en Salud para hipoacusia neurosensorial bilateral del prematuro (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">2411000325109<a name=\"eis-GES-CS-2411000325109\"> </a></td><td>programa de Garantías Explícitas en Salud para tratamiento quirúrgico de lesiones crónicas de la válvula aórtica en personas de 15 años y más (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">2541000325109<a name=\"eis-GES-CS-2541000325109\"> </a></td><td>programa de Garantías Explícitas en Salud para trauma ocular grave (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">2481000325102<a name=\"eis-GES-CS-2481000325102\"> </a></td><td>programa de Garantías Explícitas en Salud para órtesis (o ayudas técnicas) para personas de 65 años y más (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">2191000325106<a name=\"eis-GES-CS-2191000325106\"> </a></td><td>programa de Garantías Explícitas en Salud para vicios de refracción en personas de 65 años y más (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">2221000325104<a name=\"eis-GES-CS-2221000325104\"> </a></td><td>programa de Garantías Explícitas en Salud para desprendimiento de retina regmatógeno no traumático (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">2291000325101<a name=\"eis-GES-CS-2291000325101\"> </a></td><td>programa de Garantías Explícitas en Salud para lupus eritematoso sistémico (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">2511000325108<a name=\"eis-GES-CS-2511000325108\"> </a></td><td>programa de Garantías Explícitas en Salud para atención integral de salud en agresión sexual aguda (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">2581000325101<a name=\"eis-GES-CS-2581000325101\"> </a></td><td>programa de Garantías Explícitas en Salud para esclerosis múltiple remitente recurrente (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">2451000325108<a name=\"eis-GES-CS-2451000325108\"> </a></td><td>programa de Garantías Explícitas en Salud para prevención secundaria enfermedad renal crónica terminal (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">2611000325107<a name=\"eis-GES-CS-2611000325107\"> </a></td><td>programa de Garantías Explícitas en Salud para trastornos de generación del impulso y conducción en personas de 15 años y más, que requieren marcapaso (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">2161000325100<a name=\"eis-GES-CS-2161000325100\"> </a></td><td>programa de Garantías Explícitas en Salud para analgesia del parto (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">2391000325109<a name=\"eis-GES-CS-2391000325109\"> </a></td><td>programa de Garantías Explícitas en Salud para tratamiento médico en personas de 55 años y más con artrosis de cadera y/o rodilla, leve o moderada (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">2551000325107<a name=\"eis-GES-CS-2551000325107\"> </a></td><td>programa de Garantías Explícitas en Salud para gran quemado (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">2421000325103<a name=\"eis-GES-CS-2421000325103\"> </a></td><td>programa de Garantías Explícitas en Salud para tratamiento quirúrgico de lesiones crónicas de las válvulas mitral y tricúspide en personas de 15 años y más (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">2901000325101<a name=\"eis-GES-CS-2901000325101\"> </a></td><td>programa de Garantías Explícitas en Salud para cesación del consumo de tabaco en personas mayores de 25 años y más (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">2891000325102<a name=\"eis-GES-CS-2891000325102\"> </a></td><td>programa de Garantías Explícitas en Salud para tratamiento hospitalario para personas menores de 15 años con depresión grave refractaria o psicótica con riesgo de suicidio (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">2881000325104<a name=\"eis-GES-CS-2881000325104\"> </a></td><td>programa de Garantías Explícitas en Salud para tratamiento farmacológico tras alta hospitalaria por cirrosis hepática (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">2071000325108<a name=\"eis-GES-CS-2071000325108\"> </a></td><td>programa de Garantías Explícitas en Salud para epilepsia no refractaria en personas de 15 años y más (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">1981000325100<a name=\"eis-GES-CS-1981000325100\"> </a></td><td>programa de Garantías Explícitas en Salud para neumonía adquirida en la comunidad de manejo ambulatorio en personas de 65 años y más (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">1851000325101<a name=\"eis-GES-CS-1851000325101\"> </a></td><td>programa de Garantías Explícitas en Salud para cáncer colorrectal en personas de 15 años y más (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">2101000325104<a name=\"eis-GES-CS-2101000325104\"> </a></td><td>programa de Garantías Explícitas en Salud para tumores primarios del sistema nervioso central en personas de 15 años y más (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">1821000325106<a name=\"eis-GES-CS-1821000325106\"> </a></td><td>programa de Garantías Explícitas en Salud para linfomas en personas de 15 años y más (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">2331000325108<a name=\"eis-GES-CS-2331000325108\"> </a></td><td>programa de Garantías Explícitas en Salud para hepatitis C (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">2041000325102<a name=\"eis-GES-CS-2041000325102\"> </a></td><td>programa de Garantías Explícitas en Salud para asma bronquial moderada y grave en menores de 15 años (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">1951000325106<a name=\"eis-GES-CS-1951000325106\"> </a></td><td>programa de Garantías Explícitas en Salud para trastorno bipolar en personas de 15 años y más (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">1791000325101<a name=\"eis-GES-CS-1791000325101\"> </a></td><td>programa de Garantías Explícitas en Salud para cáncer de mama en personas de 15 años y más (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">1891000325109<a name=\"eis-GES-CS-1891000325109\"> </a></td><td>programa de Garantías Explícitas en Salud para cáncer de pulmón en personas de 15 años y más (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">2081000325105<a name=\"eis-GES-CS-2081000325105\"> </a></td><td>programa de Garantías Explícitas en Salud para enfermedad de Parkinson (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">1801000325102<a name=\"eis-GES-CS-1801000325102\"> </a></td><td>Programa de Garantías Explícitas en Salud para cáncer en personas menores de 15 años (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">1741000325106<a name=\"eis-GES-CS-1741000325106\"> </a></td><td>programa de Garantías Explícitas en Salud (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">2091000325107<a name=\"eis-GES-CS-2091000325107\"> </a></td><td>programa de Garantías Explícitas en Salud para accidente cerebrovascular isquémico en personas de 15 años y más (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">2051000325104<a name=\"eis-GES-CS-2051000325104\"> </a></td><td>programa de Garantías Explícitas en Salud para asma bronquial en personas de 15 años y más (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">1841000325104<a name=\"eis-GES-CS-1841000325104\"> </a></td><td>programa de Garantías Explícitas en Salud para cáncer de próstata en personas de 15 años y más (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">1811000325100<a name=\"eis-GES-CS-1811000325100\"> </a></td><td>programa de Garantías Explícitas en Salud para cáncer de testículo en personas de 15 años y más (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">1861000325103<a name=\"eis-GES-CS-1861000325103\"> </a></td><td>programa de Garantías Explícitas en Salud para cáncer epitelial de ovario (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">1831000325108<a name=\"eis-GES-CS-1831000325108\"> </a></td><td>programa de Garantías Explícitas en Salud para cáncer gástrico (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">1911000325107<a name=\"eis-GES-CS-1911000325107\"> </a></td><td>programa de Garantías Explícitas en Salud para cáncer renal en personas de 15 años y más (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">1871000325105<a name=\"eis-GES-CS-1871000325105\"> </a></td><td>programa de Garantías Explícitas en Salud para cáncer vesical en personas de 15 años y más (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">1941000325108<a name=\"eis-GES-CS-1941000325108\"> </a></td><td>programa de Garantías Explícitas en Salud para depresión en personas de 15 años y más (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">1991000325103<a name=\"eis-GES-CS-1991000325103\"> </a></td><td>programa de Garantías Explícitas en Salud para diabetes mellitus tipo I (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">2001000325100<a name=\"eis-GES-CS-2001000325100\"> </a></td><td>programa de Garantías Explícitas en Salud para diabetes mellitus tipo II (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">2301000325102<a name=\"eis-GES-CS-2301000325102\"> </a></td><td>programa de Garantías Explícitas en Salud para displasia broncopulmonar del prematuro (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">2031000325106<a name=\"eis-GES-CS-2031000325106\"> </a></td><td>programa de Garantías Explícitas en Salud para enfermedad pulmonar obstructiva crónica de tratamiento ambulatorio (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">1751000325109<a name=\"eis-GES-CS-1751000325109\"> </a></td><td>programa de Garantías Explícitas en Salud para enfermedad renal crónica en etapas 4 y 5 (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">2061000325101<a name=\"eis-GES-CS-2061000325101\"> </a></td><td>programa de Garantías Explícitas en Salud para epilepsia no refractaria en personas desde 1 año y menores de 15 años (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">1931000325104<a name=\"eis-GES-CS-1931000325104\"> </a></td><td>programa de Garantías Explícitas en Salud para esquizofrenia (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">2321000325106<a name=\"eis-GES-CS-2321000325106\"> </a></td><td>programa de Garantías Explícitas en Salud para hepatitis crónica por virus hepatitis B (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">2021000325109<a name=\"eis-GES-CS-2021000325109\"> </a></td><td>programa de Garantías Explícitas en Salud para hipertensión arterial primaria en personas de 15 años y más (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">2011000325103<a name=\"eis-GES-CS-2011000325103\"> </a></td><td>programa de Garantías Explícitas en Salud para hipotiroidismo en personas de 15 años y más (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">1961000325109<a name=\"eis-GES-CS-1961000325109\"> </a></td><td>programa de Garantías Explícitas en Salud para infección por virus de la inmunodeficiencia humana/síndrome de inmunodeficiencia adquirida (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">1921000325101<a name=\"eis-GES-CS-1921000325101\"> </a></td><td>programa de Garantías Explícitas en Salud para mieloma múltiple en personas de 15 años y más (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">1881000325107<a name=\"eis-GES-CS-1881000325107\"> </a></td><td>programa de Garantías Explícitas en Salud para osteosarcoma en personas de 15 años y más (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">2131000325105<a name=\"eis-GES-CS-2131000325105\"> </a></td><td>programa de Garantías Explícitas en Salud para síndrome de dificultad respiratoria en el recién nacido (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">2311000325100<a name=\"eis-GES-CS-2311000325100\"> </a></td><td>programa de Garantías Explícitas en Salud para tratamiento de erradicación de Helicobacter pylori (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">1771000325100<a name=\"eis-GES-CS-1771000325100\"> </a></td><td>programa de Garantías Explícitas en Salud para cardiopatías congénitas operables en menores de 15 años (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">2601000325105<a name=\"eis-GES-CS-2601000325105\"> </a></td><td>programa de Garantías Explícitas en Salud para hemorragia subaracnoidea secundaria a ruptura de uno o más aneurismas cerebrales (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">1971000325102<a name=\"eis-GES-CS-1971000325102\"> </a></td><td>programa de Garantías Explícitas en Salud para infección respiratoria aguda de manejo ambulatorio en personas menores de 5 años (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">2171000325107<a name=\"eis-GES-CS-2171000325107\"> </a></td><td>programa de Garantías Explícitas en Salud para salud oral integral de la persona gestante (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">2121000325108<a name=\"eis-GES-CS-2121000325108\"> </a></td><td>programa de Garantías Explícitas en Salud para salud oral integral de personas de 60 años (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">1781000325103<a name=\"eis-GES-CS-1781000325103\"> </a></td><td>programa de Garantías Explícitas en Salud para cáncer cervicouterino en personas de 15 años y más (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">2261000325107<a name=\"eis-GES-CS-2261000325107\"> </a></td><td>programa de Garantías Explícitas en Salud para tratamiento de hipoacusia moderada, severa y profunda en personas menores de 4 años (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">1901000325105<a name=\"eis-GES-CS-1901000325105\"> </a></td><td>programa de Garantías Explícitas en Salud para cáncer de tiroides en personas de 15 años y más (régimen/tratamiento)</td></tr><tr><td style=\"white-space:nowrap\">2931000325107<a name=\"eis-GES-CS-2931000325107\"> </a></td><td>programa de Garantías Explícitas en Salud para consumo perjudicial y dependencia de alcohol y drogas en personas menores de 20 años (régimen/tratamiento)</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [
+     fhir:v "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-GES-CS"^^xsd:anyURI ;
+     fhir:l <https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-GES-CS>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.1"] ; # 
+  fhir:name [ fhir:v "GESCS"] ; # 
+  fhir:title [ fhir:v "GES (Garantías Explícitas en Salud)"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v true] ; # 
+  fhir:date [ fhir:v "2026-03-01T00:00:00-03:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Unidad de Interoperabilidad - MINSAL"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Unidad de Interoperabilidad - MINSAL" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://interoperabilidad.minsal.cl" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "El GES (Garantías Explícitas en Salud), anteriormente conocido como AUGE, es un sistema legal de salud en Chile para afiliados a Fonasa e Isapres. Garantiza cobertura para 87 problemas de salud específicos, asegurando acceso, calidad, oportunidad y protección financiera (copagos limitados). Se aplica a través de redes de prestadores acreditados."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
+         fhir:l <urn:iso:std:iso:3166>
+       ] ;
+       fhir:code [ fhir:v "CL" ] ;
+       fhir:display [ fhir:v "Chile" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "89"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "2521000325102" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para politraumatizado grave (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "2491000325100" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para disrafias espinales (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "2361000325103" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para tratamiento de la hiperplasia benigna de la próstata en personas sintomáticas (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "2231000325102" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para hipoacusia bilateral en personas de 65 años y más que requieren uso de audífono (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "2591000325104" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para fibrosis quística (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "2201000325108" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para estrabismo en personas menores de 9 años (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "2461000325106" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para colecistectomía preventiva del cáncer de vesícula en personas de 35 a 49 años (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "2561000325105" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para hemofilia (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "2141000325101" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para salud oral integral para niños y niñas de 6 años (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "2271000325100" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para artritis reumatoidea (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "2431000325101" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para displasia luxante de caderas (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "2371000325105" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para tratamiento quirúrgico de escoliosis en personas menores de 25 años (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "2111000325102" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para urgencia odontológica ambulatoria (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "2531000325100" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para traumatismo cráneo-encefálico moderado o grave (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "2401000325107" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para tratamiento quirúrgico de hernia del núcleo pulposo lumbar (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "2241000325106" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para retinopatía del prematuro (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "2471000325104" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para rehabilitación SARS-COV-2 (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "2181000325109" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para tratamiento quirúrgico de cataratas (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "2211000325105" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para retinopatía diabética (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "2501000325106" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para fisura labiopalatina (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "2571000325103" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para enfermedad de Alzheimer y otras demencias (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "2441000325105" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para leucemia en personas de 15 años y más (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "2151000325103" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para prevención de parto prematuro (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "2281000325103" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para artritis idiopática juvenil (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "2381000325107" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para endoprótesis total de cadera en personas de 65 años y más con artrosis de cadera con limitación funcional severa (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "2251000325109" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para hipoacusia neurosensorial bilateral del prematuro (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "2411000325109" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para tratamiento quirúrgico de lesiones crónicas de la válvula aórtica en personas de 15 años y más (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "2541000325109" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para trauma ocular grave (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "2481000325102" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para órtesis (o ayudas técnicas) para personas de 65 años y más (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "2191000325106" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para vicios de refracción en personas de 65 años y más (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "2221000325104" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para desprendimiento de retina regmatógeno no traumático (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "2291000325101" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para lupus eritematoso sistémico (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "2511000325108" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para atención integral de salud en agresión sexual aguda (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "2581000325101" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para esclerosis múltiple remitente recurrente (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "2451000325108" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para prevención secundaria enfermedad renal crónica terminal (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "2611000325107" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para trastornos de generación del impulso y conducción en personas de 15 años y más, que requieren marcapaso (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "2161000325100" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para analgesia del parto (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "2391000325109" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para tratamiento médico en personas de 55 años y más con artrosis de cadera y/o rodilla, leve o moderada (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "2551000325107" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para gran quemado (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "2421000325103" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para tratamiento quirúrgico de lesiones crónicas de las válvulas mitral y tricúspide en personas de 15 años y más (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "2901000325101" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para cesación del consumo de tabaco en personas mayores de 25 años y más (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "2891000325102" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para tratamiento hospitalario para personas menores de 15 años con depresión grave refractaria o psicótica con riesgo de suicidio (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "2881000325104" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para tratamiento farmacológico tras alta hospitalaria por cirrosis hepática (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "2071000325108" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para epilepsia no refractaria en personas de 15 años y más (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "1981000325100" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para neumonía adquirida en la comunidad de manejo ambulatorio en personas de 65 años y más (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "1851000325101" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para cáncer colorrectal en personas de 15 años y más (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "2101000325104" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para tumores primarios del sistema nervioso central en personas de 15 años y más (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "1821000325106" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para linfomas en personas de 15 años y más (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "2331000325108" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para hepatitis C (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "2041000325102" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para asma bronquial moderada y grave en menores de 15 años (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "1951000325106" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para trastorno bipolar en personas de 15 años y más (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "1791000325101" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para cáncer de mama en personas de 15 años y más (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "1891000325109" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para cáncer de pulmón en personas de 15 años y más (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "2081000325105" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para enfermedad de Parkinson (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "1801000325102" ] ;
+     fhir:display [ fhir:v "Programa de Garantías Explícitas en Salud para cáncer en personas menores de 15 años (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "1741000325106" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "2091000325107" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para accidente cerebrovascular isquémico en personas de 15 años y más (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "2051000325104" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para asma bronquial en personas de 15 años y más (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "1841000325104" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para cáncer de próstata en personas de 15 años y más (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "1811000325100" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para cáncer de testículo en personas de 15 años y más (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "1861000325103" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para cáncer epitelial de ovario (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "1831000325108" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para cáncer gástrico (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "1911000325107" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para cáncer renal en personas de 15 años y más (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "1871000325105" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para cáncer vesical en personas de 15 años y más (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "1941000325108" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para depresión en personas de 15 años y más (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "1991000325103" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para diabetes mellitus tipo I (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "2001000325100" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para diabetes mellitus tipo II (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "2301000325102" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para displasia broncopulmonar del prematuro (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "2031000325106" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para enfermedad pulmonar obstructiva crónica de tratamiento ambulatorio (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "1751000325109" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para enfermedad renal crónica en etapas 4 y 5 (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "2061000325101" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para epilepsia no refractaria en personas desde 1 año y menores de 15 años (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "1931000325104" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para esquizofrenia (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "2321000325106" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para hepatitis crónica por virus hepatitis B (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "2021000325109" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para hipertensión arterial primaria en personas de 15 años y más (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "2011000325103" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para hipotiroidismo en personas de 15 años y más (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "1961000325109" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para infección por virus de la inmunodeficiencia humana/síndrome de inmunodeficiencia adquirida (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "1921000325101" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para mieloma múltiple en personas de 15 años y más (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "1881000325107" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para osteosarcoma en personas de 15 años y más (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "2131000325105" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para síndrome de dificultad respiratoria en el recién nacido (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "2311000325100" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para tratamiento de erradicación de Helicobacter pylori (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "1771000325100" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para cardiopatías congénitas operables en menores de 15 años (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "2601000325105" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para hemorragia subaracnoidea secundaria a ruptura de uno o más aneurismas cerebrales (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "1971000325102" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para infección respiratoria aguda de manejo ambulatorio en personas menores de 5 años (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "2171000325107" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para salud oral integral de la persona gestante (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "2121000325108" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para salud oral integral de personas de 60 años (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "1781000325103" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para cáncer cervicouterino en personas de 15 años y más (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "2261000325107" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para tratamiento de hipoacusia moderada, severa y profunda en personas menores de 4 años (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "1901000325105" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para cáncer de tiroides en personas de 15 años y más (régimen/tratamiento)" ]
+  ] [
+     fhir:code [ fhir:v "2931000325107" ] ;
+     fhir:display [ fhir:v "programa de Garantías Explícitas en Salud para consumo perjudicial y dependencia de alcohol y drogas en personas menores de 20 años (régimen/tratamiento)" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

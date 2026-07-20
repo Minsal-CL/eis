@@ -1,0 +1,125 @@
+# hl7.fhir.cl.minsal.eis#0.1.1: Guía de Estandares de Información de Salud
+
+## Pages
+
+* [Inicio](index.md)
+* [Artifacts Summary](artifacts.md)
+* [Historial de Cambios](changes.md)
+
+## Resources
+
+### CodeSystems
+
+* [Condición de la Actividad Laboral](CodeSystem-eis-CondiciondelaActividadLaboral-CS.md)
+* [Especialidades y Subespecialidades Médicas](CodeSystem-eis-EspecialidadesySubespecialidadesMedicas-CS.md)
+* [Estado Civil](CodeSystem-eis-EstadoCivil-CS.md)
+* [GES (Garantías Explícitas en Salud)](CodeSystem-eis-GES-CS.md)
+* [Grupos de Ocupaciones](CodeSystem-eis-GruposdeOcupaciones-CS.md)
+* [Identidad de Género](CodeSystem-eis-IdentidadGenero-CS.md)
+* [Institución Emisora de Título Profesional y de Especialidad](CodeSystem-eis-InstitucionEmisoradeTituloProfesionalydeEspecialidad-CS.md)
+* [Modalidad de Atención FONASA](CodeSystem-eis-ModalidaddeAtencionFONASA-CS.md)
+* [Nivel de Discapacidad](CodeSystem-eis-NiveldeDiscapacidad-CS.md)
+* [Ultimo nivel aprobado](CodeSystem-eis-NiveldeInstruccion-CS.md)
+* [Ocupaciones Desagregadas](CodeSystem-eis-OcupacionesDesagregadas-CS.md)
+* [Origen de Discapacidad](CodeSystem-eis-OrigendeDiscapacidad-CS.md)
+* [Previsión de Salud](CodeSystem-eis-PrevisiondeSalud-CS.md)
+* [Pueblo Afrodescendiente Chileno](CodeSystem-eis-PuebloAfrodescendienteChileno-CS.md)
+* [Pueblos Indígenas u Originarios](CodeSystem-eis-PueblosOriginarios-CS.md)
+* [Religiones & Cultos](CodeSystem-eis-Religion-CS.md)
+* [SEREMI](CodeSystem-eis-SEREMI-CS.md)
+* [Servicios de Salud](CodeSystem-eis-ServiciosdeSalud-CS.md)
+* [Sexo Biológico](CodeSystem-eis-SexoBiologico-CS.md)
+* [Tipo de Identificador](CodeSystem-eis-TipodeIdentificador-CS.md)
+* [Tipo de Sistema de Salud](CodeSystem-eis-TipodeSistemadeSalud-CS.md)
+* [Título Profesional](CodeSystem-eis-TituloProfesional-CS.md)
+* [Título Profesional SCT](CodeSystem-eis-TituloProfesionalSCT-CS.md)
+* [Tramos FONASA](CodeSystem-eis-TramosFONASA-CS.md)
+* [Comunas](CodeSystem-eis-comunas-cs.md)
+* [Especialidades y Subespecialidades Farmacéuticas o Químico Farmacéuticas](CodeSystem-eis-especialidades-bioquimicas-cs.md)
+* [Especialidades y Subespecialidades de Enfermería](CodeSystem-eis-especialidades-enfermeria-cs.md)
+* [Especialidades y Subespecialidades Farmacéuticas o Químico Farmacéuticas](CodeSystem-eis-especialidades-farmaceuticas-cs.md)
+* [Especialidades y Subespecialidades Odontológicas](CodeSystem-eis-especialidades-odontologicas-cs.md)
+* [Establecimientos según Nivel de Atención](CodeSystem-eis-establecimientos-nivel-atencion-cs.md)
+* [Establecimientos según Nivel de Complejidad](CodeSystem-eis-establecimientos-nivel-complejidad-cs.md)
+* [Establecimientos Públicos de Nivel Primario](CodeSystem-eis-establecimientos-nivel-primario-cs.md)
+* [Establecimientos Públicos de Nivel Secundario](CodeSystem-eis-establecimientos-nivel-secundario-cs.md)
+* [Establecimientos Públicos de Nivel Terciario](CodeSystem-eis-establecimientos-nivel-terciario-cs.md)
+* [Establecimientos Privados](CodeSystem-eis-establecimientos-privados-cs.md)
+* [Establecimientos según Tipo de Atención](CodeSystem-eis-establecimientos-tipo-atencion-cs.md)
+* [Límite Urbano Censal](CodeSystem-eis-limite-urbano-censal-cs.md)
+* [Provincias](CodeSystem-eis-provincias-cs.md)
+* [Regiones](CodeSystem-eis-regiones-cs.md)
+* [Tipo de Establecimientos Públicos](CodeSystem-eis-tipo-establecimiento-publicos-cs.md)
+* [Tipo de Vía](CodeSystem-eis-tipo-via-cs.md)
+
+### ValueSets
+
+* [Identidad de Género](ValueSet-IdentidadGeneroVS.md)
+* [Sexo Biológico](ValueSet-SexoBiologicoVS.md)
+* [Condición de la Actividad Laboral](ValueSet-eis-CondiciondelaActividadLaboral-VS.md)
+* [Especialidades y Subespecialidades Médicas](ValueSet-eis-EspecialidadesySubespecialidadesMedicas-VS.md)
+* [Estado Civil](ValueSet-eis-EstadoCivil-VS.md)
+* [GES (Garantías Explícitas en Salud)](ValueSet-eis-GES-VS.md)
+* [Grupos de Ocupaciones](ValueSet-eis-GruposdeOcupaciones-VS.md)
+* [Institución Emisora de Título Profesional y de Especialidad](ValueSet-eis-InstitucionEmisoradeTituloProfesionalydeEspecialidad-VS.md)
+* [Modalidad de Atención FONASA](ValueSet-eis-ModalidaddeAtencionFONASA-VS.md)
+* [Nivel de Discapacidad](ValueSet-eis-NiveldeDiscapacidad-VS.md)
+* [Nivel de Instrucción](ValueSet-eis-NiveldeInstruccion-CS.md)
+* [Ocupaciones Desagregadas](ValueSet-eis-OcupacionesDesagregadas-VS.md)
+* [Origen de Discapacidad](ValueSet-eis-OrigendeDiscapacidad-VS.md)
+* [Previsión de Salud](ValueSet-eis-PrevisiondeSalud-VS.md)
+* [Pueblo Afrodescendiente Chileno](ValueSet-eis-PuebloAfrodescendienteChileno-VS.md)
+* [Pueblos Indígenas u Originarios](ValueSet-eis-PueblosOriginarios-VS.md)
+* [Religiones & Cultos](ValueSet-eis-Religion-VS.md)
+* [SEREMI](ValueSet-eis-SEREMI-VS.md)
+* [Servicios de Salud](ValueSet-eis-ServiciosdeSalud-VS.md)
+* [Tipo de Identificador](ValueSet-eis-TipodeIdentificador-VS.md)
+* [Tipo de Sistema de Salud](ValueSet-eis-TipodeSistemadeSalud-VS.md)
+* [Título Profesional](ValueSet-eis-TituloProfesional-VS.md)
+* [Título Profesional SCT](ValueSet-eis-TituloProfesionalSCT-VS.md)
+* [Tramos FONASA](ValueSet-eis-TramosFONASA-VS.md)
+* [Comunas](ValueSet-eis-comunas-vs.md)
+* [Especialidades y Subespecialidades Bioquímicas](ValueSet-eis-especialidades-bioquimicas-vs.md)
+* [Especialidades y Subespecialidades de Enfermería](ValueSet-eis-especialidades-enfermeria-vs.md)
+* [Especialidades Farmacéuticas](ValueSet-eis-especialidades-farmaceuticas-vs.md)
+* [Especialidades y Subespecialidades Odontológicas](ValueSet-eis-especialidades-odontologicas-vs.md)
+* [Establecimientos según Nivel de Atención](ValueSet-eis-establecimientos-nivel-atencion-vs.md)
+* [Establecimientos según Nivel de Complejidad ](ValueSet-eis-establecimientos-nivel-complejidad-vs.md)
+* [Establecimientos Públicos de Nivel Primario](ValueSet-eis-establecimientos-nivel-primario-vs.md)
+* [Establecimientos Públicos de Nivel Secundario](ValueSet-eis-establecimientos-nivel-secundario-vs.md)
+* [Establecimientos Públicos de Nivel Terciario](ValueSet-eis-establecimientos-nivel-terciario-vs.md)
+* [Establecimientos Privados](ValueSet-eis-establecimientos-privados-vs.md)
+* [Establecimientos según Tipo de Atención](ValueSet-eis-establecimientos-tipo-atencion-vs.md)
+* [Límite Urbano Censal](ValueSet-eis-limite-urbano-censal-vs.md)
+* [Códigos de Países](ValueSet-eis-paises-vs.md)
+* [Provincias](ValueSet-eis-provincias-vs.md)
+* [Regiones](ValueSet-eis-regiones-vs.md)
+* [Tipo de Establecimientos Públicos](ValueSet-eis-tipo-establecimiento-publicos-vs.md)
+* [Tipo de Vía](ValueSet-eis-tipo-via-vs.md)
+
+### Logicals
+
+* [Modelo Logico para el tipo de dato Direccion](StructureDefinition-ModeloLogicoEISDireccion.md)
+* [Modelo Logico para el tipo de dato Nombre](StructureDefinition-ModeloLogicoEISNombre.md)
+* [Modelo Logico para el tipo de dato RUN](StructureDefinition-ModeloLogicoEISRUN.md)
+
+### Complex-type Profiles
+
+* [DEIS Identificador Paciente](StructureDefinition-deis-identifier.md)
+* [Dirección](StructureDefinition-eis-direccion.md)
+* [Nombre Oficial](StructureDefinition-eis-nombre-oficial.md)
+* [Nombre Social](StructureDefinition-eis-nombre-social.md)
+
+### Extensions
+
+* [Limite urbano censal de la region](StructureDefinition-LimiteUrbano.md)
+* [Segundo Apellido](StructureDefinition-SegundoApellido.md)
+* [Códigos para Comunas en Chile](StructureDefinition-eis-comunas.md)
+* [Códigos para Países](StructureDefinition-eis-paises.md)
+* [Códigos para Provincias en Chile](StructureDefinition-eis-provincias.md)
+* [Códigos para Regiones en Chile](StructureDefinition-eis-regiones.md)
+* [Códigos para Tipo de Via](StructureDefinition-eis-tipo-de-via.md)
+
+### ImplementationGuides
+
+* [Guía de Estandares de Información de Salud](index.md)

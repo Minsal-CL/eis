@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="eis-establecimientos-nivel-secundario-cs"/>
+  <language value="es"/>
+  <text>
+    <status value="generated"/><div xml:lang="es" xmlns="http://www.w3.org/1999/xhtml" lang="es"><p class="res-header-id"><b>Generated Narrative: SistemaDeCodigos eis-establecimientos-nivel-secundario-cs</b></p><a name="eis-establecimientos-nivel-secundario-cs"> </a><a name="hceis-establecimientos-nivel-secundario-cs"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: es</p></div><p>This case-sensitive code system <code>https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-establecimientos-nivel-secundario-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">CRS<a name="eis-establecimientos-nivel-secundario-cs-CRS"> </a></td><td>Centros de Referencia de Salud (CRS)</td></tr><tr><td style="white-space:nowrap">CDT<a name="eis-establecimientos-nivel-secundario-cs-CDT"> </a></td><td>Centros de Diagnóstico Terapéutico (CDT)</td></tr><tr><td style="white-space:nowrap">COSAM<a name="eis-establecimientos-nivel-secundario-cs-COSAM"> </a></td><td>Centro Comunitario de Salud Mental (COSAM)</td></tr></table></div>
+  </text>
+  <url value="https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-establecimientos-nivel-secundario-cs"/>
+  <version value="0.1.1"/>
+  <name value="EstablecimientosNivelSecundarioCS"/>
+  <title value="Establecimientos Públicos de Nivel Secundario"/>
+  <status value="active"/>
+  <experimental value="true"/>
+  <date value="2026-03-01T00:00:00-03:00"/>
+  <publisher value="Unidad de Interoperabilidad - MINSAL"/>
+  <contact>
+    <name value="Unidad de Interoperabilidad - MINSAL"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://interoperabilidad.minsal.cl"/>
+    </telecom>
+  </contact>
+  <description value="Los centros de especialidad son establecimientos públicos de atención ambulatoria que otorgan prestaciones diagnósticas y/o terapéuticas asociadas a una o más especialidades, y cuentan con personería jurídica y un director médico responsable legalmente registrado."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CL"/>
+      <display value="Chile"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="CRS"/>
+    <display value="Centros de Referencia de Salud (CRS)"/>
+  </concept>
+  <concept>
+    <code value="CDT"/>
+    <display value="Centros de Diagnóstico Terapéutico (CDT)"/>
+  </concept>
+  <concept>
+    <code value="COSAM"/>
+    <display value="Centro Comunitario de Salud Mental (COSAM)"/>
+  </concept>
+</CodeSystem>

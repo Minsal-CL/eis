@@ -1,0 +1,79 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-PrevisiondeSalud-CS> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "eis-PrevisiondeSalud-CS"] ; # 
+  fhir:language [ fhir:v "es"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xml:lang=\"es\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"es\"><p class=\"res-header-id\"><b>Generated Narrative: SistemaDeCodigos eis-PrevisiondeSalud-CS</b></p><a name=\"eis-PrevisiondeSalud-CS\"> </a><a name=\"hceis-PrevisiondeSalud-CS\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: es</p></div><p>This case-sensitive code system <code>https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-PrevisiondeSalud-CS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"eis-PrevisiondeSalud-CS-1\"> </a></td><td>FONASA</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"eis-PrevisiondeSalud-CS-2\"> </a></td><td>ISAPRE</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"eis-PrevisiondeSalud-CS-3\"> </a></td><td>CAPREDENA</td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"eis-PrevisiondeSalud-CS-4\"> </a></td><td>DIPRECA</td></tr><tr><td style=\"white-space:nowrap\">6<a name=\"eis-PrevisiondeSalud-CS-6\"> </a></td><td>SISAE (Sistema de Salud del Ejército)</td></tr><tr><td style=\"white-space:nowrap\">7<a name=\"eis-PrevisiondeSalud-CS-7\"> </a></td><td>SISAN (Sistema de Salud de la Armada)</td></tr><tr><td style=\"white-space:nowrap\">8<a name=\"eis-PrevisiondeSalud-CS-8\"> </a></td><td>SISAF (Sistema de Salud de la Fuerza Aérea)</td></tr><tr><td style=\"white-space:nowrap\">96<a name=\"eis-PrevisiondeSalud-CS-96\"> </a></td><td>Ninguna</td></tr><tr><td style=\"white-space:nowrap\">99<a name=\"eis-PrevisiondeSalud-CS-99\"> </a></td><td>Desconocido</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [
+     fhir:v "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-PrevisiondeSalud-CS"^^xsd:anyURI ;
+     fhir:l <https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-PrevisiondeSalud-CS>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.1"] ; # 
+  fhir:name [ fhir:v "PrevisiondeSaludCS"] ; # 
+  fhir:title [ fhir:v "Previsión de Salud"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v true] ; # 
+  fhir:date [ fhir:v "2026-03-01T00:00:00-03:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Unidad de Interoperabilidad - MINSAL"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Unidad de Interoperabilidad - MINSAL" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://interoperabilidad.minsal.cl" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "La previsión corresponde a la variable que identifica el sistema de aseguramiento de salud vigente al que se encuentra adscrita la persona, el cual define la cobertura para acciones de promoción, prevención, tratamiento y control de las enfermedades."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
+         fhir:l <urn:iso:std:iso:3166>
+       ] ;
+       fhir:code [ fhir:v "CL" ] ;
+       fhir:display [ fhir:v "Chile" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "9"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "1" ] ;
+     fhir:display [ fhir:v "FONASA" ]
+  ] [
+     fhir:code [ fhir:v "2" ] ;
+     fhir:display [ fhir:v "ISAPRE" ]
+  ] [
+     fhir:code [ fhir:v "3" ] ;
+     fhir:display [ fhir:v "CAPREDENA" ]
+  ] [
+     fhir:code [ fhir:v "4" ] ;
+     fhir:display [ fhir:v "DIPRECA" ]
+  ] [
+     fhir:code [ fhir:v "6" ] ;
+     fhir:display [ fhir:v "SISAE (Sistema de Salud del Ejército)" ]
+  ] [
+     fhir:code [ fhir:v "7" ] ;
+     fhir:display [ fhir:v "SISAN (Sistema de Salud de la Armada)" ]
+  ] [
+     fhir:code [ fhir:v "8" ] ;
+     fhir:display [ fhir:v "SISAF (Sistema de Salud de la Fuerza Aérea)" ]
+  ] [
+     fhir:code [ fhir:v "96" ] ;
+     fhir:display [ fhir:v "Ninguna" ]
+  ] [
+     fhir:code [ fhir:v "99" ] ;
+     fhir:display [ fhir:v "Desconocido" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

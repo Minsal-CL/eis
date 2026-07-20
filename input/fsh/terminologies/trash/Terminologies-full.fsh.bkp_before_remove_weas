@@ -1,0 +1,2177 @@
+/********************************************************
+Tipo de Identificador
+********************************************************/
+ValueSet: TipodeIdentificadorVS
+Id: eis-TipodeIdentificador-VS
+Title: "Tipo de Identificador"
+Description: "Define el tipo de documento de identificación del usuario, paciente o prestador de salud individual"
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system eis-TipodeIdentificador-CS
+
+/**/
+
+CodeSystem: TipodeIdentificadorCS
+Id: eis-TipodeIdentificador-CS
+Title: "Tipo de Identificador"
+Description: "Define el tipo de documento de identificación del usuario, paciente o prestador de salud individual"
+* ^language = #es
+* ^caseSensitive = true
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = false
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "RUN" "RUN"
+* #2 "RUN Materno / Progenitor (a)" "RUN Materno / Progenitor (a)"
+* #3 "Número de Pasaporte" "Número de Pasaporte"
+* #4 "Número de Documento Identificador de País de Origen" "Número de Documento Identificador de País de Origen"
+* #5 "Número de Identificador Provisorio FONASA (NIP)" "Número de Identificador Provisorio FONASA (NIP)"
+* #6 "Número de Historia Clínica" "Número de Historia Clínica"
+* #7 "Identificación Provisoria del Estudiante (IPE)" "Identificación Provisoria del Estudiante (IPE)"
+
+/********************************************************/
+
+
+/********************************************************
+Sexo Biológico
+********************************************************/
+ValueSet: SexoBiologicoVS
+Id: SexoBiologicoVS
+Description: "El sexo biológico corresponde a la determinación realizada mediante la aplicación de criterios biológicos y anatómicos, utilizados para clasificar a las personas como hombre o mujer al momento del nacimiento."
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system eis-SexoBiologico-CS
+
+
+CodeSystem:  SexoBiologicoCS
+Id: eis-SexoBiologico-CS
+Description: "El sexo biológico corresponde a la determinación realizada mediante la aplicación de criterios biológicos y anatómicos, utilizados para clasificar a las personas como hombre o mujer al momento del nacimiento."
+* ^language = #es
+* ^caseSensitive = true
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Hombre" "Hombre"
+* #2 "Mujer" "Mujer"
+* #3 "Intersexual" "Intersexual"
+* #99 "Desconocido" "Desconocido"
+
+/********************************************************
+Sexo Biológico
+********************************************************/
+ValueSet: SexoRegistralVS
+Id: SexoRegistralVS
+Description: "o	Reúne los códigos y valores relacionados con el sexo registral explicitado por el SRCeI"
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system eis-SexoRegistral-CS
+
+
+CodeSystem:  SexoRegistralCS
+Id: eis-SexoRegistral-CS
+Description: "o	Reúne los códigos y valores relacionados con el sexo registral explicitado por el SRCeI"
+* ^language = #es
+* ^caseSensitive = true
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #M "Masculino" "Masculino"
+* #F "Femenino" "Femenino"
+* #X "No Binario" "No Binario"
+* #I "Indeterminado" "Indeterminado"
+* #D "Desconocido" "Desconocido"
+
+
+/********************************************************
+Identidad de Género
+********************************************************/
+ValueSet: IdentidadGeneroVS
+Id: IdentidadGeneroVS
+Description: "De acuerdo con la Ley 21.120, la identidad de género se entiende como la convicción personal e interna de ser hombre, mujer u otra identidad de género, tal como la persona se percibe a sí misma. Esta puede o no corresponder con el sexo y nombre de pila consignadas en la inscripción de nacimiento."
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system eis-IdentidadGenero-CS
+
+CodeSystem:  IdentidadGeneroCS
+Id: eis-IdentidadGenero-CS
+Description: "De acuerdo con la Ley 21.120, la identidad de género se entiende como la convicción personal e interna de ser hombre, mujer u otra identidad de género, tal como la persona se percibe a sí misma. Esta puede o no corresponder con el sexo y nombre de pila consignadas en la inscripción de nacimiento."
+* ^language = #es
+* ^caseSensitive = true
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Masculino" "Masculino"
+* #2 "Femenina" "Femenina"
+* #4 "Transgénero Masculino" "Transgénero Masculino"
+* #5 "Transgénero Femenina" "Transgénero Femenina"
+* #6 "No Binario" "No Binario"
+* #7 "Otro" "Otro"
+* #93 "No Informado" "No Informado"
+
+
+/********************************************************
+Estado Civil
+********************************************************/
+ValueSet: EstadoCivilVS
+Id: eis-EstadoCivil-VS
+Description: "El estado civil es la situación de un individuo jurídica de una persona dentro de la sociedad, determinada principalmente por sus relaciones de familia, que la habilita para ejercer determinados derechos y contraer obligaciones de carácter civil."
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system eis-EstadoCivil-CS
+
+
+CodeSystem:  EstadoCivilCS
+Id: eis-EstadoCivil-CS
+Description: "El estado civil es la situación de un individuo jurídica de una persona dentro de la sociedad, determinada principalmente por sus relaciones de familia, que la habilita para ejercer determinados derechos y contraer obligaciones de carácter civil."
+* ^language = #es
+* ^caseSensitive = true
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Soltero/a" "Soltero/a"
+* #2 "Casado/a" "Casado/a"
+* #3 "Viudo/a" "Viudo/a"
+* #4 "Divorciado/a" "Divorciado/a"
+* #5 "Separado/a Judicialmente" "Separado/a Judicialmente"
+* #6 "Conviviente (con acuerdo de unión civil)" "Conviviente (con acuerdo de unión civil)"
+* #99 "Desconocido" "Desconocido"
+
+
+/********************************************************
+Pueblos Indígenas u Originarios
+********************************************************/
+ValueSet: PueblosOriginariosVS
+Id: eis-PueblosOriginarios-VS
+Description: "Los Pueblos Indígenas u Originarios en Chile corresponden a los descendientes de agrupaciones humanas que habitaban el territorio nacional en tiempos precolombinos, y que conservan manifestaciones culturales, sociales y étnicas propias, o parte de ellas, teniendo para estos pueblos la tierra un rol fundamental en su existencia y desarrollo cultural."
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system eis-PueblosOriginarios-CS
+
+CodeSystem:  PueblosOriginariosCS
+Id: eis-PueblosOriginarios-CS
+Description: "Los Pueblos Indígenas u Originarios en Chile corresponden a los descendientes de agrupaciones humanas que habitaban el territorio nacional en tiempos precolombinos, y que conservan manifestaciones culturales, sociales y étnicas propias, o parte de ellas, teniendo para estos pueblos la tierra un rol fundamental en su existencia y desarrollo cultural."
+* ^language = #es
+* ^caseSensitive = true
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Mapuche" "Mapuche"
+* #2 "Aymara" "Aymara"
+* #3 "Rapa Nui o Pascuense" "Rapa Nui o Pascuense"
+* #4 "Lickanantay" "Lickanantay"
+* #5 "Quechua" "Quechua"
+* #6 "Colla" "Colla"
+* #7 "Diaguita" "Diaguita"
+* #8 "Kawésqar" "Kawésqar"
+* #9 "Yagán" "Yagán"
+* #11 "Chango" "Chango"
+* #12 "Selk'nam" "Selk'nam"
+* #10 "Otro (Especificar)" "Otro (Especificar)"
+* #99 "Desconocido" "Desconocido"
+
+
+/********************************************************
+Religiones & Cultos
+********************************************************/
+ValueSet: ReligionVS
+Id: eis-Religion-VS
+Description: "La religión o credo corresponde a un sistema de creencias y prácticas, de carácter individual o colectivo, relacionadas con lo que la persona considera sagrado o divino, y que se vinculan a su dimensión espiritual, existencial y cultural."
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system eis-Religion-CS
+
+CodeSystem:  ReligionCS
+Id: eis-Religion-CS
+Description: "La religión o credo corresponde a un sistema de creencias y prácticas, de carácter individual o colectivo, relacionadas con lo que la persona considera sagrado o divino, y que se vinculan a su dimensión espiritual, existencial y cultural."
+* ^language = #es
+* ^caseSensitive = true
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Católica" "Católica"
+* #2 "Evangélica" "Evangélica"
+* #3 "Testigo de Jehová" "Testigo de Jehová"
+* #4 "Judaica" "Judaica"
+* #5 "Mormón" "Mormón"
+* #6 "Musulmana" "Musulmana"
+* #7 "Ortodoxa" "Ortodoxa"
+* #8 "Otra religión o credo" "Otra religión o credo"
+* #9 "Ninguna" "Ninguna"
+
+
+/********************************************************
+Pueblo Afrodescendiente Chileno
+********************************************************/
+ValueSet: PuebloAfrodescendienteChilenoVS
+Id: eis-PuebloAfrodescendienteChileno-VS
+Description: "Se entiende por pueblo afrodescendiente chileno al grupo humano que, teniendo nacionalidad chilena conforme a la Constitución Política de la República, comparte una historia, cultura, tradiciones y costumbres comunes, unidas por la conciencia de identidad y reconocimiento colectivo."
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system eis-PuebloAfrodescendienteChileno-CS
+
+CodeSystem:  PuebloAfrodescendienteChilenoCS
+Id: eis-PuebloAfrodescendienteChileno-CS
+Description: "Se entiende por pueblo afrodescendiente chileno al grupo humano que, teniendo nacionalidad chilena conforme a la Constitución Política de la República, comparte una historia, cultura, tradiciones y costumbres comunes, unidas por la conciencia de identidad y reconocimiento colectivo."
+* ^language = #es
+* ^caseSensitive = true
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Afrodescendiente Chileno" "Afrodescendiente Chileno"
+* #2 "No Afrodescendiente Chileno" "No Afrodescendiente Chileno"
+
+
+/********************************************************
+Nivel de Discapacidad
+********************************************************/
+ValueSet: NiveldeDiscapacidadVS
+Id: eis-NiveldeDiscapacidad-VS
+Description: "Las personas en situación de discapacidad son aquellas que, en relación con condiciones de salud de carácter físico, psíquico, intelectual, sensorial u otras, y al interactuar con diversas barreras contextuales, actitudinales y ambientales, presentan restricciones en su participación plena y efectiva en la sociedad, en igualdad de condiciones con las demás personas."
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system eis-NiveldeDiscapacidad-CS
+
+CodeSystem:  NiveldeDiscapacidadCS
+Id: eis-NiveldeDiscapacidad-CS
+Description: "Las personas en situación de discapacidad son aquellas que, en relación con condiciones de salud de carácter físico, psíquico, intelectual, sensorial u otras, y al interactuar con diversas barreras contextuales, actitudinales y ambientales, presentan restricciones en su participación plena y efectiva en la sociedad, en igualdad de condiciones con las demás personas."
+* ^language = #es
+* ^caseSensitive = true
+* ^version = "1.0.0"
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Sin discapacidad" "Sin discapacidad"
+* #2 "Discapacidad leve" "Discapacidad leve"
+* #3 "Discapacidad moderada" "Discapacidad moderada"
+* #4 "Discapacidad severa" "Discapacidad severa"
+* #5 "Discapacidad profunda" "Discapacidad profunda"
+
+/********************************************************
+Origen de Discapacidad
+********************************************************/
+ValueSet: OrigendeDiscapacidadVS
+Id: eis-OrigendeDiscapacidad-VS
+Description: "El origen de la discapacidad corresponde al evento, condición o circunstancia a partir de la cual se genera una situación de discapacidad en la persona, considerando la interacción entre sus condiciones de salud y las barreras contextuales, actitudinales y ambientales."
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system eis-OrigendeDiscapacidad-CS
+
+CodeSystem:  OrigendeDiscapacidadCS
+Id: eis-OrigendeDiscapacidad-CS
+Description: "El origen de la discapacidad corresponde al evento, condición o circunstancia a partir de la cual se genera una situación de discapacidad en la persona, considerando la interacción entre sus condiciones de salud y las barreras contextuales, actitudinales y ambientales."
+* ^language = #es
+* ^caseSensitive = true
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Origen Físico" "Origen Físico"
+* #2 "Origen Sensorial Visual" "Origen Sensorial Visual"
+* #3 "Origen Sensorial Auditivo" "Origen Sensorial Auditivo"
+* #4 "Origen Mental Psíquico" "Origen Mental Psíquico"
+* #5 "Origen Mental Intelectual" "Origen Mental Intelectual"
+* #6 "Origen Múltiple" "Origen Múltiple"
+
+
+
+/********************************************************
+Nivel de Instrucción
+********************************************************/
+ValueSet:  NiveldeInstruccionVS
+Id: eis-NiveldeInstruccion-CS
+Description: "Código del último nivel aprobado"
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system eis-NiveldeInstruccion-CS
+
+CodeSystem:  NiveldeInstruccionCS
+Id: eis-NiveldeInstruccion-CS
+Description: "Código del último nivel aprobado"
+* ^language = #es
+* ^caseSensitive = true
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Preescolar" "Preescolar"
+* #2 "Especial o Diferencial" "Especial o Diferencial"
+* #3 "Básica o Primaria" "Básica o Primaria"
+* #4 "Media o Secundaria" "Media o Secundaria"
+* #5 "Educación Superior" "Educación Superior"
+* #6 "Sin Instrucción" "Sin Instrucción"
+
+/********************************************************
+Condición de la Actividad Laboral
+********************************************************/
+ValueSet: CondiciondelaActividadLaboralVS
+Id: eis-CondiciondelaActividadLaboral-VS
+Description: "La condición de la actividad corresponde a la relación que mantiene la persona con el trabajo al momento del registro, y se vincula con su ciclo de vida laboral, permitiendo identificar su situación de actividad económica. "
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system eis-CondiciondelaActividadLaboral-CS
+
+CodeSystem: CondiciondelaActividadLaboralCS
+Id: eis-CondiciondelaActividadLaboral-CS
+Description: "La condición de la actividad corresponde a la relación que mantiene la persona con el trabajo al momento del registro, y se vincula con su ciclo de vida laboral, permitiendo identificar su situación de actividad económica. "
+* ^language = #es
+* ^caseSensitive = true
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Inactivo" "Inactivo"
+* #2 "Activo" "Activo"
+* #3 "Cesante o temporalmente sin trabajo" "Cesante o temporalmente sin trabajo"
+* #99 "Desconocido" "Desconocido"
+
+/********************************************************
+Grupos de Ocupaciones
+********************************************************/
+ValueSet: GruposdeOcupacionesVS
+Id: eis-GruposdeOcupaciones-VS
+Description: "La ocupación corresponde al conjunto de tareas y funciones asociadas al empleo que la persona desempeña o ha desempeñado. Una persona puede estar vinculada a una ocupación a través de su empleo principal, un empleo secundario o un empleo desempeñado anteriormente."
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system eis-GruposdeOcupaciones-CS
+
+CodeSystem:  GruposdeOcupacionesCS
+Id: eis-GruposdeOcupaciones-CS
+Description: "La ocupación corresponde al conjunto de tareas y funciones asociadas al empleo que la persona desempeña o ha desempeñado. Una persona puede estar vinculada a una ocupación a través de su empleo principal, un empleo secundario o un empleo desempeñado anteriormente."
+* ^language = #es
+* ^caseSensitive = true
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Directores, Gerentes y Administradores" "Directores, Gerentes y Administradores"
+* #2 "Profesionales, Científicos e Intelectuales" "Profesionales, Científicos e Intelectuales"
+* #3 "Técnicos y Profesionales de Nivel Medio" "Técnicos y Profesionales de Nivel Medio"
+* #4 "Personal de Apoyo Administrativo" "Personal de Apoyo Administrativo"
+* #5 "Trabajadores de los Servicios y Vendedores de Comercio y Mercado" "Trabajadores de los Servicios y Vendedores de Comercio y Mercado"
+* #6 "Agricultores y Trabajadores Calificados Agropecuarios y Pesqueros" "Agricultores y Trabajadores Calificados Agropecuarios y Pesqueros"
+* #7 "Artesanos y Operarios de Oficios" "Artesanos y Operarios de Oficios"
+* #8 "Operadores de Instalaciones, Máquinas y Ensambladores" "Operadores de Instalaciones, Máquinas y Ensambladores"
+* #9 "Ocupaciones Elementales" "Ocupaciones Elementales"
+* #0 "Ocupaciones de las Fuerzas Armadas" "Ocupaciones de las Fuerzas Armadas"
+
+/********************************************************
+Ocupaciones Desagregadas
+********************************************************/
+ValueSet: OcupacionesDesagregadasVS
+Id: eis-OcupacionesDesagregadas-VS
+Description: "Código asociados a el detalle de las ocupaciones de un paciente"
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system eis-OcupacionesDesagregadas-CS
+
+CodeSystem:  OcupacionesDesagregadasCS
+Id: eis-OcupacionesDesagregadas-CS
+Description: "Código asociados a el detalle de las ocupaciones de un paciente"
+* ^language = #es
+* ^caseSensitive = true
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #110 "Oficiales de las Fuerzas Armadas" "Oficiales de las Fuerzas Armadas"
+* #210 "Suboficiales de las Fuerzas Armadas" "Suboficiales de las Fuerzas Armadas"
+* #310 "Otros miembros de las Fuerzas Armadas" "Otros miembros de las Fuerzas Armadas"
+* #1111 "Miembros del poder ejecutivo y legislativo" "Miembros del poder ejecutivo y legislativo"
+* #1112 "Personal directivo de la administración pública" "Personal directivo de la administración pública"
+* #1113 "Jefes de comunidades indígenas" "Jefes de comunidades indígenas"
+* #1114 "Dirigentes de organizaciones sociales y/o políticas (sindicatos, organizaciones sociales, partidos políticos, entre otras)" "Dirigentes de organizaciones sociales y/o políticas (sindicatos, organizaciones sociales, partidos políticos, entre otras)"
+* #1120 "Directores y gerentes generales de empresas" "Directores y gerentes generales de empresas"
+* #1211 "Directores, gerentes y administradores de finanzas" "Directores, gerentes y administradores de finanzas"
+* #1212 "Directores, gerentes y administradores de recursos humanos" "Directores, gerentes y administradores de recursos humanos"
+* #1213 "Directores, gerentes y administradores de políticas empresariales y planificación" "Directores, gerentes y administradores de políticas empresariales y planificación"
+* #1219 "Otros directores, gerentes y administradores de servicios administrativos no clasificados previamente" "Otros directores, gerentes y administradores de servicios administrativos no clasificados previamente"
+* #1221 "Directores, gerentes y administradores comercialización" "Directores, gerentes y administradores comercialización"
+* #1222 "Directores, gerentes y administradores de publicidad y relaciones públicas" "Directores, gerentes y administradores de publicidad y relaciones públicas"
+* #1223 "Directores, gerentes y administradores de investigación y desarrollo" "Directores, gerentes y administradores de investigación y desarrollo"
+* #1311 "Directores, gerentes y administradores de producción y operaciones agropecuarias y de silvicultura" "Directores, gerentes y administradores de producción y operaciones agropecuarias y de silvicultura"
+* #1312 "Directores, gerentes y administradores de producción y operaciones de acuicultura y pesca" "Directores, gerentes y administradores de producción y operaciones de acuicultura y pesca"
+* #1321 "Directores, gerentes y administradores de industrias manufactureras" "Directores, gerentes y administradores de industrias manufactureras"
+* #1322 "Directores, gerentes y administradores de explotaciones mineras" "Directores, gerentes y administradores de explotaciones mineras"
+* #1323 "Directores, gerentes y administradores de construcción" "Directores, gerentes y administradores de construcción"
+* #1324 "Directores, gerentes y administradores de empresas de abastecimiento, almacenamiento y distribución" "Directores, gerentes y administradores de empresas de abastecimiento, almacenamiento y distribución"
+* #1330 "Directores, gerentes y administradores de servicios de tecnología de la información y las comunicaciones" "Directores, gerentes y administradores de servicios de tecnología de la información y las comunicaciones"
+* #1341 "Directores, gerentes y administradores de servicios de cuidados infantiles" "Directores, gerentes y administradores de servicios de cuidados infantiles"
+* #1342 "Directores, gerentes y administradores de servicios de salud" "Directores, gerentes y administradores de servicios de salud"
+* #1343 "Directores, gerentes y administradores de servicios de cuidado de adultos mayores" "Directores, gerentes y administradores de servicios de cuidado de adultos mayores"
+* #1344 "Directores, generales y administradores de servicios de bienestar social" "Directores, generales y administradores de servicios de bienestar social"
+* #1345 "Directores, gerentes y administradores de servicios de educación" "Directores, gerentes y administradores de servicios de educación"
+* #1346 "Directores, gerentes y administradores de servicios financieros" "Directores, gerentes y administradores de servicios financieros"
+* #1349 "Directores, gerentes y administradores de otros servicios profesionales no clasificados previamente" "Directores, gerentes y administradores de otros servicios profesionales no clasificados previamente"
+* #1411 "Directores, gerentes y administradores de hoteles" "Directores, gerentes y administradores de hoteles"
+* #1412 "Directores, gerentes y administradores de restaurantes" "Directores, gerentes y administradores de restaurantes"
+* #1420 "Directores, gerentes y administradores de comercios al por mayor y al por menor" "Directores, gerentes y administradores de comercios al por mayor y al por menor"
+* #1431 "Directores, gerentes y administradores de centros deportivos, de esparcimiento y culturales" "Directores, gerentes y administradores de centros deportivos, de esparcimiento y culturales"
+* #1439 "Directores, gerentes y administradores de otros servicios no clasificados previamente" "Directores, gerentes y administradores de otros servicios no clasificados previamente"
+* #2111 "Físicos y astrónomos" "Físicos y astrónomos"
+* #2112 "Meteorólogos" "Meteorólogos"
+* #2113 "Químicos" "Químicos"
+* #2114 "Geólogos y geofísicos" "Geólogos y geofísicos"
+* #2120 "Matemáticos y estadísticos" "Matemáticos y estadísticos"
+* #2131 "Biólogos, botánicos, zoólogos, genetista y farmacólogos" "Biólogos, botánicos, zoólogos, genetista y farmacólogos"
+* #2132 "Agrónomos y profesionales del ámbito forestal y pesquero" "Agrónomos y profesionales del ámbito forestal y pesquero"
+* #2133 "Profesionales de la protección medioambiental" "Profesionales de la protección medioambiental"
+* #2134 "Bioquímicos" "Bioquímicos"
+* #2141 "Ingenieros industriales y de producción" "Ingenieros industriales y de producción"
+* #2142 "Ingenieros civiles, ingenieros en construcción y constructores civiles" "Ingenieros civiles, ingenieros en construcción y constructores civiles"
+* #2143 "Ingenieros mediambientales" "Ingenieros mediambientales"
+* #2144 "Ingenieros mecánicos" "Ingenieros mecánicos"
+* #2145 "Ingenieros químicos" "Ingenieros químicos"
+* #2146 "Ingenieros en minas y metalúrgicos" "Ingenieros en minas y metalúrgicos"
+* #2147 "Ingenieros biomédicos" "Ingenieros biomédicos"
+* #2149 "Otros ingenieros no clasificados previamente" "Otros ingenieros no clasificados previamente"
+* #2151 "Ingenieros eléctricos" "Ingenieros eléctricos"
+* #2152 "Ingenieros electrónicos" "Ingenieros electrónicos"
+* #2153 "Ingenieros en telecomunicaciones" "Ingenieros en telecomunicaciones"
+* #2161 "Arquitectos" "Arquitectos"
+* #2162 "Arquitectos paisajistas" "Arquitectos paisajistas"
+* #2163 "Diseñadores de productos y de vestuario" "Diseñadores de productos y de vestuario"
+* #2164 "Urbanistas e ingenieros de transporte y tránsito" "Urbanistas e ingenieros de transporte y tránsito"
+* #2165 "Cartógrafos y agrimensores" "Cartógrafos y agrimensores"
+* #2166 "Diseñadores gráficos y de multimedia" "Diseñadores gráficos y de multimedia"
+* #2211 "Médicos generales" "Médicos generales"
+* #2212 "Médicos especialistas" "Médicos especialistas"
+* #2221 "Enfermeros profesionales" "Enfermeros profesionales"
+* #2222 "Profesionales de matronería" "Profesionales de matronería"
+* #2230 "Veterinarios" "Veterinarios"
+* #2241 "Dentistas" "Dentistas"
+* #2242 "Químicos farmaceúticos" "Químicos farmaceúticos"
+* #2243 "Ingenieros en prevención de riesgos y otros profesionales de la seguridad e higiene laboral y ambiental" "Ingenieros en prevención de riesgos y otros profesionales de la seguridad e higiene laboral y ambiental"
+* #2244 "Kinesiólogos" "Kinesiólogos"
+* #2245 "Dietistas y nutricionistas" "Dietistas y nutricionistas"
+* #2246 "Fonoaudiólogos" "Fonoaudiólogos"
+* #2247 "Tecnólogos médicos" "Tecnólogos médicos"
+* #2248 "Terapeutas ocupacionales" "Terapeutas ocupacionales"
+* #2249 "Otros profesionales de la salud no clasificados previamente" "Otros profesionales de la salud no clasificados previamente"
+* #2310 "Profesores de la educación superior" "Profesores de la educación superior"
+* #2320 "Profesores de educación media técnico profesional (especialidades) y de formación laboral" "Profesores de educación media técnico profesional (especialidades) y de formación laboral"
+* #2330 "Profesores de educación media" "Profesores de educación media"
+* #2341 "Profesores de educación básica" "Profesores de educación básica"
+* #2342 "Educadores de párvulos" "Educadores de párvulos"
+* #2351 "Especialistas en métodos pedagógicos" "Especialistas en métodos pedagógicos"
+* #2352 "Educadores para necesidades especiales" "Educadores para necesidades especiales"
+* #2353 "Otros profesores de idiomas" "Otros profesores de idiomas"
+* #2354 "Otros profesores de música" "Otros profesores de música"
+* #2355 "otros profesores de artes" "otros profesores de artes"
+* #2356 "Instructores en tecnologías de la información" "Instructores en tecnologías de la información"
+* #2359 "Otros profesionales de la educación no clasificados previamente" "Otros profesionales de la educación no clasificados previamente"
+* #2411 "Contadores" "Contadores"
+* #2412 "Asesores financieros y en inversiones" "Asesores financieros y en inversiones"
+* #2413 "Analistas financieros" "Analistas financieros"
+* #2421 "Especialistas y asesores de gestión" "Especialistas y asesores de gestión"
+* #2422 "Especialistas en políticas de administración" "Especialistas en políticas de administración"
+* #2423 "Especialistas en políticas y servicios de personal" "Especialistas en políticas y servicios de personal"
+* #2424 "Especialistas en formación del personal" "Especialistas en formación del personal"
+* #2431 "Profesionales de la publicidad y la comercialización" "Profesionales de la publicidad y la comercialización"
+* #2432 "Profesionales de las relaciones públicas" "Profesionales de las relaciones públicas"
+* #2433 "Profesionales de ventas técnicas y médicas (excluyendo las TIC)" "Profesionales de ventas técnicas y médicas (excluyendo las TIC)"
+* #2434 "Profesionales de ventas de tecnología de la información y las comunicaciones (TIC)" "Profesionales de ventas de tecnología de la información y las comunicaciones (TIC)"
+* #2511 "Analistas de sistemas" "Analistas de sistemas"
+* #2512 "Desarrolladores de software" "Desarrolladores de software"
+* #2513 "Desarrolladores web y multimedia" "Desarrolladores web y multimedia"
+* #2514 "Programadores de aplicaciones" "Programadores de aplicaciones"
+* #2519 "Otros desarrolladores y analistas de software y multimedia no clasificados previamente" "Otros desarrolladores y analistas de software y multimedia no clasificados previamente"
+* #2521 "Diseñadores y administradores de bases de datos" "Diseñadores y administradores de bases de datos"
+* #2522 "Administradores de sistemas" "Administradores de sistemas"
+* #2523 "Profesionales en redes de computadores" "Profesionales en redes de computadores"
+* #2529 "Otros especialistas en bases de datos y en redes de computadores no clasificados previamente" "Otros especialistas en bases de datos y en redes de computadores no clasificados previamente"
+* #2611 "Abogados" "Abogados"
+* #2612 "Jueces" "Jueces"
+* #2619 "Otros profesionales del derecho no clasificados previamente" "Otros profesionales del derecho no clasificados previamente"
+* #2621 "Archivistas y curadores de museos" "Archivistas y curadores de museos"
+* #2622 "Bibliotecarios y documentalistas de archivos" "Bibliotecarios y documentalistas de archivos"
+* #2631 "Economistas" "Economistas"
+* #2632 "Sociólogos, antropólogos, geógrafos y arqueólogos" "Sociólogos, antropólogos, geógrafos y arqueólogos"
+* #2633 "Filósofos, historiadores y especialistas en ciencias políticas" "Filósofos, historiadores y especialistas en ciencias políticas"
+* #2634 "Psicólogos" "Psicólogos"
+* #2635 "Profesionales del trabajo social" "Profesionales del trabajo social"
+* #2636 "Profesionales religiosos" "Profesionales religiosos"
+* #2641 "Autores y otros escritores" "Autores y otros escritores"
+* #2642 "Periodistas" "Periodistas"
+* #2643 "Traductores, intérpretes de lengua de señas y lingüistas" "Traductores, intérpretes de lengua de señas y lingüistas"
+* #2651 "Artistas de artes plásticas" "Artistas de artes plásticas"
+* #2652 "Músicos, cantantes y compositores" "Músicos, cantantes y compositores"
+* #2653 "Bailarines y coreógrafos" "Bailarines y coreógrafos"
+* #2654 "Directores de cine, radio y teatro" "Directores de cine, radio y teatro"
+* #2655 "Actores" "Actores"
+* #2656 "Locutores de radio, televisión y otros medios de comunicación" "Locutores de radio, televisión y otros medios de comunicación"
+* #2659 "Otros artistas creativos e interpretativos no clasificados previamente" "Otros artistas creativos e interpretativos no clasificados previamente"
+* #3111 "Técnicos en ciencias físicas y químicas" "Técnicos en ciencias físicas y químicas"
+* #3112 "Técnicos en construcción y topógrafos" "Técnicos en construcción y topógrafos"
+* #3113 "Técnicos en electricidad" "Técnicos en electricidad"
+* #3114 "Técnicos en electrónica" "Técnicos en electrónica"
+* #3115 "Técnicos en ingeniería mecánica" "Técnicos en ingeniería mecánica"
+* #3116 "Técnicos en química industrial" "Técnicos en química industrial"
+* #3117 "Técnicos en ingeniería de minas y metalurgia" "Técnicos en ingeniería de minas y metalurgia"
+* #3118 "Delineantes y dibujantes técnicos" "Delineantes y dibujantes técnicos"
+* #3119 "Otros técnicos en ciencias físicas y en ingeniería no clasificados previamente" "Otros técnicos en ciencias físicas y en ingeniería no clasificados previamente"
+* #3121 "Supervisores de minas" "Supervisores de minas"
+* #3122 "Supervisores de industrias manufactureras" "Supervisores de industrias manufactureras"
+* #3123 "Supervisores de la construcción" "Supervisores de la construcción"
+* #3131 "Operadores de instalaciones de producción de energía" "Operadores de instalaciones de producción de energía"
+* #3132 "Operadores de incineradores y de instalaciones de tratamiento de agua" "Operadores de incineradores y de instalaciones de tratamiento de agua"
+* #3133 "Controladores de instalaciones de procesamiento de productos químicos" "Controladores de instalaciones de procesamiento de productos químicos"
+* #3134 "Operadores de instalaciones de refinación de petróleo y gas natural" "Operadores de instalaciones de refinación de petróleo y gas natural"
+* #3135 "Controladores de procesos de producción de metales" "Controladores de procesos de producción de metales"
+* #3139 "Técnicos en control de procesos no clasificados previamente" "Técnicos en control de procesos no clasificados previamente"
+* #3141 "Técnicos en ciencias biológicas (excluyendo la medicina)" "Técnicos en ciencias biológicas (excluyendo la medicina)"
+* #3142 "Técnicos agropecuarios (incluyendo acuícolas)" "Técnicos agropecuarios (incluyendo acuícolas)"
+* #3143 "Técnicos forestales" "Técnicos forestales"
+* #3151 "Oficiales maquinistas en navegación" "Oficiales maquinistas en navegación"
+* #3152 "Capitanes y oficiales de cubierta" "Capitanes y oficiales de cubierta"
+* #3153 "Pilotos de aviación" "Pilotos de aviación"
+* #3154 "Controladores de tráfico aéreo" "Controladores de tráfico aéreo"
+* #3155 "Técnicos electrónicos aeronáuticos" "Técnicos electrónicos aeronáuticos"
+* #3211 "Técnicos y auxiliares paramédicos de radiología e imagenología y otros aparatos de diagnóstico y tratamiento médico" "Técnicos y auxiliares paramédicos de radiología e imagenología y otros aparatos de diagnóstico y tratamiento médico"
+* #3212 "Técnicos de laboratorios clínicos y servicios de sangre" "Técnicos de laboratorios clínicos y servicios de sangre"
+* #3213 "Técnicos y asistentes farmacéuticos" "Técnicos y asistentes farmacéuticos"
+* #3214 "Técnicos de prótesis médicas" "Técnicos de prótesis médicas"
+* #3215 "Laboratoristas dentales o técnicos en prótesis dentales" "Laboratoristas dentales o técnicos en prótesis dentales"
+* #3216 "Auxiliares paramédicos de anatomía patológica" "Auxiliares paramédicos de anatomía patológica"
+* #3221 "Técnicos y auxiliares paramédicos de enfermería" "Técnicos y auxiliares paramédicos de enfermería"
+* #3222 "Técnicos y auxiliares paramédicos de esterilización" "Técnicos y auxiliares paramédicos de esterilización"
+* #3223 "Ayudantes de ambulancia" "Ayudantes de ambulancia"
+* #3231 "Profesionales y técnicos de las terapias complementarias" "Profesionales y técnicos de las terapias complementarias"
+* #3232 "Practicantes de la medicina tradicional" "Practicantes de la medicina tradicional"
+* #3240 "Técnicos y asistentes veterinarios" "Técnicos y asistentes veterinarios"
+* #3251 "Técnicos y auxiliares paramédicos en odontología" "Técnicos y auxiliares paramédicos en odontología"
+* #3252 "Técnicos en documentación e información sanitaria" "Técnicos en documentación e información sanitaria"
+* #3253 "Podólogos" "Podólogos"
+* #3254 "Técnicos ópticos y contactólogos" "Técnicos ópticos y contactólogos"
+* #3255 "Técnicos y asistentes fisioterapeutas" "Técnicos y asistentes fisioterapeutas"
+* #3256 "Técnicos y auxiliares paramédicos de alimentación" "Técnicos y auxiliares paramédicos de alimentación"
+* #3257 "Inspectores de la salud y técnicos en prevención de riesgos" "Inspectores de la salud y técnicos en prevención de riesgos"
+* #3258 "Quiroprácticos y osteópatas" "Quiroprácticos y osteópatas"
+* #3259 "Otros técnicos de la salud no clasificados previamente" "Otros técnicos de la salud no clasificados previamente"
+* #3311 "Agentes de bolsa y otros servicios financieros" "Agentes de bolsa y otros servicios financieros"
+* #3312 "Ejecutivos de préstamos y créditos" "Ejecutivos de préstamos y créditos"
+* #3313 "Técnicos y asistentes en contabilidad" "Técnicos y asistentes en contabilidad"
+* #3314 "Técnicos de servicios estadísticos y metamáticos" "Técnicos de servicios estadísticos y metamáticos"
+* #3315 "Tasadores" "Tasadores"
+* #3321 "Agentes de seguros y ejecutivos de fondos de pensiones" "Agentes de seguros y ejecutivos de fondos de pensiones"
+* #3322 "Representantes comerciales (excepto venta de productos y servicios industriales, farmacéuticos y de tecnologías de la información y las comunicaciones)" "Representantes comerciales (excepto venta de productos y servicios industriales, farmacéuticos y de tecnologías de la información y las comunicaciones)"
+* #3323 "Agentes responsables de adquisiciones" "Agentes responsables de adquisiciones"
+* #3324 "Corredores comerciales y consignatarios" "Corredores comerciales y consignatarios"
+* #3331 "Agentes de aduana" "Agentes de aduana"
+* #3332 "Organizadores de conferencias y eventos" "Organizadores de conferencias y eventos"
+* #3333 "Agentes de empleo y contratistas de personal" "Agentes de empleo y contratistas de personal"
+* #3334 "Agentes inmobiliarios" "Agentes inmobiliarios"
+* #3339 "Otros agentes de servicios comerciales no clasificados previamente" "Otros agentes de servicios comerciales no clasificados previamente"
+* #3341 "Supervisores de oficina" "Supervisores de oficina"
+* #3342 "Secretarios jurídicos" "Secretarios jurídicos"
+* #3343 "Secretarios administrativos y ejecutivos" "Secretarios administrativos y ejecutivos"
+* #3344 "Secretarios médicos" "Secretarios médicos"
+* #3351 "Inspectores de aduana" "Inspectores de aduana"
+* #3352 "Agentes de la administración tributaria" "Agentes de la administración tributaria"
+* #3353 "Agentes de servicios de prestaciones sociales" "Agentes de servicios de prestaciones sociales"
+* #3354 "Agentes de servicios de tramitación y entrega de licencias y permisos" "Agentes de servicios de tramitación y entrega de licencias y permisos"
+* #3355 "Inspectores y detectives de la Policía de Investigaciones (PDI)" "Inspectores y detectives de la Policía de Investigaciones (PDI)"
+* #3359 "Agentes de la administración pública para la aplicación de la ley no clasificados previamente" "Agentes de la administración pública para la aplicación de la ley no clasificados previamente"
+* #3411 "Técnicos de los servicios jurídicos" "Técnicos de los servicios jurídicos"
+* #3412 "Técnico en trabajo social" "Técnico en trabajo social"
+* #3413 "Técnicos de los servicios religiosos" "Técnicos de los servicios religiosos"
+* #3421 "Atletas y deportistas" "Atletas y deportistas"
+* #3422 "Entrenadores, instructores y árbitros de actividades deportivas" "Entrenadores, instructores y árbitros de actividades deportivas"
+* #3423 "Instructores de acondicionamiento físico y actividades recreativas" "Instructores de acondicionamiento físico y actividades recreativas"
+* #3431 "Fotógrafos" "Fotógrafos"
+* #3432 "Diseñadores y decorador de interior" "Diseñadores y decorador de interior"
+* #3433 "Técnicos en galerías de arte, museos y bibliotecas" "Técnicos en galerías de arte, museos y bibliotecas"
+* #3434 "Chefs" "Chefs"
+* #3435 "Tatuadores" "Tatuadores"
+* #3439 "Otros técnicos en actividades culturales y artísticas no clasificados previamente" "Otros técnicos en actividades culturales y artísticas no clasificados previamente"
+* #3511 "Técnicos en operaciones de tecnología de la información y las comunicaciones" "Técnicos en operaciones de tecnología de la información y las comunicaciones"
+* #3512 "Técnicos en asistencia al usuario de tecnología de la información y las comunicaciones" "Técnicos en asistencia al usuario de tecnología de la información y las comunicaciones"
+* #3513 "Técnicos en redes y sistemas de computadores" "Técnicos en redes y sistemas de computadores"
+* #3514 "Técnicos de la web" "Técnicos de la web"
+* #3521 "Técnicos de radiodifusión y grabación audiovisual" "Técnicos de radiodifusión y grabación audiovisual"
+* #3522 "Técnicos de ingeniería de las telecomunicaciones" "Técnicos de ingeniería de las telecomunicaciones"
+* #3611 "Técnicos en educación parvularia" "Técnicos en educación parvularia"
+* #3612 "Técnicos en educación diferencial" "Técnicos en educación diferencial"
+* #4110 "Trabajadores de tareas administrativas generales" "Trabajadores de tareas administrativas generales"
+* #4120 "Secretarios generales" "Secretarios generales"
+* #4131 "Oeradores de equipo de procesamiento de texto y mecanógrafos" "Oeradores de equipo de procesamiento de texto y mecanógrafos"
+* #4132 "Digitadores de datos" "Digitadores de datos"
+* #4211 "Cajeros de bancos y de oficinas de correo" "Cajeros de bancos y de oficinas de correo"
+* #4212 "Receptores de apuestas" "Receptores de apuestas"
+* #4213 "Empleados de casa de empeño y prestamistas" "Empleados de casa de empeño y prestamistas"
+* #4214 "Cobradores" "Cobradores"
+* #4221 "Empleados de agencias de viajes" "Empleados de agencias de viajes"
+* #4222 "Empleados de centros de llamadas de informaciones" "Empleados de centros de llamadas de informaciones"
+* #4223 "Telefonistas" "Telefonistas"
+* #4224 "Recepcionistas de hoteles" "Recepcionistas de hoteles"
+* #4225 "Empleados de informaciones, reclamos o sugerencias" "Empleados de informaciones, reclamos o sugerencias"
+* #4226 "Recepcionistas (funciones generales)" "Recepcionistas (funciones generales)"
+* #4227 "Entrevistadores de investigaciones de mercado, estudios de opinión pública y encuestadores" "Entrevistadores de investigaciones de mercado, estudios de opinión pública y encuestadores"
+* #4229 "Otros empleados de servicios de información al cliente no clasificados previamente" "Otros empleados de servicios de información al cliente no clasificados previamente"
+* #4311 "Auxiliares y ayudantes de registros de contabilidad y cálculo de costos" "Auxiliares y ayudantes de registros de contabilidad y cálculo de costos"
+* #4312 "Auxiliares y ayudantes de servicios estadísticos, financieros y de seguros" "Auxiliares y ayudantes de servicios estadísticos, financieros y de seguros"
+* #4313 "Empleados encargados de nóminas o registros de remuneraciones" "Empleados encargados de nóminas o registros de remuneraciones"
+* #4321 "Empleados encargados del control de abastecimiento e inventario" "Empleados encargados del control de abastecimiento e inventario"
+* #4322 "Empleados de cálculo de los insumos y materiales para la producción" "Empleados de cálculo de los insumos y materiales para la producción"
+* #4323 "Empleados de servicios de transporte" "Empleados de servicios de transporte"
+* #4411 "Asistentes y ayudantes de bibliotecas" "Asistentes y ayudantes de bibliotecas"
+* #4412 "Carteros y empleados de servicios de correos y encomiendas" "Carteros y empleados de servicios de correos y encomiendas"
+* #4413 "Codificadores de datos y correctores de pruebas de imprenta" "Codificadores de datos y correctores de pruebas de imprenta"
+* #4414 "Escribientes públicos" "Escribientes públicos"
+* #4415 "Empleados administrativos de archivos" "Empleados administrativos de archivos"
+* #4416 "Empleados y asistentes de recursos humanos" "Empleados y asistentes de recursos humanos"
+* #4419 "Otro personal de apoyo administrativo no clasificado previamente" "Otro personal de apoyo administrativo no clasificado previamente"
+* #5111 "Auxiliares de servicio a bordo de aeronaves y barcos" "Auxiliares de servicio a bordo de aeronaves y barcos"
+* #5112 "Revisores y cobradores de los transportes públicos" "Revisores y cobradores de los transportes públicos"
+* #5113 "Guías de turismo" "Guías de turismo"
+* #5120 "Cocineros" "Cocineros"
+* #5131 "Garzones de mesa" "Garzones de mesa"
+* #5132 "bármanes" "bármanes"
+* #5141 "Peluqueros" "Peluqueros"
+* #5142 "Cosmetólogos y especialistas en tratamiento de belleza" "Cosmetólogos y especialistas en tratamiento de belleza"
+* #5151 "Supervisores de mantenimiento y limpieza en oficinas, hoteles y otros establecimientos" "Supervisores de mantenimiento y limpieza en oficinas, hoteles y otros establecimientos"
+* #5152 "Amas de llaves, mayordomos domésticos y dueños/administradores de pequeños establecimientos de alojamiento" "Amas de llaves, mayordomos domésticos y dueños/administradores de pequeños establecimientos de alojamiento"
+* #5153 "Conserjes" "Conserjes"
+* #5161 "Astrólogos y adivinadores" "Astrólogos y adivinadores"
+* #5162 "Acompañantes" "Acompañantes"
+* #5163 "Personal de pompas fúnebres y embalsamadores" "Personal de pompas fúnebres y embalsamadores"
+* #5164 "Cuidadores de animales" "Cuidadores de animales"
+* #5165 "Instructores de manejo" "Instructores de manejo"
+* #5169 "Otros trabajadores de servicios a las personas no clasificados previamente" "Otros trabajadores de servicios a las personas no clasificados previamente"
+* #5211 "Vendedores en quioscos o puestos de feria" "Vendedores en quioscos o puestos de feria"
+* #5212 "Vendedores ambulantes de productos comestibles de consumo inmediato (elaboración propia)" "Vendedores ambulantes de productos comestibles de consumo inmediato (elaboración propia)"
+* #5221 "Comerciantes y dueños - operadores de locales comerciales, tiendas, almacenes y mercados" "Comerciantes y dueños - operadores de locales comerciales, tiendas, almacenes y mercados"
+* #5222 "Supervisores de locales comerciales, tiendas y almacenes" "Supervisores de locales comerciales, tiendas y almacenes"
+* #5223 "Vendedores y asistentes de venta de tiendas, almacenes y puestos de mercado" "Vendedores y asistentes de venta de tiendas, almacenes y puestos de mercado"
+* #5230 "Vendedores de entrada (entretenciones y eventos deportivos) y cajeros de comercio" "Vendedores de entrada (entretenciones y eventos deportivos) y cajeros de comercio"
+* #5241 "Modelos de moda, arte y publicidad" "Modelos de moda, arte y publicidad"
+* #5242 "Promotores de tiendas" "Promotores de tiendas"
+* #5243 "Representantes de ventas de puerta a puerta (venta a hogares)" "Representantes de ventas de puerta a puerta (venta a hogares)"
+* #5244 "Vendedores por internet y otros medios de comunicación" "Vendedores por internet y otros medios de comunicación"
+* #5245 "Bomberos de gasolineras" "Bomberos de gasolineras"
+* #5246 "Vendedores de comida al mostrador" "Vendedores de comida al mostrador"
+* #5249 "Otros vendedores no clasificados previamente" "Otros vendedores no clasificados previamente"
+* #5311 "Cuidadores de niños en instituciones y a domicilios" "Cuidadores de niños en instituciones y a domicilios"
+* #5312 "Asistentes de aulas e inspectores de patio" "Asistentes de aulas e inspectores de patio"
+* #5321 "Trabajadores de los cuidados personales en instituciones" "Trabajadores de los cuidados personales en instituciones"
+* #5322 "Trabajadores de los cuidados personales a domicilio" "Trabajadores de los cuidados personales a domicilio"
+* #5329 "Otros trabajadores de los cuidados personales en instituciones y a domicilio no clasificados previamente" "Otros trabajadores de los cuidados personales en instituciones y a domicilio no clasificados previamente"
+* #5411 "Bomberos" "Bomberos"
+* #5412 "Carabineros" "Carabineros"
+* #5413 "Gendarmes" "Gendarmes"
+* #5414 "Guardias de seguridad" "Guardias de seguridad"
+* #5419 "Otro personal de los servicios de protección no clasificados previamente" "Otro personal de los servicios de protección no clasificados previamente"
+* #6111 "Agricultores y trabajadores calificados de cultivos extensivos" "Agricultores y trabajadores calificados de cultivos extensivos"
+* #6112 "Agricultores y trabajadores calificados de plantaciones de árboles y arbustos" "Agricultores y trabajadores calificados de plantaciones de árboles y arbustos"
+* #6113 "Agricultores y trabajadores calificados de huertas, invernaderos, viveros y jardines" "Agricultores y trabajadores calificados de huertas, invernaderos, viveros y jardines"
+* #6114 "Agricultores y trabajadores calificados de cultivos mixtos" "Agricultores y trabajadores calificados de cultivos mixtos"
+* #6121 "Criadores de ganado" "Criadores de ganado"
+* #6122 "Avicultores y trabajadores calificados de la avicultura" "Avicultores y trabajadores calificados de la avicultura"
+* #6123 "Trabajadores calificados de la apicultura y la sericultura" "Trabajadores calificados de la apicultura y la sericultura"
+* #6129 "Otros criadores y trabajadores calificados de la cría de animales no clasificados previamente" "Otros criadores y trabajadores calificados de la cría de animales no clasificados previamente"
+* #6130 "Productores y trabajadores calificados de explotaciones agropecuarias mixtas" "Productores y trabajadores calificados de explotaciones agropecuarias mixtas"
+* #6210 "Trabajadores forestales calificados" "Trabajadores forestales calificados"
+* #6221 "Trabajadores de explotaciones de acuicultura" "Trabajadores de explotaciones de acuicultura"
+* #6222 "Pescadores en agua dulce y en aguas costeras" "Pescadores en agua dulce y en aguas costeras"
+* #6223 "Pescadores de alta mar" "Pescadores de alta mar"
+* #6224 "Cazadores y tramperos" "Cazadores y tramperos"
+* #6310 "Trabajadores agrícolas de subsistencia" "Trabajadores agrícolas de subsistencia"
+* #6320 "Criadores de subsistencia" "Criadores de subsistencia"
+* #6330 "Trabajadores agropecuarios de subsitencia" "Trabajadores agropecuarios de subsitencia"
+* #6340 "Pescadores, cazadores, tramperos y recolectores de subsistencia" "Pescadores, cazadores, tramperos y recolectores de subsistencia"
+* #7111 "Constructores de casas" "Constructores de casas"
+* #7112 "Albañiles" "Albañiles"
+* #7113 "Tronzadores, labrantes y grabadores de piedra" "Tronzadores, labrantes y grabadores de piedra"
+* #7114 "Operarios en cemento armado" "Operarios en cemento armado"
+* #7115 "Carpinteros de obra" "Carpinteros de obra"
+* #7119 "Otros operarios de la construcción (obra gruesa) no clasificados previamente" "Otros operarios de la construcción (obra gruesa) no clasificados previamente"
+* #7121 "Instaladores o reparadores de techos" "Instaladores o reparadores de techos"
+* #7122 "Instaladores de parqué, cerámicas, baldosas y alfombras" "Instaladores de parqué, cerámicas, baldosas y alfombras"
+* #7123 "Yeseros, estucadores y revocadores" "Yeseros, estucadores y revocadores"
+* #7124 "Instaladores de material aislante y de insonorización" "Instaladores de material aislante y de insonorización"
+* #7125 "Cristaleros" "Cristaleros"
+* #7126 "Gásfiter e instaladores de tuberías" "Gásfiter e instaladores de tuberías"
+* #7127 "Mecánicos de instalaciones de refrigeración y aire acondicionado" "Mecánicos de instalaciones de refrigeración y aire acondicionado"
+* #7131 "Pintores y empapeladores de paredes" "Pintores y empapeladores de paredes"
+* #7132 "Barnizadores y pulverizadores de productos manufacturados" "Barnizadores y pulverizadores de productos manufacturados"
+* #7133 "Limpiadores de fachadas y deshollinadores" "Limpiadores de fachadas y deshollinadores"
+* #7211 "Moldeadores y macheros" "Moldeadores y macheros"
+* #7212 "Soldadores y oxicortadores" "Soldadores y oxicortadores"
+* #7213 "Chapistas y caldereros" "Chapistas y caldereros"
+* #7214 "Montadores de estructuras metálicas" "Montadores de estructuras metálicas"
+* #7215 "Aparejadores y empalmadores de cables no eléctricos" "Aparejadores y empalmadores de cables no eléctricos"
+* #7221 "Herreros y forjadores" "Herreros y forjadores"
+* #7222 "Herramentistas" "Herramentistas"
+* #7223 "Reguladores y operarios de máquinas herramientas" "Reguladores y operarios de máquinas herramientas"
+* #7224 "Pulidores de metales y afiladores de herramientas" "Pulidores de metales y afiladores de herramientas"
+* #7231 "Mecánicos y reparadores de vehículos de motor" "Mecánicos y reparadores de vehículos de motor"
+* #7232 "Mecánicos y reparadores de motores de avión" "Mecánicos y reparadores de motores de avión"
+* #7233 "Mecánicos y reparadores de máquinas agrícolas e industriales" "Mecánicos y reparadores de máquinas agrícolas e industriales"
+* #7234 "Reparadores de bicicletas" "Reparadores de bicicletas"
+* #7311 "mecánicos y reparadores de instrumentos de precisión" "mecánicos y reparadores de instrumentos de precisión"
+* #7312 "Fabricantes y afinadores de instrumentos musicales" "Fabricantes y afinadores de instrumentos musicales"
+* #7313 "Joyeros, orfebres y plateros" "Joyeros, orfebres y plateros"
+* #7314 "Alfareros (barro, arcilla y abrasivos)" "Alfareros (barro, arcilla y abrasivos)"
+* #7315 "Sopladores, modeladores, laminadores, cortadores y pulidores de vidrio" "Sopladores, modeladores, laminadores, cortadores y pulidores de vidrio"
+* #7316 "Pintores de carteles, pintores decorativos y grabadores" "Pintores de carteles, pintores decorativos y grabadores"
+* #7317 "Artesanos en madera, cestería y materiales similares" "Artesanos en madera, cestería y materiales similares"
+* #7318 "Artesanos de los tejidos, el cuero y materiales similares" "Artesanos de los tejidos, el cuero y materiales similares"
+* #7319 "Artesanos no clasificados previamente" "Artesanos no clasificados previamente"
+* #7321 "Tipógrafos" "Tipógrafos"
+* #7322 "Impresores" "Impresores"
+* #7323 "Encuadernadores" "Encuadernadores"
+* #7411 "Electricistas de obras" "Electricistas de obras"
+* #7412 "Mecánicos y ajustadores electricistas" "Mecánicos y ajustadores electricistas"
+* #7413 "Instaladores y reparadores de líneas eléctricas" "Instaladores y reparadores de líneas eléctricas"
+* #7421 "Mecánicos y reparadores en electrónica" "Mecánicos y reparadores en electrónica"
+* #7422 "Instaladores y reparadores en tecnología de la información y las comunicaciones" "Instaladores y reparadores en tecnología de la información y las comunicaciones"
+* #7511 "Carniceros y pescaderos" "Carniceros y pescaderos"
+* #7512 "Panaderos, pasteleros y confíteros" "Panaderos, pasteleros y confíteros"
+* #7513 "Operarios de la elaboración de productos lácteos" "Operarios de la elaboración de productos lácteos"
+* #7514 "Operarios de la conservación de frutas, legumbres y verduras" "Operarios de la conservación de frutas, legumbres y verduras"
+* #7515 "Catadores, clasificadores y controladores de calidad de alimentos y bebidas" "Catadores, clasificadores y controladores de calidad de alimentos y bebidas"
+* #7516 "Elaboradores de tabaco y sus productos" "Elaboradores de tabaco y sus productos"
+* #7521 "Operarios del tratamiento de la madera" "Operarios del tratamiento de la madera"
+* #7522 "Ebanistas y mueblistas" "Ebanistas y mueblistas"
+* #7523 "Operadores y reguladores de máquinas para trabajar la madera" "Operadores y reguladores de máquinas para trabajar la madera"
+* #7531 "Sastres, modistos, peleteros y sombrereros" "Sastres, modistos, peleteros y sombrereros"
+* #7532 "Patronistas y cortadores de telas" "Patronistas y cortadores de telas"
+* #7533 "Costureros y bordadores" "Costureros y bordadores"
+* #7534 "Tapiceros" "Tapiceros"
+* #7535 "Apelambradores, pellejeros y curtidores" "Apelambradores, pellejeros y curtidores"
+* #7536 "Zapateros" "Zapateros"
+* #7541 "Buzos" "Buzos"
+* #7542 "Dinamiteros y pegadores" "Dinamiteros y pegadores"
+* #7543 "Clasificadores, probadores de productos e inspectores de calidad (excluyendo alimentos y bebidas)" "Clasificadores, probadores de productos e inspectores de calidad (excluyendo alimentos y bebidas)"
+* #7544 "Fumigadores y otros controladores de plagas y malezas" "Fumigadores y otros controladores de plagas y malezas"
+* #7549 "Operarios de otros oficios no clasificados previamente" "Operarios de otros oficios no clasificados previamente"
+* #8111 "Mineros y operadores de instalaciones mineras" "Mineros y operadores de instalaciones mineras"
+* #8112 "Operadores de instalaciones de procesamiento de minerales y rocas" "Operadores de instalaciones de procesamiento de minerales y rocas"
+* #8113 "Perforadores y sondistas de pozos" "Perforadores y sondistas de pozos"
+* #8114 "Operadores de máquinas para fabricar cemento y otros productos minerales" "Operadores de máquinas para fabricar cemento y otros productos minerales"
+* #8121 "Operadores de instalaciones de procesamiento de metales" "Operadores de instalaciones de procesamiento de metales"
+* #8122 "Operadores de máquinas de acabado de metales (pulidores, galvanizadores y recubridores de metales)" "Operadores de máquinas de acabado de metales (pulidores, galvanizadores y recubridores de metales)"
+* #8131 "Operadores de plantas y máquinas para fabricar productos químicos" "Operadores de plantas y máquinas para fabricar productos químicos"
+* #8132 "Operadores de máquinas para fabricar productos fotográficos" "Operadores de máquinas para fabricar productos fotográficos"
+* #8141 "Operadores de máquinas para fabricar productos de caucho" "Operadores de máquinas para fabricar productos de caucho"
+* #8142 "Operadores de máquinas para fabricar productos de material plástico" "Operadores de máquinas para fabricar productos de material plástico"
+* #8143 "Operadores de máquinas para fabricar productos de papel" "Operadores de máquinas para fabricar productos de papel"
+* #8151 "Operadores de máquinas de preparación de fibras, hilado y devanado" "Operadores de máquinas de preparación de fibras, hilado y devanado"
+* #8152 "Operadores de telares y otras máquinas tejedoras" "Operadores de telares y otras máquinas tejedoras"
+* #8153 "Operadores de máquinas de coser" "Operadores de máquinas de coser"
+* #8154 "Operadores de máquinas de blanqueamiento, teñido y limpieza de tejidos" "Operadores de máquinas de blanqueamiento, teñido y limpieza de tejidos"
+* #8155 "Operadores de máquinas de tratamiento de pieles y cueros" "Operadores de máquinas de tratamiento de pieles y cueros"
+* #8156 "Operadores de máquinas para la fabricación de calzado, bolsos y accesorios de talabartería" "Operadores de máquinas para la fabricación de calzado, bolsos y accesorios de talabartería"
+* #8157 "Operadores de máquinas de lavanderías" "Operadores de máquinas de lavanderías"
+* #8159 "Operadores de máquinas para fabricar productos textiles y artículos de piel y cuero no clasificados previamente" "Operadores de máquinas para fabricar productos textiles y artículos de piel y cuero no clasificados previamente"
+* #8160 "Operadores de máquinas para elaborar alimentos, bebidas y cigarrillos" "Operadores de máquinas para elaborar alimentos, bebidas y cigarrillos"
+* #8171 "Operadores de instalaciones para la preparación de papel y de pasta para papel" "Operadores de instalaciones para la preparación de papel y de pasta para papel"
+* #8172 "Operadores de instalaciones de procesamiento de la madera" "Operadores de instalaciones de procesamiento de la madera"
+* #8181 "Operadores de instalaciones de vidrieriía y cerámica" "Operadores de instalaciones de vidrieriía y cerámica"
+* #8182 "Operadores de máquinas de vapor y calderas" "Operadores de máquinas de vapor y calderas"
+* #8183 "Operadores de máquinas de embalaje, embotellamiento y etiquetado" "Operadores de máquinas de embalaje, embotellamiento y etiquetado"
+* #8189 "Operadores de máquinas y de instalaciones fijas no clasificados previamente" "Operadores de máquinas y de instalaciones fijas no clasificados previamente"
+* #8211 "Ensambladores de maquinaria mecánica" "Ensambladores de maquinaria mecánica"
+* #8212 "Ensambladores de equipos eléctricos y electrónicos" "Ensambladores de equipos eléctricos y electrónicos"
+* #8219 "Ensambladores no clasificados previamente" "Ensambladores no clasificados previamente"
+* #8311 "Maquinistas de locomotoras" "Maquinistas de locomotoras"
+* #8312 "Guardafrenos, guardagujas y agentes de maniobras" "Guardafrenos, guardagujas y agentes de maniobras"
+* #8321 "Conductores de motocicletas" "Conductores de motocicletas"
+* #8322 "Conductores de automóviles, taxis y camionetas" "Conductores de automóviles, taxis y camionetas"
+* #8331 "Conductores de buses y trolebuses" "Conductores de buses y trolebuses"
+* #8332 "Conductores de camiones pesados y de alto tonelaje" "Conductores de camiones pesados y de alto tonelaje"
+* #8341 "Operadores de maquinaria agrícola y forestal móvil" "Operadores de maquinaria agrícola y forestal móvil"
+* #8342 "Operadores de máquinas de movimiento de tierras" "Operadores de máquinas de movimiento de tierras"
+* #8343 "Operadores de grúas y aparatos elevadores" "Operadores de grúas y aparatos elevadores"
+* #8344 "Operadores de autoelevadoras y montacargas" "Operadores de autoelevadoras y montacargas"
+* #8350 "Tripulantes de cubierta de barco" "Tripulantes de cubierta de barco"
+* #9111 "Trabajadores de casa particular y asistentes domésticos" "Trabajadores de casa particular y asistentes domésticos"
+* #9112 "Auxiliares de aseo de oficinas, hoteles y otros establecimientos" "Auxiliares de aseo de oficinas, hoteles y otros establecimientos"
+* #9121 "Lavadores y planchadores manuales" "Lavadores y planchadores manuales"
+* #9122 "Limpiadores de vehículos" "Limpiadores de vehículos"
+* #9123 "Limpiadores de ventanas" "Limpiadores de ventanas"
+* #9129 "Otro personal de limpieza no clasificado previamente" "Otro personal de limpieza no clasificado previamente"
+* #9211 "Obreros de explotaciones agrícolas" "Obreros de explotaciones agrícolas"
+* #9212 "Obreros de explotaciones ganaderas" "Obreros de explotaciones ganaderas"
+* #9213 "Obreros de explotaciones agropecuarias" "Obreros de explotaciones agropecuarias"
+* #9214 "Ayudantes de jardinería y horticultura" "Ayudantes de jardinería y horticultura"
+* #9215 "Obreros forestales" "Obreros forestales"
+* #9216 "Obreros de pesca y acuicultura" "Obreros de pesca y acuicultura"
+* #9311 "Obreros de la minería" "Obreros de la minería"
+* #9312 "Obreros de obras públicas" "Obreros de obras públicas"
+* #9313 "Obreros de la construcción de edificios" "Obreros de la construcción de edificios"
+* #9321 "Empacadores manuales" "Empacadores manuales"
+* #9329 "Obreros de la industria manufacturera no clasificados previamente" "Obreros de la industria manufacturera no clasificados previamente"
+* #9331 "Conductores de vehículos accionados a pedal o a brazo (no motorizados)" "Conductores de vehículos accionados a pedal o a brazo (no motorizados)"
+* #9332 "Conductores de vehículos y máquinas de tracción animal" "Conductores de vehículos y máquinas de tracción animal"
+* #9333 "Obreros de carga" "Obreros de carga"
+* #9334 "Reponedores de estanterías" "Reponedores de estanterías"
+* #9411 "Cocineros de comida rápida" "Cocineros de comida rápida"
+* #9412 "Ayudantes de cocina" "Ayudantes de cocina"
+* #9510 "Trabajadores ambulantes de servicios" "Trabajadores ambulantes de servicios"
+* #9520 "Vendedores ambulantes (excluyendo comida de consumo inmediato)" "Vendedores ambulantes (excluyendo comida de consumo inmediato)"
+* #9611 "Recolectores de basura y material reciclable" "Recolectores de basura y material reciclable"
+* #9612 "Clasificadores de desechos" "Clasificadores de desechos"
+* #9613 "Barrenderos" "Barrenderos"
+* #9621 "Mensajeros, estafetas, maleteros y repartidores de folletos y diarios a domicilio" "Mensajeros, estafetas, maleteros y repartidores de folletos y diarios a domicilio"
+* #9622 "Auxiliares de mantenimiento (pequeñas reparaciones)" "Auxiliares de mantenimiento (pequeñas reparaciones)"
+* #9623 "Recolectores de dinero en máquinas expendedoras de venta automática y lectores de medidores" "Recolectores de dinero en máquinas expendedoras de venta automática y lectores de medidores"
+* #9624 "Acarreadores de agua y recolectores de leña" "Acarreadores de agua y recolectores de leña"
+* #9629 "Otras ocupaciones elementales no clasificadas previamente" "Otras ocupaciones elementales no clasificadas previamente"
+
+/********************************************************
+Previsión de Salud
+********************************************************/
+ValueSet: PrevisiondeSaludVS
+Id: eis-PrevisiondeSalud-VS
+Description: "La previsión corresponde a la variable que identifica el sistema de aseguramiento de salud vigente al que se encuentra adscrita la persona, el cual define la cobertura para acciones de promoción, prevención, tratamiento y control de las enfermedades."
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system  eis-PrevisiondeSalud-CS
+
+CodeSystem:  PrevisiondeSaludCS
+Id: eis-PrevisiondeSalud-CS
+Description: "La previsión corresponde a la variable que identifica el sistema de aseguramiento de salud vigente al que se encuentra adscrita la persona, el cual define la cobertura para acciones de promoción, prevención, tratamiento y control de las enfermedades."
+* ^language = #es
+* ^caseSensitive = true
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "FONASA" "FONASA"
+* #2 "ISAPRE" "ISAPRE"
+* #3 "CAPREDENA" "CAPREDENA"
+* #4 "DIPRECA" "DIPRECA"
+* #6 "SISAE" "SISAE"
+* #7 "SISAN" "SISAN"
+* #8 "SISAF" "SISAF"
+* #99 "Desconocido" "Desconocido"
+
+
+/********************************************************
+Modalidad de Atención FONASA
+********************************************************/
+ValueSet: ModalidaddeAtencionFONASAVS
+Id: eis-ModalidaddeAtencionFONASA-VS
+Description: "La modalidad de atención FONASA corresponde a la forma en que  una persona afiliada voluntariamente al Fondo Nacional de Salud (FONASA) accede a las prestaciones de salud, permitiéndole contar con los servicios y la protección financiera otorgada por el Seguro Público de Salud"
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system  eis-ModalidaddeAtencionFONASA-CS
+
+CodeSystem:  ModalidaddeAtencionFONASACS
+Id: eis-ModalidaddeAtencionFONASA-CS
+Description: "La modalidad de atención FONASA corresponde a la forma en que  una persona afiliada voluntariamente al Fondo Nacional de Salud (FONASA) accede a las prestaciones de salud, permitiéndole contar con los servicios y la protección financiera otorgada por el Seguro Público de Salud"
+* ^language = #es
+* ^caseSensitive = true
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #MAI "Modalidad de Atención Institucional" "Modalidad de Atención Institucional"
+* #MLE "Modalidad Libre Elección" "Modalidad Libre Elección"
+
+/********************************************************
+Tramos FONASA
+********************************************************/
+ValueSet: TramosFONASAVS
+Id: eis-TramosFONASA-VS
+Description: "Los tramos FONASA corresponden a la clasificación que realiza el Fondo Nacional de Salud (FONASA) en función del nivel de ingreso mensual que percibe la persona, la cual determina el acceso a beneficios, copagos y modalidades de atención dentro del Seguro Público de Salud. "
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system  eis-TramosFONASA-CS
+
+CodeSystem: TramosFONASACS
+Id: eis-TramosFONASA-CS
+Description: "Los tramos FONASA corresponden a la clasificación que realiza el Fondo Nacional de Salud (FONASA) en función del nivel de ingreso mensual que percibe la persona, la cual determina el acceso a beneficios, copagos y modalidades de atención dentro del Seguro Público de Salud. "
+* ^language = #es
+* ^caseSensitive = true
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #A "Tramo A" "Tramo A"
+* #B "Tramo B" "Tramo B"
+* #C "Tramo C" "Tramo C"
+* #D "Tramo D" "Tramo D"
+
+
+/********************************************************
+Tramos FONASA
+********************************************************/
+
+ValueSet:  VSLeyesAtencionSalud
+Id: VSLeyesAtencionSalud
+Title: "Leyes Relacionadas a la Atención en Salud"
+Description: "Leyes que otorgan beneficio de salud por causas específicas y se relacionan con el seguro de salud general de la persona ya sea FONASA o ISAPRE."
+
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system  CSLeyesAtencionSalud
+
+CodeSystem:  CSLeyesAtencionSalud
+Id: CSLeyesAtencionSalud
+Title: "Leyes Relacionadas a la Atención en Salud"
+Description: "Leyes que otorgan beneficio de salud por causas específicas y se relacionan con el seguro de salud general de la persona ya sea FONASA o ISAPRE."
+* ^language = #es
+* ^caseSensitive = true
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Ley Nº18.490:  Accidentes de Transporte" "Ley Nº18.490:  Accidentes de Transporte"
+* #2 "Ley Nº 16.744: Accidentes del Trabajo y Enfermedades Profesionales" "Ley Nº 16.744: Accidentes del Trabajo y Enfermedades Profesionales"
+* #3 "Ley Nº 16.744: Accidente Escolar" "Ley Nº 16.744: Accidente Escolar"
+* #4 "Ley Nº 19.650/99: de Urgencia" "Ley Nº 19.650/99: de Urgencia"
+* #5 "Ley 19.992: PRAIS" "Ley 19.992: PRAIS"
+* #7 "Ley Nº20.850  Ricarte Soto" "Ley Nº20.850  Ricarte Soto"
+* #8 "Ley N° 21.030 de Despenalización de la Interrupción Voluntaria del Embarazo en Tres Causales." "Ley N° 21.030 de Despenalización de la Interrupción Voluntaria del Embarazo en Tres Causales."
+
+
+
+/********************************************************
+SEREMI
+********************************************************/
+ValueSet: SEREMIVS
+Id: eis-SEREMI-VS
+Description: "Corresponde a los códigos y valores asociados a cada Secretaría Regional Ministerial (SEREMI), utilizados en los sistemas de información en salud. La codificación de la SEREMI es coincidente con el código de la región, el cual prevalece para efectos de registro e interoperabilidad."
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system  eis-SEREMI-CS
+
+CodeSystem: SEREMICS
+Id: eis-SEREMI-CS
+Description: "Corresponde a los códigos y valores asociados a cada Secretaría Regional Ministerial (SEREMI), utilizados en los sistemas de información en salud. La codificación de la SEREMI es coincidente con el código de la región, el cual prevalece para efectos de registro e interoperabilidad."
+* ^language = #es
+* ^caseSensitive = true
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "SEREMI De Tarapacá" "SEREMI De Tarapacá"
+* #2 "SEREMI De Antofagasta" "SEREMI De Antofagasta"
+* #3 "SEREMI De Atacama" "SEREMI De Atacama"
+* #4 "SEREMI De Coquimbo" "SEREMI De Coquimbo"
+* #5 "SEREMI De Valparaíso" "SEREMI De Valparaíso"
+* #6 "SEREMI Del Libertador Gral. B. O'Higgins" "SEREMI Del Libertador Gral. B. O'Higgins"
+* #7 "SEREMI Del Maule" "SEREMI Del Maule"
+* #8 "SEREMI Del Biobío" "SEREMI Del Biobío"
+* #9 "SEREMI De La Araucanía" "SEREMI De La Araucanía"
+* #10 "SEREMI De Los Lagos" "SEREMI De Los Lagos"
+* #11 "SEREMI De Aisén del General Carlos Ibáñez del Campo" "SEREMI De Aisén del General Carlos Ibáñez del Campo"
+* #12 "SEREMI De Magallanes y la Antártica Chilena" "SEREMI De Magallanes y la Antártica Chilena"
+* #13 "SEREMI Metropolitana de Santiago" "SEREMI Metropolitana de Santiago"
+* #14 "SEREMI De Los Ríos" "SEREMI De Los Ríos"
+* #15 "SEREMI De Arica y Parinacota" "SEREMI De Arica y Parinacota"
+* #16 "SEREMI Del Ñuble" "SEREMI Del Ñuble"
+
+/********************************************************
+Servicios de Salud
+********************************************************/
+ValueSet: ServiciosdeSaludVS
+Id: eis-ServiciosdeSalud-VS
+Description: "Corresponde a los códigos y valores asociados a los servicios de salud del país, utilizados para la identificación territorial y administrativa de la red asistencial en los sistemas de información en salud."
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system eis-ServiciosdeSalud-CS
+
+CodeSystem: ServiciosdeSaludCS
+Id: eis-ServiciosdeSalud-CS
+Description: "Corresponde a los códigos y valores asociados a los servicios de salud del país, utilizados para la identificación territorial y administrativa de la red asistencial en los sistemas de información en salud."
+* ^language = #es
+* ^caseSensitive = true
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Servicio de Salud Arica" "Servicio de Salud Arica"
+* #2 "Servicio de Salud Tarapacá" "Servicio de Salud Tarapacá"
+* #3 "Servicio de Salud Antofagasta" "Servicio de Salud Antofagasta"
+* #4 "Servicio de Salud Atacama" "Servicio de Salud Atacama"
+* #5 "Servicio de Salud Coquimbo" "Servicio de Salud Coquimbo"
+* #6 "Servicio de Salud Valparaíso San Antonio" "Servicio de Salud Valparaíso San Antonio"
+* #7 "Servicio de Salud Viña del Mar Quillota" "Servicio de Salud Viña del Mar Quillota"
+* #8 "Servicio de Salud Aconcagua" "Servicio de Salud Aconcagua"
+* #9 "Servicio de Salud Metropolitano Norte" "Servicio de Salud Metropolitano Norte"
+* #10 "Servicio de Salud Metropolitano Occidente" "Servicio de Salud Metropolitano Occidente"
+* #11 "Servicio de Salud Metropolitano Central" "Servicio de Salud Metropolitano Central"
+* #12 "Servicio de Salud Metropolitano Oriente" "Servicio de Salud Metropolitano Oriente"
+* #13 "Servicio de Salud Metropolitano Sur" "Servicio de Salud Metropolitano Sur"
+* #14 "Servicio de Salud Metropolitano Sur Oriente" "Servicio de Salud Metropolitano Sur Oriente"
+* #15 "Servicio de Salud Del Libertador B. O’Higgins" "Servicio de Salud Del Libertador B. O’Higgins"
+* #16 "Servicio de Salud Del Maule" "Servicio de Salud Del Maule"
+* #17 "Servicio de Salud Ñuble" "Servicio de Salud Ñuble"
+* #18 "Servicio de Salud Concepción" "Servicio de Salud Concepción"
+* #19 "Servicio de Salud Talcahuano" "Servicio de Salud Talcahuano"
+* #20 "Servicio de Salud Biobío" "Servicio de Salud Biobío"
+* #21 "Servicio de Salud Araucanía Sur" "Servicio de Salud Araucanía Sur"
+* #22 "Servicio de Salud Los Ríos" "Servicio de Salud Los Ríos"
+* #23 "Servicio de Salud Osorno" "Servicio de Salud Osorno"
+* #24 "Servicio de Salud Del Reloncaví" "Servicio de Salud Del Reloncaví"
+* #25 "Servicio de Salud Aisén" "Servicio de Salud Aisén"
+* #26 "Servicio de Salud Magallanes" "Servicio de Salud Magallanes"
+* #28 "Servicio de Salud Arauco" "Servicio de Salud Arauco"
+* #29 "Servicio de Salud Araucanía Norte" "Servicio de Salud Araucanía Norte"
+* #33 "Servicio de Salud Chiloé" "Servicio de Salud Chiloé"
+
+
+/********************************************************
+Título Profesional
+********************************************************/
+ValueSet: TituloProfesionalVS
+Id: eis-TituloProfesional-VS
+Description: "El título profesional corresponde al documento oficial que acredita que una persona ha completado un programa formal de estudios y ha aprobado las evaluaciones, pruebas o exámenes requeridos para el ejercicio de una determinada profesión, certificando las competencias generales, científicas y técnicas necesarias para su adecuado desempeño profesional."
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system  eis-TituloProfesional-CS
+
+CodeSystem: TituloProfesionalCS
+Id: eis-TituloProfesional-CS
+Description: "El título profesional corresponde al documento oficial que acredita que una persona ha completado un programa formal de estudios y ha aprobado las evaluaciones, pruebas o exámenes requeridos para el ejercicio de una determinada profesión, certificando las competencias generales, científicas y técnicas necesarias para su adecuado desempeño profesional."
+* ^language = #es
+* ^caseSensitive = true
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Médico/as Cirujano/as" "Médico/as Cirujano/as"
+* #2 "Cirujano/as Dentistas" "Cirujano/as Dentistas"
+* #3 "Enfermeros/as" "Enfermeros/as"
+* #4 "Enfermeros/as Matrones/Matronas" "Enfermeros/as Matrones/Matronas"
+* #5 "Matrones/as" "Matrones/as"
+* #6 "Tecnólogos/as Médicos/as" "Tecnólogos/as Médicos/as"
+* #7 "Psicólogos/as" "Psicólogos/as"
+* #8 "Kinesiólogos/as" "Kinesiólogos/as"
+* #9 "Farmacéuticos/as y Químico Farmacéuticos/as" "Farmacéuticos/as y Químico Farmacéuticos/as"
+* #10 "Bioquímicos/as" "Bioquímicos/as"
+* #11 "Nutricionistas" "Nutricionistas"
+* #12 "Fonoaudiólogos/as" "Fonoaudiólogos/as"
+* #13 "Terapeutas Ocupacionales" "Terapeutas Ocupacionales"
+* #14 "Técnicos/as y Auxiliares Paramédicos/as en Alimentación y Nutrición" "Técnicos/as y Auxiliares Paramédicos/as en Alimentación y Nutrición"
+* #15 "Técnicos/as y Auxiliares Paramédicos/as en Diagnóstico y Servicios Médicos (Radiología, Radioterapia, Laboratorio Clínico y Banco de Sangre)" "Técnicos/as y Auxiliares Paramédicos/as en Diagnóstico y Servicios Médicos (Radiología, Radioterapia, Laboratorio Clínico y Banco de Sangre)"
+* #16 "Técnicos/as y Auxiliares Paramédicos/as en Odontología y Salud Oral" "Técnicos/as y Auxiliares Paramédicos/as en Odontología y Salud Oral"
+* #17 "Técnicos/as y Auxiliares Paramédicos/as en Farmacia" "Técnicos/as y Auxiliares Paramédicos/as en Farmacia"
+* #18 "Técnicos/as en Enfermería, Ginecobstetricia y Pabellones Quirúrgicos" "Técnicos/as en Enfermería, Ginecobstetricia y Pabellones Quirúrgicos"
+* #19 "Técnicos/as en Salud de Prevención y Rehabilitación" "Técnicos/as en Salud de Prevención y Rehabilitación"
+* #20 "Naturópatas y Técnicos/as en Naturopatía" "Naturópatas y Técnicos/as en Naturopatía"
+* #21 "Podólogos/as y Técnicos/as en Podología Clínica" "Podólogos/as y Técnicos/as en Podología Clínica"
+* #22 "Cosmetólogos/as y Técnicos/as en Cosmetología" "Cosmetólogos/as y Técnicos/as en Cosmetología"
+* #23 "Contactólogos/as y Técnicos/as en Contactología" "Contactólogos/as y Técnicos/as en Contactología"
+* #24 "Ópticos/as y Técnicos/as en Óptica" "Ópticos/as y Técnicos/as en Óptica"
+* #25 "Acunpunturistas, Homeópatas y Naturópatas" "Acunpunturistas, Homeópatas y Naturópatas"
+
+/********************************************************
+Título Profesional SCT
+********************************************************/
+ValueSet: TituloProfesionalSCTVS
+Id: eis-TituloProfesionalSCT-VS
+Description: "El título profesional corresponde al documento oficial que acredita que una persona ha completado un programa formal de estudios y ha aprobado las evaluaciones, pruebas o exámenes requeridos para el ejercicio de una determinada profesión, certificando las competencias generales, científicas y técnicas necesarias para su adecuado desempeño profesional."
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system  eis-TituloProfesionalSCT-CS
+
+CodeSystem: TituloProfesionalSCTCS
+Id: eis-TituloProfesionalSCT-CS
+Description: "El título profesional corresponde al documento oficial que acredita que una persona ha completado un programa formal de estudios y ha aprobado las evaluaciones, pruebas o exámenes requeridos para el ejercicio de una determinada profesión, certificando las competencias generales, científicas y técnicas necesarias para su adecuado desempeño profesional."
+* ^language = #es
+* ^caseSensitive = true
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #35513000 "bioquímico (ocupación)" "bioquímico (ocupación)"
+* #59944000 "psicólogo (ocupación)" "psicólogo (ocupación)"
+* #68529004 "cosmetólogo (ocupación)" "cosmetólogo (ocupación)"
+* #75271001 "obstétrica profesional (ocupación)" "obstétrica profesional (ocupación)"
+* #80546007 "terapeuta ocupacional (ocupación)" "terapeuta ocupacional (ocupación)"
+* #106289002 "dentista (ocupación)" "dentista (ocupación)"
+* #159001001 "enfermera clínica (ocupación)" "enfermera clínica (ocupación)"
+* #159026005 "fonoaudiólogo (ocupación)" "fonoaudiólogo (ocupación)"
+* #224603001 "podólogo (ocupación)" "podólogo (ocupación)"
+* #304292004 "cirujano (ocupación)" "cirujano (ocupación)"
+* #307988006 "auxiliar del área médica (ocupación)" "auxiliar del área médica (ocupación)"
+* #387619007 "óptico (ocupación)" "óptico (ocupación)"
+* #397897005 "paramédico (ocupación)" "paramédico (ocupación)"
+* #768827000 "nutricionista (ocupación)" "nutricionista (ocupación)"
+* #1255370008 "especialista en medicina naturopática (ocupación)" "especialista en medicina naturopática (ocupación)"
+* #1255371007 "especialista en homeopatía (ocupación)" "especialista en homeopatía (ocupación)"
+* #1268923002 "enfermera obstétrica (ocupación)" "enfermera obstétrica (ocupación)"
+* #1721000325104 "contactólogo (ocupación)" "contactólogo (ocupación)"
+* #450044741000087104 "acupunturista (ocupación)" "acupunturista (ocupación)"
+* #1211000325101 "químico farmacéutico (ocupación)" "químico farmacéutico (ocupación)"
+* #1221000325107 "técnico en salud (ocupación)" "técnico en salud (ocupación)"
+* #1711000325105 "laboratorista dental (ocupación)" "laboratorista dental (ocupación)"
+* #1032781000168105 "kinesiólogo (ocupación)" "kinesiólogo (ocupación)"
+
+/********************************************************
+Especialidades y Subespecialidades Médicas
+********************************************************/
+ValueSet: EspecialidadesySubespecialidadesMedicasVS
+Id: eis-EspecialidadesySubespecialidadesMedicas-VS
+Description: "La certificación de especialidades y subespecialidades médicas corresponden al proceso mediante el cual se reconoce oficialmente que un prestador individual de salud posee y domina un conjunto de conocimientos, competencias y experiencias específicas, relevantes para el ejercicio profesional en un ámbito determinado de la atención de salud."
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system eis-EspecialidadesySubespecialidadesMedicas-CS
+
+CodeSystem: EspecialidadesySubespecialidadesMedicasCS
+Id: eis-EspecialidadesySubespecialidadesMedicas-CS
+Description: "La certificación de especialidades y subespecialidades médicas corresponden al proceso mediante el cual se reconoce oficialmente que un prestador individual de salud posee y domina un conjunto de conocimientos, competencias y experiencias específicas, relevantes para el ejercicio profesional en un ámbito determinado de la atención de salud."
+* ^language = #es
+* ^caseSensitive = true
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Anatomía Patológica" "Anatomía Patológica"
+* #2 "Anestesiología" "Anestesiología"
+* #3 "Cardiología" "Cardiología"
+* #4 "Cirugía General" "Cirugía General"
+* #5 "Cirugía de Cabeza, Cuello y Maxilofac ial" "Cirugía de Cabeza, Cuello y Maxilofac ial"
+* #6 "Cirugía Cardiovascular" "Cirugía Cardiovascular"
+* #7 "Cirugía de Tórax" "Cirugía de Tórax"
+* #8 "Cirugía Plástica y Reparadora" "Cirugía Plástica y Reparadora"
+* #9 "Cirugía Pediátrica" "Cirugía Pediátrica"
+* #10 "Cirugía Vascular Periférica" "Cirugía Vascular Periférica"
+* #11 "Coloproctología" "Coloproctología"
+* #12 "Dermatología" "Dermatología"
+* #13 "Diabetología" "Diabetología"
+* #14 "Endocrinología Adulto" "Endocrinología Adulto"
+* #15 "Endocrinología Pediátrica" "Endocrinología Pediátrica"
+* #16 "Enfermedades Respiratorias del Adulto" "Enfermedades Respiratorias del Adulto"
+* #17 "Enfermedades Respiratorias Pediátricas" "Enfermedades Respiratorias Pediátricas"
+* #18 "Gastroenterología Adulto" "Gastroenterología Adulto"
+* #19 "Gastroenterología Pediátrica" "Gastroenterología Pediátrica"
+* #20 "Genética Clínica" "Genética Clínica"
+* #21 "Geriatría" "Geriatría"
+* #22 "Ginecología Pediátrica y de la Adolescencia" "Ginecología Pediátrica y de la Adolescencia"
+* #23 "Hematología" "Hematología"
+* #24 "Imagenología" "Imagenología"
+* #25 "Infectología" "Infectología"
+* #26 "Inmunología" "Inmunología"
+* #27 "Laboratorio Clínico" "Laboratorio Clínico"
+* #28 "Medicina Familiar" "Medicina Familiar"
+* #29 "Medicina Física y Rehabilitación Adulto" "Medicina Física y Rehabilitación Adulto"
+* #30 "Medicina Interna" "Medicina Interna"
+* #31 "Medicina Intensiva Adulto" "Medicina Intensiva Adulto"
+* #32 "Medicina Intensiva Pediátrica" "Medicina Intensiva Pediátrica"
+* #33 "Medicina Legal" "Medicina Legal"
+* #34 "Medicina Materno Fetal" "Medicina Materno Fetal"
+* #35 "Medicina Nuclear" "Medicina Nuclear"
+* #36 "Medicina de Urgencia" "Medicina de Urgencia"
+* #37 "Nefrología Adulto" "Nefrología Adulto"
+* #38 "Nefrología Pediátrica" "Nefrología Pediátrica"
+* #39 "Neonatología" "Neonatología"
+* #40 "Neurocirugía" "Neurocirugía"
+* #41 "Neurología Adulto" "Neurología Adulto"
+* #42 "Neurología Pediátrica" "Neurología Pediátrica"
+* #43 "Obstetricia y Ginecología" "Obstetricia y Ginecología"
+* #44 "Oftalmología" "Oftalmología"
+* #45 "Oncología Médica" "Oncología Médica"
+* #46 "Otorrinolaringología" "Otorrinolaringología"
+* #47 "Pediatría" "Pediatría"
+* #48 "Psiquiatría Adulto" "Psiquiatría Adulto"
+* #49 "Psiquiatría Pediátrica y de la Adolescencia" "Psiquiatría Pediátrica y de la Adolescencia"
+* #50 "Radioterapia Oncológica" "Radioterapia Oncológica"
+* #51 "Reumatología" "Reumatología"
+* #52 "Salud Pública" "Salud Pública"
+* #53 "Traumatología y Ortopedia" "Traumatología y Ortopedia"
+* #54 "Urología" "Urología"
+* #55 "Cardiología Pediátrica" "Cardiología Pediátrica"
+* #56 "Cirugía Digestiva" "Cirugía Digestiva"
+* #57 "Cirugía Plástica y Reparadora Pediátrica" "Cirugía Plástica y Reparadora Pediátrica"
+* #58 "Ginecología" "Ginecología"
+* #59 "Hemato-Oncología Pediátrica" "Hemato-Oncología Pediátrica"
+* #60 "Infectología Pediátrica" "Infectología Pediátrica"
+* #61 "Medicina Familiar del Niño" "Medicina Familiar del Niño"
+* #62 "Medicina Física y Rehabilitación Pediátrica" "Medicina Física y Rehabilitación Pediátrica"
+* #63 "Nutrición Clínica del Adulto" "Nutrición Clínica del Adulto"
+* #64 "Nutrición Clínica Pediátrica" "Nutrición Clínica Pediátrica"
+* #65 "Reumatología Pediátrica" "Reumatología Pediátrica"
+* #66 "Obstetricia" "Obstetricia"
+* #67 "Traumatología y Ortopedia Pediátrica" "Traumatología y Ortopedia Pediátrica"
+* #68 "Urología Pediátrica" "Urología Pediátrica"
+* #69 "Ginecología Oncológica" "Ginecología Oncológica"
+* #70 "Mastología (Cirugía de mamas)" "Mastología (Cirugía de mamas)"
+* #71 "Medicina Paliativa y de Manejo del Dolor" "Medicina Paliativa y de Manejo del Dolor"
+* #72 "Medicina Reproductiva e Infertilidad" "Medicina Reproductiva e Infertilidad"
+* #73 "Medicina del Adolescente" "Medicina del Adolescente"
+* #74 "Medicina del Deporte" "Medicina del Deporte"
+* #75 "Microbiología" "Microbiología"
+* #76 "Neurorradiología" "Neurorradiología"
+
+/********************************************************
+Especialidades y Subespecialidades Odontológicas
+********************************************************/
+CodeSystem: EspecialidadesOdontologicasCS
+Id: eis-especialidades-odontologicas-cs
+Title: "Especialidades y Subespecialidades Odontológicas"
+Description: "La certificación de especialidades y subespecialidades odontológicas corresponde al proceso mediante el cual se reconoce oficialmente que un prestador individual del área odontológica posee los conocimientos, competencias y experiencias específicas requeridas para el ejercicio profesional en un ámbito determinado de la atención odontológica."
+
+* ^language = #es
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^caseSensitive = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Cirugía y Traumatología Buco Maxilofacial" "Cirugía y Traumatología Buco Maxilofacial"
+* #3 "Endodoncia" "Endodoncia"
+* #4 "Imagenología Oral y Maxilofacial" "Imagenología Oral y Maxilofacial"
+* #5 "Implantología Buco Maxilofacial" "Implantología Buco Maxilofacial"
+* #6 "Odontología Legal" "Odontología Legal"
+* #7 "Odontopediatría" "Odontopediatría"
+* #8 "Ortodoncia y Ortopedia Dento Maxilofacial" "Ortodoncia y Ortopedia Dento Maxilofacial"
+* #9 "Patología Oral Maxilofacial" "Patología Oral Maxilofacial"
+* #10 "Periodoncia" "Periodoncia"
+* #11 "Rehabilitación Oral Removible" "Rehabilitación Oral Removible"
+* #12 "Salud Pública" "Salud Pública"
+* #13 "Somato-Prótesis" "Somato-Prótesis"
+* #14 "Trastornos Temporomandibulares y Dolor Orofacial" "Trastornos Temporomandibulares y Dolor Orofacial"
+* #15 "Odontogeriatría" "Odontogeriatría"
+* #16 "Rehabilitación Oral Fija" "Rehabilitación Oral Fija"
+
+ValueSet: EspecialidadesOdontologicasVS
+Id: eis-especialidades-odontologicas-vs
+Title: "Especialidades y Subespecialidades Odontológicas"
+Description: "La certificación de especialidades y subespecialidades odontológicas corresponde al proceso mediante el cual se reconoce oficialmente que un prestador individual del área odontológica posee los conocimientos, competencias y experiencias específicas requeridas para el ejercicio profesional en un ámbito determinado de la atención odontológica."
+
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system EspecialidadesOdontologicasCS
+
+
+/********************************************************
+Especialidades y Subespecialidades Farmacéuticas
+********************************************************/
+
+CodeSystem: EspecialidadesFarmaceuticasCS
+Id: eis-especialidades-farmaceuticas-cs
+Title: "Especialidades y Subespecialidades Farmacéuticas o Químico Farmacéuticas"
+Description: "Corresponde al conjunto de códigos y valores asociados a las especialidades y subespecialidades farmacéuticas o químico-farmacéuticas, que permiten identificar y registrar el ámbito específico de desempeño profesional del prestador individual del área farmacéutica."
+
+* ^language = #es
+* ^caseSensitive = true
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Farmacia Clínica" "Farmacia Clínica"
+* #2 "Farmacia Hospitalaria" "Farmacia Hospitalaria"
+* #3 "Laboratorio Clínico" "Laboratorio Clínico"
+* #4 "Salud Pública" "Salud Pública"
+* #5 "Laboratorio Forense" "Laboratorio Forense"
+
+ValueSet: EspecialidadesFarmaceuticasVS
+Id: eis-especialidades-farmaceuticas-vs
+Title: "Especialidades Farmacéuticas"
+Description: "Conjunto de códigos y valores asociados a las especialidades y subespecialidades farmacéuticas o químico-farmacéuticas, que permiten identificar y registrar el ámbito específico de desempeño profesional del prestador individual del área farmacéutica."
+
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system EspecialidadesFarmaceuticasCS
+
+/********************************************************
+Especialidades y Subespecialidades Farmacéuticas o Químico Farmacéuticas
+********************************************************/
+
+CodeSystem: EspecialidadesBioquimicasCS
+Id: eis-especialidades-bioquimicas-cs
+Title: "Especialidades y Subespecialidades Farmacéuticas o Químico Farmacéuticas"
+Description: "Corresponde al conjunto de códigos y valores asociados a las especialidades y subespecialidades bioquímicas, que permiten identificar el ámbito específico de desempeño profesional del prestador individual del área de la bioquímica en el sistema de salud. "
+
+* ^language = #es
+* ^caseSensitive = true
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Laboratorio Clínico" "Laboratorio Clínico"
+* #2 "Laboratorio Forense" "Laboratorio Forense"
+* #3 "Salud Pública" "Salud Pública"
+
+
+ValueSet: EspecialidadesBioquimicasVS
+Id: eis-especialidades-bioquimicas-vs
+Title: "Especialidades y Subespecialidades Bioquímicas"
+Description: "Corresponde al conjunto de códigos y valores asociados a las especialidades y subespecialidades bioquímicas, que permiten identificar el ámbito específico de desempeño profesional del prestador individual del área de la bioquímica en el sistema de salud."
+
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system EspecialidadesBioquimicasCS
+
+/********************************************************
+Especialidades y Subespecialidades de Enfermería
+********************************************************/
+CodeSystem: EspecialidadesEnfermeriaCS
+Id: eis-especialidades-enfermeria-cs
+Title: "Especialidades y Subespecialidades de Enfermería"
+Description: "Corresponde al conjunto de códigos y valores asociados a las especialidades y subespecialidades de enfermería, que permiten identificar el ámbito específico de desempeño profesional del prestador individual del área de enfermería en el sistema de salud."
+
+* ^language = #es
+* ^caseSensitive = true
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Enfermería Oncológica" "Enfermería Oncológica"
+
+ValueSet: EspecialidadesEnfermeriaVS
+Id: eis-especialidades-enfermeria-vs
+Title: "Especialidades y Subespecialidades de Enfermería"
+Description: "Corresponde al conjunto de códigos y valores asociados a las especialidades y subespecialidades de enfermería, que permiten identificar el ámbito específico de desempeño profesional del prestador individual del área de enfermería en el sistema de salud."
+
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system EspecialidadesEnfermeriaCS
+
+/********************************************************
+Especialidades y Subespecialidades SNOMED-CT
+********************************************************/
+CodeSystem: EspecialidadesSnomedCTCS
+Id: eis-especialidades-snomed-ct-cs
+Title: "Especialidades y Subespecialidades SNOMED-CT"
+Description: "Corresponde al conjunto de códigos y valores asociados a las especialidades y subespecialidades de salud."
+
+* ^language = #es
+* ^caseSensitive = true
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #394538003 "neurología pediátrica (calificador)" "neurología pediátrica (calificador)"
+* #394539006 "cirugía pediátrica (calificador)" "cirugía pediátrica (calificador)"
+* #394577000 "anestesiología (calificador)" "anestesiología (calificador)"
+* #394579002 "cardiología (calificador)" "cardiología (calificador)"
+* #394580004 "genética clínica (calificador)" "genética clínica (calificador)"
+* #394582007 "dermatología (calificador)" "dermatología (calificador)"
+* #394585009 "obstetricia y ginecología (calificador)" "obstetricia y ginecología (calificador)"
+* #394588006 "psiquiatría infantojuvenil (calificador)" "psiquiatría infantojuvenil (calificador)"
+* #394593009 "oncología médica (calificador)" "oncología médica (calificador)"
+* #394594003 "oftalmología (calificador)" "oftalmología (calificador)"
+* #394602003 "rehabilitación - especialidad (calificador)" "rehabilitación - especialidad (calificador)"
+* #394607009 "odontología pediátrica (calificador)" "odontología pediátrica (calificador)"
+* #394608004 "ortodoncia (calificador)" "ortodoncia (calificador)"
+* #394609007 "cirugía general (calificador)" "cirugía general (calificador)"
+* #394610002 "neurocirugía (calificador)" "neurocirugía (calificador)"
+* #394611003 "cirugía plástica - especialidad (calificador)" "cirugía plástica - especialidad (calificador)"
+* #394612005 "urología (calificador)" "urología (calificador)"
+* #394649004 "medicina nuclear - especialidad (calificador)" "medicina nuclear - especialidad (calificador)"
+* #394801008 "traumatología y ortopedia (calificador)" "traumatología y ortopedia (calificador)"
+* #394803006 "hematología clínica (calificador)" "hematología clínica (calificador)"
+* #394806003 "medicina paliativa (calificador)" "medicina paliativa (calificador)"
+* #394807007 "especialidad en enfermedades infecciosas (calificador)" "especialidad en enfermedades infecciosas (calificador)"
+* #394810000 "reumatología (calificador)" "reumatología (calificador)"
+* #394811001 "geriatría (calificador)" "geriatría (calificador)"
+* #394914008 "radiología - especialidad (calificador)" "radiología - especialidad (calificador)"
+* #408440000 "medicina sanitaria (calificador)" "medicina sanitaria (calificador)"
+* #408441001 "endodoncia - especialidad (calificador)" "endodoncia - especialidad (calificador)"
+* #408445005 "neonatología (calificador)" "neonatología (calificador)"
+* #408446006 "oncología ginecológica (calificador)" "oncología ginecológica (calificador)"
+* #408454008 "microbiología clínica (calificador)" "microbiología clínica (calificador)"
+* #408456005 "cirugía torácica (calificador)" "cirugía torácica (calificador)"
+* #408461007 "periodoncia (calificador)" "periodoncia (calificador)"
+* #408467006 "psiquiatría del adulto - especialidad (calificador)" "psiquiatría del adulto - especialidad (calificador)"
+* #408473007 "odontología sanitaria (calificador)" "odontología sanitaria (calificador)"
+* #408475000 "diabetología (calificador)" "diabetología (calificador)"
+* #408480009 "inmunología clínica (calificador)" "inmunología clínica (calificador)"
+* #418058008 "gastroenterología pediátrica (calificador)" "gastroenterología pediátrica (calificador)"
+* #419170002 "neumonología pediátrica (calificador)" "neumonología pediátrica (calificador)"
+* #419192003 "medicina interna (calificador)" "medicina interna (calificador)"
+* #419365004 "nefrología pediátrica (calificador)" "nefrología pediátrica (calificador)"
+* #419610006 "endocrinología pediátrica (calificador)" "endocrinología pediátrica (calificador)"
+* #419772000 "medicina familiar (calificador)" "medicina familiar (calificador)"
+* #419815003 "radioncología (calificador)" "radioncología (calificador)"
+* #722204007 "medicina legal (calificador)" "medicina legal (calificador)"
+* #773568002 "medicina de emergencias (calificador)" "medicina de emergencias (calificador)"
+* #1251536003 "medicina de deporte (calificador)" "medicina de deporte (calificador)"
+* #1251547005 "neurorradiología (calificador)" "neurorradiología (calificador)"
+* #1251552000 "medicina reproductiva (calificador)" "medicina reproductiva (calificador)"
+* #1255732006 "anatomía patológica (calificador)" "anatomía patológica (calificador)"
+* #1256115008 "nutrición clínica (calificador)" "nutrición clínica (calificador)"
+* #1258957008 "especialización en farmacia hospitalaria (calificador)" "especialización en farmacia hospitalaria (calificador)"
+* #1284928005 "cirugía gastrointestinal (calificador)" "cirugía gastrointestinal (calificador)"
+* #1303757005 "implantología oral (calificador)" "implantología oral (calificador)"
+* #1332234006 "especialidad en mastología (calificador)" "especialidad en mastología (calificador)"
+* #631000325106 "nefrología del adulto (calificador)" "nefrología del adulto (calificador)"
+* #861000325102 "especialidad farmacéutica en laboratorio clínico (calificador)" "especialidad farmacéutica en laboratorio clínico (calificador)"
+* #731000325101 "especialidad en cirugía y traumatología bucomaxilofacial (calificador)" "especialidad en cirugía y traumatología bucomaxilofacial (calificador)"
+* #671000325108 "cirugía vascular periférica (calificador)" "cirugía vascular periférica (calificador)"
+* #831000325107 "bioquímica sanitaria (calificador)" "bioquímica sanitaria (calificador)"
+* #771000325104 "especialidad en odontología legal (calificador)" "especialidad en odontología legal (calificador)"
+* #641000325102 "otorrinolaringología (calificador)" "otorrinolaringología (calificador)"
+* #801000325101 "especialidad en trastornos temporomandibulares y dolor orofacial (calificador)" "especialidad en trastornos temporomandibulares y dolor orofacial (calificador)"
+* #741000325105 "especialidad en somato-prótesis (calificador)" "especialidad en somato-prótesis (calificador)"
+* #611000325103 "medicina intensiva del adulto (calificador)" "medicina intensiva del adulto (calificador)"
+* #871000325109 "especialidad farmacéutica en laboratorio forense (calificador)" "especialidad farmacéutica en laboratorio forense (calificador)"
+* #841000325103 "especialidad en enfermería oncológica (calificador)" "especialidad en enfermería oncológica (calificador)"
+* #711000325109 "especialidad en ortodoncia y ortopedia dentomaxilofacial (calificador)" "especialidad en ortodoncia y ortopedia dentomaxilofacial (calificador)"
+* #24251000087109 "especialidad de pediatría general (calificador)" "especialidad de pediatría general (calificador)"
+* #811000325104 "especialidad bioquímica en laboratorio clínico (calificador)" "especialidad bioquímica en laboratorio clínico (calificador)"
+* #781000325102 "especialidad en odontogeriatría (calificador)" "especialidad en odontogeriatría (calificador)"
+* #881000325106 "farmacia sanitaria (calificador)" "farmacia sanitaria (calificador)"
+* #621000325109 "medicina intensiva pediátrica (calificador)" "medicina intensiva pediátrica (calificador)"
+* #26051000087109 "perinatología (calificador)" "perinatología (calificador)"
+* #851000325100 "especialidad en farmacia clínica (calificador)" "especialidad en farmacia clínica (calificador)"
+* #691000325107 "neurología del adulto (calificador)" "neurología del adulto (calificador)"
+* #981000325104 "especialidad en medicina reproductiva e infertilidad (calificador)" "especialidad en medicina reproductiva e infertilidad (calificador)"
+* #721000325103 "especialidad en rehabilitación oral (calificador)" "especialidad en rehabilitación oral (calificador)"
+* #25931000087108 "medicina del adolescente (calificador)" "medicina del adolescente (calificador)"
+* #791000325100 "especialidad en patología oral y maxilofacial (calificador)" "especialidad en patología oral y maxilofacial (calificador)"
+* #821000325105 "especialidad bioquímica en laboratorio forense (calificador)" "especialidad bioquímica en laboratorio forense (calificador)"
+* #761000325106 "especialidad en imagenología oral y maxilofacial (calificador)" "especialidad en imagenología oral y maxilofacial (calificador)"
+* #320341000221104 "cirugía de cabeza y cuello (calificador)" "cirugía de cabeza y cuello (calificador)"
+* #1531000325106 "especialidad médica en laboratorio clínico (calificador)" "especialidad médica en laboratorio clínico (calificador)"
+* #320441000221109 "coloproctología (calificador)" "coloproctología (calificador)"
+* #999484191000087108 "cirugía cardiovascular (calificador)" "cirugía cardiovascular (calificador)"
+* #1541000325102 "neumonología del adulto (calificador)" "neumonología del adulto (calificador)"
+* #1511000325103 "endocrinología del adulto (calificador)" "endocrinología del adulto (calificador)"
+* #1521000325109 "ginecología pediátrica y de la adolescencia (calificador)" "ginecología pediátrica y de la adolescencia (calificador)"
+* #92041000087100 "gastroenterología de adultos (calificador)" "gastroenterología de adultos (calificador)"
+
+
+ValueSet: EspecialidadesSnomedCTVS
+Id: eis-especialidades-snomed-ct-vs
+Title: "Especialidades y Subespecialidades de Enfermería"
+Description: "Corresponde al conjunto de códigos y valores asociados a las especialidades y subespecialidades de salud."
+
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system EspecialidadesSnomedCTCS
+
+
+/********************************************************
+Pertenencia al Sistema Nacional de Servicios de Salud
+********************************************************/
+CodeSystem: PertenenciaSistemaNacionalServiciosSaludCS
+Id: eis-pertenencia-sistema-nacional-servicios-salud-cs
+Title: "Pertenencia al Sistema Nacional de Servicios de Salud"
+Description: "Los establecimientos públicos pertenecen a un Servicio de Salud y, por ello, se conside-ran parte del Sistema Nacional de Servicios de Salud. Los establecimientos privados y los de las Fuerzas Armadas, de Orden y Seguridad tienen una jurisdicción distinta y, por tanto, quedan fuera de dicho sistema."
+
+* ^language = #es
+* ^caseSensitive = true
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Pertenecientes al SNSS" "Pertenecientes al SNSS"
+* #2 "No pertenecientes al SNSS" "No pertenecientes al SNSS"
+
+
+ValueSet: PertenenciaSistemaNacionalServiciosSaludVS
+Id: eis-pertenencia-sistema-nacional-servicios-salud-vs
+Title: "Pertenencia al Sistema Nacional de Servicios de Salud"
+Description: "Los establecimientos públicos pertenecen a un Servicio de Salud y, por ello, se conside-ran parte del Sistema Nacional de Servicios de Salud. Los establecimientos privados y los de las Fuerzas Armadas, de Orden y Seguridad tienen una jurisdicción distinta y, por tanto, quedan fuera de dicho sistema."
+
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system eis-pertenencia-sistema-nacional-servicios-salud-cs
+
+
+/********************************************************
+Tipo específico de prestador
+********************************************************/
+CodeSystem: TipoEspecificoPrestadorCS
+Id: eis-tipo-especifico-prestador-cs
+Title: "Tipo específico de prestador"
+Description: "Tipo específico de prestador"
+
+* ^language = #es
+* ^caseSensitive = true
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Hospitales de primer nivel" "Hospitales de primer nivel"
+* #2 "Hospitales de segundo nivel" "Hospitales de segundo nivel"
+* #3 "Hospitales de tercer nivel" "Hospitales de tercer nivel"
+* #4 "Clínicas privadas" "Clínicas privadas"
+* #5 "Centros de salud para personas privadas de libertad" "Centros de salud para personas privadas de libertad"
+* #6 "Servicios de Atención Primaria de Urgencia de Alta Resolución (SAR)" "Servicios de Atención Primaria de Urgencia de Alta Resolución (SAR)"
+* #7 "Servicios de Atención Primaria de Urgencia (SAPU)" "Servicios de Atención Primaria de Urgencia (SAPU)"
+* #8 "Servicios de Urgencia Rural (SUR)" "Servicios de Urgencia Rural (SUR)"
+* #9 "Servicios de Atención Médica de Urgencia (SAMU)" "Servicios de Atención Médica de Urgencia (SAMU)"
+* #10 "Postas de Salud Rural (PSR)" "Postas de Salud Rural (PSR)"
+* #11 "Centros de Salud Familiar (CESFAM)" "Centros de Salud Familiar (CESFAM)"
+* #12 "Centros Comunitarios de Salud Familiar (CECOSF)" "Centros Comunitarios de Salud Familiar (CECOSF)"
+* #13 "Centros de Especialidades de Atención Primaria (CEAP)" "Centros de Especialidades de Atención Primaria (CEAP)"
+* #14 "Centros Comunitario de Salud Mental (COSAM)" "Centros Comunitario de Salud Mental (COSAM)"
+* #15 "Centros de especialidades de atención abierta" "Centros de especialidades de atención abierta"
+* #16 "Centros de rehabilitación" "Centros de rehabilitación"
+* #17 "Clínicas dentales" "Clínicas dentales"
+* #18 "Centros de la Corporación para la Nutrición Infantil (CONIN)" "Centros de la Corporación para la Nutrición Infantil (CONIN)"
+* #19 "Centros de Tratamiento de Adicciones (CTA)" "Centros de Tratamiento de Adicciones (CTA)"
+* #20 "Hospitales de día" "Hospitales de día"
+* #21 "Centros de apoyo comunitario para personas con demencia" "Centros de apoyo comunitario para personas con demencia"
+* #22 "Centros de sangre" "Centros de sangre"
+* #23 "Centros de diálisis" "Centros de diálisis"
+* #24 "Casas del donante de sangre" "Casas del donante de sangre"
+* #25 "Laboratorios clínicos" "Laboratorios clínicos"
+* #26 "Unidad de diálisis móvil" "Unidad de diálisis móvil"
+* #27 "Vacunatorios" "Vacunatorios"
+
+
+ValueSet: TipoEspecificoPrestadorVS
+Id: eis-tipo-especifico-prestador-vs
+Title: "Tipo específico de prestador"
+Description: "Tipo específico de prestador"
+
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system eis-tipo-especifico-prestador-cs
+
+/********************************************************
+Modalidad de atención
+********************************************************/
+CodeSystem: ModalidadAtencionCS
+Id: eis-modalidad-atencion-cs
+Title: "Modalidad de atención"
+Description: "Modalidad de atención"
+
+* ^language = #es
+* ^caseSensitive = true
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Atención presencial" "Atención presencial"
+* #2 "Atención remota" "Atención remota"
+* #3 "Atención mixta" "Atención mixta"
+
+
+ValueSet: ModalidadAtencionVS
+Id: eis-modalidad-atencion-vs
+Title: "Modalidad de atención"
+Description: "Modalidad de atención"
+
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system eis-modalidad-atencion-cs
+
+/********************************************************
+GES (Garantías Explícitas en Salud)
+********************************************************/
+ValueSet: GESVS
+Id: eis-GES-VS
+Description: "El GES (Garantías Explícitas en Salud), anteriormente conocido como AUGE, es un sistema legal de salud en Chile para afiliados a Fonasa e Isapres. Garantiza cobertura para 87 problemas de salud específicos, asegurando acceso, calidad, oportunidad y protección financiera (copagos limitados). Se aplica a través de redes de prestadores acreditados."
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system eis-GES-CS
+
+CodeSystem: GESCS
+Id: eis-GES-CS
+Description: "El GES (Garantías Explícitas en Salud), anteriormente conocido como AUGE, es un sistema legal de salud en Chile para afiliados a Fonasa e Isapres. Garantiza cobertura para 87 problemas de salud específicos, asegurando acceso, calidad, oportunidad y protección financiera (copagos limitados). Se aplica a través de redes de prestadores acreditados."
+* ^language = #es
+* ^caseSensitive = true
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+* #2521000325102 "programa de Garantías Explícitas en Salud para politraumatizado grave (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para politraumatizado grave (régimen/tratamiento)"
+* #2491000325100 "programa de Garantías Explícitas en Salud para disrafias espinales (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para disrafias espinales (régimen/tratamiento)"
+* #2361000325103 "programa de Garantías Explícitas en Salud para tratamiento de la hiperplasia benigna de la próstata en personas sintomáticas (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para tratamiento de la hiperplasia benigna de la próstata en personas sintomáticas (régimen/tratamiento)"
+* #2231000325102 "programa de Garantías Explícitas en Salud para hipoacusia bilateral en personas de 65 años y más que requieren uso de audífono (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para hipoacusia bilateral en personas de 65 años y más que requieren uso de audífono (régimen/tratamiento)"
+* #2591000325104 "programa de Garantías Explícitas en Salud para fibrosis quística (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para fibrosis quística (régimen/tratamiento)"
+* #2201000325108 "programa de Garantías Explícitas en Salud para estrabismo en personas menores de 9 años (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para estrabismo en personas menores de 9 años (régimen/tratamiento)"
+* #2461000325106 "programa de Garantías Explícitas en Salud para colecistectomía preventiva del cáncer de vesícula en personas de 35 a 49 años (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para colecistectomía preventiva del cáncer de vesícula en personas de 35 a 49 años (régimen/tratamiento)"
+* #2561000325105 "programa de Garantías Explícitas en Salud para hemofilia (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para hemofilia (régimen/tratamiento)"
+* #2141000325101 "programa de Garantías Explícitas en Salud para salud oral integral para niños y niñas de 6 años (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para salud oral integral para niños y niñas de 6 años (régimen/tratamiento)"
+* #2271000325100 "programa de Garantías Explícitas en Salud para artritis reumatoidea (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para artritis reumatoidea (régimen/tratamiento)"
+* #2431000325101 "programa de Garantías Explícitas en Salud para displasia luxante de caderas (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para displasia luxante de caderas (régimen/tratamiento)"
+* #2371000325105 "programa de Garantías Explícitas en Salud para tratamiento quirúrgico de escoliosis en personas menores de 25 años (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para tratamiento quirúrgico de escoliosis en personas menores de 25 años (régimen/tratamiento)"
+* #2111000325102 "programa de Garantías Explícitas en Salud para urgencia odontológica ambulatoria (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para urgencia odontológica ambulatoria (régimen/tratamiento)"
+* #2531000325100 "programa de Garantías Explícitas en Salud para traumatismo cráneo-encefálico moderado o grave (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para traumatismo cráneo-encefálico moderado o grave (régimen/tratamiento)"
+* #2401000325107 "programa de Garantías Explícitas en Salud para tratamiento quirúrgico de hernia del núcleo pulposo lumbar (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para tratamiento quirúrgico de hernia del núcleo pulposo lumbar (régimen/tratamiento)"
+* #2241000325106 "programa de Garantías Explícitas en Salud para retinopatía del prematuro (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para retinopatía del prematuro (régimen/tratamiento)"
+* #2471000325104 "programa de Garantías Explícitas en Salud para rehabilitación SARS-COV-2 (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para rehabilitación SARS-COV-2 (régimen/tratamiento)"
+* #2181000325109 "programa de Garantías Explícitas en Salud para tratamiento quirúrgico de cataratas (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para tratamiento quirúrgico de cataratas (régimen/tratamiento)"
+* #2211000325105 "programa de Garantías Explícitas en Salud para retinopatía diabética (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para retinopatía diabética (régimen/tratamiento)"
+* #2501000325106 "programa de Garantías Explícitas en Salud para fisura labiopalatina (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para fisura labiopalatina (régimen/tratamiento)"
+* #2571000325103 "programa de Garantías Explícitas en Salud para enfermedad de Alzheimer y otras demencias (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para enfermedad de Alzheimer y otras demencias (régimen/tratamiento)"
+* #2441000325105 "programa de Garantías Explícitas en Salud para leucemia en personas de 15 años y más (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para leucemia en personas de 15 años y más (régimen/tratamiento)"
+* #2151000325103 "programa de Garantías Explícitas en Salud para prevención de parto prematuro (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para prevención de parto prematuro (régimen/tratamiento)"
+* #2281000325103 "programa de Garantías Explícitas en Salud para artritis idiopática juvenil (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para artritis idiopática juvenil (régimen/tratamiento)"
+* #2381000325107 "programa de Garantías Explícitas en Salud para endoprótesis total de cadera en personas de 65 años y más con artrosis de cadera con limitación funcional severa (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para endoprótesis total de cadera en personas de 65 años y más con artrosis de cadera con limitación funcional severa (régimen/tratamiento)"
+* #2251000325109 "programa de Garantías Explícitas en Salud para hipoacusia neurosensorial bilateral del prematuro (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para hipoacusia neurosensorial bilateral del prematuro (régimen/tratamiento)"
+* #2411000325109 "programa de Garantías Explícitas en Salud para tratamiento quirúrgico de lesiones crónicas de la válvula aórtica en personas de 15 años y más (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para tratamiento quirúrgico de lesiones crónicas de la válvula aórtica en personas de 15 años y más (régimen/tratamiento)"
+* #2541000325109 "programa de Garantías Explícitas en Salud para trauma ocular grave (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para trauma ocular grave (régimen/tratamiento)"
+* #2481000325102 "programa de Garantías Explícitas en Salud para órtesis (o ayudas técnicas) para personas de 65 años y más (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para órtesis (o ayudas técnicas) para personas de 65 años y más (régimen/tratamiento)"
+* #2191000325106 "programa de Garantías Explícitas en Salud para vicios de refracción en personas de 65 años y más (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para vicios de refracción en personas de 65 años y más (régimen/tratamiento)"
+* #2221000325104 "programa de Garantías Explícitas en Salud para desprendimiento de retina regmatógeno no traumático (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para desprendimiento de retina regmatógeno no traumático (régimen/tratamiento)"
+* #2291000325101 "programa de Garantías Explícitas en Salud para lupus eritematoso sistémico (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para lupus eritematoso sistémico (régimen/tratamiento)"
+* #2511000325108 "programa de Garantías Explícitas en Salud para atención integral de salud en agresión sexual aguda (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para atención integral de salud en agresión sexual aguda (régimen/tratamiento)"
+* #2581000325101 "programa de Garantías Explícitas en Salud para esclerosis múltiple remitente recurrente (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para esclerosis múltiple remitente recurrente (régimen/tratamiento)"
+* #2451000325108 "programa de Garantías Explícitas en Salud para prevención secundaria enfermedad renal crónica terminal (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para prevención secundaria enfermedad renal crónica terminal (régimen/tratamiento)"
+* #2611000325107 "programa de Garantías Explícitas en Salud para trastornos de generación del impulso y conducción en personas de 15 años y más, que requieren marcapaso (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para trastornos de generación del impulso y conducción en personas de 15 años y más, que requieren marcapaso (régimen/tratamiento)"
+* #2161000325100 "programa de Garantías Explícitas en Salud para analgesia del parto (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para analgesia del parto (régimen/tratamiento)"
+* #2391000325109 "programa de Garantías Explícitas en Salud para tratamiento médico en personas de 55 años y más con artrosis de cadera y/o rodilla, leve o moderada (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para tratamiento médico en personas de 55 años y más con artrosis de cadera y/o rodilla, leve o moderada (régimen/tratamiento)"
+* #2551000325107 "programa de Garantías Explícitas en Salud para gran quemado (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para gran quemado (régimen/tratamiento)"
+* #2421000325103 "programa de Garantías Explícitas en Salud para tratamiento quirúrgico de lesiones crónicas de las válvulas mitral y tricúspide en personas de 15 años y más (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para tratamiento quirúrgico de lesiones crónicas de las válvulas mitral y tricúspide en personas de 15 años y más (régimen/tratamiento)"
+* #2901000325101 "programa de Garantías Explícitas en Salud para cesación del consumo de tabaco en personas mayores de 25 años y más (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para cesación del consumo de tabaco en personas mayores de 25 años y más (régimen/tratamiento)"
+* #2891000325102 "programa de Garantías Explícitas en Salud para tratamiento hospitalario para personas menores de 15 años con depresión grave refractaria o psicótica con riesgo de suicidio (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para tratamiento hospitalario para personas menores de 15 años con depresión grave refractaria o psicótica con riesgo de suicidio (régimen/tratamiento)"
+* #2881000325104 "programa de Garantías Explícitas en Salud para tratamiento farmacológico tras alta hospitalaria por cirrosis hepática (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para tratamiento farmacológico tras alta hospitalaria por cirrosis hepática (régimen/tratamiento)"
+* #2071000325108 "programa de Garantías Explícitas en Salud para epilepsia no refractaria en personas de 15 años y más (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para epilepsia no refractaria en personas de 15 años y más (régimen/tratamiento)"
+* #1981000325100 "programa de Garantías Explícitas en Salud para neumonía adquirida en la comunidad de manejo ambulatorio en personas de 65 años y más (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para neumonía adquirida en la comunidad de manejo ambulatorio en personas de 65 años y más (régimen/tratamiento)"
+* #1851000325101 "programa de Garantías Explícitas en Salud para cáncer colorrectal en personas de 15 años y más (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para cáncer colorrectal en personas de 15 años y más (régimen/tratamiento)"
+* #2101000325104 "programa de Garantías Explícitas en Salud para tumores primarios del sistema nervioso central en personas de 15 años y más (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para tumores primarios del sistema nervioso central en personas de 15 años y más (régimen/tratamiento)"
+* #1821000325106 "programa de Garantías Explícitas en Salud para linfomas en personas de 15 años y más (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para linfomas en personas de 15 años y más (régimen/tratamiento)"
+* #2331000325108 "programa de Garantías Explícitas en Salud para hepatitis C (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para hepatitis C (régimen/tratamiento)"
+* #2041000325102 "programa de Garantías Explícitas en Salud para asma bronquial moderada y grave en menores de 15 años (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para asma bronquial moderada y grave en menores de 15 años (régimen/tratamiento)"
+* #1951000325106 "programa de Garantías Explícitas en Salud para trastorno bipolar en personas de 15 años y más (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para trastorno bipolar en personas de 15 años y más (régimen/tratamiento)"
+* #1791000325101 "programa de Garantías Explícitas en Salud para cáncer de mama en personas de 15 años y más (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para cáncer de mama en personas de 15 años y más (régimen/tratamiento)"
+* #1891000325109 "programa de Garantías Explícitas en Salud para cáncer de pulmón en personas de 15 años y más (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para cáncer de pulmón en personas de 15 años y más (régimen/tratamiento)"
+* #2081000325105 "programa de Garantías Explícitas en Salud para enfermedad de Parkinson (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para enfermedad de Parkinson (régimen/tratamiento)"
+* #1801000325102 "Programa de Garantías Explícitas en Salud para cáncer en personas menores de 15 años (régimen/tratamiento)" "Programa de Garantías Explícitas en Salud para cáncer en personas menores de 15 años (régimen/tratamiento)"
+* #1741000325106 "programa de Garantías Explícitas en Salud (régimen/tratamiento)" "programa de Garantías Explícitas en Salud (régimen/tratamiento)"
+* #2091000325107 "programa de Garantías Explícitas en Salud para accidente cerebrovascular isquémico en personas de 15 años y más (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para accidente cerebrovascular isquémico en personas de 15 años y más (régimen/tratamiento)"
+* #2051000325104 "programa de Garantías Explícitas en Salud para asma bronquial en personas de 15 años y más (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para asma bronquial en personas de 15 años y más (régimen/tratamiento)"
+* #1841000325104 "programa de Garantías Explícitas en Salud para cáncer de próstata en personas de 15 años y más (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para cáncer de próstata en personas de 15 años y más (régimen/tratamiento)"
+* #1811000325100 "programa de Garantías Explícitas en Salud para cáncer de testículo en personas de 15 años y más (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para cáncer de testículo en personas de 15 años y más (régimen/tratamiento)"
+* #1861000325103 "programa de Garantías Explícitas en Salud para cáncer epitelial de ovario (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para cáncer epitelial de ovario (régimen/tratamiento)"
+* #1831000325108 "programa de Garantías Explícitas en Salud para cáncer gástrico (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para cáncer gástrico (régimen/tratamiento)"
+* #1911000325107 "programa de Garantías Explícitas en Salud para cáncer renal en personas de 15 años y más (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para cáncer renal en personas de 15 años y más (régimen/tratamiento)"
+* #1871000325105 "programa de Garantías Explícitas en Salud para cáncer vesical en personas de 15 años y más (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para cáncer vesical en personas de 15 años y más (régimen/tratamiento)"
+* #1941000325108 "programa de Garantías Explícitas en Salud para depresión en personas de 15 años y más (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para depresión en personas de 15 años y más (régimen/tratamiento)"
+* #1991000325103 "programa de Garantías Explícitas en Salud para diabetes mellitus tipo I (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para diabetes mellitus tipo I (régimen/tratamiento)"
+* #2001000325100 "programa de Garantías Explícitas en Salud para diabetes mellitus tipo II (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para diabetes mellitus tipo II (régimen/tratamiento)"
+* #2301000325102 "programa de Garantías Explícitas en Salud para displasia broncopulmonar del prematuro (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para displasia broncopulmonar del prematuro (régimen/tratamiento)"
+* #2031000325106 "programa de Garantías Explícitas en Salud para enfermedad pulmonar obstructiva crónica de tratamiento ambulatorio (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para enfermedad pulmonar obstructiva crónica de tratamiento ambulatorio (régimen/tratamiento)"
+* #1751000325109 "programa de Garantías Explícitas en Salud para enfermedad renal crónica en etapas 4 y 5 (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para enfermedad renal crónica en etapas 4 y 5 (régimen/tratamiento)"
+* #2061000325101 "programa de Garantías Explícitas en Salud para epilepsia no refractaria en personas desde 1 año y menores de 15 años (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para epilepsia no refractaria en personas desde 1 año y menores de 15 años (régimen/tratamiento)"
+* #1931000325104 "programa de Garantías Explícitas en Salud para esquizofrenia (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para esquizofrenia (régimen/tratamiento)"
+* #2321000325106 "programa de Garantías Explícitas en Salud para hepatitis crónica por virus hepatitis B (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para hepatitis crónica por virus hepatitis B (régimen/tratamiento)"
+* #2021000325109 "programa de Garantías Explícitas en Salud para hipertensión arterial primaria en personas de 15 años y más (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para hipertensión arterial primaria en personas de 15 años y más (régimen/tratamiento)"
+* #2011000325103 "programa de Garantías Explícitas en Salud para hipotiroidismo en personas de 15 años y más (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para hipotiroidismo en personas de 15 años y más (régimen/tratamiento)"
+* #1961000325109 "programa de Garantías Explícitas en Salud para infección por virus de la inmunodeficiencia humana/síndrome de inmunodeficiencia adquirida (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para infección por virus de la inmunodeficiencia humana/síndrome de inmunodeficiencia adquirida (régimen/tratamiento)"
+* #1921000325101 "programa de Garantías Explícitas en Salud para mieloma múltiple en personas de 15 años y más (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para mieloma múltiple en personas de 15 años y más (régimen/tratamiento)"
+* #1881000325107 "programa de Garantías Explícitas en Salud para osteosarcoma en personas de 15 años y más (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para osteosarcoma en personas de 15 años y más (régimen/tratamiento)"
+* #2131000325105 "programa de Garantías Explícitas en Salud para síndrome de dificultad respiratoria en el recién nacido (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para síndrome de dificultad respiratoria en el recién nacido (régimen/tratamiento)"
+* #2311000325100 "programa de Garantías Explícitas en Salud para tratamiento de erradicación de Helicobacter pylori (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para tratamiento de erradicación de Helicobacter pylori (régimen/tratamiento)"
+* #1771000325100 "programa de Garantías Explícitas en Salud para cardiopatías congénitas operables en menores de 15 años (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para cardiopatías congénitas operables en menores de 15 años (régimen/tratamiento)"
+* #2601000325105 "programa de Garantías Explícitas en Salud para hemorragia subaracnoidea secundaria a ruptura de uno o más aneurismas cerebrales (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para hemorragia subaracnoidea secundaria a ruptura de uno o más aneurismas cerebrales (régimen/tratamiento)"
+* #1971000325102 "programa de Garantías Explícitas en Salud para infección respiratoria aguda de manejo ambulatorio en personas menores de 5 años (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para infección respiratoria aguda de manejo ambulatorio en personas menores de 5 años (régimen/tratamiento)"
+* #2171000325107 "programa de Garantías Explícitas en Salud para salud oral integral de la persona gestante (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para salud oral integral de la persona gestante (régimen/tratamiento)"
+* #2121000325108 "programa de Garantías Explícitas en Salud para salud oral integral de personas de 60 años (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para salud oral integral de personas de 60 años (régimen/tratamiento)"
+* #1781000325103 "programa de Garantías Explícitas en Salud para cáncer cervicouterino en personas de 15 años y más (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para cáncer cervicouterino en personas de 15 años y más (régimen/tratamiento)"
+* #2261000325107 "programa de Garantías Explícitas en Salud para tratamiento de hipoacusia moderada, severa y profunda en personas menores de 4 años (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para tratamiento de hipoacusia moderada, severa y profunda en personas menores de 4 años (régimen/tratamiento)"
+* #1901000325105 "programa de Garantías Explícitas en Salud para cáncer de tiroides en personas de 15 años y más (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para cáncer de tiroides en personas de 15 años y más (régimen/tratamiento)"
+* #2931000325107 "programa de Garantías Explícitas en Salud para consumo perjudicial y dependencia de alcohol y drogas en personas menores de 20 años (régimen/tratamiento)" "programa de Garantías Explícitas en Salud para consumo perjudicial y dependencia de alcohol y drogas en personas menores de 20 años (régimen/tratamiento)"
+
+
+/********************************************************
+Unidades funcionales
+********************************************************/
+CodeSystem: UnidadesFuncionalesCS
+Id: eis-unidades-funcionales-cs
+Title: "Unidades funcionales"
+Description: "Unidades funcionales"
+
+* ^language = #es
+* ^caseSensitive = true
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #309904001 "unidad de cuidados intensivos" "unidad de cuidados intensivos"
+* #309905000 "unidad de cuidados intensivos de adultos" "unidad de cuidados intensivos de adultos"
+* #309910001 "unidad de cuidados intensivos pediátricos" "unidad de cuidados intensivos pediátricos"
+* #309944008 "departamento de obstetricia" "departamento de obstetricia"
+* #404821007 "unidad de cuidados intensivos psiquiátricos" "unidad de cuidados intensivos psiquiátricos"
+* #3161000325107 "área médica adultos - cuidados medios" "área médica adultos - cuidados medios"
+* #3031000325101 "área médico-quirúrgica cuidados básicos" "área médico-quirúrgica cuidados básicos"
+* #3321000325101 "área psiquiatría forense adultos" "área psiquiatría forense adultos"
+* #3261000325100 "área psiquiatría infanto-adolescente corta estadía" "área psiquiatría infanto-adolescente corta estadía"
+* #3001000325107 "área de hospitalización para cuidados intensivos en psiquiatría - adultos" "área de hospitalización para cuidados intensivos en psiquiatría - adultos"
+* #3131000325102 "área de cuidados intermedios pediátricos" "área de cuidados intermedios pediátricos"
+* #3071000325104 "área médico-quirúrgica pediátrica cuidados medios" "área médico-quirúrgica pediátrica cuidados medios"
+* #3231000325105 "área psiquiatría larga estadía" "área psiquiatría larga estadía"
+* #3361000325109 "área psiquiatría forense infanto-adolescente - evaluación e inicio de tratamiento" "área psiquiatría forense infanto-adolescente - evaluación e inicio de tratamiento"
+* #2981000325106 "área médica adultos" "área médica adultos"
+* #3101000325108 "área neonatología cuidados intensivos" "área neonatología cuidados intensivos"
+* #3171000325100 "área médica pediátrica cuidados básicos" "área médica pediátrica cuidados básicos"
+* #3331000325104 "área psiquiatría forense infanto-adolescente" "área psiquiatría forense infanto-adolescente"
+* #3201000325104 "área psiquiatría" "área psiquiatría"
+* #3041000325105 "área médico-quirúrgica cuidados medios" "área médico-quirúrgica cuidados medios"
+* #2951000325100 "área médica" "área médica"
+* #3141000325106 "área neonatología cuidados intermedios" "área neonatología cuidados intermedios"
+* #3271000325107 "área psiquiatría infanto-adolescente mediana estadía" "área psiquiatría infanto-adolescente mediana estadía"
+* #3301000325105 "área psiquiatría adultos larga estadía" "área psiquiatría adultos larga estadía"
+* #3081000325102 "área neonatología" "área neonatología"
+* #3011000325109 "área de hospitalización para cuidados intensivos en psiquiatría - infanto-adolescentes" "área de hospitalización para cuidados intensivos en psiquiatría - infanto-adolescentes"
+* #3371000325102 "área psiquiatría forense infanto-adolescente - tratamiento" "área psiquiatría forense infanto-adolescente - tratamiento"
+* #3111000325105 "área de cuidados intermedios" "área de cuidados intermedios"
+* #3241000325101 "área psiquiatría adultos" "área psiquiatría adultos"
+* #568291000005106 "unidad hospitalaria" "unidad hospitalaria"
+* #3051000325108 "área médico-quirúrgica pediátrica" "área médico-quirúrgica pediátrica"
+* #2961000325102 "área médica cuidados básicos" "área médica cuidados básicos"
+* #3341000325108 "área psiquiatría forense adultos - evaluación e inicio de tratamiento" "área psiquiatría forense adultos - evaluación e inicio de tratamiento"
+* #3211000325102 "área psiquiatría corta estadía" "área psiquiatría corta estadía"
+* #3021000325103 "área médico-quirúrgica" "área médico-quirúrgica"
+* #3151000325109 "área médica adultos - cuidados básicos" "área médica adultos - cuidados básicos"
+* #3281000325109 "área psiquiatría adultos corta estadía" "área psiquiatría adultos corta estadía"
+* #3091000325100 "área neonatología cuidados básicos" "área neonatología cuidados básicos"
+* #3311000325107 "área psiquiatría forense" "área psiquiatría forense"
+* #3251000325103 "área psiquiatría infanto-adolescente" "área psiquiatría infanto-adolescente"
+* #3121000325104 "área de cuidados intermedios para adultos" "área de cuidados intermedios para adultos"
+* #3191000325101 "área pensionado" "área pensionado"
+* #3061000325106 "área médico-quirúrgica pediátrica cuidados básicos" "área médico-quirúrgica pediátrica cuidados básicos"
+* #3351000325106 "área psiquiatría forense adultos - tratamiento" "área psiquiatría forense adultos - tratamiento"
+* #3221000325108 "área psiquiatría mediana estadía" "área psiquiatría mediana estadía"
+* #2971000325109 "área médica cuidados medios" "área médica cuidados medios"
+* #3291000325106 "área psiquiatría adultos mediana estadía" "área psiquiatría adultos mediana estadía"
+* #2991000325108 "área médica pediátrica" "área médica pediátrica"
+* #3181000325103 "área médica pediátrica cuidados medios" "área médica pediátrica cuidados medios"
+
+
+
+ValueSet: UnidadesFuncionalesVS
+Id: eis-unidades-funcionales-vs
+Title: "Unidades funcionales"
+Description: "Unidades funcionales"
+
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system eis-unidades-funcionales-cs
+
+
+
+/********************************************************
+Vacunas e Inmunizaciones del Programa Nacional de Inmunizaciones (PNI)
+********************************************************/
+CodeSystem: VacunasInmunizacionesProgramaNacionalInmunizacionesCS
+Id: eis-vacunas-inmunizaciones-programa-nacional-inmunizaciones-cs
+Title: "Vacunas e Inmunizaciones del Programa Nacional de Inmunizaciones (PNI)"
+Description: "Vacunas e Inmunizaciones del Programa Nacional de Inmunizaciones (PNI)"
+
+* ^language = #es
+* ^caseSensitive = true
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #774618008 "producto que contiene antígeno de células enteras de Bordetella pertussis, toxoide diftérico y toxoide tetánico adsorbido como únicos ingredientes (producto medicinal)" "producto que contiene antígeno de células enteras de Bordetella pertussis, toxoide diftérico y toxoide tetánico adsorbido como únicos ingredientes (producto medicinal)"
+* #775641005 "vacuna que contiene toxoide de Clostridium tetani adsorbido y toxoide de Corynebacterium diphtheriae como únicos ingredientes (producto medicinal)" "vacuna que contiene toxoide de Clostridium tetani adsorbido y toxoide de Corynebacterium diphtheriae como únicos ingredientes (producto medicinal)"
+* #776184002 "producto que contiene inmunoglobulina contra antígeno de superficie de virus Hepatitis B como único ingrediente (producto medicinal)" "producto que contiene inmunoglobulina contra antígeno de superficie de virus Hepatitis B como único ingrediente (producto medicinal)"
+* #776203002 "producto que contiene inmunoglobulina humana como único ingrediente (producto medicinal)" "producto que contiene inmunoglobulina humana como único ingrediente (producto medicinal)"
+* #777389008 "producto que contiene inmunoglobulina antirrábica humana como único ingrediente (producto medicinal)" "producto que contiene inmunoglobulina antirrábica humana como único ingrediente (producto medicinal)"
+* #777724003 "producto que contiene inmunoglobulina antitetánica humana como único ingrediente (producto medicinal)" "producto que contiene inmunoglobulina antitetánica humana como único ingrediente (producto medicinal)"
+* #777725002 "vacuna que contiene toxoide de Clostridium tetani adsorbido como único ingrediente (producto medicinal)" "vacuna que contiene toxoide de Clostridium tetani adsorbido como único ingrediente (producto medicinal)"
+* #871726005 "vacuna que contiene antígeno de Lyssavirus de la rabia como único ingrediente (producto medicinal)" "vacuna que contiene antígeno de Lyssavirus de la rabia como único ingrediente (producto medicinal)"
+* #871755002 "vacuna que contiene antígeno polisacárido capsular Vi de Salmonella enterica subespecie enterica serovariedad Typhi como único ingrediente (producto medicinal)" "vacuna que contiene antígeno polisacárido capsular Vi de Salmonella enterica subespecie enterica serovariedad Typhi como único ingrediente (producto medicinal)"
+* #871876003 "vacuna que contiene antígenos de Bordetella pertussis acelular Clostridium tetani y Corynebacterium diphtheriae como únicos ingredientes (producto medicinal)" "vacuna que contiene antígenos de Bordetella pertussis acelular Clostridium tetani y Corynebacterium diphtheriae como únicos ingredientes (producto medicinal)"
+* #871919004 "vacuna que contiene antígeno de Alfaherpesvirus humano 3 como único ingrediente (producto medicinal)" "vacuna que contiene antígeno de Alfaherpesvirus humano 3 como único ingrediente (producto medicinal)"
+* #1052328007 "vacuna que contiene antígenos conjugados de polisacáridos capsulares de Streptococcus pneumoniae serotipo danés 4, 6B, 9V, 14, 18C, 19F y 23F como únicos ingredientes (producto medicinal)" "vacuna que contiene antígenos conjugados de polisacáridos capsulares de Streptococcus pneumoniae serotipo danés 4, 6B, 9V, 14, 18C, 19F y 23F como únicos ingredientes (producto medicinal)"
+* #1052330009 "vacuna que contiene antígenos conjugados de polisacáridos capsulares de Streptococcus pneumoniae serotipos 1, 4, 5, 6B, 7F, 9V, 14, 18C, 19F y 23F de la nomenclatura danesa como únicos ingredientes (producto medicinal)" "vacuna que contiene antígenos conjugados de polisacáridos capsulares de Streptococcus pneumoniae serotipos 1, 4, 5, 6B, 7F, 9V, 14, 18C, 19F y 23F de la nomenclatura danesa como únicos ingredientes (producto medicinal)"
+* #1119220001 "vacuna que contiene antígenos polisacáridos capsulares de Streptococcus pneumoniae serotipos daneses 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F, y 33F como únicos ingredientes (producto medicinal)" "vacuna que contiene antígenos polisacáridos capsulares de Streptococcus pneumoniae serotipos daneses 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F, y 33F como únicos ingredientes (producto medicinal)"
+* #1119349007 "vacuna que contiene ácido ribonucleico mensajero del coronavirus 2 del síndrome respiratorio agudo severo como único ingrediente (producto medicinal)" "vacuna que contiene ácido ribonucleico mensajero del coronavirus 2 del síndrome respiratorio agudo severo como único ingrediente (producto medicinal)"
+* #1157024006 "vacuna que contiene antígeno de coronavirus 2 del síndrome respiratorio agudo severo entero inactivado como único ingrediente (producto medicinal)" "vacuna que contiene antígeno de coronavirus 2 del síndrome respiratorio agudo severo entero inactivado como único ingrediente (producto medicinal)"
+* #1287596002 "vacuna para adultos que contiene ARNm de SARS-cov2 que codifica proteína de espiga de linaje B y ARNm de SARS-cov2 que codifica proteína de espiga de linaje BA.4/BA.5 como únicos ingredientes (producto medicinal)" "vacuna para adultos que contiene ARNm de SARS-cov2 que codifica proteína de espiga de linaje B y ARNm de SARS-cov2 que codifica proteína de espiga de linaje BA.4/BA.5 como únicos ingredientes (producto medicinal)"
+* #1287964002 "vacuna que contiene ácido ribonucleico mensajero de coronavirus 2 de síndrome respiratorio agudo severo que codifica proteína de espiga de linaje B como único ingrediente (producto medicinal)" "vacuna que contiene ácido ribonucleico mensajero de coronavirus 2 de síndrome respiratorio agudo severo que codifica proteína de espiga de linaje B como único ingrediente (producto medicinal)"
+* #1296676008 "producto que contiene antígeno de superficie recombinante de virus hepatitis B adsorbido como único ingrediente (producto medicinal)" "producto que contiene antígeno de superficie recombinante de virus hepatitis B adsorbido como único ingrediente (producto medicinal)"
+* #1296864005 "vacuna pediátrica que contiene antígeno de superficie recombinante de virus hepatitis B adsorbido como único ingrediente (producto medicinal)" "vacuna pediátrica que contiene antígeno de superficie recombinante de virus hepatitis B adsorbido como único ingrediente (producto medicinal)"
+* #921000325100 "vacuna que contiene proteína L1 recombinante de virus papiloma humano tipos 16 y 18 como único ingrediente (producto medicinal)" "vacuna que contiene proteína L1 recombinante de virus papiloma humano tipos 16 y 18 como único ingrediente (producto medicinal)"
+* #991000325102 "vacuna pediátrica que contiene antígeno de virus hepatitis A entero inactivado y antígeno de proteína de superficie recombinante de virus hepatitis B adsorbidos como únicos ingredientes (producto medicinal)" "vacuna pediátrica que contiene antígeno de virus hepatitis A entero inactivado y antígeno de proteína de superficie recombinante de virus hepatitis B adsorbidos como únicos ingredientes (producto medicinal)"
+* #1081000325101 "vacuna que contiene antígenos de proteínas recombinantes de Neisseria meningitidis serogrupo B adsorbidos como únicos ingredientes (producto medicinal)" "vacuna que contiene antígenos de proteínas recombinantes de Neisseria meningitidis serogrupo B adsorbidos como únicos ingredientes (producto medicinal)"
+* #1011000325108 "vacuna que contiene antígenos de virus Influenza A subtipos H1N1 y H3N2 y virus Influenza B linaje Victoria enteros inactivados como únicos ingredientes (producto medicinal)" "vacuna que contiene antígenos de virus Influenza A subtipos H1N1 y H3N2 y virus Influenza B linaje Victoria enteros inactivados como únicos ingredientes (producto medicinal)"
+* #1111000325109 "vacuna que contiene vector viral no replicante recombinante de adenovirus tipo 26 que codifica proteína de espiga de coronavirus 2 del síndrome respiratorio agudo severo como único ingrediente (producto)" "vacuna que contiene vector viral no replicante recombinante de adenovirus tipo 26 que codifica proteína de espiga de coronavirus 2 del síndrome respiratorio agudo severo como único ingrediente (producto)"
+* #1181000325102 "producto que contiene antígenos de polisacárido capsular conjugado de H. influenzae tipo b, B. pertussis entero inactivado, de superficie recombinante de virus Hepatitis B, toxoides tetánico y diftérico como únicos ingredientes (producto medicinal)" "producto que contiene antígenos de polisacárido capsular conjugado de H. influenzae tipo b, B. pertussis entero inactivado, de superficie recombinante de virus Hepatitis B, toxoides tetánico y diftérico como únicos ingredientes (producto medicinal)"
+* #1633261000168109 "vacuna que contiene virus vivo modificado Ankara-Bávaro Nórdico no replicante como único ingrediente (producto medicinal)" "vacuna que contiene virus vivo modificado Ankara-Bávaro Nórdico no replicante como único ingrediente (producto medicinal)"
+* #931000325103 "vacuna para adultos que contiene virus inactivado de Hepatitis A adsorbido como único ingrediente (producto medicinal)" "vacuna para adultos que contiene virus inactivado de Hepatitis A adsorbido como único ingrediente (producto medicinal)"
+* #901000325109 "vacuna que contiene proteína L1 recombinante de virus papiloma humano tipos 6, 11, 16 y 18 como único ingrediente (producto medicinal)" "vacuna que contiene proteína L1 recombinante de virus papiloma humano tipos 6, 11, 16 y 18 como único ingrediente (producto medicinal)"
+* #1091000325104 "vacuna que contiene antígenos vivos atenuados de Poliovirus humano serotipos 1, 2 y 3 en forma farmacéutica para administración oral como únicos ingredientes (producto medicinal)" "vacuna que contiene antígenos vivos atenuados de Poliovirus humano serotipos 1, 2 y 3 en forma farmacéutica para administración oral como únicos ingredientes (producto medicinal)"
+* #1971000221105 "vacuna que contiene antígenos conjugados de polisacáridos capsulares de Neisseria meningitidis serogrupos A, C, W135 y Y como únicos ingredientes (producto medicinal)" "vacuna que contiene antígenos conjugados de polisacáridos capsulares de Neisseria meningitidis serogrupos A, C, W135 y Y como únicos ingredientes (producto medicinal)"
+* #1121000325103 "vacuna que contiene vector viral no replicante recombinante de adenovirus de chimpancé que codifica proteína de espiga de coronavirus 2 del síndrome respiratorio agudo severo como único ingrediente (producto medicinal)" "vacuna que contiene vector viral no replicante recombinante de adenovirus de chimpancé que codifica proteína de espiga de coronavirus 2 del síndrome respiratorio agudo severo como único ingrediente (producto medicinal)"
+* #971000325101 "producto que contiene anticuerpo monoclonal contra proteína F de virus respiratorio sincicial como único ingrediente (producto medicinal)" "producto que contiene anticuerpo monoclonal contra proteína F de virus respiratorio sincicial como único ingrediente (producto medicinal)"
+* #1061000325105 "vacuna que contiene antígenos de virus Influenza A subtipos H1N1 y H3N2 y virus Influenza B linaje Victoria y Yamagata inactivados como únicos ingredientes (producto medicinal)" "vacuna que contiene antígenos de virus Influenza A subtipos H1N1 y H3N2 y virus Influenza B linaje Victoria y Yamagata inactivados como únicos ingredientes (producto medicinal)"
+* #29061000087103 "vacuna que contiene vector viral no replicante recombinante que codifica proteína de espiga de coronavirus 2 del síndrome respiratorio agudo severo como único ingrediente (producto medicinal)" "vacuna que contiene vector viral no replicante recombinante que codifica proteína de espiga de coronavirus 2 del síndrome respiratorio agudo severo como único ingrediente (producto medicinal)"
+* #941000325107 "vacuna pediátrica que contiene virus inactivado Hepatitis A adsorbido como único ingrediente (producto medicinal)" "vacuna pediátrica que contiene virus inactivado Hepatitis A adsorbido como único ingrediente (producto medicinal)"
+* #2231000221105 "vacuna que contiene antígenos vivos atenuados de Morbilivirus del sarampión y virus de la Rubéola como únicos ingredientes (producto medicinal)" "vacuna que contiene antígenos vivos atenuados de Morbilivirus del sarampión y virus de la Rubéola como únicos ingredientes (producto medicinal)"
+* #1161000325106 "vacuna que contiene ácido ribonucleico mensajero que codifica proteína de espiga de virus SARS-CoV-2 de variante ómicron XBB.1.5 como único ingrediente (producto medicinal)" "vacuna que contiene ácido ribonucleico mensajero que codifica proteína de espiga de virus SARS-CoV-2 de variante ómicron XBB.1.5 como único ingrediente (producto medicinal)"
+* #911000325106 "producto que contiene inmunoglobulina humana contra virus Varicela-zóster como único ingrediente (producto medicinal)" "producto que contiene inmunoglobulina humana contra virus Varicela-zóster como único ingrediente (producto medicinal)"
+* #1081000221109 "vacuna que contiene antígeno vivo atenuado de Rotavirus como único ingrediente (producto medicinal)" "vacuna que contiene antígeno vivo atenuado de Rotavirus como único ingrediente (producto medicinal)"
+* #1131000325101 "vacuna que contiene ARNm que codifica proteína de espiga de virus SARS-CoV-2 de cepa original y ARNm que codifica proteína de espiga de virus SARS-CoV-2 de variante ómicron BA.1 como únicos ingredientes (producto medicinal)" "vacuna que contiene ARNm que codifica proteína de espiga de virus SARS-CoV-2 de cepa original y ARNm que codifica proteína de espiga de virus SARS-CoV-2 de variante ómicron BA.1 como únicos ingredientes (producto medicinal)"
+* #51451000087105 "vacuna que contiene antígenos de polisacáridos capsulares conjugados de Streptococcus pneumoniae serotipo danés 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F y 23F como únicos ingredientes (producto medicinal)" "vacuna que contiene antígenos de polisacáridos capsulares conjugados de Streptococcus pneumoniae serotipo danés 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F y 23F como únicos ingredientes (producto medicinal)"
+* #1001000325106 "vacuna que contiene antígenos adsorbidos de B. pertussis acelular, Poliovirus humano tipos 1, 2 y 3 inactivado, toxoides tetánico y diftérico, Hepatitis B y H. influenzae tipo b como únicos ingredientes (producto medicinal)" "vacuna que contiene antígenos adsorbidos de B. pertussis acelular, Poliovirus humano tipos 1, 2 y 3 inactivado, toxoides tetánico y diftérico, Hepatitis B y H. influenzae tipo b como únicos ingredientes (producto medicinal)"
+* #2041000221105 "producto que contiene antígeno polisacárido capsular conjugado de Haemophilus influenzae tipo b como único ingrediente (producto medicinal)" "producto que contiene antígeno polisacárido capsular conjugado de Haemophilus influenzae tipo b como único ingrediente (producto medicinal)"
+* #318341000221109 "producto que contiene antígeno de B. pertussis acelular, antígeno de toxoide de C. tetani, antígeno de toxoide de C. diphtheriae y antígeno polisacárido capsular conjugado de H. influenzae tipo b como únicos ingredientes (producto medicinal)" "producto que contiene antígeno de B. pertussis acelular, antígeno de toxoide de C. tetani, antígeno de toxoide de C. diphtheriae y antígeno polisacárido capsular conjugado de H. influenzae tipo b como únicos ingredientes (producto medicinal)"
+* #1051000221104 "vacuna que contiene antígenos vivos atenuados de Poliovirus humano serotipos 1 y 3 en forma farmacéutica para administración oral como únicos ingredientes (forma farmacéutica de producto medicinal)" "vacuna que contiene antígenos vivos atenuados de Poliovirus humano serotipos 1 y 3 en forma farmacéutica para administración oral como únicos ingredientes (forma farmacéutica de producto medicinal)"
+* #1101000325107 "vacuna que contiene vector viral no replicante recombinante de adenovirus tipo 5 que codifica proteína de espiga de coronavirus 2 del síndrome respiratorio agudo severo como único ingrediente (producto medicinal)" "vacuna que contiene vector viral no replicante recombinante de adenovirus tipo 5 que codifica proteína de espiga de coronavirus 2 del síndrome respiratorio agudo severo como único ingrediente (producto medicinal)"
+* #74986011000036107 "producto que contiene inmunoglobulina humana contra virus Varicela-zóster (producto medicinal)" "producto que contiene inmunoglobulina humana contra virus Varicela-zóster (producto medicinal)"
+* #1171000325104 "vacuna que contiene ácido ribonucleico mensajero que codifica proteína de espiga de virus SARS-CoV-2 de variante ómicron JN.1 como único ingrediente (producto medicinal)" "vacuna que contiene ácido ribonucleico mensajero que codifica proteína de espiga de virus SARS-CoV-2 de variante ómicron JN.1 como único ingrediente (producto medicinal)"
+* #951000325105 "vacuna que contiene virus inactivado de Hepatitis A y antígeno de superficie recombinante de virus hepatitis B adsorbido como únicos ingredientes (producto medicinal)" "vacuna que contiene virus inactivado de Hepatitis A y antígeno de superficie recombinante de virus hepatitis B adsorbido como únicos ingredientes (producto medicinal)"
+* #1861000221106 "vacuna que contiene antígeno vivo atenuado de bacilo Calmette-Guérin como único ingrediente (producto medicinal)" "vacuna que contiene antígeno vivo atenuado de bacilo Calmette-Guérin como único ingrediente (producto medicinal)"
+* #891000325108 "vacuna que contiene proteína L1 recombinante de virus papiloma humano tipos 6, 11, 16, 18, 31, 33, 45, 52, 58 como único ingrediente (producto medicinal)" "vacuna que contiene proteína L1 recombinante de virus papiloma humano tipos 6, 11, 16, 18, 31, 33, 45, 52, 58 como único ingrediente (producto medicinal)"
+* #2221000221107 "vacuna que contiene antígeno de Alfaherpesvirus humano 3 vivo atenuado como único ingrediente (producto medicinal)" "vacuna que contiene antígeno de Alfaherpesvirus humano 3 vivo atenuado como único ingrediente (producto medicinal)"
+* #2241000221103 "vacuna que contiene antígenos vivos atenuados de Morbilivirus del sarampión, Ortorubulavirus de la parotiditis y virus de la Rubéola como únicos ingredientes (producto medicinal)" "vacuna que contiene antígenos vivos atenuados de Morbilivirus del sarampión, Ortorubulavirus de la parotiditis y virus de la Rubéola como únicos ingredientes (producto medicinal)"
+* #56341000087108 "vacuna contra herpes zóster que contiene antígeno de Alfaherpesvirus humano 3 vivo atenuado como único ingrediente (producto medicinal)" "vacuna contra herpes zóster que contiene antígeno de Alfaherpesvirus humano 3 vivo atenuado como único ingrediente (producto medicinal)"
+* #56011000087109 "vacuna contra herpes zóster que contiene antígeno de glicoproteína E de superficie recombinante de alfa-herpesvirus humano 3 como único ingrediente (producto medicinal)" "vacuna contra herpes zóster que contiene antígeno de glicoproteína E de superficie recombinante de alfa-herpesvirus humano 3 como único ingrediente (producto medicinal)"
+* #51311000087100 "producto que contiene antígeno de Orthopneumovirus hominis como único ingrediente (producto medicinal)" "producto que contiene antígeno de Orthopneumovirus hominis como único ingrediente (producto medicinal)"
+* #384311000221103 "vacuna que contiene antígenos de Poliovirus humano serotipos 1, 2 y 3 enteros inactivados en forma farmacéutica para administración parenteral como únicos ingredientes (producto medicinal)" "vacuna que contiene antígenos de Poliovirus humano serotipos 1, 2 y 3 enteros inactivados en forma farmacéutica para administración parenteral como únicos ingredientes (producto medicinal)"
+* #1121000221106 "vacuna que contiene antígeno de virus vivo atenuado de la fiebre amarilla como único ingrediente (producto medicinal)" "vacuna que contiene antígeno de virus vivo atenuado de la fiebre amarilla como único ingrediente (producto medicinal)"
+
+
+
+ValueSet: VacunasInmunizacionesProgramaNacionalInmunizacionesVS
+Id: eis-vacunas-inmunizaciones-programa-nacional-inmunizaciones-vs
+Title: "Vacunas e Inmunizaciones del Programa Nacional de Inmunizaciones (PNI)"
+Description: "Vacunas e Inmunizaciones del Programa Nacional de Inmunizaciones (PNI)"
+
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system eis-vacunas-inmunizaciones-programa-nacional-inmunizaciones-cs
+
+
+/********************************************************
+Vacunas e Inmunizaciones del Programa Nacional de Inmunizaciones (PNI)
+********************************************************/
+CodeSystem: ProgramasSaludAtencionPrimariaSaludCS
+Id: eis-programas-salud-atencion-primaria-salud-cs
+Title: "Programas de Salud de la Atención Primaria en Salud (APS)"
+Description: "Programas de Salud de la Atención Primaria en Salud (APS)"
+
+
+* ^language = #es
+* ^caseSensitive = true
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #2651000325106 "Programa de Cuidados Paliativos Universales (régimen/tratamiento)" "Programa de Cuidados Paliativos Universales (régimen/tratamiento)"
+* #2621000325101 "Programa de Salud Mental (régimen/tratamiento)" "Programa de Salud Mental (régimen/tratamiento)"
+* #2751000325102 "Programa de Control de Niño Sano (régimen/tratamiento)" "Programa de Control de Niño Sano (régimen/tratamiento)"
+* #2691000325103 "Programa de Rehabilitación Integral (régimen/tratamiento)" "Programa de Rehabilitación Integral (régimen/tratamiento)"
+* #2721000325107 "Programa de Control Prenatal (régimen/tratamiento)" "Programa de Control Prenatal (régimen/tratamiento)"
+* #2661000325109 "Programa Nacional de Salud Integral de Adolescentes y Jóvenes (régimen/tratamiento)" "Programa Nacional de Salud Integral de Adolescentes y Jóvenes (régimen/tratamiento)"
+* #2791000325105 "Programa Nacional de Prevención y Control del Virus de Inmunodeficiencia Humana/SIDA y las Infecciones de Transmisión Sexual (régimen/tratamiento)" "Programa Nacional de Prevención y Control del Virus de Inmunodeficiencia Humana/SIDA y las Infecciones de Transmisión Sexual (régimen/tratamiento)"
+* #2631000325104 "Programa de Atención Domiciliaria para Personas con Dependencia Severa (régimen/tratamiento)" "Programa de Atención Domiciliaria para Personas con Dependencia Severa (régimen/tratamiento)"
+* #2761000325104 "Programa de Atención Odontológica Integral (régimen/tratamiento)" "Programa de Atención Odontológica Integral (régimen/tratamiento)"
+* #2731000325109 "Programa Nacional de Control y Eliminación de la Tuberculosis (régimen/tratamiento)" "Programa Nacional de Control y Eliminación de la Tuberculosis (régimen/tratamiento)"
+* #2701000325103 "Programa de Epilepsia (régimen/tratamiento)" "Programa de Epilepsia (régimen/tratamiento)"
+* #2671000325102 "Programa Nacional de Infecciones Respiratorias Agudas (régimen/tratamiento)" "Programa Nacional de Infecciones Respiratorias Agudas (régimen/tratamiento)"
+* #2771000325106 "Programa Especial de Salud y Pueblos Indígenas (régimen/tratamiento)" "Programa Especial de Salud y Pueblos Indígenas (régimen/tratamiento)"
+* #2351000325101 "Programa Nacional de Alimentación Complementaria (régimen/tratamiento)" "Programa Nacional de Alimentación Complementaria (régimen/tratamiento)"
+* #2801000325109 "Programa de Apoyo a la Salud Mental Infantil (régimen/tratamiento)" "Programa de Apoyo a la Salud Mental Infantil (régimen/tratamiento)"
+* #2641000325108 "Programa de Salud Cardiovascular (régimen/tratamiento)" "Programa de Salud Cardiovascular (régimen/tratamiento)"
+* #2741000325100 "Programa Nacional de Salud Sexual y Reproductiva de la Mujer (régimen/tratamiento)" "Programa Nacional de Salud Sexual y Reproductiva de la Mujer (régimen/tratamiento)"
+* #2681000325100 "Programa Nacional de Salud de las Personas Mayores (régimen/tratamiento)" "Programa Nacional de Salud de las Personas Mayores (régimen/tratamiento)"
+* #2711000325101 "Programa Vida Sana (régimen/tratamiento)" "Programa Vida Sana (régimen/tratamiento)"
+
+
+ValueSet: ProgramasSaludAtencionPrimariaSaludVS
+Id: eis-programas-salud-atencion-primaria-salud-vs
+Title: "Programas de Salud de la Atención Primaria en Salud (APS)"
+Description: "Programas de Salud de la Atención Primaria en Salud (APS)"
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system eis-programas-salud-atencion-primaria-salud-cs

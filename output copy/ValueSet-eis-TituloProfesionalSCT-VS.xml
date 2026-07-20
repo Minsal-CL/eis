@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="eis-TituloProfesionalSCT-VS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ConjuntoValores / ConjuntoDeValores eis-TituloProfesionalSCT-VS</b></p><a name="eis-TituloProfesionalSCT-VS"> </a><a name="hceis-TituloProfesionalSCT-VS"> </a><ul><li>Include all codes defined in <a href="CodeSystem-eis-TituloProfesionalSCT-CS.html"><code>https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-TituloProfesionalSCT-CS</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;0.1.1</span></li></ul></div>
+  </text>
+  <url value="https://interoperabilidad.minsal.cl/fhir/ig/eis/ValueSet/eis-TituloProfesionalSCT-VS"/>
+  <version value="0.1.1"/>
+  <name value="TituloProfesionalSCTVS"/>
+  <title value="Título Profesional SCT"/>
+  <status value="active"/>
+  <experimental value="true"/>
+  <date value="2026-03-01T00:00:00-03:00"/>
+  <publisher value="Unidad de Interoperabilidad - MINSAL"/>
+  <contact>
+    <name value="Unidad de Interoperabilidad - MINSAL"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://interoperabilidad.minsal.cl"/>
+    </telecom>
+  </contact>
+  <description value="El título profesional corresponde al documento oficial que acredita que una persona ha completado un programa formal de estudios y ha aprobado las evaluaciones, pruebas o exámenes requeridos para el ejercicio de una determinada profesión, certificando las competencias generales, científicas y técnicas necesarias para su adecuado desempeño profesional."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CL"/>
+      <display value="Chile"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-TituloProfesionalSCT-CS"/>
+    </include>
+  </compose>
+</ValueSet>

@@ -1,0 +1,2 @@
+* #1 "Pertenecientes al SNSS" "Pertenecientes al SNSS"
+* #2 "No pertenecientes al SNSS" "No pertenecientes al SNSS"

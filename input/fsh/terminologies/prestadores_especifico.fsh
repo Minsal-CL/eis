@@ -1,0 +1,60 @@
+/********************************************************
+Tipo específico de prestador
+Tipo específico de prestador	 / 	prestadores_especifico_v1.0.0.csv
+********************************************************/
+CodeSystem: TipoEspecificoPrestadorCS
+Id: eis-tipo-especifico-prestador-cs
+Title: "Tipo específico de prestador"
+Description: "Tipo específico de prestador"
+
+* ^language = #es
+* ^caseSensitive = true
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Hospitales de primer nivel" "Hospitales de primer nivel"
+* #2 "Hospitales de segundo nivel" "Hospitales de segundo nivel"
+* #3 "Hospitales de tercer nivel" "Hospitales de tercer nivel"
+* #4 "Clínicas privadas" "Clínicas privadas"
+* #5 "Centros de salud para personas privadas de libertad" "Centros de salud para personas privadas de libertad"
+* #6 "Servicios de Atención Primaria de Urgencia de Alta Resolución (SAR)" "Servicios de Atención Primaria de Urgencia de Alta Resolución (SAR)"
+* #7 "Servicios de Atención Primaria de Urgencia (SAPU)" "Servicios de Atención Primaria de Urgencia (SAPU)"
+* #8 "Servicios de Urgencia Rural (SUR)" "Servicios de Urgencia Rural (SUR)"
+* #9 "Servicios de Atención Médica de Urgencia (SAMU)" "Servicios de Atención Médica de Urgencia (SAMU)"
+* #10 "Postas de Salud Rural (PSR)" "Postas de Salud Rural (PSR)"
+* #11 "Centros de Salud Familiar (CESFAM)" "Centros de Salud Familiar (CESFAM)"
+* #12 "Centros Comunitarios de Salud Familiar (CECOSF)" "Centros Comunitarios de Salud Familiar (CECOSF)"
+* #13 "Centros de Especialidades de Atención Primaria (CEAP)" "Centros de Especialidades de Atención Primaria (CEAP)"
+* #14 "Centros Comunitario de Salud Mental (COSAM)" "Centros Comunitario de Salud Mental (COSAM)"
+* #15 "Centros de especialidades de atención abierta" "Centros de especialidades de atención abierta"
+* #16 "Centros de rehabilitación" "Centros de rehabilitación"
+* #17 "Clínicas dentales" "Clínicas dentales"
+* #18 "Centros de la Corporación para la Nutrición Infantil (CONIN)" "Centros de la Corporación para la Nutrición Infantil (CONIN)"
+* #19 "Centros de Tratamiento de Adicciones (CTA)" "Centros de Tratamiento de Adicciones (CTA)"
+* #20 "Hospitales de día" "Hospitales de día"
+* #21 "Centros de apoyo comunitario para personas con demencia" "Centros de apoyo comunitario para personas con demencia"
+* #22 "Centros de sangre" "Centros de sangre"
+* #23 "Centros de diálisis" "Centros de diálisis"
+* #24 "Casas del donante de sangre" "Casas del donante de sangre"
+* #25 "Laboratorios clínicos" "Laboratorios clínicos"
+* #26 "Unidad de diálisis móvil" "Unidad de diálisis móvil"
+* #27 "Vacunatorios" "Vacunatorios"
+
+
+ValueSet: TipoEspecificoPrestadorVS
+Id: eis-tipo-especifico-prestador-vs
+Title: "Tipo específico de prestador"
+Description: "Tipo específico de prestador"
+
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system eis-tipo-especifico-prestador-cs

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="eis-establecimientos-nivel-secundario-vs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ConjuntoValores / ConjuntoDeValores eis-establecimientos-nivel-secundario-vs</b></p><a name="eis-establecimientos-nivel-secundario-vs"> </a><a name="hceis-establecimientos-nivel-secundario-vs"> </a><ul><li>Include all codes defined in <a href="CodeSystem-eis-establecimientos-nivel-secundario-cs.html"><code>https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-establecimientos-nivel-secundario-cs</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;0.1.1</span></li></ul></div>
+  </text>
+  <url value="https://interoperabilidad.minsal.cl/fhir/ig/eis/ValueSet/eis-establecimientos-nivel-secundario-vs"/>
+  <version value="0.1.1"/>
+  <name value="EstablecimientosNivelSecundarioVS"/>
+  <title value="Establecimientos Públicos de Nivel Secundario"/>
+  <status value="active"/>
+  <experimental value="true"/>
+  <date value="2026-03-01T00:00:00-03:00"/>
+  <publisher value="Unidad de Interoperabilidad - MINSAL"/>
+  <contact>
+    <name value="Unidad de Interoperabilidad - MINSAL"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://interoperabilidad.minsal.cl"/>
+    </telecom>
+  </contact>
+  <description value="Los centros de especialidad son establecimientos públicos de atención ambulatoria que otorgan prestaciones diagnósticas y/o terapéuticas asociadas a una o más especialidades, y cuentan con personería jurídica y un director médico responsable legalmente registrado."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CL"/>
+      <display value="Chile"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-establecimientos-nivel-secundario-cs"/>
+    </include>
+  </compose>
+</ValueSet>

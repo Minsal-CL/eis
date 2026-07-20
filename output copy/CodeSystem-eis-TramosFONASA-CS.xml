@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="eis-TramosFONASA-CS"/>
+  <language value="es"/>
+  <text>
+    <status value="generated"/><div xml:lang="es" xmlns="http://www.w3.org/1999/xhtml" lang="es"><p class="res-header-id"><b>Generated Narrative: SistemaDeCodigos eis-TramosFONASA-CS</b></p><a name="eis-TramosFONASA-CS"> </a><a name="hceis-TramosFONASA-CS"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: es</p></div><p>This case-sensitive code system <code>https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-TramosFONASA-CS</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">A<a name="eis-TramosFONASA-CS-A"> </a></td><td>Tramo A</td></tr><tr><td style="white-space:nowrap">B<a name="eis-TramosFONASA-CS-B"> </a></td><td>Tramo B</td></tr><tr><td style="white-space:nowrap">C<a name="eis-TramosFONASA-CS-C"> </a></td><td>Tramo C</td></tr><tr><td style="white-space:nowrap">D<a name="eis-TramosFONASA-CS-D"> </a></td><td>Tramo D</td></tr></table></div>
+  </text>
+  <url value="https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-TramosFONASA-CS"/>
+  <version value="0.1.1"/>
+  <name value="TramosFONASACS"/>
+  <title value="Tramos FONASA"/>
+  <status value="active"/>
+  <experimental value="true"/>
+  <date value="2026-03-01T00:00:00-03:00"/>
+  <publisher value="Unidad de Interoperabilidad - MINSAL"/>
+  <contact>
+    <name value="Unidad de Interoperabilidad - MINSAL"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://interoperabilidad.minsal.cl"/>
+    </telecom>
+  </contact>
+  <description value="Los tramos FONASA corresponden a la clasificación que realiza el Fondo Nacional de Salud (FONASA) en función del nivel de ingreso mensual que percibe la persona, la cual determina el acceso a beneficios, copagos y modalidades de atención dentro del Seguro Público de Salud. "/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CL"/>
+      <display value="Chile"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="4"/>
+  <concept>
+    <code value="A"/>
+    <display value="Tramo A"/>
+  </concept>
+  <concept>
+    <code value="B"/>
+    <display value="Tramo B"/>
+  </concept>
+  <concept>
+    <code value="C"/>
+    <display value="Tramo C"/>
+  </concept>
+  <concept>
+    <code value="D"/>
+    <display value="Tramo D"/>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,36 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "eis-limite-urbano-censal-vs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConjuntoValores / ConjuntoDeValores eis-limite-urbano-censal-vs</b></p><a name=\"eis-limite-urbano-censal-vs\"> </a><a name=\"hceis-limite-urbano-censal-vs\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-eis-limite-urbano-censal-cs.html\"><code>https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-limite-urbano-censal-cs</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.1</span></li></ul></div>"
+  },
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/ValueSet/eis-limite-urbano-censal-vs",
+  "version" : "0.1.1",
+  "name" : "LimiteUrbanoCensalVS",
+  "title" : "Límite Urbano Censal",
+  "status" : "active",
+  "experimental" : true,
+  "date" : "2026-03-01T00:00:00-03:00",
+  "publisher" : "Unidad de Interoperabilidad - MINSAL",
+  "contact" : [{
+    "name" : "Unidad de Interoperabilidad - MINSAL",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://interoperabilidad.minsal.cl"
+    }]
+  }],
+  "description" : "Corresponde a distinguir entre zonas urbanas y rurales, según la delimitación establecida por el Instituto Nacional de Estadísticas (INE) para fines censales, considerando factores como la densidad poblacional, infraestructura y características del entorno.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CL",
+      "display" : "Chile"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-limite-urbano-censal-cs"
+    }]
+  }
+}

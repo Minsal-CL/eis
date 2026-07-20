@@ -1,0 +1,64 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-tipo-establecimiento-publicos-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "eis-tipo-establecimiento-publicos-cs"] ; # 
+  fhir:language [ fhir:v "es"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xml:lang=\"es\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"es\"><p class=\"res-header-id\"><b>Generated Narrative: SistemaDeCodigos eis-tipo-establecimiento-publicos-cs</b></p><a name=\"eis-tipo-establecimiento-publicos-cs\"> </a><a name=\"hceis-tipo-establecimiento-publicos-cs\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: es</p></div><p>This case-sensitive code system <code>https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-tipo-establecimiento-publicos-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"eis-tipo-establecimiento-publicos-cs-1\"> </a></td><td>Establecimientos Públicos de Atención Primaria de Salud (APS)</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"eis-tipo-establecimiento-publicos-cs-2\"> </a></td><td>Establecimientos Públicos de Atención de Especialidades</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"eis-tipo-establecimiento-publicos-cs-3\"> </a></td><td>Establecimientos Públicos de la Red de Urgencia</td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"eis-tipo-establecimiento-publicos-cs-4\"> </a></td><td>Establecimientos Hospitalarios</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [
+     fhir:v "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-tipo-establecimiento-publicos-cs"^^xsd:anyURI ;
+     fhir:l <https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-tipo-establecimiento-publicos-cs>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.1"] ; # 
+  fhir:name [ fhir:v "TipoEstablecimientoPublicosCS"] ; # 
+  fhir:title [ fhir:v "Tipo de Establecimientos Públicos"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v true] ; # 
+  fhir:date [ fhir:v "2026-03-01T00:00:00-03:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Unidad de Interoperabilidad - MINSAL"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Unidad de Interoperabilidad - MINSAL" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://interoperabilidad.minsal.cl" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Los establecimientos públicos de salud son estructuras organizadas que otorgan acciones de promoción, protección, recuperación y rehabilitación de la salud, de forma presencial o remota, y que cuentan con autorización sanitaria de la SEREMI de salud y acreditación de calidad de la Superintendencia de Salud."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
+         fhir:l <urn:iso:std:iso:3166>
+       ] ;
+       fhir:code [ fhir:v "CL" ] ;
+       fhir:display [ fhir:v "Chile" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "4"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "1" ] ;
+     fhir:display [ fhir:v "Establecimientos Públicos de Atención Primaria de Salud (APS)" ]
+  ] [
+     fhir:code [ fhir:v "2" ] ;
+     fhir:display [ fhir:v "Establecimientos Públicos de Atención de Especialidades" ]
+  ] [
+     fhir:code [ fhir:v "3" ] ;
+     fhir:display [ fhir:v "Establecimientos Públicos de la Red de Urgencia" ]
+  ] [
+     fhir:code [ fhir:v "4" ] ;
+     fhir:display [ fhir:v "Establecimientos Hospitalarios" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,7 @@
+* #1 "RUN" "RUN"
+* #2 "RUN Materno / Progenitor (a)" "RUN Materno / Progenitor (a)"
+* #3 "Número de Pasaporte" "Número de Pasaporte"
+* #4 "Número de Documento Identificador de País de Origen" "Número de Documento Identificador de País de Origen"
+* #5 "Número de Identificador Provisorio FONASA (NIP)" "Número de Identificador Provisorio FONASA (NIP)"
+* #6 "Número de Historia Clínica" "Número de Historia Clínica"
+* #7 "Identificación Provisoria del Estudiante (IPE)" "Identificación Provisoria del Estudiante (IPE)"

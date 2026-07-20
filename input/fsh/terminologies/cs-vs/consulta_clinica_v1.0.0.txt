@@ -1,0 +1,2 @@
+* #1 "Primera consulta" "Primera consulta"
+* #2 "Consulta de seguimiento" "Consulta de seguimiento"

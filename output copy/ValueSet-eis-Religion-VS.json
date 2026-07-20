@@ -1,0 +1,36 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "eis-Religion-VS",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConjuntoValores / ConjuntoDeValores eis-Religion-VS</b></p><a name=\"eis-Religion-VS\"> </a><a name=\"hceis-Religion-VS\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-eis-Religion-CS.html\"><code>https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-Religion-CS</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.1</span></li></ul></div>"
+  },
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/ValueSet/eis-Religion-VS",
+  "version" : "0.1.1",
+  "name" : "ReligionVS",
+  "title" : "Religiones & Cultos",
+  "status" : "active",
+  "experimental" : true,
+  "date" : "2026-03-01T00:00:00-03:00",
+  "publisher" : "Unidad de Interoperabilidad - MINSAL",
+  "contact" : [{
+    "name" : "Unidad de Interoperabilidad - MINSAL",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://interoperabilidad.minsal.cl"
+    }]
+  }],
+  "description" : "La religión o credo corresponde a un sistema de creencias y prácticas, de carácter individual o colectivo, relacionadas con lo que la persona considera sagrado o divino, y que se vinculan a su dimensión espiritual, existencial y cultural.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CL",
+      "display" : "Chile"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-Religion-CS"
+    }]
+  }
+}

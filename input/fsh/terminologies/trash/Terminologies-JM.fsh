@@ -1,0 +1,495 @@
+
+/********************************************************
+Institución Emisora de Título Profesional y de Especialidad
+********************************************************/
+ValueSet:  InstitucionEmisoradeTituloProfesionalydeEspecialidadVS
+Id: eis-InstitucionEmisoradeTituloProfesionalydeEspecialidad-VS
+Description: "La institución emisora del título profesional y/o especialidad corresponde al nombre de la institución formadora que otorga el respectivo título o certificación, acreditando que el prestador de salud ha cumplido con todas las exigencias académicas y formativas establecidas en el programa de formación correspondiente."
+
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system  eis-InstitucionEmisoradeTituloProfesionalydeEspecialidad-CS
+
+
+CodeSystem:  InstitucionEmisoradeTituloProfesionalydeEspecialidadCS
+Id: eis-InstitucionEmisoradeTituloProfesionalydeEspecialidad-CS
+Description: "La institución emisora del título profesional y/o especialidad corresponde al nombre de la institución formadora que otorga el respectivo título o certificación, acreditando que el prestador de salud ha cumplido con todas las exigencias académicas y formativas establecidas en el programa de formación correspondiente."
+* ^language = #es
+* ^caseSensitive = true
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Academia De Ciencias Policiales De Carabineros" "Academia De Ciencias Policiales De Carabineros"
+* #2 "Academia De Guerra Aérea" "Academia De Guerra Aérea"
+* #3 "Academia De Guerra Del Ejército" "Academia De Guerra Del Ejército"
+* #4 "Academia De Guerra Naval De La Armada" "Academia De Guerra Naval De La Armada"
+* #5 "Academia Nacional De Estudios Políticos Y Estratégicos" "Academia Nacional De Estudios Políticos Y Estratégicos"
+* #6 "Academia Politécnica Aeronáutica" "Academia Politécnica Aeronáutica"
+* #7 "Academia Politécnica Militar" "Academia Politécnica Militar"
+* #8 "Academia Politécnica Naval" "Academia Politécnica Naval"
+* #9 "Academia Superior De Estudios Policiales De La Policía De Investigaciones De Chile" "Academia Superior De Estudios Policiales De La Policía De Investigaciones De Chile"
+* #10 "CFT Acreditación Del Medio Ambiente IDMA" "CFT Acreditación Del Medio Ambiente IDMA"
+* #11 "CFT ACCIOMA" "CFT ACCIOMA"
+* #12 "Instituto Adolfo Matthei" "Instituto Adolfo Matthei"
+* #13 "Instituto AIEP" "Instituto AIEP"
+* #14 "CFT Alpes – Centro De Formación Técnica" "CFT Alpes – Centro De Formación Técnica"
+* #15 "CFT Andrés Bello – Centro De Formación Técnica" "CFT Andrés Bello – Centro De Formación Técnica"
+* #16 "Instituto Arcos – Instituto Profesional De Artes Y Comunicación" "Instituto Arcos – Instituto Profesional De Artes Y Comunicación"
+* #17 "Instituto Arco Santiago – Instituto Profesional Escuela De Comercio" "Instituto Arco Santiago – Instituto Profesional Escuela De Comercio"
+* #18 "Universidad De Arte Y Ciencias Sociales (ARCIS)" "Universidad De Arte Y Ciencias Sociales (ARCIS)"
+* #19 "Universidad Atacama" "Universidad Atacama"
+* #20 "Universidad Autónoma De Chile" "Universidad Autónoma De Chile"
+* #21 "Universidad Austral De Chile" "Universidad Austral De Chile"
+* #22 "Universidad Aysén" "Universidad Aysén"
+* #23 "CFT Barros Arana – Centro De Formación Técnica" "CFT Barros Arana – Centro De Formación Técnica"
+* #24 "Universidad Bío-Bío" "Universidad Bío-Bío"
+* #25 "Universidad Bolivariana" "Universidad Bolivariana"
+* #26 "CFT Lota Arauco (Campus Arauco)" "CFT Lota Arauco (Campus Arauco)"
+* #27 "CFT Canon – Centro De Formación Técnica" "CFT Canon – Centro De Formación Técnica"
+* #28 "Escuela De Suboficiales (Carabineros “S.O.M. Fabriciano González Urzúa”)" "Escuela De Suboficiales (Carabineros “S.O.M. Fabriciano González Urzúa”)"
+* #29 "Escuela Carabineros De Chile" "Escuela Carabineros De Chile"
+* #30 "Academia Politécnica Aeronáutica (Carga Aérea)" "Academia Politécnica Aeronáutica (Carga Aérea)"
+* #31 "Instituto Carlos Casanueva – Instituto Profesional" "Instituto Carlos Casanueva – Instituto Profesional"
+* #32 "Instituto Catequístico Puc – Instituto Profesional" "Instituto Catequístico Puc – Instituto Profesional"
+* #33 "CFT Ceduc-Ucn" "CFT Ceduc-Ucn"
+* #34 "CFT Ceitec" "CFT Ceitec"
+* #35 "CFT Cenco" "CFT Cenco"
+* #36 "Universidad Central De Chile" "Universidad Central De Chile"
+* #37 "CFT Centro Tecnológico Superior Infomed" "CFT Centro Tecnológico Superior Infomed"
+* #38 "Universidad Chile" "Universidad Chile"
+* #39 "Academia Ciencias Policiales De Carabineros" "Academia Ciencias Policiales De Carabineros"
+* #40 "Instituto Cine De Chile – Instituto Profesional Escuela" "Instituto Cine De Chile – Instituto Profesional Escuela"
+* #41 "Pontificia Universidad Corporación Cft Pucv (Cft De La Pontificia U. Católica De Valparaíso)" "Pontificia Universidad Corporación Cft Pucv (Cft De La Pontificia U. Católica De Valparaíso)"
+* #42 "CFT Educap" "CFT Educap"
+* #43 "CFT Enac" "CFT Enac"
+* #44 "CFT Escuela Culinaria Francesa" "CFT Escuela Culinaria Francesa"
+* #45 "CFT Escuela De Comercio De Santiago" "CFT Escuela De Comercio De Santiago"
+* #46 "CFT Escuela Superior De Administración De Negocios Del Norte (Esane Del Norte)" "CFT Escuela Superior De Administración De Negocios Del Norte (Esane Del Norte)"
+* #47 "CFT Icce" "CFT Icce"
+* #48 "CFT Icel" "CFT Icel"
+* #49 "CFT Inacap" "CFT Inacap"
+* #50 "CFT Insec" "CFT Insec"
+* #51 "CFT Instituto Superior Alemán De Comercio Insalco" "CFT Instituto Superior Alemán De Comercio Insalco"
+* #52 "CFT Instituto Tecnológico De Chile Itc" "CFT Instituto Tecnológico De Chile Itc"
+* #53 "CFT Iprosec" "CFT Iprosec"
+* #54 "CFT Juan Bohon" "CFT Juan Bohon"
+* #55 "CFT Laplace" "CFT Laplace"
+* #56 "CFT Los Lagos" "CFT Los Lagos"
+* #57 "CFT Lota Arauco" "CFT Lota Arauco"
+* #58 "CFT Manpower" "CFT Manpower"
+* #59 "CFT Proandes" "CFT Proandes"
+* #60 "CFT Prodata" "CFT Prodata"
+* #61 "CFT Profasoc" "CFT Profasoc"
+* #62 "CFT Protec" "CFT Protec"
+* #63 "CFT San Agustín" "CFT San Agustín"
+* #64 "CFT Santo Tomás" "CFT Santo Tomás"
+* #65 "CFT Tarapacá" "CFT Tarapacá"
+* #66 "CFT Teodoro Wickel Klüwen" "CFT Teodoro Wickel Klüwen"
+* #67 "CFT Uda" "CFT Uda"
+* #68 "CFT Uvalpo" "CFT Uvalpo"
+* #69 "CFT Duoc Uc" "CFT Duoc Uc"
+* #70 "Instituto Duoc Uc – Instituto Profesional" "Instituto Duoc Uc – Instituto Profesional"
+* #71 "Instituto Eatrl – Instituto Profesional" "Instituto Eatrl – Instituto Profesional"
+* #72 "Escuela De Aviación Capitán Manuel Ávalos Prado" "Escuela De Aviación Capitán Manuel Ávalos Prado"
+* #73 "Escuela De Carabineros De Chile “General Carlos Ibáñez Del Campo”" "Escuela De Carabineros De Chile “General Carlos Ibáñez Del Campo”"
+* #74 "Escuela De Especialidades “Sgto. 1.º Adolfo Menadier Rojas” (Fuerza Aérea)" "Escuela De Especialidades “Sgto. 1.º Adolfo Menadier Rojas” (Fuerza Aérea)"
+* #75 "Escuela De Grumetes A.N.C." "Escuela De Grumetes A.N.C."
+* #76 "Escuela De Investigaciones Policiales" "Escuela De Investigaciones Policiales"
+* #77 "Escuela De Suboficiales De Carabineros De Chile “S.O.M. Fabriciano González Urzúa”" "Escuela De Suboficiales De Carabineros De Chile “S.O.M. Fabriciano González Urzúa”"
+* #78 "Escuela De Suboficiales “Sg2. Daniel Rebolledo Sepúlveda” (Ejército)" "Escuela De Suboficiales “Sg2. Daniel Rebolledo Sepúlveda” (Ejército)"
+* #79 "Escuela Militar Del Libertador Bernardo O’Higgins" "Escuela Militar Del Libertador Bernardo O’Higgins"
+* #80 "Escuela Naval Arturo Prat" "Escuela Naval Arturo Prat"
+* #81 "Escuela Técnica Aeronáutica" "Escuela Técnica Aeronáutica"
+* #82 "Instituto De Cine De Chile – Instituto Profesional" "Instituto De Cine De Chile – Instituto Profesional"
+* #83 "Instituto Esc. De Contadores Auditores De Santiago – Instituto Profesional" "Instituto Esc. De Contadores Auditores De Santiago – Instituto Profesional"
+* #84 "Instituto Moderna De Música – Instituto Profesional" "Instituto Moderna De Música – Instituto Profesional"
+* #85 "Instituto Esucomex – Instituto Profesional" "Instituto Esucomex – Instituto Profesional"
+* #86 "Instituto Galdámez (Ipg) – Instituto Profesional" "Instituto Galdámez (Ipg) – Instituto Profesional"
+* #87 "Instituto Guillermo Subercaseaux – Instituto Profesional" "Instituto Guillermo Subercaseaux – Instituto Profesional"
+* #88 "Instituto Superior De Artes Y Ciencias De La Comunicación (Iacc)" "Instituto Superior De Artes Y Ciencias De La Comunicación (Iacc)"
+* #89 "Instituto Nacional Del Fútbol, Deporte Y Actividad Física (Inaf)" "Instituto Nacional Del Fútbol, Deporte Y Actividad Física (Inaf)"
+* #90 "Instituto Internacional De Artes Culinarias Y Servicios" "Instituto Internacional De Artes Culinarias Y Servicios"
+* #91 "Instituto De Chile" "Instituto De Chile"
+* #92 "Instituto Diego Portales" "Instituto Diego Portales"
+* #93 "Instituto Incacea – Instituto Profesional" "Instituto Incacea – Instituto Profesional"
+* #94 "Instituto Latinoamericano De Comercio Exterior (Iplacex)" "Instituto Latinoamericano De Comercio Exterior (Iplacex)"
+* #95 "Instituto Libertador De Los Andes – Profesional" "Instituto Libertador De Los Andes – Profesional"
+* #96 "Instituto Los Lagos – Profesional" "Instituto Los Lagos – Profesional"
+* #97 "Instituto Los Leones – Profesional" "Instituto Los Leones – Profesional"
+* #98 "Instituto Projazz – Profesional" "Instituto Projazz – Profesional"
+* #99 "Instituto Providencia – Profesional" "Instituto Providencia – Profesional"
+* #100 "Instituto San Sebastián – Profesional" "Instituto San Sebastián – Profesional"
+* #101 "Instituto Santo Tomás – Profesional" "Instituto Santo Tomás – Profesional"
+* #102 "Instituto Valle Central – Profesional" "Instituto Valle Central – Profesional"
+* #103 "Instituto Virginio Gómez – Profesional" "Instituto Virginio Gómez – Profesional"
+* #104 "Instituto Ip Inacap – Instituto Profesional" "Instituto Ip Inacap – Instituto Profesional"
+* #105 "CFT Juan Bohon" "CFT Juan Bohon"
+* #106 "Pontificia Universidad Católica De Chile" "Pontificia Universidad Católica De Chile"
+* #107 "Pontificia Universidad Católica De Valparaíso" "Pontificia Universidad Católica De Valparaíso"
+* #108 "Universidad Academia De Humanismo Cristiano" "Universidad Academia De Humanismo Cristiano"
+* #109 "Universidad Adolfo Ibáñez" "Universidad Adolfo Ibáñez"
+* #110 "Universidad Adventista De Chile" "Universidad Adventista De Chile"
+* #111 "Universidad Alberto Hurtado" "Universidad Alberto Hurtado"
+* #112 "Universidad Andrés Bello" "Universidad Andrés Bello"
+* #113 "Universidad Arturo Prat" "Universidad Arturo Prat"
+* #114 "Universidad Austral De Chile" "Universidad Austral De Chile"
+* #115 "Universidad Autónoma De Chile" "Universidad Autónoma De Chile"
+* #116 "Universidad Bernardo O’Higgins" "Universidad Bernardo O’Higgins"
+* #117 "Universidad Bolivariana" "Universidad Bolivariana"
+* #118 "Universidad Católica De La Santísima Concepción" "Universidad Católica De La Santísima Concepción"
+* #119 "Universidad Católica De Temuco" "Universidad Católica De Temuco"
+* #120 "Universidad Católica Del Maule" "Universidad Católica Del Maule"
+* #121 "Universidad Católica Del Norte" "Universidad Católica Del Norte"
+* #122 "Universidad Católica Silva Henríquez" "Universidad Católica Silva Henríquez"
+* #123 "Universidad Central De Chile" "Universidad Central De Chile"
+* #124 "Universidad De Aconcagua" "Universidad De Aconcagua"
+* #125 "Universidad De Antofagasta" "Universidad De Antofagasta"
+* #126 "Universidad De Arte Y Ciencias Sociales Arcis" "Universidad De Arte Y Ciencias Sociales Arcis"
+* #127 "Universidad De Artes, Ciencias Y Comunicación Uniacc" "Universidad De Artes, Ciencias Y Comunicación Uniacc"
+* #128 "Universidad De Atacama" "Universidad De Atacama"
+* #129 "Universidad De Aysén" "Universidad De Aysén"
+* #130 "Universidad De Chile" "Universidad De Chile"
+* #131 "Universidad De Concepción" "Universidad De Concepción"
+* #132 "Universidad De La Frontera" "Universidad De La Frontera"
+* #133 "Universidad De La Serena" "Universidad De La Serena"
+* #134 "Universidad De Las Américas" "Universidad De Las Américas"
+* #135 "Universidad De Los Andes" "Universidad De Los Andes"
+* #136 "Universidad De Los Lagos" "Universidad De Los Lagos"
+* #137 "Universidad De Magallanes" "Universidad De Magallanes"
+* #138 "Universidad De O’Higgins" "Universidad De O’Higgins"
+* #139 "Universidad De Playa Ancha De Ciencias De La Educación" "Universidad De Playa Ancha De Ciencias De La Educación"
+* #140 "Universidad De Santiago De Chile" "Universidad De Santiago De Chile"
+* #141 "Universidad De Talca" "Universidad De Talca"
+* #142 "Universidad De Tarapacá" "Universidad De Tarapacá"
+* #143 "Universidad De Valparaíso" "Universidad De Valparaíso"
+* #144 "Universidad Del Alba" "Universidad Del Alba"
+* #145 "Universidad Del Bío-Bío" "Universidad Del Bío-Bío"
+* #146 "Universidad Del Desarrollo" "Universidad Del Desarrollo"
+* #147 "Universidad Del Mar" "Universidad Del Mar"
+* #148 "Universidad Del Pacífico" "Universidad Del Pacífico"
+* #149 "Universidad Diego Portales" "Universidad Diego Portales"
+* #150 "Universidad Finis Terrae" "Universidad Finis Terrae"
+* #151 "Universidad Gabriela Mistral" "Universidad Gabriela Mistral"
+* #152 "Universidad Iberoamericana De Ciencias Y Tecnología Unicit" "Universidad Iberoamericana De Ciencias Y Tecnología Unicit"
+* #153 "Universidad La República" "Universidad La República"
+* #154 "Universidad Los Leones" "Universidad Los Leones"
+* #155 "Universidad Mayor" "Universidad Mayor"
+* #156 "Universidad Metropolitana De Ciencias De La Educación" "Universidad Metropolitana De Ciencias De La Educación"
+* #157 "Universidad Miguel De Cervantes" "Universidad Miguel De Cervantes"
+* #158 "Universidad San Sebastián" "Universidad San Sebastián"
+* #159 "Universidad Santo Tomás" "Universidad Santo Tomás"
+* #160 "Universidad SEK" "Universidad SEK"
+* #161 "Universidad Técnica Federico Santa María" "Universidad Técnica Federico Santa María"
+* #162 "Universidad Tecnológica De Chile Inacap" "Universidad Tecnológica De Chile Inacap"
+* #163 "Universidad Tecnológica Metropolitana" "Universidad Tecnológica Metropolitana"
+* #164 "Universidad UCINF" "Universidad UCINF"
+* #165 "Universidad Viña Del Mar" "Universidad Viña Del Mar"
+
+
+
+
+
+
+
+
+/********************************************************
+Establecimientos según Tipo de Atención cambiar
+********************************************************/
+CodeSystem: EstablecimientosTipoAtencionCS
+Id: eis-establecimientos-tipo-atencion-cs
+Title: "Establecimientos según Tipo de Atención"
+Description: "De acuerdo con tipo de atención otorgada, los prestadores de salud pueden clasificarse en prestadores institucionales de atención abierta (ambulatoria) o prestadores institucionales de atención cerrada (hospitalaria)."
+
+* ^language = #es
+* ^caseSensitive = true
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Atención Abierta (Ambulatoria)"
+* #2 "Atención Cerrada (Hospitalaria)"
+
+ValueSet: EstablecimientosTipoAtencionVS
+Id: eis-establecimientos-tipo-atencion-vs
+Title: "Establecimientos según Tipo de Atención"
+Description: "De acuerdo con tipo de atención otorgada, los prestadores de salud pueden clasificarse en prestadores institucionales de atención abierta (ambulatoria) o prestadores institucionales de atención cerrada (hospitalaria)."
+
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system EstablecimientosTipoAtencionCS
+/********************************************************
+Establecimientos según Nivel de Atención 
+********************************************************/
+CodeSystem: EstablecimientosNivelAtencionCS
+Id: eis-establecimientos-nivel-atencion-cs
+Title: "Establecimientos según Nivel de Atención"
+Description: "El sistema público de salud se organiza en niveles de atención según la complejidad y cobertura de las prestaciones que entrega: primario, secundario y terciario. El acceso a los niveles secundario y terciario se realiza, en general, mediante referencia desde niveles de menor complejidad."
+
+* ^language = #es
+* ^caseSensitive = true
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Nivel Primario"
+* #2 "Nivel Secundario"
+* #3 "Nivel Terciario"
+* #95 "No aplica"
+
+ValueSet: EstablecimientosNivelAtencionVS
+Id: eis-establecimientos-nivel-atencion-vs
+Title: "Establecimientos según Nivel de Atención"
+Description: "El sistema público de salud se organiza en niveles de atención según la complejidad y cobertura de las prestaciones que entrega: primario, secundario y terciario. El acceso a los niveles secundario y terciario se realiza, en general, mediante referencia desde niveles de menor complejidad."
+
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system EstablecimientosNivelAtencionCS
+
+
+
+/********************************************************
+Tipo de Establecimientos Públicos
+********************************************************/
+CodeSystem: TipoEstablecimientoPublicosCS
+Id: eis-tipo-establecimiento-publicos-cs
+Title: "Tipo de Establecimientos Públicos"
+Description: "Los establecimientos públicos de salud son estructuras organizadas que otorgan acciones de promoción, protección, recuperación y rehabilitación de la salud, de forma presencial o remota, y que cuentan con autorización sanitaria de la SEREMI de salud y acreditación de calidad de la Superintendencia de Salud."
+
+* ^language = #es
+* ^caseSensitive = true
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Establecimientos Públicos de Atención Primaria de Salud (APS)"
+* #2 "Establecimientos Públicos de Atención de Especialidades"
+* #3 "Establecimientos Públicos de la Red de Urgencia"
+* #4 "Establecimientos Hospitalarios"
+
+ValueSet: TipoEstablecimientoPublicosVS
+Id: eis-tipo-establecimiento-publicos-vs
+Title: "Tipo de Establecimientos Públicos"
+Description: "Los establecimientos públicos de salud son estructuras organizadas que otorgan acciones de promoción, protección, recuperación y rehabilitación de la salud, de forma presencial o remota, y que cuentan con autorización sanitaria de la SEREMI de salud y acreditación de calidad de la Superintendencia de Salud."
+
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system TipoEstablecimientoPublicosCS
+
+/************************************************
+Establecimientos Públicos de Nivel Primario 
+*************************************************/
+
+CodeSystem: EstablecimientosNivelPrimarioCS
+Id: eis-establecimientos-nivel-primario-cs
+Title: "Establecimientos Públicos de Nivel Primario"
+Description: "Los establecimientos públicos de atención primaria corresponden a aquellos a través de los cuales se otorgan acciones de promoción, prevención, tratamiento y rehabilitación, constituyendo el primer nivel de atención del sistema público de salud."
+
+* ^language = #es
+* ^caseSensitive = true
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #CGU "Consultorio General Urbano"
+* #CGR "Consultorio General Rural"
+* #PSR "Posta de Salud Rural"
+* #CESFAM "Centro de Salud Familiar"
+* #CECOSF "Centro Comunitario de Salud Familiar"
+
+ValueSet: EstablecimientosNivelPrimarioVS
+Id: eis-establecimientos-nivel-primario-vs 
+Title: "Establecimientos Públicos de Nivel Primario"
+Description: "Los establecimientos públicos de atención primaria corresponden a aquellos a través de los cuales se otorgan acciones de promoción, prevención, tratamiento y rehabilitación, constituyendo el primer nivel de atención del sistema público de salud."
+
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system EstablecimientosNivelPrimarioCS
+
+/************************************************
+Establecimientos Públicos de Nivel Secundario 
+*************************************************/
+
+CodeSystem: EstablecimientosNivelSecundarioCS
+Id: eis-establecimientos-nivel-secundario-cs
+Title: "Establecimientos Públicos de Nivel Secundario"
+Description: "Los centros de especialidad son establecimientos públicos de atención ambulatoria que otorgan prestaciones diagnósticas y/o terapéuticas asociadas a una o más especialidades, y cuentan con personería jurídica y un director médico responsable legalmente registrado."
+
+* ^language = #es
+* ^caseSensitive = true
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #CRS "Centros de Referencia de Salud (CRS)"
+* #CDT "Centros de Diagnóstico Terapéutico (CDT)"
+* #COSAM "Centro Comunitario de Salud Mental (COSAM)"
+
+ValueSet: EstablecimientosNivelSecundarioVS
+Id: eis-establecimientos-nivel-secundario-vs
+Title: "Establecimientos Públicos de Nivel Secundario"
+Description: "Los centros de especialidad son establecimientos públicos de atención ambulatoria que otorgan prestaciones diagnósticas y/o terapéuticas asociadas a una o más especialidades, y cuentan con personería jurídica y un director médico responsable legalmente registrado."
+
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system EstablecimientosNivelSecundarioCS
+
+/************************************************
+Establecimientos Públicos de Nivel Terciario
+*************************************************/
+
+CodeSystem: EstablecimientosNivelTerciarioCS
+Id: eis-establecimientos-nivel-terciario-cs
+Title: "Establecimientos Públicos de Nivel Terciario"
+Description: "Los establecimientos públicos de nivel terciario corresponden a hospitales e institutos que otorgan atención de alta complejidad, ejecutando acciones de recuperación y rehabilitación de personas enfermas. Este nivel se asocia a la atención cerrada o con internación."
+
+* ^language = #es
+* ^caseSensitive = true
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Hospitales"
+* #2 "Institutos"
+
+ValueSet: EstablecimientosNivelTerciarioVS
+Id: eis-establecimientos-nivel-terciario-vs
+Title: "Establecimientos Públicos de Nivel Terciario"
+Description: "Los establecimientos públicos de nivel terciario corresponden a hospitales e institutos que otorgan atención de alta complejidad, ejecutando acciones de recuperación y rehabilitación de personas enfermas. Este nivel se asocia a la atención cerrada o con internación."
+
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system EstablecimientosNivelTerciarioCS
+
+/***************************************************
+Establecimientos Privados
+****************************************************/
+
+CodeSystem: EstablecimientosPrivadosCS
+Id: eis-establecimientos-privados-cs
+Title: "Establecimientos Privados"
+Description: "Los establecimientos privados de salud corresponden a entidades asistenciales autorizadas que otorgan prestaciones de promoción, prevención, diagnóstico, tratamiento, recuperación y rehabilitación de la salud, en modalidad ambulatoria y/o con internación, conforme a la normativa sanitaria vigente."
+
+* ^language = #es
+* ^caseSensitive = true
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Hospitales" 
+* #2 "Clínicas"
+* #3 "Centros de Salud Privados"
+* #4 "Laboratorios Clínicos"
+* #5 "Centros de Diálisis"
+* #6 "Clínicas Dentales"
+* #7 "Vacunatorios"
+* #8 "Centro CONIN"
+* #9 "Centros de Diagnóstico y Tratamiento Privados"
+
+ValueSet: EstablecimientosPrivadosVS
+Id: eis-establecimientos-privados-vs
+Title: "Establecimientos Privados"
+Description: "Los establecimientos privados de salud corresponden a entidades asistenciales autorizadas que otorgan prestaciones de promoción, prevención, diagnóstico, tratamiento, recuperación y rehabilitación de la salud, en modalidad ambulatoria y/o con internación, conforme a la normativa sanitaria vigente."
+
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system EstablecimientosPrivadosCS
+
+/************************************************
+Limite Urbano Censal
+*************************************************/
+
+CodeSystem: LimiteUrbanoCensalCS
+Id: eis-limite-urbano-censal-cs
+Title: "Límite Urbano Censal"
+Description: "Corresponde a distinguir entre zonas urbanas y rurales, según la delimitación establecida por el Instituto Nacional de Estadísticas (INE) para fines censales, considerando factores como la densidad poblacional, infraestructura y características del entorno."
+
+* ^language = #es
+* ^caseSensitive = true
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Urbano"
+* #2 "Rural"
+
+ValueSet: LimiteUrbanoCensalVS
+Id: eis-limite-urbano-censal-vs
+Title: "Límite Urbano Censal"
+Description: "Corresponde a distinguir entre zonas urbanas y rurales, según la delimitación establecida por el Instituto Nacional de Estadísticas (INE) para fines censales, considerando factores como la densidad poblacional, infraestructura y características del entorno."
+
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system LimiteUrbanoCensalCS

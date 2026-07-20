@@ -1,0 +1,127 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-TituloProfesional-CS> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "eis-TituloProfesional-CS"] ; # 
+  fhir:language [ fhir:v "es"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xml:lang=\"es\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"es\"><p class=\"res-header-id\"><b>Generated Narrative: SistemaDeCodigos eis-TituloProfesional-CS</b></p><a name=\"eis-TituloProfesional-CS\"> </a><a name=\"hceis-TituloProfesional-CS\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: es</p></div><p>This case-sensitive code system <code>https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-TituloProfesional-CS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"eis-TituloProfesional-CS-1\"> </a></td><td>Médico/as Cirujano/as</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"eis-TituloProfesional-CS-2\"> </a></td><td>Cirujano/as Dentistas</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"eis-TituloProfesional-CS-3\"> </a></td><td>Enfermeros/as</td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"eis-TituloProfesional-CS-4\"> </a></td><td>Enfermeros/as Matrones/Matronas</td></tr><tr><td style=\"white-space:nowrap\">5<a name=\"eis-TituloProfesional-CS-5\"> </a></td><td>Matrones/as</td></tr><tr><td style=\"white-space:nowrap\">6<a name=\"eis-TituloProfesional-CS-6\"> </a></td><td>Tecnólogos/as Médicos/as</td></tr><tr><td style=\"white-space:nowrap\">7<a name=\"eis-TituloProfesional-CS-7\"> </a></td><td>Psicólogos/as</td></tr><tr><td style=\"white-space:nowrap\">8<a name=\"eis-TituloProfesional-CS-8\"> </a></td><td>Kinesiólogos/as</td></tr><tr><td style=\"white-space:nowrap\">9<a name=\"eis-TituloProfesional-CS-9\"> </a></td><td>Farmacéuticos/as y Químico Farmacéuticos/as</td></tr><tr><td style=\"white-space:nowrap\">10<a name=\"eis-TituloProfesional-CS-10\"> </a></td><td>Bioquímicos/as</td></tr><tr><td style=\"white-space:nowrap\">11<a name=\"eis-TituloProfesional-CS-11\"> </a></td><td>Nutricionistas</td></tr><tr><td style=\"white-space:nowrap\">12<a name=\"eis-TituloProfesional-CS-12\"> </a></td><td>Fonoaudiólogos/as</td></tr><tr><td style=\"white-space:nowrap\">13<a name=\"eis-TituloProfesional-CS-13\"> </a></td><td>Terapeutas Ocupacionales</td></tr><tr><td style=\"white-space:nowrap\">14<a name=\"eis-TituloProfesional-CS-14\"> </a></td><td>Técnicos/as y Auxiliares Paramédicos/as en Alimentación y Nutrición</td></tr><tr><td style=\"white-space:nowrap\">15<a name=\"eis-TituloProfesional-CS-15\"> </a></td><td>Técnicos/as y Auxiliares Paramédicos/as en Diagnóstico y Servicios Médicos (Radiología, Radioterapia, Laboratorio Clínico y Banco de Sangre)</td></tr><tr><td style=\"white-space:nowrap\">16<a name=\"eis-TituloProfesional-CS-16\"> </a></td><td>Técnicos/as y Auxiliares Paramédicos/as en Odontología y Salud Oral</td></tr><tr><td style=\"white-space:nowrap\">17<a name=\"eis-TituloProfesional-CS-17\"> </a></td><td>Técnicos/as y Auxiliares Paramédicos/as en Farmacia</td></tr><tr><td style=\"white-space:nowrap\">18<a name=\"eis-TituloProfesional-CS-18\"> </a></td><td>Técnicos/as en Enfermería, Ginecobstetricia y Pabellones Quirúrgicos</td></tr><tr><td style=\"white-space:nowrap\">19<a name=\"eis-TituloProfesional-CS-19\"> </a></td><td>Técnicos/as en Salud de Prevención y Rehabilitación</td></tr><tr><td style=\"white-space:nowrap\">20<a name=\"eis-TituloProfesional-CS-20\"> </a></td><td>Naturópatas y Técnicos/as en Naturopatía</td></tr><tr><td style=\"white-space:nowrap\">21<a name=\"eis-TituloProfesional-CS-21\"> </a></td><td>Podólogos/as y Técnicos/as en Podología Clínica</td></tr><tr><td style=\"white-space:nowrap\">22<a name=\"eis-TituloProfesional-CS-22\"> </a></td><td>Cosmetólogos/as y Técnicos/as en Cosmetología</td></tr><tr><td style=\"white-space:nowrap\">23<a name=\"eis-TituloProfesional-CS-23\"> </a></td><td>Contactólogos/as y Técnicos/as en Contactología</td></tr><tr><td style=\"white-space:nowrap\">24<a name=\"eis-TituloProfesional-CS-24\"> </a></td><td>Ópticos/as y Técnicos/as en Óptica</td></tr><tr><td style=\"white-space:nowrap\">25<a name=\"eis-TituloProfesional-CS-25\"> </a></td><td>Acunpunturistas, Homeópatas y Naturópatas</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [
+     fhir:v "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-TituloProfesional-CS"^^xsd:anyURI ;
+     fhir:l <https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-TituloProfesional-CS>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.1"] ; # 
+  fhir:name [ fhir:v "TituloProfesionalCS"] ; # 
+  fhir:title [ fhir:v "Título Profesional"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v true] ; # 
+  fhir:date [ fhir:v "2026-03-01T00:00:00-03:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Unidad de Interoperabilidad - MINSAL"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Unidad de Interoperabilidad - MINSAL" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://interoperabilidad.minsal.cl" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "El título profesional corresponde al documento oficial que acredita que una persona ha completado un programa formal de estudios y ha aprobado las evaluaciones, pruebas o exámenes requeridos para el ejercicio de una determinada profesión, certificando las competencias generales, científicas y técnicas necesarias para su adecuado desempeño profesional."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
+         fhir:l <urn:iso:std:iso:3166>
+       ] ;
+       fhir:code [ fhir:v "CL" ] ;
+       fhir:display [ fhir:v "Chile" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "25"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "1" ] ;
+     fhir:display [ fhir:v "Médico/as Cirujano/as" ]
+  ] [
+     fhir:code [ fhir:v "2" ] ;
+     fhir:display [ fhir:v "Cirujano/as Dentistas" ]
+  ] [
+     fhir:code [ fhir:v "3" ] ;
+     fhir:display [ fhir:v "Enfermeros/as" ]
+  ] [
+     fhir:code [ fhir:v "4" ] ;
+     fhir:display [ fhir:v "Enfermeros/as Matrones/Matronas" ]
+  ] [
+     fhir:code [ fhir:v "5" ] ;
+     fhir:display [ fhir:v "Matrones/as" ]
+  ] [
+     fhir:code [ fhir:v "6" ] ;
+     fhir:display [ fhir:v "Tecnólogos/as Médicos/as" ]
+  ] [
+     fhir:code [ fhir:v "7" ] ;
+     fhir:display [ fhir:v "Psicólogos/as" ]
+  ] [
+     fhir:code [ fhir:v "8" ] ;
+     fhir:display [ fhir:v "Kinesiólogos/as" ]
+  ] [
+     fhir:code [ fhir:v "9" ] ;
+     fhir:display [ fhir:v "Farmacéuticos/as y Químico Farmacéuticos/as" ]
+  ] [
+     fhir:code [ fhir:v "10" ] ;
+     fhir:display [ fhir:v "Bioquímicos/as" ]
+  ] [
+     fhir:code [ fhir:v "11" ] ;
+     fhir:display [ fhir:v "Nutricionistas" ]
+  ] [
+     fhir:code [ fhir:v "12" ] ;
+     fhir:display [ fhir:v "Fonoaudiólogos/as" ]
+  ] [
+     fhir:code [ fhir:v "13" ] ;
+     fhir:display [ fhir:v "Terapeutas Ocupacionales" ]
+  ] [
+     fhir:code [ fhir:v "14" ] ;
+     fhir:display [ fhir:v "Técnicos/as y Auxiliares Paramédicos/as en Alimentación y Nutrición" ]
+  ] [
+     fhir:code [ fhir:v "15" ] ;
+     fhir:display [ fhir:v "Técnicos/as y Auxiliares Paramédicos/as en Diagnóstico y Servicios Médicos (Radiología, Radioterapia, Laboratorio Clínico y Banco de Sangre)" ]
+  ] [
+     fhir:code [ fhir:v "16" ] ;
+     fhir:display [ fhir:v "Técnicos/as y Auxiliares Paramédicos/as en Odontología y Salud Oral" ]
+  ] [
+     fhir:code [ fhir:v "17" ] ;
+     fhir:display [ fhir:v "Técnicos/as y Auxiliares Paramédicos/as en Farmacia" ]
+  ] [
+     fhir:code [ fhir:v "18" ] ;
+     fhir:display [ fhir:v "Técnicos/as en Enfermería, Ginecobstetricia y Pabellones Quirúrgicos" ]
+  ] [
+     fhir:code [ fhir:v "19" ] ;
+     fhir:display [ fhir:v "Técnicos/as en Salud de Prevención y Rehabilitación" ]
+  ] [
+     fhir:code [ fhir:v "20" ] ;
+     fhir:display [ fhir:v "Naturópatas y Técnicos/as en Naturopatía" ]
+  ] [
+     fhir:code [ fhir:v "21" ] ;
+     fhir:display [ fhir:v "Podólogos/as y Técnicos/as en Podología Clínica" ]
+  ] [
+     fhir:code [ fhir:v "22" ] ;
+     fhir:display [ fhir:v "Cosmetólogos/as y Técnicos/as en Cosmetología" ]
+  ] [
+     fhir:code [ fhir:v "23" ] ;
+     fhir:display [ fhir:v "Contactólogos/as y Técnicos/as en Contactología" ]
+  ] [
+     fhir:code [ fhir:v "24" ] ;
+     fhir:display [ fhir:v "Ópticos/as y Técnicos/as en Óptica" ]
+  ] [
+     fhir:code [ fhir:v "25" ] ;
+     fhir:display [ fhir:v "Acunpunturistas, Homeópatas y Naturópatas" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

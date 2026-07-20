@@ -1,0 +1,4 @@
+* #1 "Inactivo" "Inactivo"
+* #2 "Activo" "Activo"
+* #3 "Cesante o temporalmente sin trabajo" "Cesante o temporalmente sin trabajo"
+* #99 "Desconocido" "Desconocido"

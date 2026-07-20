@@ -1,0 +1,36 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "eis-TramosFONASA-VS",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConjuntoValores / ConjuntoDeValores eis-TramosFONASA-VS</b></p><a name=\"eis-TramosFONASA-VS\"> </a><a name=\"hceis-TramosFONASA-VS\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-eis-TramosFONASA-CS.html\"><code>https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-TramosFONASA-CS</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.1</span></li></ul></div>"
+  },
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/ValueSet/eis-TramosFONASA-VS",
+  "version" : "0.1.1",
+  "name" : "TramosFONASAVS",
+  "title" : "Tramos FONASA",
+  "status" : "active",
+  "experimental" : true,
+  "date" : "2026-03-01T00:00:00-03:00",
+  "publisher" : "Unidad de Interoperabilidad - MINSAL",
+  "contact" : [{
+    "name" : "Unidad de Interoperabilidad - MINSAL",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://interoperabilidad.minsal.cl"
+    }]
+  }],
+  "description" : "Los tramos FONASA corresponden a la clasificación que realiza el Fondo Nacional de Salud (FONASA) en función del nivel de ingreso mensual que percibe la persona, la cual determina el acceso a beneficios, copagos y modalidades de atención dentro del Seguro Público de Salud. ",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CL",
+      "display" : "Chile"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-TramosFONASA-CS"
+    }]
+  }
+}

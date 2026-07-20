@@ -1,0 +1,42 @@
+﻿Código DEIS;codigo_deis_v1.0.0.csv;1
+Complejidad;prestadores_complejidad_v1.0.0.csv;1
+Comuna;comuna_v1.0.0.csv;*
+Condición de la Actividad Laboral;condicion_actividad_laboral_v1.0.0.csv;1
+Consulta clínica;consulta_clinica_v1.0.0.csv;1
+Especialidades bioquímicas;especialidad-subespecialidad_bioquimica_v1.0.0.csv;
+Especialidades de enfermería;especialidad-subespecialidad_enfermeria_v1.0.0.csv;
+Especialidades de química y farmacia;especialidad-subespecialidad_química-farmacia_v1.0.0;
+Especialidades médicas;especialidad-subespecialidad_medica_v1.0.0.csv;
+Especialidades odontológicas;especialidad-subespecialidad_odontologica_v1.0.0.csv;
+Estado Civil;estado_civil_v1.0.0.csv;
+Grupos de Ocupaciones;grupos_ocupaciones_v1.0.0.csv;
+Identidad de Género;identidad_genero_v1.0.0.csv;
+Leyes Relacionadas a la Atención en Salud;leyes_atencion_v1.0.0.csv;
+Modalidad de Atención;modalidad_atencion_fonasa_v1.0.0.csv;
+Modalidad de atención;prestadores_modalidad_atencion_v1.0.0.csv;
+Nacionalidad;nacionalidad_v1.0.0.csv;
+Nivel de Discapacidad;nivel_discapacidad_v1.0.0.csv;
+Nivel de Instrucción;nivel_instruccion_v1.0.0.csv;
+Ocupaciones Desagregadas;ocupaciones_desagregadas_v1.0.0.csv;
+Origen de Discapacidad;origen_discapacidad_v1.0.0.csv;
+País de emisión;pais_emision_v1.0.0.csv;
+País de Nacimiento;pais_nacimiento_v1.0.0.csv;
+Pertenencia al Sistema Nacional de Servicios de Salud (SNSS);prestadores_pertenencia_v1.0.0.csv;
+Previsión de Salud;prevision_salud_v1.0.0.csv;
+Provincia;provincia_v1.0.0.csv;
+Pueblos Indígenas u Originarios;pueblo_indigena_v1.0.0.csv;
+Pueblos Tribales o Afrodescendientes;pueblos_tribales_v1.0.0.csv;
+Región;region_v1.0.0.csv;
+Religiones o Cultos;religion_culto_v1.0.0.csv;
+SEREMI;seremi_v1.0.0.csv;
+Servicios de Salud;servicios_salud_v1.0.0.csv;
+Sexo Biológico;sexo_biologico_v1.0.0.csv;
+Sexo Registral;sexo_registral_v1.0.0.csv;
+Subespecialidades médicas;especialidad-subespecialidad_medica_v1.0.0.csv;
+Tipo de Identificador;tipo_identificador_v1.0.0.csv;
+Tipo de Prestador;tipo_prestador_v1.0.0.csv;
+Tipo de proceso asistencial;prestadores_proceso_asistencial_v1.0.0.csv;
+Tipo de Vía;tipo_via_v1.0.0.csv;
+Tipo específico de prestador;prestadores_especifico_v1.0.0.csv;
+Título Profesional;titulo_profesional_v1.0.0.csv;
+Tramos;tramos_fonasa_v1.0.0.csv;

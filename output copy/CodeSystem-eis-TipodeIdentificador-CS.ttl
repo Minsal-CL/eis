@@ -1,0 +1,75 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-TipodeIdentificador-CS> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "eis-TipodeIdentificador-CS"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: SistemaDeCodigos eis-TipodeIdentificador-CS</b></p><a name=\"eis-TipodeIdentificador-CS\"> </a><a name=\"hceis-TipodeIdentificador-CS\"> </a><p>This case-sensitive code system <code>https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-TipodeIdentificador-CS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"eis-TipodeIdentificador-CS-1\"> </a></td><td>RUN Principal</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"eis-TipodeIdentificador-CS-2\"> </a></td><td>RUN Materno/ Progenitor (a)</td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"eis-TipodeIdentificador-CS-4\"> </a></td><td>Número de Pasaporte</td></tr><tr><td style=\"white-space:nowrap\">5<a name=\"eis-TipodeIdentificador-CS-5\"> </a></td><td>Número de Documento Identificador de País de Origen</td></tr><tr><td style=\"white-space:nowrap\">6<a name=\"eis-TipodeIdentificador-CS-6\"> </a></td><td>Número de Identificador Provisorio FONASA (NIP)</td></tr><tr><td style=\"white-space:nowrap\">7<a name=\"eis-TipodeIdentificador-CS-7\"> </a></td><td>Número de Historia Clínica</td></tr><tr><td style=\"white-space:nowrap\">8<a name=\"eis-TipodeIdentificador-CS-8\"> </a></td><td>Dígito Verificador Principal</td></tr><tr><td style=\"white-space:nowrap\">9<a name=\"eis-TipodeIdentificador-CS-9\"> </a></td><td>Dígito Verificador Materno</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [
+     fhir:v "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-TipodeIdentificador-CS"^^xsd:anyURI ;
+     fhir:l <https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/eis-TipodeIdentificador-CS>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.1"] ; # 
+  fhir:name [ fhir:v "TipodeIdentificadorCS"] ; # 
+  fhir:title [ fhir:v "Tipo de Identificador"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v true] ; # 
+  fhir:date [ fhir:v "2026-03-01T00:00:00-03:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Unidad de Interoperabilidad - MINSAL"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Unidad de Interoperabilidad - MINSAL" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://interoperabilidad.minsal.cl" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Define el tipo de documento de identificación del usuario, paciente o prestador de salud individual"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
+         fhir:l <urn:iso:std:iso:3166>
+       ] ;
+       fhir:code [ fhir:v "CL" ] ;
+       fhir:display [ fhir:v "Chile" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "8"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "1" ] ;
+     fhir:display [ fhir:v "RUN Principal" ]
+  ] [
+     fhir:code [ fhir:v "2" ] ;
+     fhir:display [ fhir:v "RUN Materno/ Progenitor (a)" ]
+  ] [
+     fhir:code [ fhir:v "4" ] ;
+     fhir:display [ fhir:v "Número de Pasaporte" ]
+  ] [
+     fhir:code [ fhir:v "5" ] ;
+     fhir:display [ fhir:v "Número de Documento Identificador de País de Origen" ]
+  ] [
+     fhir:code [ fhir:v "6" ] ;
+     fhir:display [ fhir:v "Número de Identificador Provisorio FONASA (NIP)" ]
+  ] [
+     fhir:code [ fhir:v "7" ] ;
+     fhir:display [ fhir:v "Número de Historia Clínica" ]
+  ] [
+     fhir:code [ fhir:v "8" ] ;
+     fhir:display [ fhir:v "Dígito Verificador Principal" ]
+  ] [
+     fhir:code [ fhir:v "9" ] ;
+     fhir:display [ fhir:v "Dígito Verificador Materno" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

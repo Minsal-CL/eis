@@ -16,8 +16,8 @@ Description: "Forma de identificar a un paciente en Chile"
 
 * type ^short = "Tipo de documento RUN"
 * type ^definition = "Tipo de documento definido para RUN"
-* type from TipodeIdentificadorVS (extensible)
-* type.coding = TipodeIdentificadorCS#1
+* type from TipoIdentificadorVS (extensible)
+* type.coding = TipoIdentificadorCS#1
 * type ^binding.description = "Value Set de Tipos de Documentos y CI Nacionales"
 
 * type.coding.system ^short = "Sistema de identificación de tipos de documentos"

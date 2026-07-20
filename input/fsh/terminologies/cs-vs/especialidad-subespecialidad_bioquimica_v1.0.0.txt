@@ -1,0 +1,3 @@
+* #1 "Laboratorio Clínico" "Laboratorio Clínico"
+* #2 "Laboratorio Forense" "Laboratorio Forense"
+* #3 "Salud Pública" "Salud Pública"

@@ -1,0 +1,5 @@
+* #1 "Farmacia Clínica" "Farmacia Clínica"
+* #2 "Farmacia Hospitalaria" "Farmacia Hospitalaria"
+* #3 "Laboratorio Clínico" "Laboratorio Clínico"
+* #4 "Salud Pública" "Salud Pública"
+* #5 "Laboratorio Forense" "Laboratorio Forense"

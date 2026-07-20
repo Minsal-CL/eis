@@ -1,0 +1,2388 @@
+/********************************************************
+Especialidades y Subespecialidades Odontológicas
+********************************************************/
+CodeSystem: EspecialidadesOdontologicasCS
+Id: eis-especialidades-odontologicas-cs
+Title: "Especialidades y Subespecialidades Odontológicas"
+Description: "La certificación de especialidades y subespecialidades odontológicas corresponde al proceso mediante el cual se reconoce oficialmente que un prestador individual del área odontológica posee los conocimientos, competencias y experiencias específicas requeridas para el ejercicio profesional en un ámbito determinado de la atención odontológica."
+
+* ^language = #es
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^caseSensitive = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Cirugía y Traumatología Buco Maxilofacial" "Cirugía y Traumatología Buco Maxilofacial"
+* #3 "Endodoncia" "Endodoncia"
+* #4 "Imagenología Oral y Maxilofacial" "Imagenología Oral y Maxilofacial"
+* #5 "Implantología Buco Maxilofacial" "Implantología Buco Maxilofacial"
+* #6 "Odontología Legal" "Odontología Legal"
+* #7 "Odontopediatría" "Odontopediatría"
+* #8 "Ortodoncia y Ortopedia Dento Maxilofacial" "Ortodoncia y Ortopedia Dento Maxilofacial"
+* #9 "Patología Oral Maxilofacial" "Patología Oral Maxilofacial"
+* #10 "Periodoncia" "Periodoncia"
+* #11 "Rehabilitación Oral Removible" "Rehabilitación Oral Removible"
+* #12 "Salud Pública" "Salud Pública"
+* #13 "Somato-Prótesis" "Somato-Prótesis"
+* #14 "Trastornos Temporomandibulares y Dolor Orofacial" "Trastornos Temporomandibulares y Dolor Orofacial"
+* #15 "Odontogeriatría" "Odontogeriatría"
+* #16 "Rehabilitación Oral Fija" "Rehabilitación Oral Fija"
+
+ValueSet: EspecialidadesOdontologicasVS
+Id: eis-especialidades-odontologicas-vs
+Title: "Especialidades y Subespecialidades Odontológicas"
+Description: "La certificación de especialidades y subespecialidades odontológicas corresponde al proceso mediante el cual se reconoce oficialmente que un prestador individual del área odontológica posee los conocimientos, competencias y experiencias específicas requeridas para el ejercicio profesional en un ámbito determinado de la atención odontológica."
+
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system EspecialidadesOdontologicasCS
+
+/********************************************************
+Especialidades y Subespecialidades Odontológicas
+********************************************************/
+
+CodeSystem: EspecialidadesFarmaceuticasCS
+Id: eis-especialidades-farmaceuticas-cs
+Title: "Especialidades y Subespecialidades Farmacéuticas o Químico Farmacéuticas"
+Description: "Corresponde al conjunto de códigos y valores asociados a las especialidades y subespecialidades farmacéuticas o químico-farmacéuticas, que permiten identificar y registrar el ámbito específico de desempeño profesional del prestador individual del área farmacéutica."
+
+* ^language = #es
+* ^caseSensitive = true
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Farmacia Clínica" "Farmacia Clínica"
+* #2 "Farmacia Hospitalaria" "Farmacia Hospitalaria"
+* #3 "Laboratorio Clínico" "Laboratorio Clínico"
+* #4 "Salud Pública" "Salud Pública"
+* #5 "Laboratorio Forense" "Laboratorio Forense"
+
+ValueSet: EspecialidadesFarmaceuticasVS
+Id: eis-especialidades-farmaceuticas-vs
+Title: "Especialidades Farmacéuticas"
+Description: "Conjunto de códigos y valores asociados a las especialidades y subespecialidades farmacéuticas o químico-farmacéuticas, que permiten identificar y registrar el ámbito específico de desempeño profesional del prestador individual del área farmacéutica."
+
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system EspecialidadesFarmaceuticasCS
+
+/********************************************************
+Especialidades y Subespecialidades Farmacéuticas o Químico Farmacéuticas
+********************************************************/
+
+CodeSystem: EspecialidadesBioquimicasCS
+Id: eis-especialidades-bioquimicas-cs
+Title: "Especialidades y Subespecialidades Farmacéuticas o Químico Farmacéuticas"
+Description: "Corresponde al conjunto de códigos y valores asociados a las especialidades y subespecialidades bioquímicas, que permiten identificar el ámbito específico de desempeño profesional del prestador individual del área de la bioquímica en el sistema de salud. "
+
+* ^language = #es
+* ^caseSensitive = true
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Laboratorio Clínico" "Laboratorio Clínico"
+* #2 "Laboratorio Forense" "Laboratorio Forense"
+* #3 "Salud Pública" "Salud Pública"
+
+
+ValueSet: EspecialidadesBioquimicasVS
+Id: eis-especialidades-bioquimicas-vs
+Title: "Especialidades y Subespecialidades Bioquímicas"
+Description: "Corresponde al conjunto de códigos y valores asociados a las especialidades y subespecialidades bioquímicas, que permiten identificar el ámbito específico de desempeño profesional del prestador individual del área de la bioquímica en el sistema de salud."
+
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system EspecialidadesBioquimicasCS
+
+/********************************************************
+Especialidades y Subespecialidades de Enfermería
+********************************************************/
+CodeSystem: EspecialidadesEnfermeriaCS
+Id: eis-especialidades-enfermeria-cs
+Title: "Especialidades y Subespecialidades de Enfermería"
+Description: "Corresponde al conjunto de códigos y valores asociados a las especialidades y subespecialidades de enfermería, que permiten identificar el ámbito específico de desempeño profesional del prestador individual del área de enfermería en el sistema de salud."
+
+* ^language = #es
+* ^caseSensitive = true
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Enfermería Oncológica" "Enfermería Oncológica"
+
+ValueSet: EspecialidadesEnfermeriaVS
+Id: eis-especialidades-enfermeria-vs
+Title: "Especialidades y Subespecialidades de Enfermería"
+Description: "Corresponde al conjunto de códigos y valores asociados a las especialidades y subespecialidades de enfermería, que permiten identificar el ámbito específico de desempeño profesional del prestador individual del área de enfermería en el sistema de salud."
+
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system EspecialidadesEnfermeriaCS
+/********************************************************
+Establecimientos según Tipo de Atención cambiar
+********************************************************/
+CodeSystem: EstablecimientosTipoAtencionCS
+Id: eis-establecimientos-tipo-atencion-cs
+Title: "Establecimientos según Tipo de Atención"
+Description: "De acuerdo con tipo de atención otorgada, los prestadores de salud pueden clasificarse en prestadores institucionales de atención abierta (ambulatoria) o prestadores institucionales de atención cerrada (hospitalaria)."
+
+* ^language = #es
+* ^caseSensitive = true
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Atención Abierta (Ambulatoria)"
+* #2 "Atención Cerrada (Hospitalaria)"
+
+ValueSet: EstablecimientosTipoAtencionVS
+Id: eis-establecimientos-tipo-atencion-vs
+Title: "Establecimientos según Tipo de Atención"
+Description: "De acuerdo con tipo de atención otorgada, los prestadores de salud pueden clasificarse en prestadores institucionales de atención abierta (ambulatoria) o prestadores institucionales de atención cerrada (hospitalaria)."
+
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system EstablecimientosTipoAtencionCS
+/********************************************************
+Establecimientos según Nivel de Atención 
+********************************************************/
+CodeSystem: EstablecimientosNivelAtencionCS
+Id: eis-establecimientos-nivel-atencion-cs
+Title: "Establecimientos según Nivel de Atención"
+Description: "El sistema público de salud se organiza en niveles de atención según la complejidad y cobertura de las prestaciones que entrega: primario, secundario y terciario. El acceso a los niveles secundario y terciario se realiza, en general, mediante referencia desde niveles de menor complejidad."
+
+* ^language = #es
+* ^caseSensitive = true
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Nivel Primario"
+* #2 "Nivel Secundario"
+* #3 "Nivel Terciario"
+* #95 "No aplica"
+
+ValueSet: EstablecimientosNivelAtencionVS
+Id: eis-establecimientos-nivel-atencion-vs
+Title: "Establecimientos según Nivel de Atención"
+Description: "El sistema público de salud se organiza en niveles de atención según la complejidad y cobertura de las prestaciones que entrega: primario, secundario y terciario. El acceso a los niveles secundario y terciario se realiza, en general, mediante referencia desde niveles de menor complejidad."
+
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system EstablecimientosNivelAtencionCS
+/********************************************************
+Establecimientos según Nivel de Complejidad 
+********************************************************/
+CodeSystem: EstablecimientosNivelComplejidadCS
+Id: eis-establecimientos-nivel-complejidad-cs
+Title: "Establecimientos según Nivel de Complejidad"
+Description: "El nivel de complejidad de los establecimientos que integran la Red Asistencial del Sistema Nacional de Servicios de Salud se determina conforme a lo establecido en el Reglamento Orgánico de los Servicios de Salud, considerando su infraestructura, capacidad resolutiva y tipo de prestaciones que otorgan."
+
+* ^language = #es
+* ^caseSensitive = true
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Baja Complejidad" "Establecimientos que otorgan prestaciones básicas de hospitalización y atención clínica, sin unidades de pacientes críticos ni pabellones quirúrgicos de mayor complejidad, orientados a la resolución de patologías de baja complejidad."
+* #2 "Mediana Complejidad" "Establecimientos que, sin disponer de unidades de atención de pacientes críticos, cuentan con pabellones de intervención quirúrgica para la realización de cirugías generales y prestaciones clínicas que no requieren la participación de subespecialidades quirúrgicas complejas."
+* #3 "Alta Complejidad" "Establecimientos que cuentan con unidades destinadas a la atención de pacientes críticos, tales como unidades de cuidados intensivos o intermedios, y que disponen de recursos humanos especializados, equipamiento tecnológico avanzado y capacidad para resolver patologías de alta complejidad clínica y quirúrgica."
+
+ValueSet: EstablecimientosNivelComplejidadVS
+Id: eis-establecimientos-nivel-complejidad-vs
+Title: "Establecimientos según Nivel de Complejidad "
+Description: "El nivel de complejidad de los establecimientos que integran la Red Asistencial del Sistema Nacional de Servicios de Salud se determina conforme a lo establecido en el Reglamento Orgánico de los Servicios de Salud, considerando su infraestructura, capacidad resolutiva y tipo de prestaciones que otorgan."
+
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system EstablecimientosNivelComplejidadCS
+/********************************************************
+Tipo de Establecimientos Públicos
+********************************************************/
+CodeSystem: TipoEstablecimientoPublicosCS
+Id: eis-tipo-establecimiento-publicos-cs
+Title: "Tipo de Establecimientos Públicos"
+Description: "Los establecimientos públicos de salud son estructuras organizadas que otorgan acciones de promoción, protección, recuperación y rehabilitación de la salud, de forma presencial o remota, y que cuentan con autorización sanitaria de la SEREMI de salud y acreditación de calidad de la Superintendencia de Salud."
+
+* ^language = #es
+* ^caseSensitive = true
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Establecimientos Públicos de Atención Primaria de Salud (APS)"
+* #2 "Establecimientos Públicos de Atención de Especialidades"
+* #3 "Establecimientos Públicos de la Red de Urgencia"
+* #4 "Establecimientos Hospitalarios"
+
+ValueSet: TipoEstablecimientoPublicosVS
+Id: eis-tipo-establecimiento-publicos-vs
+Title: "Tipo de Establecimientos Públicos"
+Description: "Los establecimientos públicos de salud son estructuras organizadas que otorgan acciones de promoción, protección, recuperación y rehabilitación de la salud, de forma presencial o remota, y que cuentan con autorización sanitaria de la SEREMI de salud y acreditación de calidad de la Superintendencia de Salud."
+
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system TipoEstablecimientoPublicosCS
+
+/************************************************
+Establecimientos Públicos de Nivel Primario 
+*************************************************/
+
+CodeSystem: EstablecimientosNivelPrimarioCS
+Id: eis-establecimientos-nivel-primario-cs
+Title: "Establecimientos Públicos de Nivel Primario"
+Description: "Los establecimientos públicos de atención primaria corresponden a aquellos a través de los cuales se otorgan acciones de promoción, prevención, tratamiento y rehabilitación, constituyendo el primer nivel de atención del sistema público de salud."
+
+* ^language = #es
+* ^caseSensitive = true
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #CGU "Consultorio General Urbano"
+* #CGR "Consultorio General Rural"
+* #PSR "Posta de Salud Rural"
+* #CESFAM "Centro de Salud Familiar"
+* #CECOSF "Centro Comunitario de Salud Familiar"
+
+ValueSet: EstablecimientosNivelPrimarioVS
+Id: eis-establecimientos-nivel-primario-vs 
+Title: "Establecimientos Públicos de Nivel Primario"
+Description: "Los establecimientos públicos de atención primaria corresponden a aquellos a través de los cuales se otorgan acciones de promoción, prevención, tratamiento y rehabilitación, constituyendo el primer nivel de atención del sistema público de salud."
+
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system EstablecimientosNivelPrimarioCS
+
+/************************************************
+Establecimientos Públicos de Nivel Secundario 
+*************************************************/
+
+CodeSystem: EstablecimientosNivelSecundarioCS
+Id: eis-establecimientos-nivel-secundario-cs
+Title: "Establecimientos Públicos de Nivel Secundario"
+Description: "Los centros de especialidad son establecimientos públicos de atención ambulatoria que otorgan prestaciones diagnósticas y/o terapéuticas asociadas a una o más especialidades, y cuentan con personería jurídica y un director médico responsable legalmente registrado."
+
+* ^language = #es
+* ^caseSensitive = true
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #CRS "Centros de Referencia de Salud (CRS)"
+* #CDT "Centros de Diagnóstico Terapéutico (CDT)"
+* #COSAM "Centro Comunitario de Salud Mental (COSAM)"
+
+ValueSet: EstablecimientosNivelSecundarioVS
+Id: eis-establecimientos-nivel-secundario-vs
+Title: "Establecimientos Públicos de Nivel Secundario"
+Description: "Los centros de especialidad son establecimientos públicos de atención ambulatoria que otorgan prestaciones diagnósticas y/o terapéuticas asociadas a una o más especialidades, y cuentan con personería jurídica y un director médico responsable legalmente registrado."
+
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system EstablecimientosNivelSecundarioCS
+
+/************************************************
+Establecimientos Públicos de Nivel Terciario
+*************************************************/
+
+CodeSystem: EstablecimientosNivelTerciarioCS
+Id: eis-establecimientos-nivel-terciario-cs
+Title: "Establecimientos Públicos de Nivel Terciario"
+Description: "Los establecimientos públicos de nivel terciario corresponden a hospitales e institutos que otorgan atención de alta complejidad, ejecutando acciones de recuperación y rehabilitación de personas enfermas. Este nivel se asocia a la atención cerrada o con internación."
+
+* ^language = #es
+* ^caseSensitive = true
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Hospitales"
+* #2 "Institutos"
+
+ValueSet: EstablecimientosNivelTerciarioVS
+Id: eis-establecimientos-nivel-terciario-vs
+Title: "Establecimientos Públicos de Nivel Terciario"
+Description: "Los establecimientos públicos de nivel terciario corresponden a hospitales e institutos que otorgan atención de alta complejidad, ejecutando acciones de recuperación y rehabilitación de personas enfermas. Este nivel se asocia a la atención cerrada o con internación."
+
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system EstablecimientosNivelTerciarioCS
+
+/***************************************************
+Establecimientos Privados
+****************************************************/
+
+CodeSystem: EstablecimientosPrivadosCS
+Id: eis-establecimientos-privados-cs
+Title: "Establecimientos Privados"
+Description: "Los establecimientos privados de salud corresponden a entidades asistenciales autorizadas que otorgan prestaciones de promoción, prevención, diagnóstico, tratamiento, recuperación y rehabilitación de la salud, en modalidad ambulatoria y/o con internación, conforme a la normativa sanitaria vigente."
+
+* ^language = #es
+* ^caseSensitive = true
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Hospitales" 
+* #2 "Clínicas"
+* #3 "Centros de Salud Privados"
+* #4 "Laboratorios Clínicos"
+* #5 "Centros de Diálisis"
+* #6 "Clínicas Dentales"
+* #7 "Vacunatorios"
+* #8 "Centro CONIN"
+* #9 "Centros de Diagnóstico y Tratamiento Privados"
+
+ValueSet: EstablecimientosPrivadosVS
+Id: eis-establecimientos-privados-vs
+Title: "Establecimientos Privados"
+Description: "Los establecimientos privados de salud corresponden a entidades asistenciales autorizadas que otorgan prestaciones de promoción, prevención, diagnóstico, tratamiento, recuperación y rehabilitación de la salud, en modalidad ambulatoria y/o con internación, conforme a la normativa sanitaria vigente."
+
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system EstablecimientosPrivadosCS
+
+/************************************************
+Tipo de Vía
+*************************************************/
+
+CodeSystem: TipoViaCS
+Id: eis-tipo-via-cs
+Title: "Tipo de Vía"
+Description: "Corresponde al tipo o clasificación de calle."
+* ^language = #es
+* ^caseSensitive = true
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Calle" "Calle"
+* #2 "Avenida" "Avenida"
+* #3 "Pasaje" "Pasaje"
+* #4 "Camino" "Camino"
+* #5 "Carretera" "Carretera"
+* #6 "Callejón" "Callejón"
+* #7 "Paseo" "Paseo"
+* #8 "Escalera" "Escalera"
+* #9 "Otro" "Otro"
+* #10 "Rotonda" "Rotonda"
+
+ValueSet: TipoViaVS
+Id: eis-tipo-via-vs
+Title: "Tipo de Vía"
+Description: "Corresponde al tipo o clasificación de calle."
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+* codes from system TipoViaCS
+
+/************************************************
+Limite Urbano Censal
+*************************************************/
+
+CodeSystem: LimiteUrbanoCensalCS
+Id: eis-limite-urbano-censal-cs
+Title: "Límite Urbano Censal"
+Description: "Corresponde a distinguir entre zonas urbanas y rurales, según la delimitación establecida por el Instituto Nacional de Estadísticas (INE) para fines censales, considerando factores como la densidad poblacional, infraestructura y características del entorno."
+
+* ^language = #es
+* ^caseSensitive = true
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Urbano"
+* #2 "Rural"
+
+ValueSet: LimiteUrbanoCensalVS
+Id: eis-limite-urbano-censal-vs
+Title: "Límite Urbano Censal"
+Description: "Corresponde a distinguir entre zonas urbanas y rurales, según la delimitación establecida por el Instituto Nacional de Estadísticas (INE) para fines censales, considerando factores como la densidad poblacional, infraestructura y características del entorno."
+
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system LimiteUrbanoCensalCS
+
+
+/********************************************************/
+
+ValueSet: VSPaises
+Id: VSPaises
+Title: "Paises"
+Description: "Paises"
+* ^experimental = false
+* ^version = "0.1"
+* ^status = #active
+* ^date = "2023-01-15"
+* ^contact.name = "MINSAL CHILE"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "minsal@minsal.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system CSPaises
+
+/********************************************************/
+
+/********************************************************/
+
+CodeSystem:  CSUCursoAprobado
+Id: CSUCursoAprobado
+Title: "Ultimo Curso Aprobado"
+Description: "Categoría del último curso aprobado"
+* ^caseSensitive = true
+* ^experimental = true //dependera del uso que le den al codesystem
+* ^version = "1.0.0"
+* ^status = #active
+* ^date = "2022-01-18T00:00:00-03:00"
+* ^contact.name = "HL7 Chile"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "chair@hl7chile.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #0 "Sin Curso"
+* #1 "1o Básico"
+* #2 "2o Básico"
+* #3 "3ro Básico"
+* #4 "4o Básico"
+* #5 "5o Básico"
+* #6 "6o Básico"
+* #7 "7mo Básico"
+* #8 "8vo Básico"
+
+
+
+ValueSet: VSUCursoAprobado
+Id: VSUCursoAprobado
+Title: "Ultimo Curso Aprobado"
+Description: "Categoría del último curso aprobado"
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2022-01-18T00:00:00-03:00"
+* ^contact.name = "HL7 Chile"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "chair@hl7chile.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system CSUCursoAprobado
+
+/********************************************************/
+
+
+/********************************************************/
+
+ValueSet:  VSOcupaciones
+Id: VSOcupaciones
+Title: "Ultimo nivel aprobado"
+Description: "Código del último nivel aprobado"
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2022-01-18T00:00:00-03:00"
+* ^contact.name = "HL7 Chile"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "chair@hl7chile.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system CSOcupaciones
+
+/********************************************************/
+
+ValueSet:  VSOcupacionesDetalladas
+Id: VSOcupacionesDetalladas
+Title: "Ocupaciones Desagregadas"
+Description: "Código asociados a el detalle de las ocupaciones de un paciente"
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2022-01-18T00:00:00-03:00"
+* ^contact.name = "HL7 Chile"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "chair@hl7chile.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system CSOcupacionesDetalladas
+
+/********************************************************/
+ValueSet: PrevisiondeSaludVS
+Id: eis-PrevisiondeSalud-VS
+Title: "Previsión de Salud"
+Description: "La previsión corresponde a la variable que identifica el sistema de aseguramiento de salud vigente al que se encuentra adscrita la persona, el cual define la cobertura para acciones de promoción, prevención, tratamiento y control de las enfermedades."
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system  eis-PrevisiondeSalud-CS
+
+CodeSystem:  PrevisiondeSaludCS
+Id: eis-PrevisiondeSalud-CS
+Title: "Previsión de Salud"
+Description: "La previsión corresponde a la variable que identifica el sistema de aseguramiento de salud vigente al que se encuentra adscrita la persona, el cual define la cobertura para acciones de promoción, prevención, tratamiento y control de las enfermedades."
+* ^language = #es
+* ^caseSensitive = true
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "FONASA"
+* #2 "ISAPRE"
+* #3 "CAPREDENA"
+* #4 "DIPRECA"
+* #6 "SISAE (Sistema de Salud del Ejército)"
+* #7 "SISAN (Sistema de Salud de la Armada)"
+* #8 "SISAF (Sistema de Salud de la Fuerza Aérea)"
+* #96 "Ninguna"
+* #99 "Desconocido"
+
+/********************************************************/
+
+
+ValueSet: VSTipoOtroTelefono
+Id: VSTipoOtroTelefono
+Title: "TipoOtroTelefono"
+Description: "TipoOtroTelefono"
+* ^experimental = false
+* ^version = "0.1"
+* ^status = #active
+* ^date = "2023-01-15"
+* ^contact.name = "MINSAL CHILE"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "minsal@minsal.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system CSTipoOtroTelefono
+
+CodeSystem: CSTipoOtroTelefono
+Id: CSTipoOtroTelefono
+Title: "TipoOtroTelefono"
+Description: "TipoOtroTelefono"
+* ^experimental = false
+* ^caseSensitive = true
+* ^version = "0.9"
+* ^status = #active
+* ^date = "2023-01-15"
+* ^contact.name = "MINSAL CHILE"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "minsal@minsal.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Del Trabajo de la persona"
+* #2 "Pareja o cónyuge"
+* #3 "Familiar"
+* #4 "Tutor(a) o Cuidador(a)"
+* #5 "Vecino(a)"
+* #98 "No responde"
+
+/********************************************************/
+
+
+
+/********************************************************/
+
+
+/********************************************************/
+
+
+
+
+CodeSystem:  CSLeyPrevisionales
+Id: CSLeyPrevisionales
+Title: "Leyes Previsionales"
+Description: "Código asociados a Leyes Previsonales que modifican o eximen los montos de copagos de las prestaciones específica, señaladas en la ley respectiva"
+* ^caseSensitive = true
+* ^experimental = true //dependera del uso que le den al codesystem
+* ^version = "1.0.0"
+* ^status = #active
+* ^date = "2022-01-18T00:00:00-03:00"
+* ^contact.name = "HL7 Chile"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "chair@hl7chile.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Ley Nº18.490:  Accidentes de Transporte" "Ley Nº18.490:  Accidentes de Transporte"
+* #2 "Ley Nº 16.744: Accidentes del Trabajo y Enfermedades Profesionales" "Ley Nº 16.744: Accidentes del Trabajo y Enfermedades Profesionales"
+* #3 "Ley Nº 16.744: Accidente Escolar" "Ley Nº 16.744: Accidente Escolar"
+* #4 "Ley Nº 19.650/99: de Urgencia" "Ley Nº 19.650/99: de Urgencia"
+* #5 "Ley 19.992: PRAIS" "Ley 19.992: PRAIS"
+* #7 "Ley Nº20.850  Ricarte Soto" "Ley Nº20.850  Ricarte Soto"
+* #8 "Ley N° 21.030 de Despenalización de la Interrupción Voluntaria del Embarazo en Tres Causales." "Ley N° 21.030 de Despenalización de la Interrupción Voluntaria del Embarazo en Tres Causales."
+
+
+
+ValueSet:  VSLeyPrevisionales
+Id: VSLeyPrevisionales
+Title: "Leyes Previsionales"
+Description: "Código asociados a Leyes Previsonales que modifican o eximen los montos de copagos de las prestaciones específica, señaladas en la ley respectiva"
+
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2022-01-18T00:00:00-03:00"
+* ^contact.name = "HL7 Chile"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "chair@hl7chile.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system  CSLeyPrevisionales
+
+/********************************************************/
+ValueSet: ServiciosdeSaludVS
+Id: eis-ServiciosdeSalud-VS
+Title: "Servicios de Salud"
+Description: "Corresponde a los códigos y valores asociados a los servicios de salud del país, utilizados para la identificación territorial y administrativa de la red asistencial en los sistemas de información en salud."
+* ^experimental = false
+* ^version = "0.1"
+* ^status = #active
+* ^date = "2023-01-15"
+* ^contact.name = "MINSAL CHILE"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "minsal@minsal.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system eis-ServiciosdeSalud-CS
+
+CodeSystem: ServiciosdeSaludCS
+Id: eis-ServiciosdeSalud-CS
+Title: "Servicios de Salud"
+Description: "Corresponde a los códigos y valores asociados a los servicios de salud del país, utilizados para la identificación territorial y administrativa de la red asistencial en los sistemas de información en salud."
+* ^experimental = false
+* ^caseSensitive = true
+* ^version = "0.9"
+* ^status = #active
+* ^date = "2023-01-15"
+* ^contact.name = "MINSAL CHILE"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "minsal@minsal.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Servicio de Salud Arica"
+* #2 "Servicio de Salud Tarapacá"
+* #3 "Servicio de Salud Antofagasta"
+* #4 "Servicio de Salud Atacama"
+* #5 "Servicio de Salud Coquimbo"
+* #6 "Servicio de Salud Valparaíso San Antonio"
+* #7 "Servicio de Salud Viña del Mar Quillota"
+* #8 "Servicio de Salud Aconcagua"
+* #9 "Servicio de Salud Metropolitano Norte"
+* #10 "Servicio de Salud Metropolitano Occidente"
+* #11 "Servicio de Salud Metropolitano Central"
+* #12 "Servicio de Salud Metropolitano Oriente"
+* #13 "Servicio de Salud Metropolitano Sur"
+* #14 "Servicio de Salud Metropolitano Sur Oriente"
+* #15 "Servicio de Salud Del Libertador B. O’Higgins"
+* #16 "Servicio de Salud Del Maule"
+* #17 "Servicio de Salud Ñuble"
+* #18 "Servicio de Salud Concepción"
+* #19 "Servicio de Salud Talcahuano"
+* #20 "Servicio de Salud Biobío"
+* #21 "Servicio de Salud Araucanía Sur"
+* #22 "Servicio de Salud Los Ríos"
+* #23 "Servicio de Salud Osorno"
+* #24 "Servicio de Salud Del Reloncaví"
+* #25 "Servicio de Salud Aisén"
+* #26 "Servicio de Salud Magallanes"
+* #28 "Servicio de Salud Arauco"
+* #29 "Servicio de Salud Araucanía Norte"
+* #33 "Servicio de Salud Chiloé"
+* #95 "Hospital  Digital"
+
+ValueSet: VSServiciosdeSalud
+Id: VSServiciosdeSalud
+Title: "Códigos ServiciosdeSalud"
+Description: "Códigos ServiciosdeSalud"
+* ^experimental = false
+* ^version = "0.1"
+* ^status = #active
+* ^date = "2023-01-15"
+* ^contact.name = "MINSAL CHILE"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "minsal@minsal.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system CSServiciosdeSalud
+
+
+/********************************************************/
+
+
+
+CodeSystem:  CSTituloProfesional
+Id: CSTituloProfesional
+Title: "Título Profesional"
+Description: "Códigos de titulos profesionales listados en Chile"
+* ^caseSensitive = true
+* ^experimental = true //dependera del uso que le den al codesystem
+* ^version = "1.0.0"
+* ^status = #active
+* ^date = "2022-01-18T00:00:00-03:00"
+* ^contact.name = "HL7 Chile"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "chair@hl7chile.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "MÉDICO CIRUJANO"
+* #2 "CIRUJANO DENTISTA"
+* #3 "ENFERMERAS(OS)"
+* #4 "ENFERMERAS(OS) MATRONAS(ES)"
+* #5 "MATRONAS(ES)"
+* #6 "TECNÓLOGOS MÉDICOS"
+* #7 "PSICÓLOGOS/AS"
+* #8 "KINESIÓLOGOS/AS"
+* #9 "FARMACÉUTICOS Y QUÍMICO-FARMACÉUTICOS"
+* #10 "BIOQUÍMICOS"
+* #11 "NUTRICIONISTAS"
+* #12 "FONOAUDIÓLOGOS/AS"
+* #13 "TERAPEUTAS OCUPACIONALES"
+* #14 "AUXILIARES PARAMÉDICOS DE ALIMENTACIÓN"
+* #15 "A.P. DE RADIOLOGÍA, RADIOTERAPIA, LAB"
+* #16 "AUXILIARES PARAMÉDICOS DE ODONTOLOGÍA"
+* #17 "AUXILIARES PARAMÉDICOS DE FARMACIA"
+* #18 "AUXILIARES DE ENFERMERÍA"
+* #19 "TÉCNICO EN NIVEL SUPERIOR EN SALUD"
+* #20 "TÉCNICOS EN SALUD"
+* #21 "TÉCNICOS NIVEL MEDIO EN SALUD"
+* #22 "LABORATORISTAS DENTALES"
+* #23 "PODÓLOGOS/AS"
+* #24 "ÓPTICOS/AS"
+* #25 "CONTACTÓLOGOS/AS"
+* #26 "HOMEÓPATAS"
+* #27 "ACUPUNTURISTAS"
+* #28 "NATURÓPATAS"
+* #29 "COSMETÓLOGOS/AS"
+* #99 "DESCONOCIDA"
+
+
+
+ValueSet:  VSTituloProfesional
+Id: VSTituloProfesional
+Title: "Título Profesional"
+Description: "Códigos de titulos profesionales listados en Chile"
+
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2022-01-18T00:00:00-03:00"
+* ^contact.name = "HL7 Chile"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "chair@hl7chile.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system  CSTituloProfesional
+
+
+/********************************************************/
+
+CodeSystem:  CSInstitucionEmiteTitulo
+Id: CSInstitucionEmiteTitulo
+Title: "Institución Emisora de Título Profesional"
+Description: "Códigos de Centros Educacionales, Institutos, Universidades, etc que emiten certificados profesionles"
+* ^caseSensitive = true
+* ^experimental = true //dependera del uso que le den al codesystem
+* ^version = "1.0.0"
+* ^status = #active
+* ^date = "2022-01-18T00:00:00-03:00"
+* ^contact.name = "HL7 Chile"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "chair@hl7chile.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "PONTIFICIA UNIVERSIDAD CATÓLICA DE VALPARAÍSO"
+* #2 "UNIVERSIDAD ACADEMIA DE HUMANISMO CRISTIANO"
+* #3 "UNIVERSIDAD ADVENTISTA DE CHILE"
+* #4 "UNIVERSIDAD ADOLFO IBÁÑEZ"
+* #5 "UNIVERSIDAD ALBERTO HURTADO"
+* #6 "UNIVERSIDAD ANDRÉS BELLO"
+* #7 "UNIVERSIDAD ARTURO PRAT"
+* #8 "UNIVERSIDAD AUSTRAL DE CHILE"
+* #9 "UNIVERSIDAD AUTÓNOMA DE CHILE"
+* #10 "UNIVERSIDAD BERNARDO O HIGGINS"
+* #11 "UNIVERSIDAD CATÓLICA DE LA SANTÍSIMA CONCEPCIÓN"
+* #12 "UNIVERSIDAD CATÓLICA SILVA HENRÍQUEZ"
+* #13 "UNIVERSIDAD CATÓLICA DE TEMUCO"
+* #14 "UNIVERSIDAD CATÓLICA DEL MAULE"
+* #15 "UNIVERSIDAD CATÓLICA DEL NORTE"
+* #16 "UNIVERSIDAD CENTRAL DE CHILE"
+* #17 "UNIVERSIDAD DE ANTOFAGASTA"
+* #18 "UNIVERSIDAD DE ARTE Y CIENCIAS SOCIALES ARCIS"
+* #19 "UNIVERSIDAD DE ARTES, CIENCIAS Y COMUNICACIÓN UNIACC"
+* #20 "UNIVERSIDAD DE ATACAMA"
+* #21 "UNIVERSIDAD UCINF"
+* #22 "UNIVERSIDAD DE CHILE"
+* #23 "UNIVERSIDAD DE CONCEPCIÓN"
+* #24 "UNIVERSIDAD DE LA FRONTERA"
+* #25 "UNIVERSIDAD DE LA SERENA"
+* #26 "UNIVERSIDAD DE LAS AMÉRICAS"
+* #27 "UNIVERSIDAD DE LOS ANDES"
+* #28 "UNIVERSIDAD DE LOS LAGOS"
+* #29 "UNIVERSIDAD DE MAGALLANES"
+* #30 "UNIVERSIDAD DE PLAYA ANCHA DE CIENCIAS DE LA EDUCACIÓN"
+* #31 "UNIVERSIDAD DE SANTIAGO DE CHILE"
+* #32 "UNIVERSIDAD DE TALCA"
+* #33 "UNIVERSIDAD DE TARAPACÁ"
+* #34 "UNIVERSIDAD DE VALPARAÍSO"
+* #35 "UNIVERSIDAD DE VIÑA DEL MAR"
+* #36 "UNIVERSIDAD DEL BÍO-BÍO"
+* #37 "UNIVERSIDAD DEL MAR"
+* #38 "UNIVERSIDAD DEL DESARROLLO"
+* #39 "UNIVERSIDAD DEL PACÍFICO"
+* #40 "UNIVERSIDAD DIEGO PORTALES"
+* #41 "UNIVERSIDAD FINIS TERRAE"
+* #42 "UNIVERSIDAD IBEROAMERICANA DE CIENCIAS Y TECNOLOGÍA UNICIT"
+* #43 "UNIVERSIDAD LA REPÚBLICA"
+* #44 "UNIVERSIDAD DEL ALBA"
+* #45 "UNIVERSIDAD METROPOLITANA DE CIENCIAS DE LA EDUCACIÓN"
+* #46 "UNIVERSIDAD SAN SEBASTIÁN"
+* #47 "UNIVERSIDAD TÉCNICA FEDERICO SANTA MARÍA"
+* #48 "UNIVERSIDAD TECNOLÓGICA DE CHILE INACAP"
+* #49 "UNIVERSIDAD SANTO TOMÁS"
+* #50 "UNIVERSIDAD TECNOLÓGICA METROPOLITANA"
+* #51 "UNIVERSIDAD MAYOR"
+* #52 "UNIVERSIDAD SEK"
+* #53 "UNIVERSIDAD GABRIELA MISTRAL"
+* #54 "UNIVERSIDAD MIGUEL DE CERVANTES"
+* #55 "UNIVERSIDAD BOLIVARIANA"
+* #56 "UNIVERSIDAD LOS LEONES"
+* #57 "INSTITUTO PROFESIONAL AIEP"
+* #58 "INSTITUTO PROFESIONAL DE CHILE"
+* #59 "INSTITUTO PROFESIONAL DIEGO PORTALES"
+* #60 "INSTITUTO PROFESIONAL DUOC UC"
+* #61 "INSTITUTO PROFESIONAL INACAP"
+* #62 "INSTITUTO PROFESIONAL VIRGINIO GÓMEZ"
+* #63 "INSTITUTO PROFESIONAL CARLOS CASANUEVA"
+* #64 "INSTITUTO PROFESIONAL LOS LEONES"
+* #65 "INSTITUTO PROFESIONAL VALLE CENTRAL"
+* #66 "INSTITUTO PROFESIONAL LATINOAMERICANO DE COMERCIO EXTERIOR, IPLACEX"
+
+ValueSet:  VSInstitucionEmiteTitulo
+Id: VSInstitucionEmiteTitulo
+Title: "Institución Emisora de Título Profesional"
+Description: "Códigos de Centros Educacionales, Institutos, Universidades, etc que emiten certificados profesionles"
+
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2022-01-18T00:00:00-03:00"
+* ^contact.name = "HL7 Chile"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "chair@hl7chile.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system  CSInstitucionEmiteTitulo
+/********************************************************/
+
+ValueSet: VSInstitucionEmiteEspecialidad
+Id: VSInstitucionEmiteEspecialidad
+Title: "InstituciónEmiteEspecialidad"
+Description: "InstituciónEmiteEspecialidad"
+* ^experimental = false
+* ^version = "0.1"
+* ^status = #active
+* ^date = "2023-01-15"
+* ^contact.name = "MINSAL CHILE"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "minsal@minsal.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system CSInstitucionEmiteEspecialidad
+
+CodeSystem: CSInstitucionEmiteEspecialidad
+Id: CSInstitucionEmiteEspecialidad
+Title: "InstituciónEmiteEspecialidad"
+Description: "InstituciónEmiteEspecialidad"
+* ^experimental = false
+* ^caseSensitive = true
+* ^version = "0.9"
+* ^status = #active
+* ^date = "2023-01-15"
+* ^contact.name = "MINSAL CHILE"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "minsal@minsal.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "PONTIFICIA UNIVERSIDAD CATÓLICA DE VALPARAÍSO"
+* #2 "UNIVERSIDAD ACADEMIA DE HUMANISMO CRISTIANO"
+* #3 "UNIVERSIDAD ADVENTISTA DE CHILE"
+* #4 "UNIVERSIDAD ADOLFO IBÁÑEZ"
+* #5 "UNIVERSIDAD ALBERTO HURTADO"
+* #6 "UNIVERSIDAD ANDRÉS BELLO"
+* #7 "UNIVERSIDAD ARTURO PRAT"
+* #8 "UNIVERSIDAD AUSTRAL DE CHILE"
+* #9 "UNIVERSIDAD AUTÓNOMA DE CHILE"
+* #10 "UNIVERSIDAD BERNARDO O HIGGINS"
+* #11 "UNIVERSIDAD CATÓLICA DE LA SANTÍSIMA CONCEPCIÓN"
+* #12 "UNIVERSIDAD CATÓLICA SILVA HENRÍQUEZ"
+* #13 "UNIVERSIDAD CATÓLICA DE TEMUCO"
+* #14 "UNIVERSIDAD CATÓLICA DEL MAULE"
+* #15 "UNIVERSIDAD CATÓLICA DEL NORTE"
+* #16 "UNIVERSIDAD CENTRAL DE CHILE"
+* #17 "UNIVERSIDAD DE ANTOFAGASTA"
+* #18 "UNIVERSIDAD DE ARTE Y CIENCIAS SOCIALES ARCIS"
+* #19 "UNIVERSIDAD DE ARTES, CIENCIAS Y COMUNICACIÓN UNIACC"
+* #20 "UNIVERSIDAD DE ATACAMA"
+* #21 "UNIVERSIDAD UCINF"
+* #22 "UNIVERSIDAD DE CHILE"
+* #23 "UNIVERSIDAD DE CONCEPCIÓN"
+* #24 "UNIVERSIDAD DE LA FRONTERA"
+* #25 "UNIVERSIDAD DE LA SERENA"
+* #26 "UNIVERSIDAD DE LAS AMÉRICAS"
+* #27 "UNIVERSIDAD DE LOS ANDES"
+* #28 "UNIVERSIDAD DE LOS LAGOS"
+* #29 "UNIVERSIDAD DE MAGALLANES"
+* #30 "UNIVERSIDAD DE PLAYA ANCHA DE CIENCIAS DE LA EDUCACIÓN"
+* #31 "UNIVERSIDAD DE SANTIAGO DE CHILE"
+* #32 "UNIVERSIDAD DE TALCA"
+* #33 "UNIVERSIDAD DE TARAPACÁ"
+* #34 "UNIVERSIDAD DE VALPARAÍSO"
+* #35 "UNIVERSIDAD DE VIÑA DEL MAR"
+* #36 "UNIVERSIDAD DEL BÍO-BÍO"
+* #37 "UNIVERSIDAD DEL MAR"
+* #38 "UNIVERSIDAD DEL DESARROLLO"
+* #39 "UNIVERSIDAD DEL PACÍFICO"
+* #40 "UNIVERSIDAD DIEGO PORTALES"
+* #41 "UNIVERSIDAD FINIS TERRAE"
+* #42 "UNIVERSIDAD IBEROAMERICANA DE CIENCIAS Y TECNOLOGÍA UNICIT"
+* #43 "UNIVERSIDAD LA REPÚBLICA"
+* #44 "UNIVERSIDAD DEL ALBA"
+* #45 "UNIVERSIDAD METROPOLITANA DE CIENCIAS DE LA EDUCACIÓN"
+* #46 "UNIVERSIDAD SAN SEBASTIÁN"
+* #47 "UNIVERSIDAD TÉCNICA FEDERICO SANTA MARÍA"
+* #48 "UNIVERSIDAD TECNOLÓGICA DE CHILE INACAP"
+* #49 "UNIVERSIDAD SANTO TOMÁS"
+* #50 "UNIVERSIDAD TECNOLÓGICA METROPOLITANA"
+* #51 "UNIVERSIDAD MAYOR"
+* #52 "UNIVERSIDAD SEK"
+* #53 "UNIVERSIDAD GABRIELA MISTRAL"
+* #54 "UNIVERSIDAD MIGUEL DE CERVANTES"
+* #55 "UNIVERSIDAD BOLIVARIANA"
+* #56 "UNIVERSIDAD LOS LEONES"
+* #57 "INSTITUTO PROFESIONAL AIEP"
+* #58 "INSTITUTO PROFESIONAL DE CHILE"
+* #59 "INSTITUTO PROFESIONAL DIEGO PORTALES"
+* #60 "INSTITUTO PROFESIONAL DUOC UC"
+* #61 "INSTITUTO PROFESIONAL INACAP"
+* #62 "INSTITUTO PROFESIONAL VIRGINIO GÓMEZ"
+* #63 "INSTITUTO PROFESIONAL CARLOS CASANUEVA"
+* #64 "INSTITUTO PROFESIONAL LOS LEONES"
+* #65 "INSTITUTO PROFESIONAL VALLE CENTRAL"
+* #66 "INSTITUTO PROFESIONAL LATINOAMERICANO DE COMERCIO EXTERIOR, IPLACEX"
+
+
+/********************************************************/
+
+
+
+/********************************************************/
+
+
+
+/********************************************************/
+
+
+
+/********************************************************/
+
+
+/********************************************************/
+
+
+
+/********************************************************/
+
+
+
+/********************************************************/
+
+
+
+/********************************************************/
+
+ValueSet: VSOtroTipoEstabAsistenciales
+Id: VSOtroTipoEstabAsistenciales
+Title: "OtroTipoEstabAsistenciales"
+Description: "OtroTipoEstabAsistenciales"
+* ^experimental = false
+* ^version = "0.1"
+* ^status = #active
+* ^date = "2023-01-15"
+* ^contact.name = "MINSAL CHILE"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "minsal@minsal.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system CSOtroTipoEstabAsistenciales
+
+CodeSystem: CSOtroTipoEstabAsistenciales
+Id: CSOtroTipoEstabAsistenciales
+Title: "OtroTipoEstabAsistenciales"
+Description: "OtroTipoEstabAsistenciales"
+* ^experimental = false
+* ^caseSensitive = true
+* ^version = "0.9"
+* ^status = #active
+* ^date = "2023-01-15"
+* ^contact.name = "MINSAL CHILE"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "minsal@minsal.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Hospitales "
+* #2 "Clínicas"
+* #3 "Centros de Salud Privados"
+* #4 "Laboratorios Clínicos "
+* #5 "Centros de Diálisis"
+* #6 "Clínicas Dentales"
+* #7 "Vacunatorios "
+* #8 "Centro CONIN "
+* #9 "Centros de Diagnóstico y Tratamiento Privados "
+
+/********************************************************/
+
+
+
+/********************************************************/
+
+
+
+/********************************************************/
+
+
+
+
+/********************************************************/
+
+
+/********************************************************/
+
+
+
+/********************************************************/
+
+
+
+/********************************************************/
+
+
+
+/********************************************************/
+
+
+/********************************************************/
+
+
+
+/********************************************************/
+
+
+
+
+
+
+
+
+
+
+/********************************************************/
+CodeSystem:  CSSituacionDiscapacidadOrigen
+Id: CSSituacionDiscapacidadOrigen
+Title: "Valoración de Desempeño en Comunidad (IVADEC-CIF)"
+Description: "Valoración de Desempeño en Comunidad (IVADEC-CIF)"
+* ^caseSensitive = true
+* ^experimental = true //dependera del uso que le den al codesystem
+* ^version = "1.0.0"
+* ^status = #active
+* ^date = "2022-01-18T00:00:00-03:00"
+* ^contact.name = "HL7 Chile"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "chair@hl7chile.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Origen Físico"
+* #2 "Origen sensorial visual"
+* #3 "Origen sensorial auditivo"
+* #4 "Origen mental síquico"
+* #5 "Origen mental intelectual"
+* #6 "Origen múltiple"
+
+ValueSet: VSSituacionDiscapacidadOrigen
+Id: VSSituacionDiscapacidadOrigen
+Title: "Valoración de Desempeño en Comunidad (IVADEC-CIF)"
+Description: "Valoración de Desempeño en Comunidad (IVADEC-CIF)"
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2022-01-18T00:00:00-03:00"
+* ^contact.name = "HL7 Chile"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "chair@hl7chile.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system CSSituacionDiscapacidadOrigen
+/********************************************************/
+
+/********************************************************/
+CodeSystem:  CSSituacionDiscapacidadNivel
+Id: CSSituacionDiscapacidadNivel
+Title: "Valoración de Desempeño en Comunidad (IVADEC-CIF)"
+Description: "Valoración de Desempeño en Comunidad (IVADEC-CIF)"
+* ^caseSensitive = true
+* ^experimental = true //dependera del uso que le den al codesystem
+* ^version = "1.0.0"
+* ^status = #active
+* ^date = "2022-01-18T00:00:00-03:00"
+* ^contact.name = "HL7 Chile"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "chair@hl7chile.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Sin discapacidad"
+* #2 "Discapacidad leve"
+* #3 "Discapacidad moderada"
+* #4 "Discapacidad severa"
+* #5 "Discapacidad profunda"
+
+ValueSet: VSSituacionDiscapacidadNivel
+Id: VSSituacionDiscapacidadNivel
+Title: "Valoración de Desempeño en Comunidad (IVADEC-CIF)"
+Description: "Valoración de Desempeño en Comunidad (IVADEC-CIF)"
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2022-01-18T00:00:00-03:00"
+* ^contact.name = "HL7 Chile"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "chair@hl7chile.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system CSSituacionDiscapacidadNivel
+/********************************************************/
+
+/********************************************************/
+CodeSystem:  CSTipoSistemaSalud
+Id: CSTipoSistemaSalud
+Title: "Tipo de Sistema de Salud"
+Description: "Identifica el sistema de aseguramiento de salud al cual se encuentra adscrita la persona, ya sea FONASA, ISAPRE o regímenes institucionales como Capredena o Dipreca. Este dato permite determinar copagos, beneficios y las rutas de derivación dentro de la red asistencial."
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2022-01-18T00:00:00-03:00"
+* ^contact.name = "HL7 Chile"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "chair@hl7chile.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system  eis-TipodeSistemadeSalud-CS
+
+CodeSystem:  TipodeSistemadeSaludCS
+Id: eis-TipodeSistemadeSalud-CS
+Title: "Tipo de Sistema de Salud"
+Description: "Identifica el sistema de aseguramiento de salud al cual se encuentra adscrita la persona, ya sea FONASA, ISAPRE o regímenes institucionales como Capredena o Dipreca. Este dato permite determinar copagos, beneficios y las rutas de derivación dentro de la red asistencial."
+* ^caseSensitive = true
+* ^experimental = true //dependera del uso que le den al codesystem
+* ^version = "1.0.0"
+* ^status = #active
+* ^date = "2022-01-18T00:00:00-03:00"
+* ^contact.name = "HL7 Chile"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "chair@hl7chile.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Público"
+* #2 "Privado"
+* #3 "Fuerzas Armadas y de Orden y Seguridad Pública"
+/********************************************************/
+
+/********************************************************/
+ValueSet: ModalidaddeAtencionFONASAVS
+Id: eis-ModalidaddeAtencionFONASA-VS
+Title: "Modalidad de Atención FONASA"
+Description: "La modalidad de atención FONASA corresponde a la forma en que  una persona afiliada voluntariamente al Fondo Nacional de Salud (FONASA) accede a las prestaciones de salud, permitiéndole contar con los servicios y la protección financiera otorgada por el Seguro Público de Salud"
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system  esi-ModalidaddeAtencionFONASA-CS
+
+CodeSystem:  ModalidaddeAtencionFONASACS
+Id: eis-ModalidaddeAtencionFONASA-CS
+Title: "Modalidad de Atención FONASA"
+Description: "La modalidad de atención FONASA corresponde a la forma en que  una persona afiliada voluntariamente al Fondo Nacional de Salud (FONASA) accede a las prestaciones de salud, permitiéndole contar con los servicios y la protección financiera otorgada por el Seguro Público de Salud"
+* ^language = #es
+* ^caseSensitive = true
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #MAI "Modalidad de Atención Institucional" "El beneficiario/a recibe atención en hospitales y establecimientos de atención primaria perteneciente a la red pública de salud"
+* #MLE "Modalidad Libre Elección" "El beneficiario/a accede a prestaciones de salud mediante prestadores privados adscritos a esta modalidad, tanto en atención ambulatoria como hospitalaria"
+
+/********************************************************/
+TramosFONASA
+/********************************************************/
+ValueSet: TramosFONASAVS
+Id: eis-TramosFONASA-VS
+Title: "Tramos FONASA"
+Description: "Los tramos FONASA corresponden a la clasificación que realiza el Fondo Nacional de Salud (FONASA) en función del nivel de ingreso mensual que percibe la persona, la cual determina el acceso a beneficios, copagos y modalidades de atención dentro del Seguro Público de Salud. "
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system  eis-TramosFONASA-CS
+
+CodeSystem: TramosFONASACS
+Id: eis-TramosFONASA-CS
+Title: "Tramos FONASA"
+Description: "Los tramos FONASA corresponden a la clasificación que realiza el Fondo Nacional de Salud (FONASA) en función del nivel de ingreso mensual que percibe la persona, la cual determina el acceso a beneficios, copagos y modalidades de atención dentro del Seguro Público de Salud. "
+* ^language = #es
+* ^caseSensitive = true
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #A "Tramo A"
+* #B "Tramo B"
+* #C "Tramo C"
+* #D "Tramo D"
+
+/********************************************************/
+
+/********************************************************/
+ValueSet: SEREMIVS
+Id: eis-SEREMI-VS
+Title: "SEREMI"
+Description: "Corresponde a los códigos y valores asociados a cada Secretaría Regional Ministerial (SEREMI), utilizados en los sistemas de información en salud. La codificación de la SEREMI es coincidente con el código de la región, el cual prevalece para efectos de registro e interoperabilidad."
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system  eis-SEREMI-CS
+
+CodeSystem: SEREMICS
+Id: eis-SEREMI-CS
+Title: "SEREMI"
+Description: "Corresponde a los códigos y valores asociados a cada Secretaría Regional Ministerial (SEREMI), utilizados en los sistemas de información en salud. La codificación de la SEREMI es coincidente con el código de la región, el cual prevalece para efectos de registro e interoperabilidad."
+* ^language = #es
+* ^caseSensitive = true
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "SEREMI De Tarapacá"
+* #2 "SEREMI De Antofagasta"
+* #3 "SEREMI De Atacama"
+* #4 "SEREMI De Coquimbo"
+* #5 "SEREMI De Valparaíso"
+* #6 "SEREMI Del Libertador Gral. B. O'Higgins"
+* #7 "SEREMI Del Maule"
+* #8 "SEREMI Del Biobío"
+* #9 "SEREMI De La Araucanía"
+* #10 "SEREMI De Los Lagos"
+* #11 "SEREMI De Aisén del General Carlos Ibáñez del Campo"
+* #12 "SEREMI De Magallanes y la Antártica Chilena"
+* #13 "SEREMI Metropolitana de Santiago"
+* #14 "SEREMI De Los Ríos"
+* #15 "SEREMI De Arica y Parinacota"
+* #16 "SEREMI Del Ñuble"
+/********************************************************/
+
+/********************************************************/
+ValueSet: VSTipoPrestador
+Id: VSTipoPrestador
+Title: "TipoPrestador"
+Description: "TipoPrestador"
+* ^experimental = false
+* ^version = "0.1"
+* ^status = #active
+* ^date = "2023-01-15"
+* ^contact.name = "MINSAL CHILE"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "minsal@minsal.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system CSTipoPrestador
+
+CodeSystem: CSTipoPrestador
+Id: CSTipoPrestador
+Title: "TipoPrestador"
+Description: "TipoPrestador"
+* ^experimental = false
+* ^caseSensitive = true
+* ^version = "0.9"
+* ^status = #active
+* ^date = "2023-01-15"
+* ^contact.name = "MINSAL CHILE"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "minsal@minsal.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Individuales"
+* #2 "Institucionales"
+/********************************************************/
+EspecialidadesySubespecialidadesMedicas
+/********************************************************/
+ValueSet: EspecialidadesySubespecialidadesMedicasVS
+Id: eis-EspecialidadesySubespecialidadesMedicas-VS
+Title: "Especialidades y Subespecialidades Médicas"
+Description: "La certificación de especialidades y subespecialidades médicas corresponden al proceso mediante el cual se reconoce oficialmente que un prestador individual de salud posee y domina un conjunto de conocimientos, competencias y experiencias específicas, relevantes para el ejercicio profesional en un ámbito determinado de la atención de salud."
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system eis-EspecialidadesySubespecialidadesMedicas-CS
+
+CodeSystem: EspecialidadesySubespecialidadesMedicasCS
+Id: eis-EspecialidadesySubespecialidadesMedicas-CS
+Title: "Especialidades y Subespecialidades Médicas"
+Description: "La certificación de especialidades y subespecialidades médicas corresponden al proceso mediante el cual se reconoce oficialmente que un prestador individual de salud posee y domina un conjunto de conocimientos, competencias y experiencias específicas, relevantes para el ejercicio profesional en un ámbito determinado de la atención de salud."
+* ^language = #es
+* ^caseSensitive = true
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = true
+* ^date = "2026-03-01T00:00:00-03:00"
+* ^contact.name = "MINSAL Chile"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Anatomía Patológica"
+* #2 "Anestesiología"
+* #3 "Cardiología"
+* #4 "Cirugía General"
+* #5 "Cirugía de Cabeza, Cuello y Maxilofac ial"
+* #6 "Cirugía Cardiovascular"
+* #7 "Cirugía de Tórax"
+* #8 "Cirugía Plástica y Reparadora"
+* #9 "Cirugía Pediátrica"
+* #10 "Cirugía Vascular Periférica"
+* #11 "Coloproctología"
+* #12 "Dermatología"
+* #13 "Diabetología"
+* #14 "Endocrinología Adulto"
+* #15 "Endocrinología Pediátrica"
+* #16 "Enfermedades Respiratorias del Adulto"
+* #17 "Enfermedades Respiratorias Pediátricas"
+* #18 "Gastroenterología Adulto"
+* #19 "Gastroenterología Pediátrica"
+* #20 "Genética Clínica"
+* #21 "Geriatría"
+* #22 "Ginecología Pediátrica y de la Adolescencia"
+* #23 "Hematología"
+* #24 "Imagenología"
+* #25 "Infectología"
+* #26 "Inmunología"
+* #27 "Laboratorio Clínico"
+* #28 "Medicina Familiar"
+* #29 "Medicina Física y Rehabilitación Adulto"
+* #30 "Medicina Interna"
+* #31 "Medicina Intensiva Adulto"
+* #32 "Medicina Intensiva Pediátrica"
+* #33 "Medicina Legal"
+* #34 "Medicina Materno Fetal"
+* #35 "Medicina Nuclear"
+* #36 "Medicina de Urgencia"
+* #37 "Nefrología Adulto"
+* #38 "Nefrología Pediátrica"
+* #39 "Neonatología"
+* #40 "Neurocirugía"
+* #41 "Neurología Adulto"
+* #42 "Neurología Pediátrica"
+* #43 "Obstetricia y Ginecología"
+* #44 "Oftalmología"
+* #45 "Oncología Médica"
+* #46 "Otorrinolaringología"
+* #47 "Pediatría"
+* #48 "Psiquiatría Adulto"
+* #49 "Psiquiatría Pediátrica y de la Adolescencia"
+* #50 "Radioterapia Oncológica"
+* #51 "Reumatología"
+* #52 "Salud Pública"
+* #53 "Traumatología y Ortopedia"
+* #54 "Urología"
+* #55 "Cardiología Pediátrica"
+* #56 "Cirugía Digestiva"
+* #57 "Cirugía Plástica y Reparadora Pediátrica"
+* #58 "Ginecología"
+* #59 "Hemato-Oncología Pediátrica"
+* #60 "Infectología Pediátrica"
+* #61 "Medicina Familiar del Niño"
+* #62 "Medicina Física y Rehabilitación Pediátrica"
+* #63 "Nutrición Clínica del Adulto"
+* #64 "Nutrición Clínica Pediátrica"
+* #65 "Reumatología Pediátrica"
+* #66 "Obstetricia"
+* #67 "Traumatología y Ortopedia Pediátrica"
+* #68 "Urología Pediátrica"
+* #69 "Ginecología Oncológica"
+* #70 "Mastología (Cirugía de mamas)"
+* #71 "Medicina Paliativa y de Manejo del Dolor"
+* #72 "Medicina Reproductiva e Infertilidad"
+* #73 "Medicina del Adolescente"
+* #74 "Medicina del Deporte"
+* #75 "Microbiología"
+* #76 "Neurorradiología"
+
+/********************************************************/
+ValueSet: VSEspecialidadOdontologica
+Id: VSEspecialidadOdontologica
+Title: "EspecialidadOdontologica"
+Description: "EspecialidadOdontologica"
+* ^experimental = false
+* ^version = "0.1"
+* ^status = #active
+* ^date = "2023-01-15"
+* ^contact.name = "MINSAL CHILE"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "minsal@minsal.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system CSEspecialidadOdontologica
+
+CodeSystem: CSEspecialidadOdontologica
+Id: CSEspecialidadOdontologica
+Title: "EspecialidadOdontologica"
+Description: "EspecialidadOdontologica"
+* ^experimental = false
+* ^caseSensitive = true
+* ^version = "0.9"
+* ^status = #active
+* ^date = "2023-01-15"
+* ^contact.name = "MINSAL CHILE"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "minsal@minsal.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Cirugía"
+* #3 "Endodoncia"
+* #4 "Imagenología"
+* #5 "Implantología"
+* #6 "Odontología"
+* #7 "Odontopediatría"
+* #8 "Ortodoncia"
+* #9 "Patología"
+* #10 "Periodoncia"
+* #11 "Rehabilitación"
+* #12 "Salud"
+* #13 "Somato-Prótesis"
+* #14 "Trastornos"
+* #15 "Odontogeriatría"
+* #16 "Rehabilitación"
+/********************************************************/
+
+/********************************************************/
+ValueSet: VSEspecialidadFarma
+Id: VSEspecialidadFarma
+Title: "EspecialidadFarma"
+Description: "EspecialidadFarma"
+* ^experimental = false
+* ^version = "0.1"
+* ^status = #active
+* ^date = "2023-01-15"
+* ^contact.name = "MINSAL CHILE"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "minsal@minsal.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system CSEspecialidadFarma
+
+CodeSystem: CSEspecialidadFarma
+Id: CSEspecialidadFarma
+Title: "EspecialidadFarma"
+Description: "EspecialidadFarma"
+* ^experimental = false
+* ^caseSensitive = true
+* ^version = "0.9"
+* ^status = #active
+* ^date = "2023-01-15"
+* ^contact.name = "MINSAL CHILE"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "minsal@minsal.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Farmacia Clínica"
+* #2 "Farmacia Hospitalaria"
+* #3 "Laboratorio Clínico"
+* #4 "Salud Pública"
+* #5 "Laboratorio Forense"
+/********************************************************/
+
+/********************************************************/
+ValueSet: VSEspecialidadBioquimica
+Id: VSEspecialidadBioquimica
+Title: "EspecialidadBioquimica"
+Description: "EspecialidadBioquimica"
+* ^experimental = false
+* ^version = "0.1"
+* ^status = #active
+* ^date = "2023-01-15"
+* ^contact.name = "MINSAL CHILE"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "minsal@minsal.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system CSEspecialidadBioquimica
+
+CodeSystem: CSEspecialidadBioquimica
+Id: CSEspecialidadBioquimica
+Title: "EspecialidadBioquimica"
+Description: "EspecialidadBioquimica"
+* ^experimental = false
+* ^caseSensitive = true
+* ^version = "0.9"
+* ^status = #active
+* ^date = "2023-01-15"
+* ^contact.name = "MINSAL CHILE"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "minsal@minsal.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Laboratorio Clínico"
+* #2 "Laboratorio Forense"
+* #3 "Salud Pública"
+/********************************************************/
+
+/********************************************************/
+ValueSet: VSTipoAtencionEstablecimiento
+Id: VSTipoAtencionEstablecimiento
+Title: "TipoAtencionEstablecimiento"
+Description: "TipoAtencionEstablecimiento"
+* ^experimental = false
+* ^version = "0.1"
+* ^status = #active
+* ^date = "2023-01-15"
+* ^contact.name = "MINSAL CHILE"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "minsal@minsal.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system CSTipoAtencionEstablecimiento
+
+CodeSystem: CSTipoAtencionEstablecimiento
+Id: CSTipoAtencionEstablecimiento
+Title: "TipoAtencionEstablecimiento"
+Description: "TipoAtencionEstablecimiento"
+* ^experimental = false
+* ^caseSensitive = true
+* ^version = "0.9"
+* ^status = #active
+* ^date = "2023-01-15"
+* ^contact.name = "MINSAL CHILE"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "minsal@minsal.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Atención Abierta (Ambulatoria)"
+* #2 "Atención Cerrada (Hospitalaria)"
+/********************************************************/
+
+/********************************************************/
+ValueSet: VSNivelAtencion
+Id: VSNivelAtencion
+Title: "NivelAtencion"
+Description: "NivelAtencion"
+* ^experimental = false
+* ^version = "0.1"
+* ^status = #active
+* ^date = "2023-01-15"
+* ^contact.name = "MINSAL CHILE"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "minsal@minsal.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system CSNivelAtencion
+
+CodeSystem: CSNivelAtencion
+Id: CSNivelAtencion
+Title: "NivelAtencion"
+Description: "NivelAtencion"
+* ^experimental = false
+* ^caseSensitive = true
+* ^version = "0.9"
+* ^status = #active
+* ^date = "2023-01-15"
+* ^contact.name = "MINSAL CHILE"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "minsal@minsal.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Nivel Primario"
+* #2 "Nivel Secundario"
+* #3 "Nivel Terciario"
+* #95 "No aplica"
+/********************************************************/
+
+/********************************************************/
+ValueSet: VSNivelComplejidad
+Id: VSNivelComplejidad
+Title: "NivelComplejidad"
+Description: "NivelComplejidad"
+* ^experimental = false
+* ^version = "0.1"
+* ^status = #active
+* ^date = "2023-01-15"
+* ^contact.name = "MINSAL CHILE"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "minsal@minsal.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system CSNivelComplejidad
+
+CodeSystem: CSNivelComplejidad
+Id: CSNivelComplejidad
+Title: "NivelComplejidad"
+Description: "NivelComplejidad"
+* ^experimental = false
+* ^caseSensitive = true
+* ^version = "0.9"
+* ^status = #active
+* ^date = "2023-01-15"
+* ^contact.name = "MINSAL CHILE"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "minsal@minsal.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Baja Complejidad"
+* #2 "Mediana Complejidad"
+* #3 "Alta Complejidad"
+/********************************************************/
+
+/********************************************************/
+ValueSet: VSTipoEstablecimientosPublicos
+Id: VSTipoEstablecimientosPublicos
+Title: "TipoEstablecimientosPublicos"
+Description: "TipoEstablecimientosPublicos"
+* ^experimental = false
+* ^version = "0.1"
+* ^status = #active
+* ^date = "2023-01-15"
+* ^contact.name = "MINSAL CHILE"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "minsal@minsal.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system CSTipoEstablecimientosPublicos
+
+CodeSystem: CSTipoEstablecimientosPublicos
+Id: CSTipoEstablecimientosPublicos
+Title: "TipoEstablecimientosPublicos"
+Description: "TipoEstablecimientosPublicos"
+* ^experimental = false
+* ^caseSensitive = true
+* ^version = "0.9"
+* ^status = #active
+* ^date = "2023-01-15"
+* ^contact.name = "MINSAL CHILE"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "minsal@minsal.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Establecimientos Públicos de Atención Primaria de Salud (APS)"
+* #2 "Establecimientos Públicos de Atención de Especialidades"
+* #3 "Establecimientos Públicos de la Red de Urgencia"
+* #4 "Establecimientos Hospitalarios"
+/********************************************************/
+
+/********************************************************/
+ValueSet: VSTipoEstabPubAtenPrim
+Id: VSTipoEstabPubAtenPrim
+Title: "TipoEstabPubAtenPrim"
+Description: "TipoEstabPubAtenPrim"
+* ^experimental = false
+* ^version = "0.1"
+* ^status = #active
+* ^date = "2023-01-15"
+* ^contact.name = "MINSAL CHILE"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "minsal@minsal.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system CSTipoEstabPubAtenPrim
+
+CodeSystem: CSTipoEstabPubAtenPrim
+Id: CSTipoEstabPubAtenPrim
+Title: "TipoEstabPubAtenPrim"
+Description: "TipoEstabPubAtenPrim"
+* ^experimental = false
+* ^caseSensitive = true
+* ^version = "0.9"
+* ^status = #active
+* ^date = "2023-01-15"
+* ^contact.name = "MINSAL CHILE"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "minsal@minsal.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #CGU "Consultorio General Urbano"
+* #CGR "Consultorio General Rural"
+* #PSR "Posta de Salud Rural"
+* #CESFAM "Centro de Salud Familiar"
+* #CECOSF "Centro Comunitario de Salud Familiar"
+/********************************************************/
+
+/********************************************************/
+ValueSet: VSTipoEstabPubEspec
+Id: VSTipoEstabPubEspec
+Title: "TipoEstabPubEspec"
+Description: "TipoEstabPubEspec"
+* ^experimental = false
+* ^version = "0.1"
+* ^status = #active
+* ^date = "2023-01-15"
+* ^contact.name = "MINSAL CHILE"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "minsal@minsal.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system CSTipoEstabPubEspec
+
+CodeSystem: CSTipoEstabPubEspec
+Id: CSTipoEstabPubEspec
+Title: "TipoEstabPubEspec"
+Description: "TipoEstabPubEspec"
+* ^experimental = false
+* ^caseSensitive = true
+* ^version = "0.9"
+* ^status = #active
+* ^date = "2023-01-15"
+* ^contact.name = "MINSAL CHILE"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "minsal@minsal.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #CRS "Centros de Referencia de Salud (CRS)"
+* #CDT "Centros de Diagnóstico Terapéutico (CDT)"
+* #CAE "Consultorios Adosados de Especialidad (CAE)"
+* #COSAM "Consultorio de Atención Mental (COSAM)"
+/********************************************************/
+
+/********************************************************/
+ValueSet: VSTipoEstabHospitalario
+Id: VSTipoEstabHospitalario
+Title: "TipoEstabHospitalario"
+Description: "TipoEstabHospitalario"
+* ^experimental = false
+* ^version = "0.1"
+* ^status = #active
+* ^date = "2023-01-15"
+* ^contact.name = "MINSAL CHILE"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "minsal@minsal.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system CSTipoEstabHospitalario
+
+CodeSystem: CSTipoEstabHospitalario
+Id: CSTipoEstabHospitalario
+Title: "TipoEstabHospitalario"
+Description: "TipoEstabHospitalario"
+* ^experimental = false
+* ^caseSensitive = true
+* ^version = "0.9"
+* ^status = #active
+* ^date = "2023-01-15"
+* ^contact.name = "MINSAL CHILE"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "minsal@minsal.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Hospitales "
+* #2 "Institutos"
+/********************************************************/
+
+/********************************************************/
+ValueSet: VSTipoPertinenciaEstab
+Id: VSTipoPertinenciaEstab
+Title: "TipoPertinenciaEstab"
+Description: "TipoPertinenciaEstab"
+* ^experimental = false
+* ^version = "0.1"
+* ^status = #active
+* ^date = "2023-01-15"
+* ^contact.name = "MINSAL CHILE"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "minsal@minsal.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system CSTipoPertinenciaEstab
+
+CodeSystem: CSTipoPertinenciaEstab
+Id: CSTipoPertinenciaEstab
+Title: "TipoPertinenciaEstab"
+Description: "TipoPertinenciaEstab"
+* ^experimental = false
+* ^caseSensitive = true
+* ^version = "0.9"
+* ^status = #active
+* ^date = "2023-01-15"
+* ^contact.name = "MINSAL CHILE"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "minsal@minsal.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Perteneciente al Sistema Nacional de Servicios de Salud"
+* #2 "No Perteneciente al Sistema Nacional de Servicios de Salud"
+/********************************************************/
+
+/********************************************************/
+ValueSet: VSRegion
+Id: VSRegion
+Title: "RegionVSRegion"
+Description: "RegionVSRegion"
+* ^experimental = false
+* ^version = "0.1"
+* ^status = #active
+* ^date = "2023-01-15"
+* ^contact.name = "MINSAL CHILE"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "minsal@minsal.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system CSRegion
+
+CodeSystem: CSRegion
+Id: CSRegion
+Title: "Regiones"
+Description: "Regiones de Chile"
+* ^experimental = false
+* ^caseSensitive = true
+* ^version = "0.9"
+* ^status = #active
+* ^date = "2023-01-15"
+* ^contact.name = "MINSAL CHILE"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "minsal@minsal.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Tarapacá"
+* #2 "Antofagasta"
+* #3 "Atacama"
+* #4 "Coquimbo"
+* #5 "Valparaíso"
+* #6 "Libertador General Bernardo O'Higgins"
+* #7 "Maule"
+* #8 "Biobío"
+* #9 "La Araucanía"
+* #10 "Los Lagos"
+* #11 "Aysén del General Carlos Ibáñez del Campo"
+* #12 "Magallanes y de la Antártica Chilena"
+* #13 "Metropolitana de Santiago"
+* #14 "Los Ríos"
+* #15 "Arica y Parinacota"
+* #16 "Ñuble"
+* #99 "Desconocido"
+/********************************************************/
+
+/********************************************************/
+ValueSet: VSProvincia
+Id: VSProvincia
+Title: "Provincia"
+Description: "Provincia"
+* ^experimental = false
+* ^version = "0.1"
+* ^status = #active
+* ^date = "2023-01-15"
+* ^contact.name = "MINSAL CHILE"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "minsal@minsal.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system CSProvincia
+
+CodeSystem: CSProvincia
+Id: CSProvincia
+Title: "Provincia"
+Description: "Provincia"
+* ^experimental = false
+* ^caseSensitive = true
+* ^version = "0.9"
+* ^status = #active
+* ^date = "2023-01-15"
+* ^contact.name = "MINSAL CHILE"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "minsal@minsal.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #011 "IQUIQUE"
+* #014 "TAMARUGAL"
+* #021 "ANTOFAGASTA"
+* #022 "EL LOA"
+* #023 "TOCOPILLA"
+* #031 "COPIAPÓ"
+* #032 "CHAÑARAL"
+* #033 "HUASCO"
+* #041 "ELQUI"
+* #042 "CHOAPA"
+* #043 "LIMARÍ"
+* #051 "VALPARAÍSO"
+* #052 "ISLA DE PASCUA"
+* #053 "LOS ANDES"
+* #054 "PETORCA"
+* #055 "QUILLOTA"
+* #056 "SAN ANTONIO"
+* #057 "SAN FELIPE DE ACONCAGUA"
+* #058 "MARGA MARGA"
+* #061 "CACHAPOAL"
+* #062 "CARDENAL CARO"
+* #063 "COLCHAGUA"
+* #071 "TALCA"
+* #072 "CAUQUENES"
+* #073 "CURICÓ"
+* #074 "LINARES"
+* #081 "CONCEPCIÓN"
+* #082 "ARAUCO"
+* #083 "BIOBÍO"
+* #091 "CAUTÍN"
+* #092 "MALLECO"
+* #101 "LLANQUIHUE"
+* #102 "CHILOÉ"
+* #103 "OSORNO"
+* #104 "PALENA"
+* #111 "COIHAIQUE"
+* #112 "CAPITÁN PRAT"
+* #113 "AISÉN"
+* #114 "GENERAL CARRERA"
+* #121 "MAGALLANES"
+* #122 "ANTÁRTICA CHILENA"
+* #123 "TIERRA DEL FUEGO"
+* #124 "ULTIMA ESPERANZA"
+* #131 "SANTIAGO"
+* #132 "CORDILLERA"
+* #133 "CHACABUCO"
+* #134 "MAIPO"
+* #135 "MELIPILLA"
+* #136 "TALAGANTE"
+* #141 "VALDIVIA"
+* #142 "RANCO"
+* #151 "ARICA"
+* #152 "PARINACOTA"
+* #161 "DIGUILLÍN"
+* #162 "ITATA"
+* #163 "PUNILLA"
+* #999 "DESCONOCIDA"
+/********************************************************/
+
+/********************************************************/
+ValueSet: VSAreaUrbanoCensal
+Id: VSAreaUrbanoCensal
+Title: "AreaUrbanoCensal"
+Description: "AreaUrbanoCensal"
+* ^experimental = false
+* ^version = "0.1"
+* ^status = #active
+* ^date = "2023-01-15"
+* ^contact.name = "MINSAL CHILE"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "minsal@minsal.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system CSAreaUrbanoCensal
+
+CodeSystem: CSAreaUrbanoCensal
+Id: CSAreaUrbanoCensal
+Title: "AreaUrbanoCensal"
+Description: "AreaUrbanoCensal"
+* ^experimental = false
+* ^caseSensitive = true
+* ^version = "0.9"
+* ^status = #active
+* ^date = "2023-01-15"
+* ^contact.name = "MINSAL CHILE"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "minsal@minsal.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Urbano"
+* #2 "Rural"
+/********************************************************/
+
+/********************************************************/
+ValueSet: VSTipoVia
+Id: VSTipoVia
+Title: "TipoVia"
+Description: "TipoVia"
+* ^experimental = false
+* ^version = "0.1"
+* ^status = #active
+* ^date = "2023-01-15"
+* ^contact.name = "MINSAL CHILE"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "minsal@minsal.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system CSTipoVia
+
+CodeSystem: CSTipoVia
+Id: CSTipoVia
+Title: "TipoVia"
+Description: "TipoVia"
+* ^experimental = false
+* ^caseSensitive = true
+* ^version = "0.9"
+* ^status = #active
+* ^date = "2023-01-15"
+* ^contact.name = "MINSAL CHILE"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "minsal@minsal.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Calle"
+* #2 "Avenida"
+* #3 "Pasaje"
+* #4 "Camino"
+* #5 "Carretera"
+* #6 "Callejón"
+* #7 "Paseo"
+* #8 "Escalera"
+* #9 "Otro"
+* #10 "Rotonda"
+/********************************************************/
+
+/********************************************************/
+ValueSet: VSAnamnesis
+Id: VSAnamnesis
+Title: "Anamnesis"
+Description: "Anamnesis"
+* ^experimental = false
+* ^version = "0.1"
+* ^status = #active
+* ^date = "2023-01-15"
+* ^contact.name = "MINSAL CHILE"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "minsal@minsal.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system CSAnamnesis
+
+CodeSystem: CSAnamnesis
+Id: CSAnamnesis
+Title: "Anamnesis"
+Description: "Anamnesis"
+* ^experimental = false
+* ^caseSensitive = true
+* ^version = "0.9"
+* ^status = #active
+* ^date = "2023-01-15"
+* ^contact.name = "MINSAL CHILE"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "minsal@minsal.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Próxima"
+* #2 "Remota"
+/********************************************************/
+
+/********************************************************/
+ValueSet: VSDiagnostico
+Id: VSDiagnostico
+Title: "Diagnóstico"
+Description: "Diagnóstico"
+* ^experimental = false
+* ^version = "0.1"
+* ^status = #active
+* ^date = "2023-01-15"
+* ^contact.name = "MINSAL CHILE"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "minsal@minsal.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system CSDiagnostico
+
+CodeSystem: CSDiagnostico
+Id: CSDiagnostico
+Title: "Diagnóstico"
+Description: "Diagnóstico"
+* ^experimental = false
+* ^caseSensitive = true
+* ^version = "0.9"
+* ^status = #active
+* ^date = "2023-01-15"
+* ^contact.name = "MINSAL CHILE"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "minsal@minsal.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Presuntivo (Hipótesis diagnóstica)"
+* #2 "Confirmado"
+/********************************************************/
+
+
+/********************************************************/
+
+/********************************************************/
+ValueSet: VSConsultaMedEspecialidad
+Id: VSConsultaMedEspecialidad
+Title: "ConsultaMedEspecialidad"
+Description: "ConsultaMedEspecialidad"
+* ^experimental = false
+* ^version = "0.1"
+* ^status = #active
+* ^date = "2023-01-15"
+* ^contact.name = "MINSAL CHILE"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "minsal@minsal.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system CSConsultaMedEspecialidad
+
+CodeSystem: CSConsultaMedEspecialidad
+Id: CSConsultaMedEspecialidad
+Title: "ConsultaMedEspecialidad"
+Description: "ConsultaMedEspecialidad"
+* ^experimental = false
+* ^caseSensitive = true
+* ^version = "0.9"
+* ^status = #active
+* ^date = "2023-01-15"
+* ^contact.name = "MINSAL CHILE"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "minsal@minsal.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+
+* #1 "Primera consulta médica de especialidad o consulta nueva de especialidad"
+* #2 "Consulta médica de control o seguimiento de especialidad"
+/********************************************************/
+
+/********************************************************/
+ValueSet: VSConsultaOdontoEspecialidad
+Id: VSConsultaOdontoEspecialidad
+Title: "ConsultaOdontoEspecialidad"
+Description: "ConsultaOdontoEspecialidad"
+* ^experimental = false
+* ^version = "0.1"
+* ^status = #active
+* ^date = "2023-01-15"
+* ^contact.name = "MINSAL CHILE"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "minsal@minsal.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system CSConsultaOdontoEspecialidad
+
+CodeSystem: CSConsultaOdontoEspecialidad
+Id: CSConsultaOdontoEspecialidad
+Title: "ConsultaOdontoEspecialidad"
+Description: "ConsultaOdontoEspecialidad"
+* ^experimental = false
+* ^caseSensitive = true
+* ^version = "0.9"
+* ^status = #active
+* ^date = "2023-01-15"
+* ^contact.name = "MINSAL CHILE"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "minsal@minsal.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Primera consulta odontológica de especialidad o consulta nueva"
+* #2 "Consulta odontológica de especialidad de control o seguimiento"
+/********************************************************/
+
+/********************************************************/
+
+/********************************************************/
+
+/********************************************************/
+
+/********************************************************/
+
+/********************************************************/
+
+/********************************************************/
+
+/********************************************************/
+
+/********************************************************/
+
+/********************************************************/
+
+/********************************************************/
+
+/********************************************************/
+
+/********************************************************/
+
+/********************************************************/
+
+/********************************************************/
+
+/********************************************************/
+
+/********************************************************/
+
+/********************************************************/
+
+/********************************************************/
+
+/********************************************************/
+
+/********************************************************/
+
+/********************************************************/
+
+/********************************************************/
+
+/********************************************************/
+
+/********************************************************/
+
+/********************************************************/
+
+/********************************************************/
+
+/********************************************************/
+
+/********************************************************/
+
+/********************************************************/
+
+/********************************************************/
+
+/********************************************************/
+
+/********************************************************/
+
+/********************************************************/
+
+/********************************************************/
+
+/********************************************************/
+
+/********************************************************/
+

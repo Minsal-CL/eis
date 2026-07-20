@@ -1,0 +1,6 @@
+* #1 "Preescolar" "Preescolar"
+* #2 "Especial o Diferencial" "Especial o Diferencial"
+* #3 "Básica o Primaria" "Básica o Primaria"
+* #4 "Media o Secundaria" "Media o Secundaria"
+* #5 "Educación Superior" "Educación Superior"
+* #6 "Sin Instrucción" "Sin Instrucción"

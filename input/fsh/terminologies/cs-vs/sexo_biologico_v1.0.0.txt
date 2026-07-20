@@ -1,0 +1,4 @@
+* #1 "Hombre" "Hombre"
+* #2 "Mujer" "Mujer"
+* #3 "Intersexual" "Intersexual"
+* #99 "Desconocido" "Desconocido"

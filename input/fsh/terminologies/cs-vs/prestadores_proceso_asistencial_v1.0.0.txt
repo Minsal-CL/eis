@@ -1,0 +1,4 @@
+* #1 "Atención cerrada" "Atención cerrada"
+* #2 "Atención de urgencia" "Atención de urgencia"
+* #3 "Atención abierta" "Atención abierta"
+* #4 "Servicios de apoyo clínico" "diagnóstico y terapéutico"
