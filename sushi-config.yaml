@@ -84,12 +84,12 @@ menu:
 # contact directly and follow the format outlined in the ImplementationGuide resource and
 # ContactDetail.
 #
-# contact:
-#   - name: Bob Smith
-#     telecom:
-#       - system: email # phone | fax | email | pager | url | sms | other
-#         value: bobsmith@example.org
-#         use: work
+contact:
+  - name: Jorge Mansilla 
+    telecom:
+      - system: email
+        value: jorge.mansilla@minsal.cl
+        use: work
 #
 #
 # The global property corresponds to the IG.global property, but it

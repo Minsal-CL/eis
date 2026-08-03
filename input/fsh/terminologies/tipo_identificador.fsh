@@ -8,7 +8,7 @@ Title: "Tipo de Identificador"
 Description: "Define el tipo de documento de identificación del usuario, paciente o prestador de salud individual"
 * ^version = "1.0.0"
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * ^date = "2026-03-01T00:00:00-03:00"
 * ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
