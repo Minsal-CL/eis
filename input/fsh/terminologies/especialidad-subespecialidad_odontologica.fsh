@@ -5,7 +5,7 @@ Description: "La certificación de especialidades y subespecialidades odontológ
 
 * ^version = "1.0.0"
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * ^date = "2026-03-01T00:00:00-03:00"
 * ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
@@ -25,7 +25,7 @@ Description: "La certificación de especialidades y subespecialidades odontológ
 * ^language = #es
 * ^version = "1.0.0"
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * ^caseSensitive = true
 * ^date = "2026-03-01T00:00:00-03:00"
 * ^contact.name = "MINSAL Chile"

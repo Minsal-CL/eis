@@ -8,7 +8,7 @@ Title: "Tramos FONASA"
 Description: "Los tramos FONASA corresponden a la clasificación que realiza el Fondo Nacional de Salud (FONASA) en función del nivel de ingreso mensual que percibe la persona, la cual determina el acceso a beneficios, copagos y modalidades de atención dentro del Seguro Público de Salud. "
 * ^version = "1.0.0"
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * ^date = "2026-03-01T00:00:00-03:00"
 * ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
@@ -23,7 +23,7 @@ Description: "Los tramos FONASA corresponden a la clasificación que realiza el 
 * ^caseSensitive = true
 * ^version = "1.0.0"
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * ^date = "2026-03-01T00:00:00-03:00"
 * ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"

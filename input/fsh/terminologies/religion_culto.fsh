@@ -8,7 +8,7 @@ Title: "Religiones y Cultos"
 Description: "La religión o credo corresponde a un sistema de creencias y prácticas, de carácter individual o colectivo, relacionadas con lo que la persona considera sagrado o divino, y que se vinculan a su dimensión espiritual, existencial y cultural."
 * ^version = "1.0.0"
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * ^date = "2026-03-01T00:00:00-03:00"
 * ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
@@ -23,10 +23,7 @@ Description: "La religión o credo corresponde a un sistema de creencias y prác
 * ^caseSensitive = true
 * ^version = "1.0.0"
 * ^status = #active
-* ^experimental = true
-* ^date = "2026-03-01T00:00:00-03:00"
-* ^contact.name = "MINSAL Chile"
-* ^experimental = true
+* ^experimental = false
 * ^date = "2026-03-01T00:00:00-03:00"
 * ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"

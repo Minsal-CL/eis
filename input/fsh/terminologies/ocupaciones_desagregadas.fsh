@@ -8,7 +8,7 @@ Title: "Ocupaciones Desagregadas"
 Description: "Código asociados a el detalle de las ocupaciones de un paciente"
 * ^version = "1.0.0"
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * ^date = "2026-03-01T00:00:00-03:00"
 * ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
@@ -23,7 +23,7 @@ Description: "Código asociados a el detalle de las ocupaciones de un paciente"
 * ^caseSensitive = true
 * ^version = "1.0.0"
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * ^date = "2026-03-01T00:00:00-03:00"
 * ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"

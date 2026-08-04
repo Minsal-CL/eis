@@ -8,11 +8,11 @@ canonical: https://interoperabilidad.minsal.cl/fhir/ig/eis
 name: EstandaresdeInformaciondeSalud 
 title: Guía de Estandares de Información de Salud
 description: "Esta Guía de Estandares de Información de Salud desarrolla el Decreto Excento 231 del DEIS que reemplaza la norma técnica 820, y tiene como finalidad determinar compatibilidad de esta con el estándar FHIR"
-status: draft # draft | active | retired | unknown
+status: active # draft | active | retired | unknown
 version: 0.2.0
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2026+
-releaseLabel: draft # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
+releaseLabel: trial-use # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
 # license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
 # jurisdiction: urn:iso:std:iso:3166#US "United States of America" # https://www.hl7.org/fhir/valueset-jurisdiction.html
 date: 2026-07
@@ -57,7 +57,8 @@ pages:
 # For parameters defined by the FHIR Tools IG see:
 # http://build.fhir.org/ig/FHIR/fhir-tools-ig/branches/master/CodeSystem-ig-parameters.html
 #
-# parameters:
+parameters:
+  auto-oid-root: "2.16.840.1.113883.2.22"
 #   excludettl: true
 #   validation: [allow-any-extensions, no-broken-links]
 #

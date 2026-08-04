@@ -8,7 +8,7 @@ Title: "Sexo Registral"
 Description: "o	Reúne los códigos y valores relacionados con el sexo registral explicitado por el SRCeI"
 * ^version = "1.0.0"
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * ^date = "2026-03-01T00:00:00-03:00"
 * ^contact.name = "MINSAL Chile"
 * ^date = "2026-03-01T00:00:00-03:00"
@@ -26,7 +26,7 @@ Description: "o	Reúne los códigos y valores relacionados con el sexo registral
 * ^caseSensitive = true
 * ^version = "1.0.0"
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * ^date = "2026-03-01T00:00:00-03:00"
 * ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"

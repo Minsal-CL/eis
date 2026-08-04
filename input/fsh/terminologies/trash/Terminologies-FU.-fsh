@@ -9,7 +9,7 @@ Description: "La certificación de especialidades y subespecialidades odontológ
 * ^language = #es
 * ^version = "1.0.0"
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * ^caseSensitive = true
 * ^date = "2026-03-01T00:00:00-03:00"
 * ^contact.name = "MINSAL Chile"
@@ -38,7 +38,7 @@ Description: "La certificación de especialidades y subespecialidades odontológ
 
 * ^version = "1.0.0"
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * ^date = "2026-03-01T00:00:00-03:00"
 * ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
@@ -58,7 +58,7 @@ Description: "Corresponde al conjunto de códigos y valores asociados a las espe
 * ^caseSensitive = true
 * ^version = "1.0.0"
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * ^date = "2026-03-01T00:00:00-03:00"
 * ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
@@ -76,7 +76,7 @@ Description: "Conjunto de códigos y valores asociados a las especialidades y su
 
 * ^version = "1.0.0"
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * ^date = "2026-03-01T00:00:00-03:00"
 * ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
@@ -96,7 +96,7 @@ Description: "Corresponde al conjunto de códigos y valores asociados a las espe
 * ^caseSensitive = true
 * ^version = "1.0.0"
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * ^date = "2026-03-01T00:00:00-03:00"
 * ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
@@ -113,7 +113,7 @@ Description: "Corresponde al conjunto de códigos y valores asociados a las espe
 
 * ^version = "1.0.0"
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * ^date = "2026-03-01T00:00:00-03:00"
 * ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
@@ -132,7 +132,7 @@ Description: "Corresponde al conjunto de códigos y valores asociados a las espe
 * ^caseSensitive = true
 * ^version = "1.0.0"
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * ^date = "2026-03-01T00:00:00-03:00"
 * ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
@@ -146,7 +146,7 @@ Description: "Corresponde al conjunto de códigos y valores asociados a las espe
 
 * ^version = "1.0.0"
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * ^date = "2026-03-01T00:00:00-03:00"
 * ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
@@ -164,7 +164,7 @@ Description: "De acuerdo con tipo de atención otorgada, los prestadores de salu
 * ^caseSensitive = true
 * ^version = "1.0.0"
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * ^date = "2026-03-01T00:00:00-03:00"
 * ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
@@ -179,7 +179,7 @@ Description: "De acuerdo con tipo de atención otorgada, los prestadores de salu
 
 * ^version = "1.0.0"
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * ^date = "2026-03-01T00:00:00-03:00"
 * ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
@@ -197,7 +197,7 @@ Description: "El sistema público de salud se organiza en niveles de atención s
 * ^caseSensitive = true
 * ^version = "1.0.0"
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * ^date = "2026-03-01T00:00:00-03:00"
 * ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
@@ -214,14 +214,14 @@ Description: "El sistema público de salud se organiza en niveles de atención s
 
 * ^version = "1.0.0"
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * ^date = "2026-03-01T00:00:00-03:00"
 * ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
 
 * codes from system EstablecimientosNivelAtencionCS
 /********************************************************
-Establecimientos según Nivel de Complejidad 
+Establecimientos según Nivel de Complejidad
 ********************************************************/
 CodeSystem: EstablecimientosNivelComplejidadCS
 Id: eis-establecimientos-nivel-complejidad-cs
@@ -232,7 +232,7 @@ Description: "El nivel de complejidad de los establecimientos que integran la Re
 * ^caseSensitive = true
 * ^version = "1.0.0"
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * ^date = "2026-03-01T00:00:00-03:00"
 * ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
@@ -243,12 +243,12 @@ Description: "El nivel de complejidad de los establecimientos que integran la Re
 
 ValueSet: EstablecimientosNivelComplejidadVS
 Id: eis-establecimientos-nivel-complejidad-vs
-Title: "Establecimientos según Nivel de Complejidad "
+Title: "Establecimientos según Nivel de Complejidad"
 Description: "El nivel de complejidad de los establecimientos que integran la Red Asistencial del Sistema Nacional de Servicios de Salud se determina conforme a lo establecido en el Reglamento Orgánico de los Servicios de Salud, considerando su infraestructura, capacidad resolutiva y tipo de prestaciones que otorgan."
 
 * ^version = "1.0.0"
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * ^date = "2026-03-01T00:00:00-03:00"
 * ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
@@ -266,7 +266,7 @@ Description: "Los establecimientos públicos de salud son estructuras organizada
 * ^caseSensitive = true
 * ^version = "1.0.0"
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * ^date = "2026-03-01T00:00:00-03:00"
 * ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
@@ -283,7 +283,7 @@ Description: "Los establecimientos públicos de salud son estructuras organizada
 
 * ^version = "1.0.0"
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * ^date = "2026-03-01T00:00:00-03:00"
 * ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
@@ -303,7 +303,7 @@ Description: "Los establecimientos públicos de atención primaria corresponden 
 * ^caseSensitive = true
 * ^version = "1.0.0"
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * ^date = "2026-03-01T00:00:00-03:00"
 * ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
@@ -321,7 +321,7 @@ Description: "Los establecimientos públicos de atención primaria corresponden 
 
 * ^version = "1.0.0"
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * ^date = "2026-03-01T00:00:00-03:00"
 * ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
@@ -341,7 +341,7 @@ Description: "Los centros de especialidad son establecimientos públicos de aten
 * ^caseSensitive = true
 * ^version = "1.0.0"
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * ^date = "2026-03-01T00:00:00-03:00"
 * ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
@@ -357,7 +357,7 @@ Description: "Los centros de especialidad son establecimientos públicos de aten
 
 * ^version = "1.0.0"
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * ^date = "2026-03-01T00:00:00-03:00"
 * ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
@@ -377,7 +377,7 @@ Description: "Los establecimientos públicos de nivel terciario corresponden a h
 * ^caseSensitive = true
 * ^version = "1.0.0"
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * ^date = "2026-03-01T00:00:00-03:00"
 * ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
@@ -392,7 +392,7 @@ Description: "Los establecimientos públicos de nivel terciario corresponden a h
 
 * ^version = "1.0.0"
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * ^date = "2026-03-01T00:00:00-03:00"
 * ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
@@ -412,7 +412,7 @@ Description: "Los establecimientos privados de salud corresponden a entidades as
 * ^caseSensitive = true
 * ^version = "1.0.0"
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * ^date = "2026-03-01T00:00:00-03:00"
 * ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
@@ -434,7 +434,7 @@ Description: "Los establecimientos privados de salud corresponden a entidades as
 
 * ^version = "1.0.0"
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * ^date = "2026-03-01T00:00:00-03:00"
 * ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
@@ -453,7 +453,7 @@ Description: "Corresponde al tipo o clasificación de calle."
 * ^caseSensitive = true
 * ^version = "1.0.0"
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * ^date = "2026-03-01T00:00:00-03:00"
 * ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
@@ -475,7 +475,7 @@ Title: "Tipo de Vía"
 Description: "Corresponde al tipo o clasificación de calle."
 * ^version = "1.0.0"
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * ^date = "2026-03-01T00:00:00-03:00"
 * ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
@@ -494,7 +494,7 @@ Description: "Corresponde a distinguir entre zonas urbanas y rurales, según la 
 * ^caseSensitive = true
 * ^version = "1.0.0"
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * ^date = "2026-03-01T00:00:00-03:00"
 * ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
@@ -509,7 +509,7 @@ Description: "Corresponde a distinguir entre zonas urbanas y rurales, según la 
 
 * ^version = "1.0.0"
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * ^date = "2026-03-01T00:00:00-03:00"
 * ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
@@ -543,7 +543,7 @@ Id: CSUCursoAprobado
 Title: "Ultimo Curso Aprobado"
 Description: "Categoría del último curso aprobado"
 * ^caseSensitive = true
-* ^experimental = true //dependera del uso que le den al codesystem
+* ^experimental = false //dependera del uso que le den al codesystem
 * ^version = "1.0.0"
 * ^status = #active
 * ^date = "2022-01-18T00:00:00-03:00"
@@ -570,7 +570,7 @@ Title: "Ultimo Curso Aprobado"
 Description: "Categoría del último curso aprobado"
 * ^version = "1.0.0"
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * ^date = "2022-01-18T00:00:00-03:00"
 * ^contact.name = "HL7 Chile"
 * ^contact.telecom.system = #email
@@ -590,7 +590,7 @@ Title: "Ultimo nivel aprobado"
 Description: "Código del último nivel aprobado"
 * ^version = "1.0.0"
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * ^date = "2022-01-18T00:00:00-03:00"
 * ^contact.name = "HL7 Chile"
 * ^contact.telecom.system = #email
@@ -607,7 +607,7 @@ Title: "Ocupaciones Desagregadas"
 Description: "Código asociados a el detalle de las ocupaciones de un paciente"
 * ^version = "1.0.0"
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * ^date = "2022-01-18T00:00:00-03:00"
 * ^contact.name = "HL7 Chile"
 * ^contact.telecom.system = #email
@@ -623,7 +623,7 @@ Title: "Previsión de Salud"
 Description: "La previsión corresponde a la variable que identifica el sistema de aseguramiento de salud vigente al que se encuentra adscrita la persona, el cual define la cobertura para acciones de promoción, prevención, tratamiento y control de las enfermedades."
 * ^version = "1.0.0"
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * ^date = "2026-03-01T00:00:00-03:00"
 * ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
@@ -638,7 +638,7 @@ Description: "La previsión corresponde a la variable que identifica el sistema 
 * ^caseSensitive = true
 * ^version = "1.0.0"
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * ^date = "2026-03-01T00:00:00-03:00"
 * ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
@@ -709,7 +709,7 @@ Id: CSLeyPrevisionales
 Title: "Leyes Previsionales"
 Description: "Código asociados a Leyes Previsonales que modifican o eximen los montos de copagos de las prestaciones específica, señaladas en la ley respectiva"
 * ^caseSensitive = true
-* ^experimental = true //dependera del uso que le den al codesystem
+* ^experimental = false //dependera del uso que le den al codesystem
 * ^version = "1.0.0"
 * ^status = #active
 * ^date = "2022-01-18T00:00:00-03:00"
@@ -735,7 +735,7 @@ Description: "Código asociados a Leyes Previsonales que modifican o eximen los 
 
 * ^version = "1.0.0"
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * ^date = "2022-01-18T00:00:00-03:00"
 * ^contact.name = "HL7 Chile"
 * ^contact.telecom.system = #email
@@ -830,7 +830,7 @@ Id: CSTituloProfesional
 Title: "Título Profesional"
 Description: "Códigos de titulos profesionales listados en Chile"
 * ^caseSensitive = true
-* ^experimental = true //dependera del uso que le den al codesystem
+* ^experimental = false //dependera del uso que le den al codesystem
 * ^version = "1.0.0"
 * ^status = #active
 * ^date = "2022-01-18T00:00:00-03:00"
@@ -879,7 +879,7 @@ Description: "Códigos de titulos profesionales listados en Chile"
 
 * ^version = "1.0.0"
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * ^date = "2022-01-18T00:00:00-03:00"
 * ^contact.name = "HL7 Chile"
 * ^contact.telecom.system = #email
@@ -896,7 +896,7 @@ Id: CSInstitucionEmiteTitulo
 Title: "Institución Emisora de Título Profesional"
 Description: "Códigos de Centros Educacionales, Institutos, Universidades, etc que emiten certificados profesionles"
 * ^caseSensitive = true
-* ^experimental = true //dependera del uso que le den al codesystem
+* ^experimental = false //dependera del uso que le den al codesystem
 * ^version = "1.0.0"
 * ^status = #active
 * ^date = "2022-01-18T00:00:00-03:00"
@@ -979,7 +979,7 @@ Description: "Códigos de Centros Educacionales, Institutos, Universidades, etc 
 
 * ^version = "1.0.0"
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * ^date = "2022-01-18T00:00:00-03:00"
 * ^contact.name = "HL7 Chile"
 * ^contact.telecom.system = #email
@@ -1206,7 +1206,7 @@ Id: CSSituacionDiscapacidadOrigen
 Title: "Valoración de Desempeño en Comunidad (IVADEC-CIF)"
 Description: "Valoración de Desempeño en Comunidad (IVADEC-CIF)"
 * ^caseSensitive = true
-* ^experimental = true //dependera del uso que le den al codesystem
+* ^experimental = false //dependera del uso que le den al codesystem
 * ^version = "1.0.0"
 * ^status = #active
 * ^date = "2022-01-18T00:00:00-03:00"
@@ -1228,7 +1228,7 @@ Title: "Valoración de Desempeño en Comunidad (IVADEC-CIF)"
 Description: "Valoración de Desempeño en Comunidad (IVADEC-CIF)"
 * ^version = "1.0.0"
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * ^date = "2022-01-18T00:00:00-03:00"
 * ^contact.name = "HL7 Chile"
 * ^contact.telecom.system = #email
@@ -1244,7 +1244,7 @@ Id: CSSituacionDiscapacidadNivel
 Title: "Valoración de Desempeño en Comunidad (IVADEC-CIF)"
 Description: "Valoración de Desempeño en Comunidad (IVADEC-CIF)"
 * ^caseSensitive = true
-* ^experimental = true //dependera del uso que le den al codesystem
+* ^experimental = false //dependera del uso que le den al codesystem
 * ^version = "1.0.0"
 * ^status = #active
 * ^date = "2022-01-18T00:00:00-03:00"
@@ -1265,7 +1265,7 @@ Title: "Valoración de Desempeño en Comunidad (IVADEC-CIF)"
 Description: "Valoración de Desempeño en Comunidad (IVADEC-CIF)"
 * ^version = "1.0.0"
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * ^date = "2022-01-18T00:00:00-03:00"
 * ^contact.name = "HL7 Chile"
 * ^contact.telecom.system = #email
@@ -1282,7 +1282,7 @@ Title: "Tipo de Sistema de Salud"
 Description: "Identifica el sistema de aseguramiento de salud al cual se encuentra adscrita la persona, ya sea FONASA, ISAPRE o regímenes institucionales como Capredena o Dipreca. Este dato permite determinar copagos, beneficios y las rutas de derivación dentro de la red asistencial."
 * ^version = "1.0.0"
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * ^date = "2022-01-18T00:00:00-03:00"
 * ^contact.name = "HL7 Chile"
 * ^contact.telecom.system = #email
@@ -1296,7 +1296,7 @@ Id: eis-TipodeSistemadeSalud-CS
 Title: "Tipo de Sistema de Salud"
 Description: "Identifica el sistema de aseguramiento de salud al cual se encuentra adscrita la persona, ya sea FONASA, ISAPRE o regímenes institucionales como Capredena o Dipreca. Este dato permite determinar copagos, beneficios y las rutas de derivación dentro de la red asistencial."
 * ^caseSensitive = true
-* ^experimental = true //dependera del uso que le den al codesystem
+* ^experimental = false //dependera del uso que le den al codesystem
 * ^version = "1.0.0"
 * ^status = #active
 * ^date = "2022-01-18T00:00:00-03:00"
@@ -1317,7 +1317,7 @@ Title: "Modalidad de Atención FONASA"
 Description: "La modalidad de atención FONASA corresponde a la forma en que  una persona afiliada voluntariamente al Fondo Nacional de Salud (FONASA) accede a las prestaciones de salud, permitiéndole contar con los servicios y la protección financiera otorgada por el Seguro Público de Salud"
 * ^version = "1.0.0"
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * ^date = "2026-03-01T00:00:00-03:00"
 * ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
@@ -1332,7 +1332,7 @@ Description: "La modalidad de atención FONASA corresponde a la forma en que  un
 * ^caseSensitive = true
 * ^version = "1.0.0"
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * ^date = "2026-03-01T00:00:00-03:00"
 * ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
@@ -1349,7 +1349,7 @@ Title: "Tramos FONASA"
 Description: "Los tramos FONASA corresponden a la clasificación que realiza el Fondo Nacional de Salud (FONASA) en función del nivel de ingreso mensual que percibe la persona, la cual determina el acceso a beneficios, copagos y modalidades de atención dentro del Seguro Público de Salud. "
 * ^version = "1.0.0"
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * ^date = "2026-03-01T00:00:00-03:00"
 * ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
@@ -1364,7 +1364,7 @@ Description: "Los tramos FONASA corresponden a la clasificación que realiza el 
 * ^caseSensitive = true
 * ^version = "1.0.0"
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * ^date = "2026-03-01T00:00:00-03:00"
 * ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
@@ -1383,7 +1383,7 @@ Title: "SEREMI"
 Description: "Corresponde a los códigos y valores asociados a cada Secretaría Regional Ministerial (SEREMI), utilizados en los sistemas de información en salud. La codificación de la SEREMI es coincidente con el código de la región, el cual prevalece para efectos de registro e interoperabilidad."
 * ^version = "1.0.0"
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * ^date = "2026-03-01T00:00:00-03:00"
 * ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
@@ -1398,7 +1398,7 @@ Description: "Corresponde a los códigos y valores asociados a cada Secretaría 
 * ^caseSensitive = true
 * ^version = "1.0.0"
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * ^date = "2026-03-01T00:00:00-03:00"
 * ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
@@ -1462,7 +1462,7 @@ Title: "Especialidades y Subespecialidades Médicas"
 Description: "La certificación de especialidades y subespecialidades médicas corresponden al proceso mediante el cual se reconoce oficialmente que un prestador individual de salud posee y domina un conjunto de conocimientos, competencias y experiencias específicas, relevantes para el ejercicio profesional en un ámbito determinado de la atención de salud."
 * ^version = "1.0.0"
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * ^date = "2026-03-01T00:00:00-03:00"
 * ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
@@ -1477,7 +1477,7 @@ Description: "La certificación de especialidades y subespecialidades médicas c
 * ^caseSensitive = true
 * ^version = "1.0.0"
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * ^date = "2026-03-01T00:00:00-03:00"
 * ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
