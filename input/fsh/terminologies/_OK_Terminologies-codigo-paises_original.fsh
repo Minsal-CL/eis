@@ -4,8 +4,8 @@ Pais Codigos
 ********************************************************/
 ValueSet: PaisesVS
 Id: eis-paises-vs
-Title: "Códigos de Países"
-Description: "Codigos de países segun norma ISO3166-N"
+Title: "Códigos de Países para asignar país a los pacientes"
+Description: "Códigos de Países para asignar país a los pacientes"
 
 * ^version = "1.0.0"
 * ^status = #active
@@ -18,8 +18,8 @@ Description: "Codigos de países segun norma ISO3166-N"
 
 CodeSystem: PaisesCS
 Id: eis-paises-cs
-Title: "Códigos de Países"
-Description: "Codigos de países segun norma ISO3166-N"
+Title: "Códigos de Países para asignar país a los pacientes"
+Description: "Códigos de Países para asignar país a los pacientes"
 * ^language = #es
 * ^caseSensitive = true
 * ^version = "1.0.0"

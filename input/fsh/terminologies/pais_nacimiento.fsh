@@ -4,8 +4,8 @@ País de Nacimiento	 / 	pais_nacimiento_v1.0.0.csv
 ********************************************************/
 ValueSet: PaisNacimientoVS
 Id: eis-pais-nacimiento-vs
-Title: "Códigos de Países"
-Description: "Códigos de países"
+Title: "Códigos de países para pais de nacimiento"
+Description: "Códigos de países para asignar país de nacimiento a los pacientes"
 
 * ^version = "1.0.0"
 * ^status = #active
@@ -18,8 +18,8 @@ Description: "Códigos de países"
 
 CodeSystem: PaisNacimientoCS
 Id: eis-pais-nacimiento-cs
-Title: "Códigos de Países"
-Description: "Códigos de países"
+Title: "Códigos de países para pais de nacimiento"
+Description: "Códigos de países para asignar país de nacimiento a los pacientes"
 * ^language = #es
 * ^caseSensitive = true
 * ^version = "1.0.0"
