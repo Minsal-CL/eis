@@ -1,25 +1,7 @@
-/********************************************************
-Pais Codigos
-
-********************************************************/
-ValueSet: PaisesVS
-Id: eis-paises-vs
-Title: "Códigos de Países para asignar país a los pacientes"
-Description: "Códigos de Países para asignar país a los pacientes"
-
-* ^version = "1.0.0"
-* ^status = #active
-* ^experimental = false
-* ^date = "2026-03-01T00:00:00-03:00"
-* ^contact.name = "MINSAL Chile"
-* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
-
-* codes from system eis-paises-cs
-
 CodeSystem: PaisesCS
 Id: eis-paises-cs
-Title: "Códigos de Países para asignar país a los pacientes"
-Description: "Códigos de Países para asignar país a los pacientes"
+Title: "Códigos de Países"
+Description: "Códigos de Países"
 * ^language = #es
 * ^caseSensitive = true
 * ^version = "1.0.0"
