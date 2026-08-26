@@ -2,8 +2,8 @@
 Pueblos Indígenas u Originarios
 Pueblos Indígenas u Originarios	 / 	pueblo_indigena_v1.0.0.csv
 ********************************************************/
-ValueSet: PueblosOriginariosVS
-Id: eis-PueblosOriginarios-VS
+ValueSet: PueblosIndigenasOriginariosVS
+Id: eis-PueblosIndigenasOriginarios-VS
 Title: "Pueblos Indígenas u Originarios"
 Description: "Los Pueblos Indígenas u Originarios en Chile corresponden a los descendientes de agrupaciones humanas que habitaban el territorio nacional en tiempos precolombinos, y que conservan manifestaciones culturales, sociales y étnicas propias, o parte de ellas, teniendo para estos pueblos la tierra un rol fundamental en su existencia y desarrollo cultural."
 * ^version = "1.0.0"
@@ -15,10 +15,10 @@ Description: "Los Pueblos Indígenas u Originarios en Chile corresponden a los d
 * ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
 
-* codes from system eis-PueblosOriginarios-CS
+* codes from system eis-PueblosIndigenasOriginarios-CS
 
-CodeSystem:  PueblosOriginariosCS
-Id: eis-PueblosOriginarios-CS
+CodeSystem: PueblosIndigenasOriginariosCS
+Id: eis-PueblosIndigenasOriginarios-CS
 Title: "Pueblos Indígenas u Originarios"
 Description: "Los Pueblos Indígenas u Originarios en Chile corresponden a los descendientes de agrupaciones humanas que habitaban el territorio nacional en tiempos precolombinos, y que conservan manifestaciones culturales, sociales y étnicas propias, o parte de ellas, teniendo para estos pueblos la tierra un rol fundamental en su existencia y desarrollo cultural."
 * ^language = #es

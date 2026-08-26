@@ -13,7 +13,7 @@ Description: "Regiones"
 * ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
 
-* codes from system  eis-PrevisiondeSalud-CS
+* codes from system  eis-regiones-cs
 
 CodeSystem: RegionesCS
 Id: eis-regiones-cs
@@ -24,8 +24,6 @@ Description: "Regiones"
 * ^version = "1.0.0"
 * ^status = #active
 * ^experimental = false
-* ^date = "2026-03-01T00:00:00-03:00"
-* ^contact.name = "MINSAL Chile"
 * ^date = "2026-03-01T00:00:00-03:00"
 * ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"

@@ -2,10 +2,10 @@
 Pueblo Afrodescendiente Chileno
 Pueblos Tribales o Afrodescendientes	 / 	pueblos_tribales_v1.0.0.csv
 ********************************************************/
-ValueSet: PuebloAfrodescendienteChilenoVS
-Id: eis-PuebloAfrodescendienteChileno-VS
-Title: "Pueblo Afrodescendiente Chileno"
-Description: "Se entiende por pueblo afrodescendiente chileno al grupo humano que, teniendo nacionalidad chilena conforme a la Constitución Política de la República, comparte una historia, cultura, tradiciones y costumbres comunes, unidas por la conciencia de identidad y reconocimiento colectivo."
+ValueSet: PueblosTribalesAfrodescendientesVS
+Id: eis-PueblosTribalesAfrodescendientes-VS
+Title: "Pueblo Tribales o Afrodescendientes Chilenos"
+Description: "Se entiende por pueblo tribal o afrodescendiente chileno al grupo humano que, teniendo nacionalidad chilena conforme a la Constitución Política de la República, comparte una historia, cultura, tradiciones y costumbres comunes, unidas por la conciencia de identidad y reconocimiento colectivo."
 * ^version = "1.0.0"
 * ^status = #active
 * ^experimental = false
@@ -15,12 +15,12 @@ Description: "Se entiende por pueblo afrodescendiente chileno al grupo humano qu
 * ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
 
-* codes from system eis-PuebloAfrodescendienteChileno-CS
+* codes from system eis-PueblosTribalesAfrodescendientes-CS
 
-CodeSystem:  PuebloAfrodescendienteChilenoCS
-Id: eis-PuebloAfrodescendienteChileno-CS
-Title: "Pueblo Afrodescendiente Chileno"
-Description: "Se entiende por pueblo afrodescendiente chileno al grupo humano que, teniendo nacionalidad chilena conforme a la Constitución Política de la República, comparte una historia, cultura, tradiciones y costumbres comunes, unidas por la conciencia de identidad y reconocimiento colectivo."
+CodeSystem: PueblosTribalesAfrodescendientesCS
+Id: eis-PueblosTribalesAfrodescendientes-CS
+Title: "Pueblo Tribales o Afrodescendientes Chilenos"
+Description: "Se entiende por pueblo tribal o afrodescendiente chileno al grupo humano que, teniendo nacionalidad chilena conforme a la Constitución Política de la República, comparte una historia, cultura, tradiciones y costumbres comunes, unidas por la conciencia de identidad y reconocimiento colectivo."
 * ^language = #es
 * ^caseSensitive = true
 * ^version = "1.0.0"
