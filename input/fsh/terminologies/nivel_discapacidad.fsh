@@ -22,15 +22,14 @@ Description: "Las personas en situación de discapacidad son aquellas que, en re
 * ^language = #es
 * ^caseSensitive = true
 * ^version = "1.0.0"
-* ^version = "1.0.0"
 * ^status = #active
 * ^experimental = false
 * ^date = "2026-03-01T00:00:00-03:00"
 * ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
 
-* #1 "Sin discapacidad" "Sin discapacidad"
-* #2 "Discapacidad leve" "Discapacidad leve"
-* #3 "Discapacidad moderada" "Discapacidad moderada"
-* #4 "Discapacidad severa" "Discapacidad severa"
-* #5 "Discapacidad profunda" "Discapacidad profunda"
+* #1 "Sin Discapacidad" "Sin Discapacidad"
+* #2 "Discapacidad Leve" "Discapacidad Leve"
+* #3 "Discapacidad Moderada" "Discapacidad Moderada"
+* #4 "Discapacidad Severa" "Discapacidad Severa"
+* #5 "Discapacidad Profunda" "Discapacidad Profunda"

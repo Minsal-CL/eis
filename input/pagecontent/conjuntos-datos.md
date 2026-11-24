@@ -117,7 +117,7 @@ Normalizada de la Educación (CINE/ISCED); la ocupación se alinea con la Clasif
 
 | Elemento | Tipo de dato | Exigencia | Ocurrencia | ValueSet |
 |---|---|---|---|---|
-| Nivel de Instrucción | Código | Opcional | Múltiple | [Nivel de Instrucción](ValueSet-eis-NiveldeInstruccion-CS.html) |
+| Nivel de Instrucción | Código | Opcional | Múltiple | [Nivel de Instrucción](ValueSet-eis-NiveldeInstruccion-VS.html) |
 | Condición de la Actividad Laboral | Código | Opcional | Múltiple | [Condición de la Actividad Laboral](ValueSet-eis-CondiciondelaActividadLaboral-VS.html) |
 | Ocupación | Grupo | Opcional | Múltiple | |
 | └ Grupos de Ocupaciones | Código | Opcional | Única | [Grupos de Ocupaciones](ValueSet-eis-GruposdeOcupaciones-VS.html) |

@@ -1,67 +1,62 @@
 # Validación de terminologías FSH vs. VS_v4.0.0 (NT 231 v4.0.0)
 
-Fecha: 2026-11-24. Fuente de verdad: los CSV de `VS_v4.0.0/` y la Norma Técnica 231 v4.0.0 (anexos, sección XVII).
-Se comparó cada CSV con los conceptos del CodeSystem en `input/fsh/terminologies/`.
+Fuentes: los CSV de `VS_v4.0.0/` y la Norma Técnica 231 v4.0.0 (Decreto Exento N° 74/2026).
+Se comparó cada CSV con los conceptos del CodeSystem correspondiente en `input/fsh/terminologies/`.
 
-## Coinciden (26 CSV)
+## Estado actual (rama `nt231-v4.0.0`, 2026-11-24)
 
-SEREMI, comuna, consulta_clinica, las 5 especialidades, nacionalidad / pais_emision / pais_nacimiento (los 3 contra `paises-CS.fsh`),
-origen_discapacidad, prestadores_complejidad, prestadores_especifico, prestadores_pertenencia, provincia, pueblos_tribales,
-region, servicios_salud, sexo_registral, tipo_via, tramos_fonasa, codigo_deis (*).
+**37 de 38 CSV coinciden exactamente** (código, display y definición) con su CodeSystem FSH.
+La única diferencia es intencional: `pueblo_indigena.fsh` conserva el código 99 "Desconocido" (ver Decisiones).
+SUSHI: 0 errores.
 
-(*) codigo_deis: el CSV tiene 3 filas duplicadas (200717, 111286, 113213) y la FSH las tiene una sola vez (correcto).
-El 201100 solo difiere por el escape de comillas del CSV.
+## Correcciones aplicadas
 
-## Diferencias de códigos (cambian el significado)
+Los conceptos de estos CodeSystem se regeneraron desde su CSV v4.0.0:
 
-| CSV | Problema |
+| FSH | Cambio |
 |---|---|
-| tipo_identificador | CSV: 1 RUN, 2 RUN Materno, **4 Pasaporte, 5 Doc. país origen, 6 NIP, 7 Historia clínica, 8 IPE** (no existe el 3). FSH: 3 Pasaporte, 4 Doc. país origen, 5 NIP, 6 HC, 7 IPE. Toda la numeración está corrida. |
-| prestadores_proceso_asistencial | CSV: 1 abierta, 2 cerrada, 3 urgencia. FSH: 1 cerrada, 2 urgencia, 3 abierta. |
-| titulo_profesional | CSV usa 31–42 para técnicos/as y otros; FSH usa 14–25. Falta 99 "Desconocida". |
-| grupos_ocupaciones | CSV: 10 "Fuerzas Armadas" y 99 "Desconocido". FSH: 0 "Ocupaciones de las Fuerzas Armadas", sin 99. Además difieren los textos de 1, 2, 4, 7, 8 y 9. |
-| modalidad_atencion_fonasa | CSV usa códigos 1 (MAI) y 2 (MLE); FSH usa `MAI` y `MLE`. |
-| identidad_genero | CSV tiene 8 "No revelado"; FSH tiene 93 "No Informado" (no existe en el CSV). 7: CSV "Otra" vs FSH "Otro". |
-| pueblo_indigena | FSH tiene 99 "Desconocido", que no está en el CSV v4.0.0 (la norma sí dice que se incorpora el 99; revisar con el DEIS). |
+| tipo_identificador | Numeración según el CSV: 4 Pasaporte, 5 Documento del país de origen, 6 NIP, 7 Historia clínica, 8 IPE (no existe el 3). |
+| prestadores_proceso_asistencial | 1 abierta, 2 cerrada, 3 urgencia. Se corrige la definición del código 4, que tenía un fragmento ("diagnóstico y terapéutico"). |
+| titulo_profesional | Técnicos/as y otros pasan de 14–25 a 31–42; se agrega 99 "Desconocida". |
+| grupos_ocupaciones | Textos según el CSV; 0 "Ocupaciones de las Fuerzas Armadas" pasa a 10 "Fuerzas Armadas"; se agrega 99 "Desconocido". |
+| modalidad_atencion_fonasa | Códigos `MAI`/`MLE` pasan a `1`/`2`. |
+| identidad_genero | 93 "No Informado" pasa a 8 "No revelado"; textos de 4–7 según el CSV (7 "Otra"). |
+| sexo_biologico | Se agrega 93 "No informado". |
+| prevision_salud | Se agrega 96 "Ninguna". |
+| leyes_atencion | Se agrega 96 "Ninguna"; textos de 7 y 8 según el CSV. |
+| nivel_instruccion | Se agregan 97 "No Recuerda" y 98 "No Responde". |
+| condicion_actividad_laboral | 3 "Cesante", 99 "Ignorado". |
+| estado_civil | 5 "Separado/a judicialmente", 6 "Conviviente civil". |
+| tipo_prestador | 1 "Individuales", 2 "Institucionales". |
+| nivel_discapacidad | Mayúsculas según el CSV. |
 
-## Faltan códigos en la FSH
+Otras correcciones:
 
-| CSV | Códigos faltantes |
-|---|---|
-| sexo_biologico | 93 "No informado" |
-| prevision_salud | 96 "Ninguna" |
-| leyes_atencion | 96 "Ninguna" |
-| nivel_instrucción | 97 "No Recuerda", 98 "No Responde" |
+- `nivel_instruccion.fsh`: el ValueSet tenía el mismo Id que el CodeSystem. Ahora es `eis-NiveldeInstruccion-VS`; `oids.ini` conserva su OID (2.16.840.1.113883.2.22.48.10) y se actualizaron los enlaces de las páginas.
+- Metadatos repetidos (`^date`, `^contact.name`, `^version`) eliminados en condicion_actividad_laboral, identidad_genero, nivel_discapacidad, prevision_salud, pueblo_indigena, pueblos_tribales, sexo_biologico y sexo_registral.
+- `sexo_registral.fsh`: se quita la viñeta "o\t" al inicio de las descripciones.
+- `cs-vs/*.txt`: regenerados como copia exacta de cada CSV v4.0.0 (estaban basados en una versión anterior). Los de religion_culto, ocupaciones_desagregadas y prestadores_modalidad_atencion no cambian porque no hay CSV v4.0.0.
 
-## Solo cambian los textos (display)
+Los textos se toman tal cual del CSV, solo se recortan espacios al inicio y al final (por ejemplo, " Desconocida" y "Divorciado/a ").
 
-| CSV | Código: CSV → FSH |
-|---|---|
-| condicion_actividad_laboral | 3 "Cesante" → "Cesante o temporalmente sin trabajo"; 99 "Ignorado" → "Desconocido" |
-| estado_civil | 6 "Conviviente civil" → "Conviviente (con acuerdo de unión civil)"; 5 diferencia de mayúsculas |
-| leyes_atencion | 7 y 8: puntuación ("Ley Nº20.850: Ricarte Soto"; "Ley N° 21.030: Despenalización…") |
-| tipo_prestador | 1 "Individuales" → "Prestador Individual"; 2 "Institucionales" → "Prestador Institucional" |
-| nivel_discapacidad | Solo mayúsculas/minúsculas (1–5) |
+## Decisiones
 
-## Archivos que la norma lista y no están en VS_v4.0.0
+- **pueblo_indigena, código 99 "Desconocido"**: el CSV v4.0.0 no lo trae, pero la norma (sección VIII) dice explícitamente que la v4.0.0 incorpora "los códigos 12: 'Selk'nam' y el 99: 'Desconocido'". Se mantiene en la FSH: un código de más no rechaza datos válidos según la norma, uno de menos sí.
+- **prestadores_proceso_asistencial, código 4**: se usa el texto del CSV, "Servicios de apoyo clínico". La norma lo nombra "Servicios de apoyo clínico, diagnóstico y terapéutico".
+- **Extensiones.fsh** sigue comentado: es contenido de la versión anterior de la norma, enlazado a ValueSet que ya no existen (por ejemplo `VSUCursoAprobado`, de "Último Curso Aprobado", que la v4.0.0 eliminó). Activarlo rompería el build; las extensiones de la v4.0.0 deben modelarse de nuevo.
 
-La FSH tiene CodeSystem/ValueSet para estos, pero no hay un CSV v4.0.0 para validarlos:
+## Impacto para implementadores
 
-- `religion_culto_v1.0.0.csv` → `religion_culto.fsh`
-- `ocupaciones_desagregadas_v1.0.0.csv` → `ocupaciones_desagregadas.fsh`
-- `prestadores_modalidad_atencion_v1.0.0.csv` → `prestadores_modalidad_atencion.fsh`
+Cambian códigos existentes en tipo_identificador, prestadores_proceso_asistencial, titulo_profesional, grupos_ocupaciones,
+modalidad_atencion_fonasa e identidad_genero. Los sistemas que usaban la numeración anterior deben migrar.
 
-## Problemas de los propios CSV (para reportar al DEIS)
+## Pendiente con el DEIS (problemas de los CSV oficiales; no se modificaron)
 
-- `identidad_genero_v1.0.0.csv` está codificado en Mac Roman ("TransgŽnero" = "Transgénero"); el resto está en UTF-8.
-- Los separadores son mixtos: `;` en estado_civil, identidad_genero, leyes_atencion, modalidad_atencion_fonasa, nivel_discapacidad,
-  pais_nacimiento, sexo_biologico y tipo_identificador; `,` en el resto.
-- `codigo_deis_v1.0.0.csv` tiene 3 códigos duplicados.
+- `pueblo_indigena_v1.0.0.csv` no incluye el 99 "Desconocido" que la norma incorpora.
+- `prestadores_proceso_asistencial_v1.0.0.csv`: el código 4 tiene el nombre incompleto respecto de la norma.
+- La norma lista `religion_culto_v1.0.0.csv`, `ocupaciones_desagregadas_v1.0.0.csv` y `prestadores_modalidad_atencion_v1.0.0.csv`, que no vienen en VS_v4.0.0.
+- `identidad_genero_v1.0.0.csv` está codificado en Mac Roman; el resto en UTF-8.
+- Separadores mixtos: `;` en estado_civil, identidad_genero, leyes_atencion, modalidad_atencion_fonasa, nivel_discapacidad, pais_nacimiento, sexo_biologico y tipo_identificador; `,` en el resto.
+- `codigo_deis_v1.0.0.csv` tiene 3 códigos duplicados (200717, 111286, 113213).
 - Nombres de archivo distintos de los de la norma: `SEREMI_v1.0.0.csv` (norma: `seremi_…`) y `nivel_instrucción_v1.0.0.csv` (norma: `nivel_instruccion_…`).
-
-## Otros hallazgos en la FSH
-
-- `nivel_instruccion.fsh`: el ValueSet tiene `Id: eis-NiveldeInstruccion-CS`, el mismo id que el CodeSystem. Debería ser `…-VS`.
-- `sexo_registral.fsh`: `^date` y `^contact.name` están repetidos en el ValueSet, y la descripción empieza con "o\t".
-- `pais_emision` y `pais_nacimiento` están desactivados (`.-fsh-`) y se usa `eis-paises-vs`; la IG documenta los dos elementos con ese ValueSet.
-- `Extensiones.fsh` está comentado completo, así que extensiones como Discapacidad, Ocupaciones o TramoFonasa no se publican.
+- Espacios dobles en algunos textos (por ejemplo, "Ley Nº18.490:  Accidentes de Transporte"); se conservan tal cual.

@@ -10,4 +10,3 @@
 * #11 "Chango" "Chango"
 * #12 "Selk'nam" "Selk'nam"
 * #10 "Otro (Especificar)" "Otro (Especificar)"
-* #99 "Desconocido" "Desconocido"

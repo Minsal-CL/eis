@@ -3,7 +3,7 @@ Nivel de Instrucción
 Nivel de Instrucción	 / 	nivel_instruccion_v1.0.0.csv
 ********************************************************/
 ValueSet:  NiveldeInstruccionVS
-Id: eis-NiveldeInstruccion-CS
+Id: eis-NiveldeInstruccion-VS
 Title: "Nivel de Instrucción"
 Description: "Código del último nivel aprobado"
 * ^version = "1.0.0"
@@ -34,3 +34,5 @@ Description: "Código del último nivel aprobado"
 * #4 "Media o Secundaria" "Media o Secundaria"
 * #5 "Educación Superior" "Educación Superior"
 * #6 "Sin Instrucción" "Sin Instrucción"
+* #97 "No Recuerda" "No Recuerda"
+* #98 "No Responde" "No Responde"

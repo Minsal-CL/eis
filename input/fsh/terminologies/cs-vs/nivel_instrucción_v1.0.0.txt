@@ -4,3 +4,5 @@
 * #4 "Media o Secundaria" "Media o Secundaria"
 * #5 "Educación Superior" "Educación Superior"
 * #6 "Sin Instrucción" "Sin Instrucción"
+* #97 "No Recuerda" "No Recuerda"
+* #98 "No Responde" "No Responde"

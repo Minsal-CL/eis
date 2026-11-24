@@ -11,8 +11,6 @@ Description: "Los Pueblos Indígenas u Originarios en Chile corresponden a los d
 * ^experimental = false
 * ^date = "2026-03-01T00:00:00-03:00"
 * ^contact.name = "MINSAL Chile"
-* ^date = "2026-03-01T00:00:00-03:00"
-* ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
 
 * codes from system eis-PueblosIndigenasOriginarios-CS
@@ -26,8 +24,6 @@ Description: "Los Pueblos Indígenas u Originarios en Chile corresponden a los d
 * ^version = "1.0.0"
 * ^status = #active
 * ^experimental = false
-* ^date = "2026-03-01T00:00:00-03:00"
-* ^contact.name = "MINSAL Chile"
 * ^date = "2026-03-01T00:00:00-03:00"
 * ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"

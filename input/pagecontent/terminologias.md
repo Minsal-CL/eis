@@ -19,7 +19,7 @@ La tabla siguiente muestra el ValueSet de esta guía que representa cada archivo
 | Pueblos Tribales o Afrodescendientes | `pueblos_tribales_v1.0.0.csv` | [Pueblos Tribales o Afrodescendientes](ValueSet-eis-PueblosTribalesAfrodescendientes-VS.html) |
 | Nivel de Discapacidad | `nivel_discapacidad_v1.0.0.csv` | [Nivel de Discapacidad](ValueSet-eis-NiveldeDiscapacidad-VS.html) |
 | Origen de Discapacidad | `origen_discapacidad_v1.0.0.csv` | [Origen de Discapacidad](ValueSet-eis-OrigendeDiscapacidad-VS.html) |
-| Nivel de Instrucción | `nivel_instruccion_v1.0.0.csv` | [Nivel de Instrucción](ValueSet-eis-NiveldeInstruccion-CS.html) |
+| Nivel de Instrucción | `nivel_instruccion_v1.0.0.csv` | [Nivel de Instrucción](ValueSet-eis-NiveldeInstruccion-VS.html) |
 | Condición de la Actividad Laboral | `condicion_actividad_laboral_v1.0.0.csv` | [Condición de la Actividad Laboral](ValueSet-eis-CondiciondelaActividadLaboral-VS.html) |
 | Grupos de Ocupaciones | `grupos_ocupaciones_v1.0.0.csv` | [Grupos de Ocupaciones](ValueSet-eis-GruposdeOcupaciones-VS.html) |
 | Ocupaciones Desagregadas | `ocupaciones_desagregadas_v1.0.0.csv` | [Ocupaciones Desagregadas](ValueSet-eis-OcupacionesDesagregadas-VS.html) |
