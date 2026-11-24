@@ -7,15 +7,15 @@ id: hl7.fhir.cl.minsal.eis
 canonical: https://interoperabilidad.minsal.cl/fhir/ig/eis
 name: EstandaresdeInformaciondeSalud 
 title: EIS - Guía de Estándares de Información de Salud
-description: "Esta Guía de Estandares de Información de Salud desarrolla el Decreto Excento 231 del DEIS que reemplaza la norma técnica 820, y tiene como finalidad determinar compatibilidad de esta con el estándar FHIR"
+description: "Guía de implementación HL7 FHIR de la Norma General Técnica N° 231, Estándares de Información de Salud (EIS) v4.0.0, aprobada por el Decreto Exento N° 74 de 2026 de la Subsecretaría de Salud Pública del Ministerio de Salud."
 status: active # draft | active | retired | unknown
-version: 0.2.0
+version: 1.0.0
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2026+
 releaseLabel: trial-use # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
 # license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
 # jurisdiction: urn:iso:std:iso:3166#US "United States of America" # https://www.hl7.org/fhir/valueset-jurisdiction.html
-date: 2026-07
+date: 2026-11
 publisher:
   name: Unidad de Interoperabilidad - MINSAL
   url: https://interoperabilidad.minsal.cl
@@ -39,6 +39,18 @@ jurisdiction: urn:iso:std:iso:3166#CL "Chile"
 pages:
   index.md:
     title: Inicio
+  marco-normativo.md:
+    title: Marco Normativo
+  modelo-informacion.md:
+    title: Modelo de Información
+  conjuntos-datos.md:
+    title: Conjuntos de Datos
+  casos-uso.md:
+    title: Casos de Uso
+  terminologias.md:
+    title: Terminologías
+  estandares-complementarios.md:
+    title: Estándares Complementarios
   changes.md:
     title: Historial de Cambios
 #   implementation.xml:
@@ -72,6 +84,14 @@ parameters:
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   Home: index.html
+  Introducción:
+    Marco Normativo: marco-normativo.html
+    Modelo de Información: modelo-informacion.html
+    Casos de Uso: casos-uso.html
+  Conjuntos de Datos: conjuntos-datos.html
+  Terminologías:
+    Listas de Códigos y Estándares Semánticos: terminologias.html
+    Estándares Complementarios: estandares-complementarios.html
   Artifacts: artifacts.html
   Historial de Cambios: changes.html
   # comentarios1: comentarios.html

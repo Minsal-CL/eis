@@ -26,8 +26,6 @@ Description: "La previsión corresponde a la variable que identifica el sistema 
 * ^experimental = false
 * ^date = "2026-03-01T00:00:00-03:00"
 * ^contact.name = "MINSAL Chile"
-* ^date = "2026-03-01T00:00:00-03:00"
-* ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
 
 * #1 "FONASA" "FONASA"
@@ -37,4 +35,5 @@ Description: "La previsión corresponde a la variable que identifica el sistema 
 * #6 "SISAE" "SISAE"
 * #7 "SISAN" "SISAN"
 * #8 "SISAF" "SISAF"
+* #96 "Ninguna" "Ninguna"
 * #99 "Desconocido" "Desconocido"

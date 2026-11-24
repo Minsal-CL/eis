@@ -1,2 +1,2 @@
-* #1 "Prestador Individual" "Prestador Individual"
-* #2 "Prestador Institucional" "Prestador Institucional"
+* #1 "Individuales" "Individuales"
+* #2 "Institucionales" "Institucionales"

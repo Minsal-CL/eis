@@ -11,8 +11,6 @@ Description: "Se entiende por pueblo tribal o afrodescendiente chileno al grupo 
 * ^experimental = false
 * ^date = "2026-03-01T00:00:00-03:00"
 * ^contact.name = "MINSAL Chile"
-* ^date = "2026-03-01T00:00:00-03:00"
-* ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
 
 * codes from system eis-PueblosTribalesAfrodescendientes-CS

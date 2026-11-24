@@ -2,6 +2,6 @@
 * #2 "Casado/a" "Casado/a"
 * #3 "Viudo/a" "Viudo/a"
 * #4 "Divorciado/a" "Divorciado/a"
-* #5 "Separado/a Judicialmente" "Separado/a Judicialmente"
-* #6 "Conviviente (con acuerdo de unión civil)" "Conviviente (con acuerdo de unión civil)"
+* #5 "Separado/a judicialmente" "Separado/a judicialmente"
+* #6 "Conviviente civil" "Conviviente civil"
 * #99 "Desconocido" "Desconocido"

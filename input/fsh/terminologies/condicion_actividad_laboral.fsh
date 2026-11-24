@@ -11,8 +11,6 @@ Description: "La condición de la actividad corresponde a la relación que manti
 * ^experimental = false
 * ^date = "2026-03-01T00:00:00-03:00"
 * ^contact.name = "MINSAL Chile"
-* ^date = "2026-03-01T00:00:00-03:00"
-* ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
 
 * codes from system eis-CondiciondelaActividadLaboral-CS
@@ -32,5 +30,5 @@ Description: "La condición de la actividad corresponde a la relación que manti
 
 * #1 "Inactivo" "Inactivo"
 * #2 "Activo" "Activo"
-* #3 "Cesante o temporalmente sin trabajo" "Cesante o temporalmente sin trabajo"
-* #99 "Desconocido" "Desconocido"
+* #3 "Cesante" "Cesante"
+* #99 "Ignorado" "Ignorado"

@@ -5,12 +5,10 @@ Sexo Registral	 / 	sexo_registral_v1.0.0.csv
 ValueSet: SexoRegistralVS
 Id: SexoRegistralVS
 Title: "Sexo Registral"
-Description: "o	Reúne los códigos y valores relacionados con el sexo registral explicitado por el SRCeI"
+Description: "Reúne los códigos y valores relacionados con el sexo registral explicitado por el SRCeI"
 * ^version = "1.0.0"
 * ^status = #active
 * ^experimental = false
-* ^date = "2026-03-01T00:00:00-03:00"
-* ^contact.name = "MINSAL Chile"
 * ^date = "2026-03-01T00:00:00-03:00"
 * ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
@@ -21,7 +19,7 @@ Description: "o	Reúne los códigos y valores relacionados con el sexo registral
 CodeSystem:  SexoRegistralCS
 Id: eis-SexoRegistral-CS
 Title: "Sexo Registral"
-Description: "o	Reúne los códigos y valores relacionados con el sexo registral explicitado por el SRCeI"
+Description: "Reúne los códigos y valores relacionados con el sexo registral explicitado por el SRCeI"
 * ^language = #es
 * ^caseSensitive = true
 * ^version = "1.0.0"

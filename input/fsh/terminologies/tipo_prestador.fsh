@@ -28,5 +28,5 @@ Description: "Tipo de Prestador"
 * ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
 
-* #1 "Prestador Individual" "Prestador Individual"
-* #2 "Prestador Institucional" "Prestador Institucional"
+* #1 "Individuales" "Individuales"
+* #2 "Institucionales" "Institucionales"

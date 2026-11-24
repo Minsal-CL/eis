@@ -28,5 +28,5 @@ Description: "La modalidad de atención FONASA corresponde a la forma en que  un
 * ^contact.name = "MINSAL Chile"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
 
-* #MAI "Modalidad de Atención Institucional" "Modalidad de Atención Institucional"
-* #MLE "Modalidad Libre Elección" "Modalidad Libre Elección"
+* #1 "Modalidad de Atención Institucional (MAI)" "Modalidad de Atención Institucional (MAI)"
+* #2 "Modalidad Libre Elección (MLE)" "Modalidad Libre Elección (MLE)"
