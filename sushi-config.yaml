@@ -106,10 +106,15 @@ menu:
 # ContactDetail.
 #
 contact:
-  - name: Jorge Mansilla 
+  - name: Jorge Mansilla
     telecom:
       - system: email
         value: jorge.mansilla@minsal.cl
+        use: work
+  - name: Franco Ulloa
+    telecom:
+      - system: email
+        value: franco.ulloa@minsal.cl
         use: work
 #
 #

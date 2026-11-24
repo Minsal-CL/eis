@@ -6,7 +6,7 @@ Los CodeSystem de la guía reproducen las listas de códigos CSV v4.0.0 publicad
 
 #### Documentación
 
-* Página de inicio reescrita: introducción, alcance y fuentes oficiales.
+* Página de inicio reescrita: introducción, alcance, fuentes oficiales y autores.
 * Nuevas páginas: [Marco Normativo](marco-normativo.html), [Modelo de Información](modelo-informacion.html),
   [Conjuntos de Datos](conjuntos-datos.html), [Casos de Uso](casos-uso.html), [Terminologías](terminologias.html) y
   [Estándares Complementarios](estandares-complementarios.html).

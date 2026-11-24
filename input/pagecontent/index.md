@@ -55,6 +55,11 @@ y geoespaciales (IDE Chile, SIRGAS-Chile, WGS84) que la norma incorpora.
 
 Las fuentes de esta guía son el Decreto Exento N° 74 de 2026, la Norma Técnica N° 231 v4.0.0 y los archivos CSV de listas de códigos de esa versión.
 
+### Autores
+
+* Jorge Mansilla ([jorge.mansilla@minsal.cl](mailto:jorge.mansilla@minsal.cl))
+* Franco Ulloa ([franco.ulloa@minsal.cl](mailto:franco.ulloa@minsal.cl))
+
 ### Dependencias, versiones y propiedad intelectual
 
 #### Dependencias
