@@ -15,6 +15,7 @@ copyrightYear: 2026+
 releaseLabel: trial-use # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
 # license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
 # jurisdiction: urn:iso:std:iso:3166#US "United States of America" # https://www.hl7.org/fhir/valueset-jurisdiction.html
+language: es # https://www.hl7.org/fhir/valueset-languages.html
 date: 2026-11
 publisher:
   name: Unidad de Interoperabilidad - MINSAL
@@ -71,6 +72,8 @@ pages:
 #
 parameters:
   auto-oid-root: "2.16.840.1.113883.2.22.40.1"
+  pin-canonicals: pin-all
+  i18n-default-lang: es
 #   excludettl: true
 #   validation: [allow-any-extensions, no-broken-links]
 #
@@ -92,7 +95,7 @@ menu:
   Terminologías:
     Listas de Códigos y Estándares Semánticos: terminologias.html
     Estándares Complementarios: estandares-complementarios.html
-  Artifacts: artifacts.html
+  Artefactos: artifacts.html
   Historial de Cambios: changes.html
   # comentarios1: comentarios.html
 

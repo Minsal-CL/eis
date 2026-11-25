@@ -4,6 +4,7 @@ Versión alineada con la **Norma General Técnica N° 231, "Estándares de Infor
 **Decreto Exento N° 74 del 20 de noviembre de 2026** de la Subsecretaría de Salud Pública.
 Los CodeSystem de la guía reproducen las listas de códigos CSV v4.0.0 publicadas por el DEIS.
 
+
 #### Documentación
 
 * Página de inicio reescrita: introducción, alcance, fuentes oficiales y autores.

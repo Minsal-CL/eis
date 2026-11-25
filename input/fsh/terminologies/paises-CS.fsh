@@ -15,7 +15,7 @@ Description: "Códigos de países para asignar país de origen a los pacientes"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
 
 * codes from system eis-paises-cs
-//* include codes from system urn:iso:std:iso:3166|20210120 where code regex /[0-9]{3}/
+//* include codes from system urn:iso:std:iso:3166 where code regex /[0-9]{3}/
 
 CodeSystem: PaisesCS
 Id: eis-paises-cs
