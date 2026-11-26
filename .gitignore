@@ -5,3 +5,9 @@ Thumbs.db
 /output
 /temp
 /template
+*jar
+*.jar
+*.bat
+*.sh
+/_*.bat
+/_*.sh
