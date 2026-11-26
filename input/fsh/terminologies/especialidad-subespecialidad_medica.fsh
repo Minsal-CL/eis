@@ -32,7 +32,7 @@ Description: "La certificación de especialidades y subespecialidades médicas c
 * #2 "Anestesiología" "Anestesiología"
 * #3 "Cardiología" "Cardiología"
 * #4 "Cirugía General" "Cirugía General"
-* #5 "Cirugía de Cabeza, Cuello y Maxilofac ial" "Cirugía de Cabeza, Cuello y Maxilofac ial"
+* #5 "Cirugía de Cabeza, Cuello y Maxilofacial" "Cirugía de Cabeza, Cuello y Maxilofacial"
 * #6 "Cirugía Cardiovascular" "Cirugía Cardiovascular"
 * #7 "Cirugía de Tórax" "Cirugía de Tórax"
 * #8 "Cirugía Plástica y Reparadora" "Cirugía Plástica y Reparadora"

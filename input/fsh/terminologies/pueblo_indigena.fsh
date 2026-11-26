@@ -37,7 +37,7 @@ Description: "Los Pueblos Indígenas u Originarios en Chile corresponden a los d
 * #7 "Diaguita" "Diaguita"
 * #8 "Kawésqar" "Kawésqar"
 * #9 "Yagán" "Yagán"
+* #10 "Otro (Especificar)" "Otro (Especificar)"
 * #11 "Chango" "Chango"
 * #12 "Selk'nam" "Selk'nam"
-* #10 "Otro (Especificar)" "Otro (Especificar)"
 * #99 "Desconocido" "Desconocido"

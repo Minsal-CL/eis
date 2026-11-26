@@ -52,5 +52,5 @@ Description: "El título profesional corresponde al documento oficial que acredi
 * #39 "Cosmetólogos/as y Técnicos/as en Cosmetología" "Cosmetólogos/as y Técnicos/as en Cosmetología"
 * #40 "Contactólogos/as y Técnicos/as en Contactología" "Contactólogos/as y Técnicos/as en Contactología"
 * #41 "Ópticos/as y Técnicos/as en Óptica" "Ópticos/as y Técnicos/as en Óptica"
-* #42 "Acunpunturistas, Homeópatas y Naturópatas" "Acunpunturistas, Homeópatas y Naturópatas"
+* #42 "Acupunturistas, Homeópatas y Naturópatas" "Acupunturistas, Homeópatas y Naturópatas"
 * #99 "Desconocida" "Desconocida"
